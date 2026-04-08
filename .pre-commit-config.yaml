@@ -4,8 +4,8 @@ repos:
     rev: v6.0.0
     hooks:
       - id: check-json
-      - id: check-toml
-      - id: check-yaml
+      - id: pretty-format-json
+        args: [--autofix, --no-sort-keys]
       - id: mixed-line-ending
       - id: end-of-file-fixer
       - id: trailing-whitespace
