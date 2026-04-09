@@ -1,0 +1,89 @@
+{
+  "name": "\u52d5\u6f2b\u82b1\u5712",
+  "icon": "data:image/webp;base64,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",
+  "description": "\u52d5\u6f2b\u82b1\u5712\u8cc7\u6e90\u7db2",
+  "category": "indexer",
+  "revision": 1775710304,
+  "definition": {
+    "nodes": [
+      {
+        "id": "01941bdd-980b-773f-b706-decba897aa88",
+        "type": "node",
+        "position": {
+          "x": -630,
+          "y": -10
+        },
+        "data": {
+          "$schema": "http",
+          "url": "https://dmhy.org/topics/list{{'/page/' + page_num|string if page_num > 1 else ''}}?keyword={{keyword}}",
+          "formatter": "{\n  \"response\": {{ response.text|tojson }}\n}",
+          "method": "GET",
+          "headers": [],
+          "body": "",
+          "divider_7": null
+        },
+        "origin": [
+          0,
+          0
+        ],
+        "selected": false,
+        "measured": {},
+        "dragging": false
+      },
+      {
+        "id": "019d7032-3305-70de-b5bf-4beae75a2dc5",
+        "type": "node",
+        "position": {
+          "x": -983,
+          "y": 220
+        },
+        "data": {
+          "$schema": "search_start",
+          "config": "display:\n  page_size: 80\n  view_modes:\n    - table\n\nkeyword:\n  global: true\n  required: false\n"
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "019d7046-a8a5-74a8-952d-9f3286591435",
+        "type": "node",
+        "position": {
+          "x": 247,
+          "y": 90
+        },
+        "data": {
+          "$schema": "search_end",
+          "response": "{\n  \"items\": [\n{% for item in response|xpath(\"//table[@id='topic_list']/tbody/tr\") %}\n    {\n      \"id\": {{ item|xpath(\"./td[@class='title']/a/@href\")|tojson }},\n      \"title\": {{ item|xpath(\"string(./td[@class='title']/a)\")|trim|tojson }},\n      \"link\": {{ item|xpath(\"./td[4]/a[1]/@href\")|tojson }},\n      \"size\": {{ item|xpath(\"./td[5]/text()\")|tojson }},\n      \"misc\": {{ item|xpath(\"./td[@class='title']/span/a/text()\")|trim|tojson }},\n      \"category\": {{ item|xpath(\"./td[2]//font/text()\")|tojson }},\n      \"uploader\": {{ item|xpath(\"./td[9]/a/text()\")|tojson }},\n      \"uploaded_at\": {{ item|xpath_first(\"./td[1]/text()\")|trim|tojson }}\n    },\n{% endfor %}\n  ]\n}"
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      }
+    ],
+    "edges": [
+      {
+        "source": "019d7032-3305-70de-b5bf-4beae75a2dc5",
+        "sourceHandle": "output",
+        "target": "01941bdd-980b-773f-b706-decba897aa88",
+        "targetHandle": "input",
+        "id": "xy-edge__019d7032-3305-70de-b5bf-4beae75a2dc5output-01941bdd-980b-773f-b706-decba897aa88input"
+      },
+      {
+        "source": "01941bdd-980b-773f-b706-decba897aa88",
+        "sourceHandle": "output",
+        "target": "019d7046-a8a5-74a8-952d-9f3286591435",
+        "targetHandle": "input",
+        "id": "xy-edge__01941bdd-980b-773f-b706-decba897aa88output-019d7046-a8a5-74a8-952d-9f3286591435input"
+      }
+    ]
+  }
+}
