@@ -1,0 +1,230 @@
+{
+  "name": "AcFun",
+  "icon": "data:image/webp;base64,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",
+  "description": "AcFun \u5168\u7ad9\u7efc\u5408\u6392\u884c\u699c",
+  "category": "indexer",
+  "revision": 1776596857,
+  "definition": {
+    "nodes": [
+      {
+        "id": "01945ffc-4094-7793-8aab-8ef0817605ee",
+        "type": "node",
+        "position": {
+          "x": -80,
+          "y": -2450
+        },
+        "data": {
+          "$schema": "http",
+          "method": "GET",
+          "url": "https://www.acfun.cn/rest/pc-direct/rank/channel?channelId=&subChannelId=&rankLimit=30&rankPeriod={{rankPeriod|default('DAY')}}",
+          "headers": [
+            {
+              "key": "Referer",
+              "value": "https://www.acfun.cn/"
+            },
+            {
+              "key": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+            }
+          ],
+          "body": "",
+          "divider_7": null,
+          "formatter": "{\n  \"response\": {{ response.text|tojson }}\n}"
+        },
+        "origin": [
+          0,
+          0
+        ],
+        "selected": false,
+        "measured": {},
+        "dragging": false
+      },
+      {
+        "id": "019688c2-baf2-73dc-9709-e5ee80115260",
+        "type": "node",
+        "position": {
+          "x": -90,
+          "y": -1410
+        },
+        "data": {
+          "$schema": "http",
+          "method": "GET",
+          "url": "https://www.acfun.cn/v/ac{{id}}",
+          "headers": [
+            {
+              "key": "Referer",
+              "value": "https://www.acfun.cn/rank/list/"
+            },
+            {
+              "key": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+            }
+          ],
+          "body": "",
+          "divider_7": null,
+          "formatter": "{\n  \"videoInfo\": {{ response.text|regex('window.videoInfo = (.*);\\s*window.videoResource') }}\n}"
+        },
+        "origin": [
+          0,
+          0
+        ],
+        "selected": false,
+        "measured": {},
+        "dragging": false
+      },
+      {
+        "id": "0196ca28-d2c9-7182-a1f9-2e00bd3d6716",
+        "type": "node",
+        "position": {
+          "x": 760,
+          "y": -1430
+        },
+        "data": {
+          "$schema": "http",
+          "method": "POST",
+          "url": "https://www.acfun.cn/rest/pc-direct/new-danmaku/list",
+          "headers": [
+            {
+              "key": "Referer",
+              "value": "https://www.acfun.cn/v/ac{{id}}"
+            },
+            {
+              "key": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+            },
+            {
+              "key": "Content-Type",
+              "value": "application/x-www-form-urlencoded"
+            }
+          ],
+          "body": "resourceId={{videoInfo.currentVideoId}}&resourceType=9&enableAdvanced=true&pcursor=1&count=200&sortType=1&asc=false",
+          "divider_7": null,
+          "formatter": "{\n  \"danmakus\": {{ response.text|jsonpath_all('$.danmakus[*]')|tojson }}\n}"
+        },
+        "origin": [
+          0,
+          0
+        ],
+        "selected": false,
+        "measured": {},
+        "dragging": false
+      },
+      {
+        "id": "019da4d2-74cf-7674-85a1-17f4aad9dd1c",
+        "type": "node",
+        "position": {
+          "x": -623,
+          "y": -2290
+        },
+        "data": {
+          "$schema": "search_start",
+          "config": "display:\n  page_size: 31\n  view_modes:\n    - grid\n  cover_ratio: 4/3\n\nkeyword:\n  global: false\n  required: false\n\nfilters:\n  rankPeriod:\n    type: radio\n    label: \u65f6\u95f4\n    options:\n      DAY: \u4eca\u65e5\n      THREE_DAYS: \u4e09\u65e5\n      WEEK: \u672c\u5468\n"
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "019da4e2-acce-7365-aea1-2bba4b9dc3c6",
+        "type": "node",
+        "position": {
+          "x": 967,
+          "y": -2280
+        },
+        "data": {
+          "$schema": "search_end",
+          "response": "{\n  \"items\": [\n{% for i in response|jsonpath('$.rankList[*]') %}\n    {\n      \"id\": {{ i|jsonpath('$.dougaId')|tojson }},\n      \"title\": {{ i|jsonpath('$.title')|tojson }},\n      \"cover\": {{ i|jsonpath('$.coverUrl')|tojson }},\n      \"misc\": {{ i|jsonpath('$.duration')|duration|tojson }},\n      \"category\": {{ i|jsonpath('$.channelName')|tojson }},\n      \"uploader\": {{ i|jsonpath('$.userName')|tojson }},\n      \"uploaded_at\": {{ i|jsonpath('$.createTime')|tojson }}\n    },\n{% endfor %}\n  ]\n}"
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "019da4ea-dade-75be-8af9-635b1b8d2b80",
+        "type": "node",
+        "position": {
+          "x": -633,
+          "y": -1150
+        },
+        "data": {
+          "$schema": "details_start",
+          "config": "specific:\n  media_type: video\n  video_type: hls\n"
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "019da4ff-46c1-745d-8415-42ebaac328d2",
+        "type": "node",
+        "position": {
+          "x": 1727,
+          "y": -1300
+        },
+        "data": {
+          "$schema": "details_end",
+          "response": "{\n  \"id\": {{ videoInfo.dougaId|tojson }},\n  \"title\": {{ videoInfo.title|tojson }},\n  \"uploader\": {{ videoInfo.user.name|tojson }},\n  \"uploaded_at\": {{ videoInfo.createTime|tojson }},\n  \"url\": {{ videoInfo.currentVideoInfo.ksPlayJson|jsonpath_first('$..representation[*].url')|tojson }},\n  \"definitions\": [\n{% for r in videoInfo.currentVideoInfo.ksPlayJson|jsonpath_all('$..representation[*]') %}\n    {\n      \"url\": {{ r.url|tojson }},\n      \"definition\": {{ r.qualityLabel|tojson }}\n    },\n{% endfor %}\n  ],\n  \"danmakus\": [\n{% for d in danmakus %}\n    {\n      \"id\": {{ d|jsonpath('$.danmakuId')|tojson }},\n      \"text\": {{ d|jsonpath('$.body')|tojson }},\n      \"mode\": \"{{ 'top' if d|jsonpath('$.mode') == 5 else 'scroll' }}\",\n      \"color\": \"{{ '#%06X'|format(d|jsonpath('$.color')) }}\",\n      \"start\": {{ d|jsonpath('$.position') }}\n    },\n{% endfor %}\n  ]\n}"
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      }
+    ],
+    "edges": [
+      {
+        "type": "edge",
+        "animated": true,
+        "source": "019688c2-baf2-73dc-9709-e5ee80115260",
+        "sourceHandle": "output",
+        "target": "0196ca28-d2c9-7182-a1f9-2e00bd3d6716",
+        "targetHandle": "input",
+        "id": "xy-edge__019688c2-baf2-73dc-9709-e5ee80115260output-0196ca28-d2c9-7182-a1f9-2e00bd3d6716input",
+        "selected": false
+      },
+      {
+        "source": "019da4d2-74cf-7674-85a1-17f4aad9dd1c",
+        "sourceHandle": "output",
+        "target": "01945ffc-4094-7793-8aab-8ef0817605ee",
+        "targetHandle": "input",
+        "id": "xy-edge__019da4d2-74cf-7674-85a1-17f4aad9dd1coutput-01945ffc-4094-7793-8aab-8ef0817605eeinput"
+      },
+      {
+        "source": "01945ffc-4094-7793-8aab-8ef0817605ee",
+        "sourceHandle": "output",
+        "target": "019da4e2-acce-7365-aea1-2bba4b9dc3c6",
+        "targetHandle": "input",
+        "id": "xy-edge__01945ffc-4094-7793-8aab-8ef0817605eeoutput-019da4e2-acce-7365-aea1-2bba4b9dc3c6input"
+      },
+      {
+        "source": "019da4ea-dade-75be-8af9-635b1b8d2b80",
+        "sourceHandle": "output",
+        "target": "019688c2-baf2-73dc-9709-e5ee80115260",
+        "targetHandle": "input",
+        "id": "xy-edge__019da4ea-dade-75be-8af9-635b1b8d2b80output-019688c2-baf2-73dc-9709-e5ee80115260input"
+      },
+      {
+        "source": "0196ca28-d2c9-7182-a1f9-2e00bd3d6716",
+        "sourceHandle": "output",
+        "target": "019da4ff-46c1-745d-8415-42ebaac328d2",
+        "targetHandle": "input",
+        "id": "xy-edge__0196ca28-d2c9-7182-a1f9-2e00bd3d6716output-019da4ff-46c1-745d-8415-42ebaac328d2input"
+      }
+    ]
+  }
+}
