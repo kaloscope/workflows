@@ -1,0 +1,261 @@
+{
+  "name": "TMDB",
+  "icon": "data:image/webp;base64,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",
+  "description": "The Movie Database (TMDB) \u5143\u6570\u636e\u522e\u524a",
+  "category": "ingest",
+  "revision": 1776616699,
+  "definition": {
+    "nodes": [
+      {
+        "id": "019cbc2c-5ba3-7763-bd07-81449434c7ae",
+        "type": "node",
+        "position": {
+          "x": 700,
+          "y": -490
+        },
+        "data": {
+          "$schema": "condition",
+          "expression": "{{ nfo_type == 'movie' }}"
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "019cdaa7-5c6b-7578-ba4f-7a8fdb51a5a9",
+        "type": "node",
+        "position": {
+          "x": 1291,
+          "y": -870
+        },
+        "data": {
+          "$schema": "http",
+          "url": "https://api.themoviedb.org/3/search/movie?api_key={{TMDB_API_KEY}}&language={{language}}&year={{year}}&query={{title}}&page=1",
+          "headers": [
+            {
+              "key": "Accept",
+              "value": "application/json"
+            }
+          ],
+          "formatter": "{\n  \"ids\": {{ response.text|jsonpath('$.results[*].id', page_size) }}\n}"
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "019cdab5-ac00-7490-9b51-704cbd4c1110",
+        "type": "node",
+        "position": {
+          "x": 2030,
+          "y": -1100
+        },
+        "data": {
+          "$schema": "loop",
+          "expression": "{{ ids }}",
+          "varname": "id"
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "019cdae0-6790-727c-8553-8478804aa629",
+        "type": "node",
+        "position": {
+          "x": 2587,
+          "y": -1170
+        },
+        "data": {
+          "$schema": "movie",
+          "response": "{{ movies|tojson }}"
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "019cdb5b-30c8-716d-bd53-6d153d5a445a",
+        "type": "node",
+        "position": {
+          "x": 2061,
+          "y": -820
+        },
+        "data": {
+          "$schema": "http",
+          "url": "https://api.themoviedb.org/3/movie/{{id}}?api_key={{TMDB_API_KEY}}&language={{language}}&append_to_response=credits,release_dates",
+          "headers": [
+            {
+              "key": "Accept",
+              "value": "application/json"
+            }
+          ],
+          "formatter": "{% set movie = response.text %}\n{\n  \"movies\": [\n    {\n      \"title\": {{ movie|jsonpath('$.title')|tojson }},\n      \"originaltitle\": {{ movie|jsonpath('$.original_title')|tojson }},\n      \"tagline\": {{ movie|jsonpath('$.tagline')|tojson }},\n      \"plot\": {{ movie|jsonpath('$.overview')|tojson }},\n      \"rating\": {{ movie|jsonpath('$.vote_average')|tojson }},\n      \"year\": {{ movie|jsonpath('$.release_date')|year }},\n      \"premiered\": {{ movie|jsonpath('$.release_date')|tojson }},\n      \"country\": {{ movie|jsonpath('$.origin_country')|join(\", \")|tojson }},\n      \"mpaa\": {{ movie|jsonpath_first('$.release_dates.results[?iso_3166_1==\"US\"].release_dates[?certification].certification')|tojson }},\n      \"tags\": [],\n      \"genres\": {{ movie|jsonpath_all('$.genres[*].name')|tojson }},\n      \"studios\": {{ movie|jsonpath_all('$.production_companies[*].name')|tojson }},\n      \"directors\": {{ movie|jsonpath_all('$.credits.crew[?job==\"Director\"].name')|tojson }},\n      \"writers\": {{ movie|jsonpath_all('$.credits.crew[?job==\"Writer\"].name')|tojson }},\n      \"credits\": [],\n      \"actors\": [\n{% for a in movie|jsonpath_all('$.credits.cast[*]') %}\n        {\n          \"name\": {{ a|jsonpath('$.name')|tojson }},\n          \"role\": {{ a|jsonpath('$.character')|tojson }},\n          \"thumb\": {{ 'https://image.tmdb.org/t/p/w185'|suffix(a|jsonpath('$.profile_path'))|tojson }}\n        },\n{% endfor %}  \n      ],\n      \"poster\": {{ 'https://image.tmdb.org/t/p/w342'|suffix(movie|jsonpath('$.poster_path'))|tojson }},\n      \"backdrop\": {{ 'https://image.tmdb.org/t/p/original'|suffix(movie|jsonpath('$.backdrop_path'))|tojson }}\n    }\n  ]\n}"
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "019da629-eb09-74dd-9647-b3348d8edf5c",
+        "type": "node",
+        "position": {
+          "x": -343,
+          "y": 90
+        },
+        "data": {
+          "$schema": "ingest_start"
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "019da634-1bb3-70af-b34c-df39b46987ef",
+        "type": "node",
+        "position": {
+          "x": 120,
+          "y": 210
+        },
+        "data": {
+          "$schema": "condition",
+          "expression": "{{ TMDB_API_KEY }}"
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "019da643-67fd-7525-be38-ca63dfe60a3a",
+        "type": "node",
+        "position": {
+          "x": 650,
+          "y": 200
+        },
+        "data": {
+          "$schema": "condition",
+          "expression": "{{ nfo_type == 'tvshow' }}"
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "019da643-7838-72fb-80ca-45e1ed3a67f8",
+        "type": "node",
+        "position": {
+          "x": 640,
+          "y": 990
+        },
+        "data": {
+          "$schema": "condition",
+          "expression": "{{ nfo_type == 'episode' }}"
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      }
+    ],
+    "edges": [
+      {
+        "source": "019cbc2c-5ba3-7763-bd07-81449434c7ae",
+        "sourceHandle": "is_true",
+        "target": "019cdaa7-5c6b-7578-ba4f-7a8fdb51a5a9",
+        "targetHandle": "input",
+        "id": "xy-edge__019cbc2c-5ba3-7763-bd07-81449434c7aeis_true-019cdaa7-5c6b-7578-ba4f-7a8fdb51a5a9input"
+      },
+      {
+        "source": "019cdaa7-5c6b-7578-ba4f-7a8fdb51a5a9",
+        "sourceHandle": "output",
+        "target": "019cdab5-ac00-7490-9b51-704cbd4c1110",
+        "targetHandle": "input",
+        "id": "xy-edge__019cdaa7-5c6b-7578-ba4f-7a8fdb51a5a9output-019cdab5-ac00-7490-9b51-704cbd4c1110input"
+      },
+      {
+        "source": "019cdab5-ac00-7490-9b51-704cbd4c1110",
+        "sourceHandle": "output",
+        "target": "019cdae0-6790-727c-8553-8478804aa629",
+        "targetHandle": "input",
+        "id": "xy-edge__019cdab5-ac00-7490-9b51-704cbd4c1110output-019cdae0-6790-727c-8553-8478804aa629input"
+      },
+      {
+        "source": "019cdab5-ac00-7490-9b51-704cbd4c1110",
+        "sourceHandle": "loop_start",
+        "target": "019cdb5b-30c8-716d-bd53-6d153d5a445a",
+        "targetHandle": "input",
+        "id": "xy-edge__019cdab5-ac00-7490-9b51-704cbd4c1110loop_start-019cdb5b-30c8-716d-bd53-6d153d5a445ainput"
+      },
+      {
+        "source": "019cdb5b-30c8-716d-bd53-6d153d5a445a",
+        "sourceHandle": "output",
+        "target": "019cdab5-ac00-7490-9b51-704cbd4c1110",
+        "targetHandle": "loop_continue",
+        "id": "xy-edge__019cdb5b-30c8-716d-bd53-6d153d5a445aoutput-019cdab5-ac00-7490-9b51-704cbd4c1110loop_continue"
+      },
+      {
+        "source": "019da629-eb09-74dd-9647-b3348d8edf5c",
+        "sourceHandle": "output",
+        "target": "019da634-1bb3-70af-b34c-df39b46987ef",
+        "targetHandle": "input",
+        "id": "xy-edge__019da629-eb09-74dd-9647-b3348d8edf5coutput-019da634-1bb3-70af-b34c-df39b46987efinput"
+      },
+      {
+        "source": "019da634-1bb3-70af-b34c-df39b46987ef",
+        "sourceHandle": "is_true",
+        "target": "019cbc2c-5ba3-7763-bd07-81449434c7ae",
+        "targetHandle": "input",
+        "id": "xy-edge__019da634-1bb3-70af-b34c-df39b46987efis_true-019cbc2c-5ba3-7763-bd07-81449434c7aeinput"
+      },
+      {
+        "source": "019da634-1bb3-70af-b34c-df39b46987ef",
+        "sourceHandle": "is_true",
+        "target": "019da643-67fd-7525-be38-ca63dfe60a3a",
+        "targetHandle": "input",
+        "id": "xy-edge__019da634-1bb3-70af-b34c-df39b46987efis_true-019da643-67fd-7525-be38-ca63dfe60a3ainput"
+      },
+      {
+        "source": "019da634-1bb3-70af-b34c-df39b46987ef",
+        "sourceHandle": "is_true",
+        "target": "019da643-7838-72fb-80ca-45e1ed3a67f8",
+        "targetHandle": "input",
+        "id": "xy-edge__019da634-1bb3-70af-b34c-df39b46987efis_true-019da643-7838-72fb-80ca-45e1ed3a67f8input"
+      }
+    ]
+  }
+}
