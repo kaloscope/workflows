@@ -1,0 +1,95 @@
+{
+  "name": "\u6b63\u5728\u70ed\u6620",
+  "icon": "data:image/webp;base64,UklGRp4EAABXRUJQVlA4WAoAAAAwAAAAXwAAXwAASUNDUMgBAAAAAAHIAAAAAAQwAABtbnRyUkdCIFhZWiAH4AABAAEAAAAAAABhY3NwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA9tYAAQAAAADTLQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlkZXNjAAAA8AAAACRyWFlaAAABFAAAABRnWFlaAAABKAAAABRiWFlaAAABPAAAABR3dHB0AAABUAAAABRyVFJDAAABZAAAAChnVFJDAAABZAAAAChiVFJDAAABZAAAAChjcHJ0AAABjAAAADxtbHVjAAAAAAAAAAEAAAAMZW5VUwAAAAgAAAAcAHMAUgBHAEJYWVogAAAAAAAAb6IAADj1AAADkFhZWiAAAAAAAABimQAAt4UAABjaWFlaIAAAAAAAACSgAAAPhAAAts9YWVogAAAAAAAA9tYAAQAAAADTLXBhcmEAAAAAAAQAAAACZmYAAPKnAAANWQAAE9AAAApbAAAAAAAAAABtbHVjAAAAAAAAAAEAAAAMZW5VUwAAACAAAAAcAEcAbwBvAGcAbABlACAASQBuAGMALgAgADIAMAAxADZBTFBIbQAAAA1wFNm2Gh0BiYysUAKqQCswYIRlBA0Mo4zYuPtExAQAprcNUdxXlxkgSB00h+vXeYSgRHcW70czRbkVn31bGtlzg/h1qC5i8f/y8S4S11ZrcfX1mUk7GfM5toT9Oxh3SSbr1AJMp/smltQ2BgAAVlA4IDoCAAAwDwCdASpgAGAAPm0ylEckIyIhLjQIaIANiUAaGAAvGeGMqv9YcO9RO2A8wHQa3nPeaV+CtZrwWGZA5zI1XNUZ9eRX72Y9WG/XImn24cqTUZdMnhmWqnxIbNKHszrdDdxZbWOikTjuW4WxFEt7DMAQLcMwzBuZjTum3lObHgzRfKgAAP5TH/9XSRWDjGrv//kFWm0k4jeI2xoBflG1z3U9PUUwzWZS8nN4L5rFLfmaeRbVds+qUd/HC81Tuvcahn3HfBDH75SmHQTA/V2BaAO5Sxt8GGrmG+BZigo13pG2cwsE26KKRYqWQZevXp90q7KRSGpekW8rVKmdUw8kswVM4KluXBhYmQkUJP9ZY/vW537dcaGpvvK6YJCSdzlGQoNE7v6po5+kmfszV9Xd0qowpEMIxJAzKAZjmXLIPyrlL7sCwEx+Y1oyyFUkZYtNHZkOBjLnc3KmJGCXRrJkHonytyj6YbTB3ZFT0X8c93l85RGj9TkG2wpcHp1bhoCDgMH1cQndBUtYbDhS+Vo9IIB+0TIkueCo6Z4C34lUp/p+B45QCodZRHelDf1HS2z/Yw5pXfH+p9EJokcDXFYA47pfPWjNsxTI379nXAoIPL5xxTnmC2QaFDL6KeMItYCpf/ZJ3bcuTMJdAwqcH1p+DUNJRDxfYcKKBOw19jQIsQGUVdz1V0xgoUeNN7+JGlktY3wHrYOC1LhtS00JU8emJOyDqVmQkvZl4HPg029gALm0aQxuSjzugTAAAAA=",
+  "description": "\u8c46\u74e3\u7f51\uff08douban\uff09\u6700\u8fd1\u70ed\u95e8\u7535\u5f71",
+  "category": "indexer",
+  "revision": 1780757057,
+  "definition": {
+    "nodes": [
+      {
+        "id": "019c9d3d-6334-74e1-9695-02cfc1cf3c14",
+        "type": "node",
+        "position": {
+          "x": 1,
+          "y": -2130
+        },
+        "data": {
+          "$schema": "http",
+          "url": "https://m.douban.com/rexxar/api/v2/subject/recent_hot/movie?start=0&limit=20&category=%E7%83%AD%E9%97%A8&type=%E5%85%A8%E9%83%A8",
+          "headers": [
+            {
+              "key": "Referer",
+              "value": "https://movie.douban.com/explore?support_type=movie&is_all=false&category=%E7%83%AD%E9%97%A8&type=%E5%85%A8%E9%83%A8"
+            },
+            {
+              "key": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+            }
+          ],
+          "formatter": "{\n  \"response\": {{ response.text }}\n}"
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "selected": false,
+        "dragging": false,
+        "measured": {}
+      },
+      {
+        "id": "019ca31a-1b99-74e9-9fc4-8bc15fd11870",
+        "type": "node",
+        "position": {
+          "x": 617,
+          "y": -1990
+        },
+        "data": {
+          "$schema": "board_end",
+          "response": "[\n  {\n    \"items\": [\n    {% for i in response|jsonpath_all('$.items[*]') %}\n      {\n        \"id\": {{ i.id|tojson }},\n        \"title\": {{ i.title|tojson }},\n        \"cover\": {{ i.pic.normal|query_param('proxy=true')|tojson }},\n        \"rating\": {{ i.rating.value|tojson }},\n        \"uploaded_at\": {{ i.card_subtitle|tojson }}\n      },\n    {% endfor %}\n    ]\n  }\n]"
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "selected": false,
+        "dragging": false,
+        "measured": {}
+      },
+      {
+        "id": "019cf6d6-2418-7227-a4e1-5b17301a9d42",
+        "type": "node",
+        "position": {
+          "x": -613,
+          "y": -1830
+        },
+        "data": {
+          "$schema": "board_start",
+          "config": "display:\n  view_modes:\n    - grid\n  cover_ratio: 2/3\n"
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      }
+    ],
+    "edges": [
+      {
+        "source": "019c9d3d-6334-74e1-9695-02cfc1cf3c14",
+        "sourceHandle": "output",
+        "target": "019ca31a-1b99-74e9-9fc4-8bc15fd11870",
+        "targetHandle": "input",
+        "id": "xy-edge__019c9d3d-6334-74e1-9695-02cfc1cf3c14output-019ca31a-1b99-74e9-9fc4-8bc15fd11870input"
+      },
+      {
+        "source": "019cf6d6-2418-7227-a4e1-5b17301a9d42",
+        "sourceHandle": "output",
+        "target": "019c9d3d-6334-74e1-9695-02cfc1cf3c14",
+        "targetHandle": "input",
+        "id": "xy-edge__019cf6d6-2418-7227-a4e1-5b17301a9d42output-019c9d3d-6334-74e1-9695-02cfc1cf3c14input"
+      }
+    ]
+  }
+}
