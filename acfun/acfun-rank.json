@@ -113,12 +113,12 @@
         "id": "019da4d2-74cf-7674-85a1-17f4aad9dd1c",
         "type": "node",
         "position": {
-          "x": -623,
-          "y": -2290
+          "x": -613,
+          "y": -2300
         },
         "data": {
           "$schema": "search_start",
-          "config": "display:\n  page_size: 31\n  view_modes:\n    - grid\n  cover_ratio: 4/3\n\nkeyword:\n  global: false\n  required: false\n\nfilters:\n  rankPeriod:\n    type: radio\n    label: \u65f6\u95f4\n    options:\n      DAY: \u4eca\u65e5\n      THREE_DAYS: \u4e09\u65e5\n      WEEK: \u672c\u5468\n"
+          "config": "only_preview: true\n\ndisplay:\n  page_size: 31\n  view_modes:\n    - grid\n  cover_ratio: 4/3\n\nkeyword:\n  global: false\n  required: false\n\nfilters:\n  rankPeriod:\n    type: radio\n    label: \u65f6\u95f4\n    options:\n      DAY: \u4eca\u65e5\n      THREE_DAYS: \u4e09\u65e5\n      WEEK: \u672c\u5468\n"
         },
         "origin": [
           0.5,
