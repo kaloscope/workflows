@@ -41,7 +41,7 @@
         },
         "data": {
           "$schema": "board_end",
-          "response": "[\n{% for w in calendar %}\n  {\n    \"title\": {{ w.weekday.cn|tojson }},\n    \"items\": [\n    {% for i in w['items'] %}\n      {\n        \"id\": {{ i.id|tojson }},\n        \"title\": {{ (i.name_cn or i.name)|tojson }},\n        \"cover\": {{ i.images.common|replace('http://', 'https://', 1)|query_param('proxy=store')|tojson }},\n        \"rating\": {{ i.rating.score if i.rating else 'null' }},\n        \"uploaded_at\": {{ i.air_date|tojson }}\n      },\n    {% endfor %}\n    ]\n  },\n{% endfor %}\n]"
+          "response": "[\n{% for w in calendar %}\n  {\n    \"title\": {{ w.weekday.cn|tojson }},\n    \"items\": [\n    {% for i in w['items'] %}\n      {\n        \"id\": {{ i.id|tojson }},\n        \"title\": {{ (i.name_cn or i.name)|tojson }},\n        \"cover\": {{ i.images.large|replace('http://', 'https://', 1)|query_param('proxy=store')|tojson }},\n        \"rating\": {{ i.rating.score if i.rating else 'null' }},\n        \"uploaded_at\": {{ i.air_date|tojson }}\n      },\n    {% endfor %}\n    ]\n  },\n{% endfor %}\n]"
         },
         "origin": [
           0.5,
