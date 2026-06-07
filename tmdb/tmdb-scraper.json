@@ -3,7 +3,7 @@
   "icon": "data:image/webp;base64,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",
   "description": "\u300cThe Movie Database\u300d\u5143\u6570\u636e\u522e\u524a\uff08\u9700\u914d\u7f6e TMDB_API_KEY\uff09",
   "category": "ingest",
-  "revision": 1780804344,
+  "revision": 1780847181,
   "definition": {
     "nodes": [
       {
@@ -377,12 +377,12 @@
         "id": "019dda02-1c42-728e-acaf-f59d885114ce",
         "type": "node",
         "position": {
-          "x": 600,
+          "x": 610,
           "y": 1430
         },
         "data": {
           "$schema": "condition",
-          "expression": "{{ series_id }}"
+          "expression": "{{ nfo_source == 'tmdb' and series_id }}"
         },
         "origin": [
           0.5,
@@ -558,13 +558,6 @@
         "id": "xy-edge__019da643-7838-72fb-80ca-45e1ed3a67f8is_true-019dda02-1c42-728e-acaf-f59d885114ceinput"
       },
       {
-        "source": "019dda02-1c42-728e-acaf-f59d885114ce",
-        "sourceHandle": "is_false",
-        "target": "019dc676-0663-77b8-869f-c2428c0eaae8",
-        "targetHandle": "input",
-        "id": "xy-edge__019dda02-1c42-728e-acaf-f59d885114ceis_false-019dc676-0663-77b8-869f-c2428c0eaae8input"
-      },
-      {
         "source": "019dda02-d013-77c0-8721-8c3a6396e100",
         "sourceHandle": "output",
         "target": "019dc71e-1931-7720-8c07-01b2dfac0ad7",
@@ -591,6 +584,13 @@
         "target": "019dda02-d013-77c0-8721-8c3a6396e100",
         "targetHandle": "input",
         "id": "xy-edge__019dc676-0663-77b8-869f-c2428c0eaae8output-019dda02-d013-77c0-8721-8c3a6396e100input"
+      },
+      {
+        "source": "019dda02-1c42-728e-acaf-f59d885114ce",
+        "sourceHandle": "is_false",
+        "target": "019dc676-0663-77b8-869f-c2428c0eaae8",
+        "targetHandle": "input",
+        "id": "xy-edge__019dda02-1c42-728e-acaf-f59d885114ceis_false-019dc676-0663-77b8-869f-c2428c0eaae8input"
       }
     ]
   }
