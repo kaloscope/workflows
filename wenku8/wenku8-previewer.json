@@ -1,0 +1,576 @@
+{
+  "name": "\u8f7b\u5c0f\u8bf4\u6587\u5e93",
+  "icon": "data:image/webp;base64,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",
+  "description": "\u300c\u8f7b\u5c0f\u8bf4\u6587\u5e93\u300d\u65e5\u672c\u52a8\u6f2b\u8f7b\u5c0f\u8bf4\u5728\u7ebf\u9605\u8bfb",
+  "category": "indexer",
+  "revision": 1781456154,
+  "definition": {
+    "nodes": [
+      {
+        "id": "019eb1db-71b1-76ae-bb50-41e36f373d60",
+        "type": "node",
+        "position": {
+          "x": -663,
+          "y": 210
+        },
+        "data": {
+          "$schema": "auth_start",
+          "config": "login:\n  mode: password\n  required: true\n\ncookie:\n  domain: www.wenku8.net\n  path: /\n  name: jieqiUserInfo\n"
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "019eb1e7-a78e-72de-99c0-4550ca6a150a",
+        "type": "node",
+        "position": {
+          "x": 151,
+          "y": -30
+        },
+        "data": {
+          "$schema": "http",
+          "method": "POST",
+          "url": "https://www.wenku8.net/login.php?do=submit&jumpurl=http%3A%2F%2Fwww.wenku8.net%2Findex.php",
+          "headers": [
+            {
+              "key": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            {
+              "key": "Content-Type",
+              "value": "application/x-www-form-urlencoded"
+            }
+          ],
+          "body": "username={{username}}&password={{password}}&usecookie=315360000&action=login&submit=%26%23160%3B%B5%C7%26%23160%3B%26%23160%3B%C2%BC%26%23160%3B",
+          "formatter": "{\n  \"response\": {{ response.content.decode(\"gbk\")|tojson }}\n}"
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "019eb1e8-8666-723c-86a7-f33748b1456f",
+        "type": "node",
+        "position": {
+          "x": 927,
+          "y": 210
+        },
+        "data": {
+          "$schema": "auth_end",
+          "response": "{\n  \"name\": {{ response|regex('/>\\s*((?:(?!\\/>).)*?)\uff0c\u6b22\u8fce\u60a8\u5230\u6765\uff01\\s*<')|tojson }}\n}"
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "019eb1ed-b3d9-72ff-8d4d-756e1b419def",
+        "type": "node",
+        "position": {
+          "x": -663,
+          "y": 1100
+        },
+        "data": {
+          "$schema": "search_start",
+          "config": "only_preview: true\n\ndisplay:\n  page_size: 20\n  view_modes:\n    - grid\n  cover_ratio: 9/13\n\nkeyword:\n  global: true\n  required: false\n"
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "019eb1ed-c646-72fe-a8d3-ded591963242",
+        "type": "node",
+        "position": {
+          "x": 1001,
+          "y": 880
+        },
+        "data": {
+          "$schema": "http",
+          "url": "https://www.wenku8.net/modules/article{{path}}",
+          "formatter": "{\n  \"response\": {{ response.content.decode(\"gbk\")|tojson }}\n}",
+          "headers": [
+            {
+              "key": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            {
+              "key": "Referer",
+              "value": "https://www.wenku8.net/index.php"
+            }
+          ]
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "019eb1ee-50cb-7007-b968-f138f2b8106d",
+        "type": "node",
+        "position": {
+          "x": 2317,
+          "y": 780
+        },
+        "data": {
+          "$schema": "search_end",
+          "response": "{\n  \"totalPages\": {{ response|xpath('//div[@id=\"pagelink\"]/a[@class=\"last\"]/text()')|int }},\n  \"items\": [\n{% for i in response|regex('<body>(.*)</body>')|xpath_all('//table[@class=\"grid\"]//tr/td/div') %}\n    {\n      \"id\": {{ (i|xpath('./div[1]/a/@href'))|tojson }},\n      \"title\": {{ i|xpath('./div[2]/b/a/@title')|tojson }},\n      \"cover\": {{ i|xpath('./div[1]/a/img/@src')|tojson }},\n      \"category\": {{ (i|xpath('./div[2]/p[1]/text()')|trim).split('/')[1].split(':')[1]|tojson }},\n      \"misc\": {{ (i|xpath('./div[2]/p[1]/text()')|trim).split('/')[0]|tojson }},\n      \"uploaded_at\": {{ (i|xpath('./div[2]/p[2]/text()')|trim).split('/')[0]|tojson }},\n      \"size\": {{ (i|xpath('string(./div[2]/p[2])')|trim).split('/')[-1]|tojson }}\n    },\n{% endfor %}\n  ]\n}"
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "019eba01-a038-7257-acb6-972945a3ea9f",
+        "type": "node",
+        "position": {
+          "x": 119,
+          "y": 1030
+        },
+        "data": {
+          "$schema": "script",
+          "script": {
+            "language": "python",
+            "code": "from urllib.parse import quote\n\n\ndef execute(node_id, node_data, context):\n    keyword = context.get(\"keyword\")\n    page_num = context.get(\"page_num\")\n    if keyword and (keyword := keyword.strip()):\n        path = f\"/search.php?searchtype=articlename&searchkey={quote(keyword.strip(), encoding='gbk')}\"\n        if page_num and page_num > 1:\n            path += f\"&page={page_num}\"\n    else:\n        path = \"/articlelist.php\"\n        if page_num and page_num > 1:\n            path += f\"?page={page_num}\"\n    context[\"path\"] = path\n\n"
+          }
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "019eba65-92fd-724e-9408-3f4c7e2de1ab",
+        "type": "node",
+        "position": {
+          "x": 1630,
+          "y": 1220
+        },
+        "data": {
+          "$schema": "condition",
+          "expression": "{{ response|xpath('//div[@id=\"pagelink\"]') }}"
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "019eba68-3181-75ea-a5cd-bd34147404f6",
+        "type": "node",
+        "position": {
+          "x": 2110,
+          "y": 1360
+        },
+        "data": {
+          "$schema": "search_end",
+          "response": "{% set i = response|xpath('//div[@id=\"content\"]') %}\n{\n  \"total\": 1,\n  \"items\": [\n    {\n      \"id\": {{ i|xpath('//fieldset[legend=\"\u9605\u8bfb\"]//a/@href')|tojson }},\n      \"title\": {{ i|xpath('./div[1]/table[1]/tr[1]//b/text()')|trim|tojson }},\n      \"cover\": {{ i|xpath('./div[1]/table[2]/tr[1]//img/@src')|tojson }},\n      \"category\": {{ (i|xpath('./div[1]/table[1]/tr[2]/td[1]/text()')|trim).split('\uff1a')[1]|tojson }},\n      \"misc\": {{ (i|xpath('./div[1]/table[1]/tr[2]/td[2]/text()')|trim).split('\uff1a')[1]|prefix('\u4f5c\u8005:')|tojson }},\n      \"uploaded_at\": {{ (i|xpath('./div[1]/table[1]/tr[2]/td[4]/text()')|trim).split('\uff1a')[1]|prefix('\u66f4\u65b0:')|tojson }},\n      \"size\": {{ (i|xpath('./div[1]/table[1]/tr[2]/td[3]/text()')|trim).split('\uff1a')[1]|tojson }}\n    }\n  ]\n}"
+        },
+        "origin": [
+          0,
+          0
+        ],
+        "selected": false,
+        "measured": {},
+        "dragging": false
+      },
+      {
+        "id": "019ebad3-342c-769e-b1b1-ee680abd8618",
+        "type": "node",
+        "position": {
+          "x": -673,
+          "y": 2220
+        },
+        "data": {
+          "$schema": "details_start",
+          "config": "specific:\n  media_type: text\n"
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "019ebaf2-877b-7428-bb58-35789daf6246",
+        "type": "node",
+        "position": {
+          "x": 1641,
+          "y": 1850
+        },
+        "data": {
+          "$schema": "http",
+          "url": "https://www.wenku8.net{{id}}",
+          "headers": [
+            {
+              "key": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            {
+              "key": "Referer",
+              "value": "https://www.wenku8.net{{id}}"
+            },
+            {
+              "key": "X-Hishel-Ttl",
+              "value": "3600"
+            },
+            {
+              "key": "X-Hishel-Refresh-Ttl-On-Access",
+              "value": "true"
+            }
+          ],
+          "formatter": "{\n  \"chapters\": {{ response.content.decode(\"gbk\")|tojson }}\n}"
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "019ebfc9-8702-73ff-967e-18177fd8915a",
+        "type": "node",
+        "position": {
+          "x": -210,
+          "y": 2310
+        },
+        "data": {
+          "$schema": "condition",
+          "expression": "{{ id.startswith('/book') }}"
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "019ebfca-a3fb-7779-955c-5098e2e78412",
+        "type": "node",
+        "position": {
+          "x": 371,
+          "y": 1830
+        },
+        "data": {
+          "$schema": "http",
+          "url": "https://www.wenku8.net{{id}}",
+          "headers": [
+            {
+              "key": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            {
+              "key": "Referer",
+              "value": "https://www.wenku8.net{{id}}"
+            },
+            {
+              "key": "X-Hishel-Ttl",
+              "value": "3600"
+            },
+            {
+              "key": "X-Hishel-Refresh-Ttl-On-Access",
+              "value": "true"
+            }
+          ],
+          "formatter": "{\n  \"id\": {{ response.content.decode(\"gbk\")|xpath('//div[@id=\"content\"]//fieldset[legend=\"\u9605\u8bfb\"]//a/@href')|tojson }}\n}"
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "019ebfca-d29d-7279-9524-12032a1968f5",
+        "type": "node",
+        "position": {
+          "x": 990,
+          "y": 2280
+        },
+        "data": {
+          "$schema": "merge"
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "019ec0db-8560-777a-a03f-4946c94a786a",
+        "type": "node",
+        "position": {
+          "x": 2317,
+          "y": 2130
+        },
+        "data": {
+          "$schema": "variables",
+          "variables": "{% set novel = id|replace('index.htm', '') %}\n{\n  \"chapters\": [\n{% for c in chapters|xpath_all('//table/tr/td[@class=\"ccss\"]/a') %}\n    {\n      \"volume\": {{ c|xpath('./ancestor::tr/preceding-sibling::tr[td[@class=\"vcss\"]][1]/td/text()')|trim|tojson }},\n      \"id\": {{ c|xpath('./@href')|prefix(novel)|tojson }},\n      \"title\": {{ c|xpath('./text()')|trim|tojson }}\n    },\n{% endfor %}\n  ]\n}"
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "019ec0db-e937-756c-9601-7f36a47af374",
+        "type": "node",
+        "position": {
+          "x": 2820,
+          "y": 2230
+        },
+        "data": {
+          "$schema": "condition",
+          "expression": "{{ chapter_id }}"
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "019ec0dc-48a7-7699-9124-e07bd8fbc469",
+        "type": "node",
+        "position": {
+          "x": 3647,
+          "y": 2530
+        },
+        "data": {
+          "$schema": "details_end",
+          "response": "{\n  \"id\": {{ id|tojson }},\n  \"chapters\": {{ chapters|tojson }}\n}"
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "019ec0ea-857a-727b-bc16-bbd6150751bd",
+        "type": "node",
+        "position": {
+          "x": 4297,
+          "y": 1730
+        },
+        "data": {
+          "$schema": "details_end",
+          "response": "{\n  \"id\": {{ chapter_id|tojson }},\n  \"title\": {{ response|xpath('//div[@id=\"title\"]/text()')|trim|tojson }},\n  \"text\": {{ response|xpath('string(//div[@id=\"content\"])')|trim|tojson }},\n  \"chapters\": {{ chapters|tojson }}\n}"
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "019ec0eb-0eac-77af-8464-39a91d9d9636",
+        "type": "node",
+        "position": {
+          "x": 3641,
+          "y": 1450
+        },
+        "data": {
+          "$schema": "http",
+          "url": "https://www.wenku8.net{{chapter_id}}",
+          "headers": [
+            {
+              "key": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            {
+              "key": "Referer",
+              "value": "https://www.wenku8.net{{id}}"
+            },
+            {
+              "key": "X-Hishel-Ttl",
+              "value": "3600"
+            },
+            {
+              "key": "X-Hishel-Refresh-Ttl-On-Access",
+              "value": "true"
+            }
+          ],
+          "formatter": "{\n  \"response\": {{ response.content.decode(\"gbk\")|tojson }}\n}"
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      }
+    ],
+    "edges": [
+      {
+        "source": "019eb1db-71b1-76ae-bb50-41e36f373d60",
+        "sourceHandle": "output",
+        "target": "019eb1e7-a78e-72de-99c0-4550ca6a150a",
+        "targetHandle": "input",
+        "id": "xy-edge__019eb1db-71b1-76ae-bb50-41e36f373d60output-019eb1e7-a78e-72de-99c0-4550ca6a150ainput"
+      },
+      {
+        "source": "019eb1e7-a78e-72de-99c0-4550ca6a150a",
+        "sourceHandle": "output",
+        "target": "019eb1e8-8666-723c-86a7-f33748b1456f",
+        "targetHandle": "input",
+        "id": "xy-edge__019eb1e7-a78e-72de-99c0-4550ca6a150aoutput-019eb1e8-8666-723c-86a7-f33748b1456finput"
+      },
+      {
+        "source": "019eba01-a038-7257-acb6-972945a3ea9f",
+        "sourceHandle": "output",
+        "target": "019eb1ed-c646-72fe-a8d3-ded591963242",
+        "targetHandle": "input",
+        "id": "xy-edge__019eba01-a038-7257-acb6-972945a3ea9foutput-019eb1ed-c646-72fe-a8d3-ded591963242input"
+      },
+      {
+        "source": "019eb1ed-b3d9-72ff-8d4d-756e1b419def",
+        "sourceHandle": "output",
+        "target": "019eba01-a038-7257-acb6-972945a3ea9f",
+        "targetHandle": "input",
+        "id": "xy-edge__019eb1ed-b3d9-72ff-8d4d-756e1b419defoutput-019eba01-a038-7257-acb6-972945a3ea9finput"
+      },
+      {
+        "source": "019eb1ed-c646-72fe-a8d3-ded591963242",
+        "sourceHandle": "output",
+        "target": "019eba65-92fd-724e-9408-3f4c7e2de1ab",
+        "targetHandle": "input",
+        "id": "xy-edge__019eb1ed-c646-72fe-a8d3-ded591963242output-019eba65-92fd-724e-9408-3f4c7e2de1abinput"
+      },
+      {
+        "source": "019eba65-92fd-724e-9408-3f4c7e2de1ab",
+        "sourceHandle": "is_true",
+        "target": "019eb1ee-50cb-7007-b968-f138f2b8106d",
+        "targetHandle": "input",
+        "id": "xy-edge__019eba65-92fd-724e-9408-3f4c7e2de1abis_true-019eb1ee-50cb-7007-b968-f138f2b8106dinput"
+      },
+      {
+        "source": "019eba65-92fd-724e-9408-3f4c7e2de1ab",
+        "sourceHandle": "is_false",
+        "target": "019eba68-3181-75ea-a5cd-bd34147404f6",
+        "targetHandle": "input",
+        "id": "xy-edge__019eba65-92fd-724e-9408-3f4c7e2de1abis_false-019eba68-3181-75ea-a5cd-bd34147404f6input"
+      },
+      {
+        "source": "019ebad3-342c-769e-b1b1-ee680abd8618",
+        "sourceHandle": "output",
+        "target": "019ebfc9-8702-73ff-967e-18177fd8915a",
+        "targetHandle": "input",
+        "id": "xy-edge__019ebad3-342c-769e-b1b1-ee680abd8618output-019ebfc9-8702-73ff-967e-18177fd8915ainput"
+      },
+      {
+        "source": "019ebfc9-8702-73ff-967e-18177fd8915a",
+        "sourceHandle": "is_true",
+        "target": "019ebfca-a3fb-7779-955c-5098e2e78412",
+        "targetHandle": "input",
+        "id": "xy-edge__019ebfc9-8702-73ff-967e-18177fd8915ais_true-019ebfca-a3fb-7779-955c-5098e2e78412input"
+      },
+      {
+        "source": "019ebfc9-8702-73ff-967e-18177fd8915a",
+        "sourceHandle": "is_false",
+        "target": "019ebfca-d29d-7279-9524-12032a1968f5",
+        "targetHandle": "input",
+        "id": "xy-edge__019ebfc9-8702-73ff-967e-18177fd8915ais_false-019ebfca-d29d-7279-9524-12032a1968f5input"
+      },
+      {
+        "source": "019ebfca-a3fb-7779-955c-5098e2e78412",
+        "sourceHandle": "output",
+        "target": "019ebfca-d29d-7279-9524-12032a1968f5",
+        "targetHandle": "input",
+        "id": "xy-edge__019ebfca-a3fb-7779-955c-5098e2e78412output-019ebfca-d29d-7279-9524-12032a1968f5input"
+      },
+      {
+        "source": "019ebfca-d29d-7279-9524-12032a1968f5",
+        "sourceHandle": "output",
+        "target": "019ebaf2-877b-7428-bb58-35789daf6246",
+        "targetHandle": "input",
+        "id": "xy-edge__019ebfca-d29d-7279-9524-12032a1968f5output-019ebaf2-877b-7428-bb58-35789daf6246input"
+      },
+      {
+        "source": "019ebaf2-877b-7428-bb58-35789daf6246",
+        "sourceHandle": "output",
+        "target": "019ec0db-8560-777a-a03f-4946c94a786a",
+        "targetHandle": "input",
+        "id": "xy-edge__019ebaf2-877b-7428-bb58-35789daf6246output-019ec0db-8560-777a-a03f-4946c94a786ainput"
+      },
+      {
+        "source": "019ec0db-8560-777a-a03f-4946c94a786a",
+        "sourceHandle": "output",
+        "target": "019ec0db-e937-756c-9601-7f36a47af374",
+        "targetHandle": "input",
+        "id": "xy-edge__019ec0db-8560-777a-a03f-4946c94a786aoutput-019ec0db-e937-756c-9601-7f36a47af374input"
+      },
+      {
+        "source": "019ec0db-e937-756c-9601-7f36a47af374",
+        "sourceHandle": "is_false",
+        "target": "019ec0dc-48a7-7699-9124-e07bd8fbc469",
+        "targetHandle": "input",
+        "id": "xy-edge__019ec0db-e937-756c-9601-7f36a47af374is_false-019ec0dc-48a7-7699-9124-e07bd8fbc469input"
+      },
+      {
+        "source": "019ec0db-e937-756c-9601-7f36a47af374",
+        "sourceHandle": "is_true",
+        "target": "019ec0eb-0eac-77af-8464-39a91d9d9636",
+        "targetHandle": "input",
+        "id": "xy-edge__019ec0db-e937-756c-9601-7f36a47af374is_true-019ec0eb-0eac-77af-8464-39a91d9d9636input"
+      },
+      {
+        "source": "019ec0eb-0eac-77af-8464-39a91d9d9636",
+        "sourceHandle": "output",
+        "target": "019ec0ea-857a-727b-bc16-bbd6150751bd",
+        "targetHandle": "input",
+        "id": "xy-edge__019ec0eb-0eac-77af-8464-39a91d9d9636output-019ec0ea-857a-727b-bc16-bbd6150751bdinput"
+      }
+    ]
+  }
+}
