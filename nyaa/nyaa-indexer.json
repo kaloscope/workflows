@@ -3,7 +3,7 @@
   "icon": "data:image/webp;base64,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",
   "description": "\u300cNyaa Torrents\u300d\u8d44\u6e90\u641c\u7d22",
   "category": "indexer",
-  "revision": 1780804349,
+  "revision": 1781908020,
   "definition": {
     "nodes": [
       {
@@ -11,14 +11,23 @@
         "type": "node",
         "position": {
           "x": -630,
-          "y": -10
+          "y": -30
         },
         "data": {
           "$schema": "http",
           "url": "https://nyaa.si/?f={{f|default('0')}}&c={{c|default('0_0')}}&q={{keyword}}{{(page_num if page_num > 1 else 0)|prefix('&p=')}}",
           "formatter": "{\n  \"response\": {{ response.text|tojson }}\n}",
           "method": "GET",
-          "headers": [],
+          "headers": [
+            {
+              "key": "Referer",
+              "value": "https://nyaa.si/"
+            },
+            {
+              "key": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            }
+          ],
           "body": "",
           "divider_7": null
         },
@@ -54,7 +63,7 @@
         "type": "node",
         "position": {
           "x": 247,
-          "y": 90
+          "y": 150
         },
         "data": {
           "$schema": "search_end",
