@@ -3,7 +3,7 @@
   "icon": "data:image/webp;base64,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",
   "description": "\u300c\u8f7b\u5c0f\u8bf4\u6587\u5e93\u300d\u65e5\u672c\u52a8\u6f2b\u8f7b\u5c0f\u8bf4\u5728\u7ebf\u9605\u8bfb",
   "category": "indexer",
-  "revision": 1781456154,
+  "revision": 1781907392,
   "definition": {
     "nodes": [
       {
@@ -108,12 +108,12 @@
           "formatter": "{\n  \"response\": {{ response.content.decode(\"gbk\")|tojson }}\n}",
           "headers": [
             {
-              "key": "User-Agent",
-              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            {
               "key": "Referer",
               "value": "https://www.wenku8.net/index.php"
+            },
+            {
+              "key": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
             }
           ]
         },
@@ -228,19 +228,19 @@
         "type": "node",
         "position": {
           "x": 1641,
-          "y": 1850
+          "y": 1860
         },
         "data": {
           "$schema": "http",
           "url": "https://www.wenku8.net{{id}}",
           "headers": [
             {
-              "key": "User-Agent",
-              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            {
               "key": "Referer",
               "value": "https://www.wenku8.net{{id}}"
+            },
+            {
+              "key": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
             },
             {
               "key": "X-Hishel-Ttl",
@@ -292,12 +292,12 @@
           "url": "https://www.wenku8.net{{id}}",
           "headers": [
             {
-              "key": "User-Agent",
-              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            {
               "key": "Referer",
               "value": "https://www.wenku8.net{{id}}"
+            },
+            {
+              "key": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
             },
             {
               "key": "X-Hishel-Ttl",
@@ -424,12 +424,12 @@
           "url": "https://www.wenku8.net{{chapter_id}}",
           "headers": [
             {
-              "key": "User-Agent",
-              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            {
               "key": "Referer",
               "value": "https://www.wenku8.net{{id}}"
+            },
+            {
+              "key": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
             },
             {
               "key": "X-Hishel-Ttl",

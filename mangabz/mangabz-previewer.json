@@ -3,7 +3,7 @@
   "icon": "data:image/webp;base64,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",
   "description": "\u300cMa\u0304ngabz\u300d\u5728\u7dda\u6f2b\u756b\u95b1\u8b80",
   "category": "indexer",
-  "revision": 1781501178,
+  "revision": 1781907557,
   "definition": {
     "nodes": [
       {
@@ -37,12 +37,12 @@
           "url": "https://www.mangabz.com{{path}}",
           "headers": [
             {
-              "key": "User-Agent",
-              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            {
               "key": "Referer",
               "value": "https://www.mangabz.com/manga-list/"
+            },
+            {
+              "key": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
             }
           ],
           "formatter": "{\n  \"response\": {{ response.text|tojson }}\n}"
@@ -124,12 +124,12 @@
           "url": "https://www.mangabz.com{{id}}",
           "headers": [
             {
-              "key": "User-Agent",
-              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            {
               "key": "Referer",
               "value": "https://www.mangabz.com{{id}}"
+            },
+            {
+              "key": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
             }
           ],
           "formatter": "{\n  \"chapters\": {{ response.text|tojson }}\n}"
@@ -229,12 +229,12 @@
           "url": "https://www.mangabz.com{{chapter_id}}",
           "headers": [
             {
-              "key": "User-Agent",
-              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            {
               "key": "Referer",
               "value": "https://www.mangabz.com{{id}}"
+            },
+            {
+              "key": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
             }
           ],
           "formatter": "{\n  \"response\": {{ response.text|tojson }}\n}"
@@ -278,12 +278,12 @@
           "url": "https://www.mangabz.com{{chapter_id}}chapterimage.ashx?cid={{q.cid}}&page={{q.page}}&key=&_cid={{q.cid}}&_mid={{q.mid}}&_dt={{q.dt}}&_sign={{q.sign}}",
           "headers": [
             {
-              "key": "User-Agent",
-              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-            },
-            {
               "key": "Referer",
               "value": "https://www.mangabz.com{{chapter_id}}"
+            },
+            {
+              "key": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
             }
           ],
           "formatter": "{\n  \"js\": {{ response.text|tojson }}\n}"
