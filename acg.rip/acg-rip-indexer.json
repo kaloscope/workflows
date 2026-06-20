@@ -1,0 +1,94 @@
+{
+  "name": "ACG.RIP",
+  "icon": "data:image/webp;base64,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",
+  "description": "\u300cACG.RIP\u300d\u8d44\u6e90\u641c\u7d22",
+  "category": "indexer",
+  "revision": 1781956077,
+  "definition": {
+    "nodes": [
+      {
+        "id": "019ee1d4-637d-741c-b342-0bb39d064078",
+        "type": "node",
+        "position": {
+          "x": 290,
+          "y": 190
+        },
+        "data": {
+          "$schema": "http",
+          "url": "https://acg.rip/{{'page/' + page_num|string if page_num > 1 else ''}}{{keyword|prefix('?term=')}}",
+          "headers": [
+            {
+              "key": "Referer",
+              "value": "https://acg.rip/"
+            },
+            {
+              "key": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            }
+          ],
+          "formatter": "{\n  \"response\": {{ response.text|tojson }}\n}"
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false
+      },
+      {
+        "id": "019ee1d4-7c47-76a9-95a3-4252eb2b20ee",
+        "type": "node",
+        "position": {
+          "x": -403,
+          "y": 430
+        },
+        "data": {
+          "$schema": "search_start",
+          "config": "display:\n  page_size: 30\n  view_modes:\n    - table\n\nkeyword:\n  global: true\n  required: false\n"
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "019ee1d4-8705-76d8-bd86-987cce3eeb7b",
+        "type": "node",
+        "position": {
+          "x": 967,
+          "y": 350
+        },
+        "data": {
+          "$schema": "search_end",
+          "response": "{\n  \"totalPages\": {{ response|xpath('//ul[contains(@class,\"pagination\")][1]/li[last()-1]/*[1]/text()')|int|tojson }},\n  \"items\": [\n{% for i in response|xpath_all('//table[contains(@class,\"table\")]/tr') %}\n    {\n      \"id\": {{ i|xpath('./td[@class=\"title\"]/span[@class=\"title\"]/a/@href')|tojson }},\n      \"title\": {{ i|xpath('string(./td[@class=\"title\"]/span[@class=\"title\"]/a)')|trim|tojson }},\n      \"link\": {{ i|xpath('./td[@class=\"action\"]/a/@href')|prefix('https://acg.rip')|tojson }},\n      \"size\": {{ i|xpath('./td[@class=\"size\"]/text()')|tojson }},\n      \"misc\": {{ i|xpath('./td[@class=\"title\"]/span[contains(@class,\"team\")]/a/text()')|trim|tojson }},\n      \"uploader\": {{ i|xpath('./td[contains(@class,\"date\")]/div/a/text()')|tojson }},\n      \"uploaded_at\": {{ i|xpath_first('./td[contains(@class,\"date\")]/div/time/text()')|trim|tojson }}\n    },\n{% endfor %}\n  ]\n}"
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      }
+    ],
+    "edges": [
+      {
+        "source": "019ee1d4-7c47-76a9-95a3-4252eb2b20ee",
+        "sourceHandle": "output",
+        "target": "019ee1d4-637d-741c-b342-0bb39d064078",
+        "targetHandle": "input",
+        "id": "xy-edge__019ee1d4-7c47-76a9-95a3-4252eb2b20eeoutput-019ee1d4-637d-741c-b342-0bb39d064078input"
+      },
+      {
+        "source": "019ee1d4-637d-741c-b342-0bb39d064078",
+        "sourceHandle": "output",
+        "target": "019ee1d4-8705-76d8-bd86-987cce3eeb7b",
+        "targetHandle": "input",
+        "id": "xy-edge__019ee1d4-637d-741c-b342-0bb39d064078output-019ee1d4-8705-76d8-bd86-987cce3eeb7binput"
+      }
+    ]
+  }
+}

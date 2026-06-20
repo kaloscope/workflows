@@ -1,0 +1,190 @@
+{
+  "name": "\u840c\u756a\u7ec4",
+  "icon": "data:image/webp;base64,UklGRoQEAABXRUJQVlA4WAoAAAAgAAAAXwAAXwAASUNDUMgBAAAAAAHIAAAAAAQwAABtbnRyUkdCIFhZWiAH4AABAAEAAAAAAABhY3NwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA9tYAAQAAAADTLQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlkZXNjAAAA8AAAACRyWFlaAAABFAAAABRnWFlaAAABKAAAABRiWFlaAAABPAAAABR3dHB0AAABUAAAABRyVFJDAAABZAAAAChnVFJDAAABZAAAAChiVFJDAAABZAAAAChjcHJ0AAABjAAAADxtbHVjAAAAAAAAAAEAAAAMZW5VUwAAAAgAAAAcAHMAUgBHAEJYWVogAAAAAAAAb6IAADj1AAADkFhZWiAAAAAAAABimQAAt4UAABjaWFlaIAAAAAAAACSgAAAPhAAAts9YWVogAAAAAAAA9tYAAQAAAADTLXBhcmEAAAAAAAQAAAACZmYAAPKnAAANWQAAE9AAAApbAAAAAAAAAABtbHVjAAAAAAAAAAEAAAAMZW5VUwAAACAAAAAcAEcAbwBvAGcAbABlACAASQBuAGMALgAgADIAMAAxADZWUDgglgIAAPAPAJ0BKmAAYAA+bTaXRyQjIiEp2LiggA2JYwDMdYWDAZwDwgPcBvDXoAeW57Jn+NYNa64hH72wEz9qBeFmR9hG9CV3R6qKakIH3tE5VvNtcbVa1xERmrs9/dK7yom124cZy5Geatz9t64cWWSOT31PsIVSsyaJHq/ngZTiMea5vPGWYHHC7AAA/vrRwsDOc5st4de+EvD5QTAPuU+bhwyCTw6i5Pp2ut3w41yuLpLiiyFH0jrXcZ7fgvzk6CkHXbX5TjcxHSoUwpHDBOa/o8ExCMBeSnDaultdbHidFQXXTcKheGn36zL24O3N5BRweiH60pBF9VjXTirxm3Wrynl2jx2fGibxh5P7wYmVUQTIcdGye9Z5OoJAAz/myADjLreARcib5uZN9QurA5PtfFMBp51x+iPPeEM24x+0jOohW6WAhmyhY1lMaw8VnZefbNsRaNcqqJMV2Ud+1dsf2IRnIlCdUwgw0ARJbCy0pT//LpG6qJnMK+RWGcHHfCBrYcFABWtkaafpXKFJj92wgLiOXWGCY1fxCc3HYwB5csBf6CLvvCpphI8nv1OOFmpe5bWOZDfOW2dgtdU51PD1yvhjuNvGPQHWaZVqqxS6zFbaXAYw7ynV08IFX+ygcPyeKRf2SXQpy3xjztgH0uPaLwTRNndgSxFmA+tvCeOBIOsjjifZ7hbPDUfERBWwpg1IontJdnrNKsOAz4Fpj7HGzONFXnOX3WVfBbBvOLU5qLs1ZIdYRo7q7Hp3kigp/mo8Y+nk4jDkIowiKxTIuIudUFrHJyLRSVG2rVqkyiRcAr4UW3QIw1hAWa7JtGh3siEKJZLwInqxzIKvG4dYRkFpud92xrdYhx8rb2D14Oo+fyHuDAAAAAAA",
+  "description": "\u300c\u840c\u756a\u7ec4\u300d\u8d44\u6e90\u641c\u7d22",
+  "category": "indexer",
+  "revision": 1781908679,
+  "definition": {
+    "nodes": [
+      {
+        "id": "019ee08b-0fa1-76f3-adee-c0b01b735fb9",
+        "type": "node",
+        "position": {
+          "x": -143,
+          "y": 470
+        },
+        "data": {
+          "$schema": "search_start",
+          "config": "display:\n  page_size: 30\n  view_modes:\n    - table\n\nkeyword:\n  global: true\n  required: false\n"
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "019ee08b-1d79-728f-9ed7-4b775cb76837",
+        "type": "node",
+        "position": {
+          "x": 1131,
+          "y": -260
+        },
+        "data": {
+          "$schema": "http",
+          "formatter": "{\n  \"response\": {{ response.text|tojson }}\n}",
+          "method": "POST",
+          "headers": [
+            {
+              "key": "Referer",
+              "value": "https://bangumi.moe/search/title"
+            },
+            {
+              "key": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            {
+              "key": "Content-Type",
+              "value": "text/plain;charset=UTF-8"
+            }
+          ],
+          "body": "{\n    \"query\": {{ keyword|tojson }},\n    \"p\": {{ page_num|tojson }}\n}",
+          "url": "https://bangumi.moe/api/v2/torrent/search"
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "019ee08b-35dc-735d-81f7-acb7ce3cb210",
+        "type": "node",
+        "position": {
+          "x": 1857,
+          "y": -70
+        },
+        "data": {
+          "$schema": "search_end",
+          "response": "{\n  \"totalPages\": {{ response|jsonpath('$.page_count')|tojson }},\n  \"items\": [\n{% for i in response|jsonpath('$.torrents[*]') %}\n    {\n      \"id\": {{ i|jsonpath('$._id')|tojson }},\n      \"title\": {{ i|jsonpath('$.title')|tojson }},\n      \"link\": {{ i|jsonpath('$.magnet')|tojson }},\n      \"size\": {{ i|jsonpath('$.size')|tojson }},\n      \"uploader\": {{ i|jsonpath('$.uploader.username')|tojson }},\n      \"uploaded_at\": {{ i|jsonpath('$.publish_time')|strftime|tojson }}\n    },\n{% endfor %}\n  ]\n}"
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "019ee08c-b932-739a-9642-2e084798656b",
+        "type": "node",
+        "position": {
+          "x": 430,
+          "y": 570
+        },
+        "data": {
+          "$schema": "condition",
+          "expression": "{{ keyword }}"
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "019ee08d-36d7-71e9-a08d-82902d4212f6",
+        "type": "node",
+        "position": {
+          "x": 1121,
+          "y": 740
+        },
+        "data": {
+          "$schema": "http",
+          "url": "https://bangumi.moe/api/torrent{{'/page/' + page_num|string if page_num > 1 else '/latest'}}",
+          "headers": [
+            {
+              "key": "Referer",
+              "value": "https://bangumi.moe/"
+            },
+            {
+              "key": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            }
+          ],
+          "formatter": "{\n  \"response\": {{ response.text|tojson }}\n}"
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "019ee08d-537b-76ab-9cc3-e17b55b9ea48",
+        "type": "node",
+        "position": {
+          "x": 1867,
+          "y": 910
+        },
+        "data": {
+          "$schema": "search_end",
+          "response": "{\n  \"totalPages\": {{ response|jsonpath('$.page_count')|tojson }},\n  \"items\": [\n{% for i in response|jsonpath('$.torrents[*]') %}\n    {\n      \"id\": {{ i|jsonpath('$._id')|tojson }},\n      \"title\": {{ i|jsonpath('$.title')|tojson }},\n      \"link\": {{ i|jsonpath('$.magnet')|tojson }},\n      \"size\": {{ i|jsonpath('$.size')|tojson }},\n      \"uploader\": {{ i|jsonpath('$.uploader.username')|tojson }},\n      \"uploaded_at\": {{ i|jsonpath('$.publish_time')|strftime|tojson }}\n    },\n{% endfor %}\n  ]\n}"
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      }
+    ],
+    "edges": [
+      {
+        "source": "019ee08b-0fa1-76f3-adee-c0b01b735fb9",
+        "sourceHandle": "output",
+        "target": "019ee08c-b932-739a-9642-2e084798656b",
+        "targetHandle": "input",
+        "id": "xy-edge__019ee08b-0fa1-76f3-adee-c0b01b735fb9output-019ee08c-b932-739a-9642-2e084798656binput"
+      },
+      {
+        "source": "019ee08c-b932-739a-9642-2e084798656b",
+        "sourceHandle": "is_true",
+        "target": "019ee08b-1d79-728f-9ed7-4b775cb76837",
+        "targetHandle": "input",
+        "id": "xy-edge__019ee08c-b932-739a-9642-2e084798656bis_true-019ee08b-1d79-728f-9ed7-4b775cb76837input"
+      },
+      {
+        "source": "019ee08b-1d79-728f-9ed7-4b775cb76837",
+        "sourceHandle": "output",
+        "target": "019ee08b-35dc-735d-81f7-acb7ce3cb210",
+        "targetHandle": "input",
+        "id": "xy-edge__019ee08b-1d79-728f-9ed7-4b775cb76837output-019ee08b-35dc-735d-81f7-acb7ce3cb210input"
+      },
+      {
+        "source": "019ee08c-b932-739a-9642-2e084798656b",
+        "sourceHandle": "is_false",
+        "target": "019ee08d-36d7-71e9-a08d-82902d4212f6",
+        "targetHandle": "input",
+        "id": "xy-edge__019ee08c-b932-739a-9642-2e084798656bis_false-019ee08d-36d7-71e9-a08d-82902d4212f6input"
+      },
+      {
+        "source": "019ee08d-36d7-71e9-a08d-82902d4212f6",
+        "sourceHandle": "output",
+        "target": "019ee08d-537b-76ab-9cc3-e17b55b9ea48",
+        "targetHandle": "input",
+        "id": "xy-edge__019ee08d-36d7-71e9-a08d-82902d4212f6output-019ee08d-537b-76ab-9cc3-e17b55b9ea48input"
+      }
+    ]
+  }
+}

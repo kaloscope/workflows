@@ -1,0 +1,86 @@
+{
+  "name": "AnimeGarden",
+  "icon": "data:image/webp;base64,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",
+  "description": "\u300cAnime Garden\u300d\u52d5\u6f2b\u82b1\u5712\u8cc7\u6e90\u7db2\u955c\u50cf\u7ad9",
+  "category": "indexer",
+  "revision": 1781956092,
+  "definition": {
+    "nodes": [
+      {
+        "id": "019ee222-bf64-76af-b32b-d0bc0431197d",
+        "type": "node",
+        "position": {
+          "x": 1767,
+          "y": 320
+        },
+        "data": {
+          "$schema": "search_end",
+          "response": "{\n  \"items\": [\n{% for i in response|jsonpath('$.resources[*]') %}\n    {\n      \"id\": {{ i|jsonpath('$.id')|string|tojson }},\n      \"title\": {{ i|jsonpath('$.title')|tojson }},\n      \"link\": {{ i|jsonpath('$.magnet')|suffix(i|jsonpath('$.tracker'),false)|tojson }},\n      \"size\": {{ (i|jsonpath('$.size')|default(0, true) * 1024)|size|tojson }},\n      \"misc\": {{ i|jsonpath('$.fansub.name')|tojson }},\n      \"category\": {{ i|jsonpath('$.type')|tojson }},\n      \"uploader\": {{ i|jsonpath('$.publisher.name')|tojson }},\n      \"uploaded_at\": {{ i|jsonpath('$.createdAt')|strftime|tojson }}\n    },\n{% endfor %}\n  ]\n}"
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "019ee25e-0b2d-74ce-be80-57e786696b61",
+        "type": "node",
+        "position": {
+          "x": 1071,
+          "y": 160
+        },
+        "data": {
+          "$schema": "http",
+          "url": "https://api.animes.garden/resources?tracker=true",
+          "method": "POST",
+          "body": "{\n  \"page\": {{ page_num|tojson }},\n  \"pageSize\": {{ page_size|tojson }},\n  \"duplicate\": false,\n  \"keywords\": {{ (keyword|default(\"\")).split(',')|tojson }},\n  \"include\": {{ (inc|default(\"\")).split(',')|tojson }},\n  \"exclude\": {{ (exc|default(\"\")).split(',')|tojson }},\n  \"types\": {{ types|tojson }},\n  \"fansubs\": {{ fansubs|tojson }},\n  \"after\": {{ after|tojson }},\n  \"before\": {{ before|tojson }}\n}"
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "019ee4c1-83c6-73c2-912f-90434fab4701",
+        "type": "node",
+        "position": {
+          "x": 327,
+          "y": 290
+        },
+        "data": {
+          "$schema": "search_start",
+          "config": "display:\n  page_size: 20\n  view_modes:\n    - table\n\nkeyword:\n  global: true\n  required: false\n\nfilters:\n  inc:\n    type: text\n    label: \u5305\u542b\u5173\u952e\u8bcd\n  exc:\n    type: text\n    label: \u6392\u9664\u5173\u952e\u8bcd\n  types:\n    type: checkbox\n    label: \u8d44\u6e90\u7c7b\u578b\n    options:\n      '\u52a8\u753b': \u52a8\u753b\n      '\u5408\u96c6': \u5408\u96c6\n      '\u97f3\u4e50': \u97f3\u4e50\n      '\u65e5\u5267': \u65e5\u5267\n      'RAW': RAW\n      '\u6f2b\u753b': \u6f2b\u753b\n      '\u6e38\u620f': \u6e38\u620f\n      '\u7279\u6444': \u7279\u6444\n      '\u5176\u4ed6': \u5176\u4ed6\n  fansubs:\n    type: checkbox\n    label: \u5b57\u5e55\u7ec4\n    options:\n      'ANi': ANi\n      'LoliHouse': LoliHouse\n      '\u55b5\u840c\u5976\u8336\u5c4b': \u55b5\u840c\u5976\u8336\u5c4b\n      'Prejudice-Studio': Prejudice-Studio\n      '\u7eff\u8336\u5b57\u5e55\u7ec4': \u7eff\u8336\u5b57\u5e55\u7ec4\n      '\u685c\u90fd\u5b57\u5e55\u7ec4': \u685c\u90fd\u5b57\u5e55\u7ec4\n      '\u96ea\u98c4\u5de5\u4f5c\u5ba4(FLsnow)': \u96ea\u98c4\u5de5\u4f5c\u5ba4(FLsnow)\n      '\u4e09\u660e\u6cbb\u6446\u70c2\u7ec4': \u4e09\u660e\u6cbb\u6446\u70c2\u7ec4\n      '\u5317\u5b87\u6cbb\u5b57\u5e55\u7ec4': \u5317\u5b87\u6cbb\u5b57\u5e55\u7ec4\n      '\u9b54\u661f\u5b57\u5e55\u56e2': \u9b54\u661f\u5b57\u5e55\u56e2\n      '\u62e8\u96ea\u5bfb\u6625': \u62e8\u96ea\u5bfb\u6625\n      '\u7231\u604b\u5b57\u5e55\u793e': \u7231\u604b\u5b57\u5e55\u793e\n      'SweetSub': SweetSub\n      '\u6a31\u6843\u82b1\u5b57\u5e55\u7ec4&sakura-hana': \u6a31\u6843\u82b1\u5b57\u5e55\u7ec4&sakura-hana\n      '\u5343\u590f\u5b57\u5e55\u7ec4': \u5343\u590f\u5b57\u5e55\u7ec4\n      '\u6cb8\u73ed\u4e9a\u9a6c\u5236\u4f5c\u7ec4': \u6cb8\u73ed\u4e9a\u9a6c\u5236\u4f5c\u7ec4\n      '\u52a8\u6f2b\u56fd\u5b57\u5e55\u7ec4': \u52a8\u6f2b\u56fd\u5b57\u5e55\u7ec4\n      '\u5929\u6708\u52d5\u6f2b&\u767c\u4f48\u7d44': \u5929\u6708\u52d5\u6f2b&\u767c\u4f48\u7d44\n      '\u730e\u6237\u53d1\u5e03\u7ec4': \u730e\u6237\u53d1\u5e03\u7ec4\n      '\u5929\u4f7f\u52a8\u6f2b\u8bba\u575b': \u5929\u4f7f\u52a8\u6f2b\u8bba\u575b\n      '\u5e7b\u6a31\u5b57\u5e55\u7ec4': \u5e7b\u6a31\u5b57\u5e55\u7ec4\n      '\u516d\u56db\u4f4d\u5143\u5b57\u5e55\u7d44': \u516d\u56db\u4f4d\u5143\u5b57\u5e55\u7d44\n      '\u60a0\u54c8\u7483\u7fbd\u5b57\u5e55\u793e': \u60a0\u54c8\u7483\u7fbd\u5b57\u5e55\u793e\n      'DBD\u5236\u4f5c\u7ec4': DBD\u5236\u4f5c\u7ec4\n      'TSDM\u5b57\u5e55\u7d44': TSDM\u5b57\u5e55\u7d44\n      '\u767e\u51ac\u7df4\u7fd2\u7d44': \u767e\u51ac\u7df4\u7fd2\u7d44\n      'GMTeam': GMTeam\n      '\u94f6\u8272\u5b50\u5f39\u5b57\u5e55\u7ec4': \u94f6\u8272\u5b50\u5f39\u5b57\u5e55\u7ec4\n      'VCB-Studio': VCB-Studio\n      '\u591c\u83ba\u5bb6\u65cf': \u591c\u83ba\u5bb6\u65cf\n      '\u4ebf\u6b21\u7814\u540c\u597d\u4f1a': \u4ebf\u6b21\u7814\u540c\u597d\u4f1a\n      '\u4e38\u5b50\u5bb6\u65cf': \u4e38\u5b50\u5bb6\u65cf\n      '\u98ce\u4e4b\u5723\u6bbf': \u98ce\u4e4b\u5723\u6bbf\n      '\u4e91\u5149\u5b57\u5e55\u7ec4': \u4e91\u5149\u5b57\u5e55\u7ec4\n      '\u9ed1\u767d\u5b57\u5e55\u7ec4': \u9ed1\u767d\u5b57\u5e55\u7ec4\n      '\u9a6f\u517d\u5e08\u8054\u76df': \u9a6f\u517d\u5e08\u8054\u76df\n      '\u661f\u7a7a\u5b57\u5e55\u7ec4': \u661f\u7a7a\u5b57\u5e55\u7ec4\n      '\u6781\u5f71\u5b57\u5e55\u793e': \u6781\u5f71\u5b57\u5e55\u793e\n      'MingYSub': MingYSub\n      'H-Enc': H-Enc\n      '\u79bb\u8c31Sub': \u79bb\u8c31Sub\n      '\u4e91\u6b4c\u5b57\u5e55\u7ec4': \u4e91\u6b4c\u5b57\u5e55\u7ec4\n      'PorterRAWS': PorterRAWS\n      '\u8c4c\u8c46\u5b57\u5e55\u7ec4': \u8c4c\u8c46\u5b57\u5e55\u7ec4\n      '\u96a3\u5929\u4f7f\u5b57\u5e55\u7ec4': \u96a3\u5929\u4f7f\u5b57\u5e55\u7ec4\n      'Kirara Fantasia': Kirara Fantasia\n  after:\n    type: datetime\n    label: \u4e0a\u4f20\u65f6\u95f4\u665a\u4e8e\n  before:\n    type: datetime\n    label: \u4e0a\u4f20\u65f6\u95f4\u65e9\u4e8e\n"
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      }
+    ],
+    "edges": [
+      {
+        "source": "019ee25e-0b2d-74ce-be80-57e786696b61",
+        "sourceHandle": "output",
+        "target": "019ee222-bf64-76af-b32b-d0bc0431197d",
+        "targetHandle": "input",
+        "id": "xy-edge__019ee25e-0b2d-74ce-be80-57e786696b61output-019ee222-bf64-76af-b32b-d0bc0431197dinput"
+      },
+      {
+        "source": "019ee4c1-83c6-73c2-912f-90434fab4701",
+        "sourceHandle": "output",
+        "target": "019ee25e-0b2d-74ce-be80-57e786696b61",
+        "targetHandle": "input",
+        "id": "xy-edge__019ee4c1-83c6-73c2-912f-90434fab4701output-019ee25e-0b2d-74ce-be80-57e786696b61input"
+      }
+    ]
+  }
+}
