@@ -1,0 +1,638 @@
+{
+  "name": "Bangumi \u5143\u6570\u636e\u522e\u524a",
+  "icon": "data:image/webp;base64,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",
+  "description": "\u300cBangumi \u756a\u7ec4\u8ba1\u5212\u300d\u5143\u6570\u636e\u522e\u524a",
+  "category": "ingest",
+  "revision": 1782058605,
+  "definition": {
+    "nodes": [
+      {
+        "id": "019cbc2c-5ba3-7763-bd07-81449434c7ae",
+        "type": "node",
+        "position": {
+          "x": 430,
+          "y": -1210
+        },
+        "data": {
+          "$schema": "condition",
+          "expression": "{{ nfo_type == 'movie' }}"
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "019cdaa7-5c6b-7578-ba4f-7a8fdb51a5a9",
+        "type": "node",
+        "position": {
+          "x": 1171,
+          "y": -1600
+        },
+        "data": {
+          "$schema": "http",
+          "url": "https://api.bgm.tv/v0/search/subjects?limit={{page_size}}",
+          "headers": [
+            {
+              "key": "User-Agent",
+              "value": "kaloscope/kaloscope/{{ks_version}} (https://github.com/kaloscope/kaloscope)"
+            }
+          ],
+          "formatter": "{\n  \"data\": {{ response.text|jsonpath('$.data[?platform == \"\u5267\u573a\u7248\"]', page_size)|tojson }}\n}",
+          "method": "POST",
+          "body": "{\n  \"keyword\": {{ title|tojson }},\n  \"filter\": {\n    \"type\": [\n      2\n    ]\n{% if year %}\n    , \"air_date\": [\n      \">={{year}}-01-01\",\n      \"<={{year}}-12-31\"\n    ]\n{% endif %}\n  }\n}"
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "019cdab5-ac00-7490-9b51-704cbd4c1110",
+        "type": "node",
+        "position": {
+          "x": 2090,
+          "y": -2150
+        },
+        "data": {
+          "$schema": "loop",
+          "expression": "{{ data }}",
+          "varname": "movie"
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "019cdae0-6790-727c-8553-8478804aa629",
+        "type": "node",
+        "position": {
+          "x": 2737,
+          "y": -2220
+        },
+        "data": {
+          "$schema": "movie",
+          "response": "{{ movies|tojson }}"
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "019da629-eb09-74dd-9647-b3348d8edf5c",
+        "type": "node",
+        "position": {
+          "x": -503,
+          "y": -100
+        },
+        "data": {
+          "$schema": "ingest_start"
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "019da643-67fd-7525-be38-ca63dfe60a3a",
+        "type": "node",
+        "position": {
+          "x": 390,
+          "y": 10
+        },
+        "data": {
+          "$schema": "condition",
+          "expression": "{{ nfo_type == 'tvshow' }}"
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "019da643-7838-72fb-80ca-45e1ed3a67f8",
+        "type": "node",
+        "position": {
+          "x": 190,
+          "y": 1430
+        },
+        "data": {
+          "$schema": "condition",
+          "expression": "{{ nfo_type == 'episode' and episode is not none }}"
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "019dc674-8873-71bc-ab2b-7f91b6dc3497",
+        "type": "node",
+        "position": {
+          "x": 1171,
+          "y": -420
+        },
+        "data": {
+          "$schema": "http",
+          "url": "https://api.bgm.tv/v0/search/subjects?limit={{page_size}}",
+          "headers": [
+            {
+              "key": "User-Agent",
+              "value": "kaloscope/kaloscope/{{ks_version}} (https://github.com/kaloscope/kaloscope)"
+            }
+          ],
+          "formatter": "{\n  \"data\": {{ response.text|jsonpath('$.data[?platform != \"\u5267\u573a\u7248\"]', page_size)|tojson }}\n}",
+          "method": "POST",
+          "body": "{\n  \"keyword\": {{ title|tojson }},\n  \"filter\": {\n    \"type\": [\n      2\n    ]\n{% if year %}\n    , \"air_date\": [\n      \">={{year}}-01-01\",\n      \"<={{year}}-12-31\"\n    ]\n{% endif %}\n  }\n}"
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "019dc676-0663-77b8-869f-c2428c0eaae8",
+        "type": "node",
+        "position": {
+          "x": 1161,
+          "y": 1640
+        },
+        "data": {
+          "$schema": "http",
+          "url": "https://api.bgm.tv/v0/search/subjects?limit={{page_size}}",
+          "headers": [
+            {
+              "key": "User-Agent",
+              "value": "kaloscope/kaloscope/{{ks_version}} (https://github.com/kaloscope/kaloscope)"
+            }
+          ],
+          "formatter": "{\n  \"data\": {{ response.text|jsonpath('$.data[?platform != \"\u5267\u573a\u7248\"]', page_size)|tojson }}\n}",
+          "method": "POST",
+          "body": "{\n  \"keyword\": {{ title|tojson }},\n  \"filter\": {\n    \"type\": [\n      2\n    ]\n{% if year %}\n    , \"air_date\": [\n      \">={{year}}-01-01\",\n      \"<={{year}}-12-31\"\n    ]\n{% endif %}\n  }\n}"
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "019dc71d-dd3c-72fd-af70-7430d19ae845",
+        "type": "node",
+        "position": {
+          "x": 2100,
+          "y": -650
+        },
+        "data": {
+          "$schema": "loop",
+          "expression": "{{ data }}",
+          "varname": "tv"
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "019dc71e-1931-7720-8c07-01b2dfac0ad7",
+        "type": "node",
+        "position": {
+          "x": 2120,
+          "y": 820
+        },
+        "data": {
+          "$schema": "loop",
+          "expression": "{{ data }}",
+          "varname": "tv"
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "019dc725-bae1-7328-b7f4-ff7968185920",
+        "type": "node",
+        "position": {
+          "x": 2121,
+          "y": 1130
+        },
+        "data": {
+          "$schema": "http",
+          "url": "https://api.bgm.tv/v0/episodes?subject_id={{tv.id}}&limit={{tv.total_episodes}}",
+          "headers": [
+            {
+              "key": "User-Agent",
+              "value": "kaloscope/kaloscope/{{ks_version}} (https://github.com/kaloscope/kaloscope)"
+            }
+          ],
+          "formatter": "{% set sort = response.text|jsonpath('$.data[?sort=='+episode|string+']') %}\n{% set ep = response.text|jsonpath('$.data[?ep=='+episode|string+']') %}\n{% set e = sort or ep %}\n{\n  \"episodes\": [\n    {\n      \"id\": {{ e|jsonpath('$.id')|tojson }},\n      \"site\": \"bgm\",\n      \"title\": {{ e|jsonpath('$.name_cn')|tojson }},\n      \"plot\": {{ e|jsonpath('$.desc')|tojson }},\n      \"aired\": {{ e|jsonpath('$.airdate')|tojson }},\n      \"episode\": {{ e|jsonpath('$.ep')|tojson }}\n    }\n  ]\n}"
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "019dc72c-5571-708c-a00b-aa35007726cf",
+        "type": "node",
+        "position": {
+          "x": 2777,
+          "y": 760
+        },
+        "data": {
+          "$schema": "episode",
+          "response": "{{ episodes|tojson }}"
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "019dc736-794a-70e0-ac2a-a89a2f396ab3",
+        "type": "node",
+        "position": {
+          "x": 2757,
+          "y": -720
+        },
+        "data": {
+          "$schema": "tv_show",
+          "response": "{{ series|tojson }}"
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "019dc736-beb6-76bf-99d0-6b9a1b55c2a3",
+        "type": "node",
+        "position": {
+          "x": 2131,
+          "y": -350
+        },
+        "data": {
+          "$schema": "http",
+          "url": "https://api.bgm.tv/v0/subjects/{{tv.id}}/characters",
+          "headers": [
+            {
+              "key": "User-Agent",
+              "value": "kaloscope/kaloscope/{{ks_version}} (https://github.com/kaloscope/kaloscope)"
+            }
+          ],
+          "formatter": "{\n  \"actors\": [\n{% for a in response.text|jsonpath_all('$.[*]') %}\n  {% if a|jsonpath('$.relation') == \"\u4e3b\u89d2\" and a|jsonpath('$.actors') %}\n    {\n      \"name\": {{ a|jsonpath('$.actors[0].name')|tojson }},\n      \"role\": {{ a|jsonpath('$.name')|tojson }},\n      \"thumb\": {{ a|jsonpath('$.actors[0].images.grid')|tojson }}\n    },\n  {% endif %} \n{% endfor %}  \n  ]\n}"
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "019dda02-1c42-728e-acaf-f59d885114ce",
+        "type": "node",
+        "position": {
+          "x": 610,
+          "y": 1430
+        },
+        "data": {
+          "$schema": "condition",
+          "expression": "{{ nfo_source == 'bgm' and series_id }}"
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "019dda02-d013-77c0-8721-8c3a6396e100",
+        "type": "node",
+        "position": {
+          "x": 1690,
+          "y": 820
+        },
+        "data": {
+          "$schema": "merge"
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "019eea94-a268-774c-afb6-4562aeaf4351",
+        "type": "node",
+        "position": {
+          "x": 2767,
+          "y": -180
+        },
+        "data": {
+          "$schema": "variables",
+          "variables": "{\n  \"series\": [\n    {\n      \"id\": {{ tv|jsonpath('$.id')|tojson }},\n      \"site\": \"bgm\",\n      \"title\": {{ tv|jsonpath('$.name_cn')|tojson }},\n      \"originaltitle\": {{ tv|jsonpath('$.name')|tojson }},\n      \"plot\": {{ tv|jsonpath('$.summary')|tojson }},\n      \"rating\": {{ tv|jsonpath('$.rating.score')|tojson }},\n      \"year\": {{ tv|jsonpath('$.date')|year|tojson }},\n      \"premiered\": {{ tv|jsonpath('$.date')|tojson }},\n      \"tags\": {{ tv|jsonpath_all('$.tags[*].name')|tojson }},\n      \"genres\": {{ tv|jsonpath_all('$.meta_tags[*]')|tojson }},\n      \"studios\": {{ tv|jsonpath_all('$.infobox[?key==\"\u88fd\u4f5c\"].value')|tojson }},\n      \"directors\": {{ tv|jsonpath_all('$.infobox[?key==\"\u5bfc\u6f14\"].value')|tojson }},\n      \"actors\": {{ actors|tojson }},\n      \"poster\": {{ tv|jsonpath('$.image')|tojson }},\n      \"backdrop\": {{ tv|jsonpath('$.image')|tojson }}\n    }\n  ]\n}"
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "019eeabb-381f-77ab-a36c-281aeba2b010",
+        "type": "node",
+        "position": {
+          "x": 1161,
+          "y": 720
+        },
+        "data": {
+          "$schema": "http",
+          "url": "https://api.bgm.tv/v0/subjects/{{series_id}}",
+          "headers": [
+            {
+              "key": "User-Agent",
+              "value": "kaloscope/kaloscope/{{ks_version}} (https://github.com/kaloscope/kaloscope)"
+            }
+          ],
+          "formatter": "{\n  \"data\": [{{ response.text }}]\n}",
+          "method": "GET",
+          "body": ""
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "019eeaf5-755c-77d8-b11d-80ff915af72e",
+        "type": "node",
+        "position": {
+          "x": 2111,
+          "y": -1800
+        },
+        "data": {
+          "$schema": "http",
+          "url": "https://api.bgm.tv/v0/subjects/{{movie.id}}/characters",
+          "headers": [
+            {
+              "key": "User-Agent",
+              "value": "kaloscope/kaloscope/{{ks_version}} (https://github.com/kaloscope/kaloscope)"
+            }
+          ],
+          "formatter": "{\n  \"actors\": [\n{% for a in response.text|jsonpath_all('$.[*]') %}\n  {% if a|jsonpath('$.relation') == \"\u4e3b\u89d2\" and a|jsonpath('$.actors') %}\n    {\n      \"name\": {{ a|jsonpath('$.actors[0].name')|tojson }},\n      \"role\": {{ a|jsonpath('$.name')|tojson }},\n      \"thumb\": {{ a|jsonpath('$.actors[0].images.grid')|tojson }}\n    },\n  {% endif %} \n{% endfor %}  \n  ]\n}"
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "019eeaf5-91db-73ba-9530-ce0bde27e530",
+        "type": "node",
+        "position": {
+          "x": 2747,
+          "y": -1610
+        },
+        "data": {
+          "$schema": "variables",
+          "variables": "{\n  \"movies\": [\n    {\n      \"id\": {{ movie|jsonpath('$.id')|tojson }},\n      \"site\": \"bgm\",\n      \"title\": {{ movie|jsonpath('$.name_cn')|tojson }},\n      \"originaltitle\": {{ movie|jsonpath('$.name')|tojson }},\n      \"plot\": {{ movie|jsonpath('$.summary')|tojson }},\n      \"rating\": {{ movie|jsonpath('$.rating.score')|tojson }},\n      \"year\": {{ movie|jsonpath('$.date')|year|tojson }},\n      \"premiered\": {{ movie|jsonpath('$.date')|tojson }},\n      \"tags\": {{ movie|jsonpath_all('$.tags[*].name')|tojson }},\n      \"genres\": {{ movie|jsonpath_all('$.meta_tags[*]')|tojson }},\n      \"studios\": {{ movie|jsonpath_all('$.infobox[?key==\"\u88fd\u4f5c\"].value')|tojson }},\n      \"directors\": {{ movie|jsonpath_all('$.infobox[?key==\"\u5bfc\u6f14\"].value')|tojson }},\n      \"actors\": {{ actors|tojson }},\n      \"poster\": {{ movie|jsonpath('$.image')|tojson }},\n      \"backdrop\": {{ movie|jsonpath('$.image')|tojson }}\n    }\n  ]\n}"
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      }
+    ],
+    "edges": [
+      {
+        "source": "019cbc2c-5ba3-7763-bd07-81449434c7ae",
+        "sourceHandle": "is_true",
+        "target": "019cdaa7-5c6b-7578-ba4f-7a8fdb51a5a9",
+        "targetHandle": "input",
+        "id": "xy-edge__019cbc2c-5ba3-7763-bd07-81449434c7aeis_true-019cdaa7-5c6b-7578-ba4f-7a8fdb51a5a9input"
+      },
+      {
+        "source": "019cdaa7-5c6b-7578-ba4f-7a8fdb51a5a9",
+        "sourceHandle": "output",
+        "target": "019cdab5-ac00-7490-9b51-704cbd4c1110",
+        "targetHandle": "input",
+        "id": "xy-edge__019cdaa7-5c6b-7578-ba4f-7a8fdb51a5a9output-019cdab5-ac00-7490-9b51-704cbd4c1110input"
+      },
+      {
+        "source": "019cdab5-ac00-7490-9b51-704cbd4c1110",
+        "sourceHandle": "output",
+        "target": "019cdae0-6790-727c-8553-8478804aa629",
+        "targetHandle": "input",
+        "id": "xy-edge__019cdab5-ac00-7490-9b51-704cbd4c1110output-019cdae0-6790-727c-8553-8478804aa629input"
+      },
+      {
+        "source": "019da643-67fd-7525-be38-ca63dfe60a3a",
+        "sourceHandle": "is_true",
+        "target": "019dc674-8873-71bc-ab2b-7f91b6dc3497",
+        "targetHandle": "input",
+        "id": "xy-edge__019da643-67fd-7525-be38-ca63dfe60a3ais_true-019dc674-8873-71bc-ab2b-7f91b6dc3497input"
+      },
+      {
+        "source": "019dc674-8873-71bc-ab2b-7f91b6dc3497",
+        "sourceHandle": "output",
+        "target": "019dc71d-dd3c-72fd-af70-7430d19ae845",
+        "targetHandle": "input",
+        "id": "xy-edge__019dc674-8873-71bc-ab2b-7f91b6dc3497output-019dc71d-dd3c-72fd-af70-7430d19ae845input"
+      },
+      {
+        "source": "019dc71e-1931-7720-8c07-01b2dfac0ad7",
+        "sourceHandle": "loop_start",
+        "target": "019dc725-bae1-7328-b7f4-ff7968185920",
+        "targetHandle": "input",
+        "id": "xy-edge__019dc71e-1931-7720-8c07-01b2dfac0ad7loop_start-019dc725-bae1-7328-b7f4-ff7968185920input"
+      },
+      {
+        "source": "019dc725-bae1-7328-b7f4-ff7968185920",
+        "sourceHandle": "output",
+        "target": "019dc71e-1931-7720-8c07-01b2dfac0ad7",
+        "targetHandle": "loop_continue",
+        "id": "xy-edge__019dc725-bae1-7328-b7f4-ff7968185920output-019dc71e-1931-7720-8c07-01b2dfac0ad7loop_continue"
+      },
+      {
+        "source": "019dc71e-1931-7720-8c07-01b2dfac0ad7",
+        "sourceHandle": "output",
+        "target": "019dc72c-5571-708c-a00b-aa35007726cf",
+        "targetHandle": "input",
+        "id": "xy-edge__019dc71e-1931-7720-8c07-01b2dfac0ad7output-019dc72c-5571-708c-a00b-aa35007726cfinput"
+      },
+      {
+        "source": "019dc71d-dd3c-72fd-af70-7430d19ae845",
+        "sourceHandle": "output",
+        "target": "019dc736-794a-70e0-ac2a-a89a2f396ab3",
+        "targetHandle": "input",
+        "id": "xy-edge__019dc71d-dd3c-72fd-af70-7430d19ae845output-019dc736-794a-70e0-ac2a-a89a2f396ab3input"
+      },
+      {
+        "source": "019dc71d-dd3c-72fd-af70-7430d19ae845",
+        "sourceHandle": "loop_start",
+        "target": "019dc736-beb6-76bf-99d0-6b9a1b55c2a3",
+        "targetHandle": "input",
+        "id": "xy-edge__019dc71d-dd3c-72fd-af70-7430d19ae845loop_start-019dc736-beb6-76bf-99d0-6b9a1b55c2a3input"
+      },
+      {
+        "source": "019da643-7838-72fb-80ca-45e1ed3a67f8",
+        "sourceHandle": "is_true",
+        "target": "019dda02-1c42-728e-acaf-f59d885114ce",
+        "targetHandle": "input",
+        "id": "xy-edge__019da643-7838-72fb-80ca-45e1ed3a67f8is_true-019dda02-1c42-728e-acaf-f59d885114ceinput"
+      },
+      {
+        "source": "019dda02-d013-77c0-8721-8c3a6396e100",
+        "sourceHandle": "output",
+        "target": "019dc71e-1931-7720-8c07-01b2dfac0ad7",
+        "targetHandle": "input",
+        "id": "xy-edge__019dda02-d013-77c0-8721-8c3a6396e100output-019dc71e-1931-7720-8c07-01b2dfac0ad7input"
+      },
+      {
+        "source": "019dc676-0663-77b8-869f-c2428c0eaae8",
+        "sourceHandle": "output",
+        "target": "019dda02-d013-77c0-8721-8c3a6396e100",
+        "targetHandle": "input",
+        "id": "xy-edge__019dc676-0663-77b8-869f-c2428c0eaae8output-019dda02-d013-77c0-8721-8c3a6396e100input"
+      },
+      {
+        "source": "019dda02-1c42-728e-acaf-f59d885114ce",
+        "sourceHandle": "is_false",
+        "target": "019dc676-0663-77b8-869f-c2428c0eaae8",
+        "targetHandle": "input",
+        "id": "xy-edge__019dda02-1c42-728e-acaf-f59d885114ceis_false-019dc676-0663-77b8-869f-c2428c0eaae8input"
+      },
+      {
+        "source": "019da629-eb09-74dd-9647-b3348d8edf5c",
+        "sourceHandle": "output",
+        "target": "019da643-67fd-7525-be38-ca63dfe60a3a",
+        "targetHandle": "input",
+        "id": "xy-edge__019da629-eb09-74dd-9647-b3348d8edf5coutput-019da643-67fd-7525-be38-ca63dfe60a3ainput"
+      },
+      {
+        "source": "019da629-eb09-74dd-9647-b3348d8edf5c",
+        "sourceHandle": "output",
+        "target": "019cbc2c-5ba3-7763-bd07-81449434c7ae",
+        "targetHandle": "input",
+        "id": "xy-edge__019da629-eb09-74dd-9647-b3348d8edf5coutput-019cbc2c-5ba3-7763-bd07-81449434c7aeinput"
+      },
+      {
+        "source": "019da629-eb09-74dd-9647-b3348d8edf5c",
+        "sourceHandle": "output",
+        "target": "019da643-7838-72fb-80ca-45e1ed3a67f8",
+        "targetHandle": "input",
+        "id": "xy-edge__019da629-eb09-74dd-9647-b3348d8edf5coutput-019da643-7838-72fb-80ca-45e1ed3a67f8input"
+      },
+      {
+        "source": "019dc736-beb6-76bf-99d0-6b9a1b55c2a3",
+        "sourceHandle": "output",
+        "target": "019eea94-a268-774c-afb6-4562aeaf4351",
+        "targetHandle": "input",
+        "id": "xy-edge__019dc736-beb6-76bf-99d0-6b9a1b55c2a3output-019eea94-a268-774c-afb6-4562aeaf4351input"
+      },
+      {
+        "source": "019eea94-a268-774c-afb6-4562aeaf4351",
+        "sourceHandle": "output",
+        "target": "019dc71d-dd3c-72fd-af70-7430d19ae845",
+        "targetHandle": "loop_continue",
+        "id": "xy-edge__019eea94-a268-774c-afb6-4562aeaf4351output-019dc71d-dd3c-72fd-af70-7430d19ae845loop_continue"
+      },
+      {
+        "source": "019dda02-1c42-728e-acaf-f59d885114ce",
+        "sourceHandle": "is_true",
+        "target": "019eeabb-381f-77ab-a36c-281aeba2b010",
+        "targetHandle": "input",
+        "id": "xy-edge__019dda02-1c42-728e-acaf-f59d885114ceis_true-019eeabb-381f-77ab-a36c-281aeba2b010input"
+      },
+      {
+        "source": "019eeabb-381f-77ab-a36c-281aeba2b010",
+        "sourceHandle": "output",
+        "target": "019dda02-d013-77c0-8721-8c3a6396e100",
+        "targetHandle": "input",
+        "id": "xy-edge__019eeabb-381f-77ab-a36c-281aeba2b010output-019dda02-d013-77c0-8721-8c3a6396e100input"
+      },
+      {
+        "source": "019cdab5-ac00-7490-9b51-704cbd4c1110",
+        "sourceHandle": "loop_start",
+        "target": "019eeaf5-755c-77d8-b11d-80ff915af72e",
+        "targetHandle": "input",
+        "id": "xy-edge__019cdab5-ac00-7490-9b51-704cbd4c1110loop_start-019eeaf5-755c-77d8-b11d-80ff915af72einput"
+      },
+      {
+        "source": "019eeaf5-755c-77d8-b11d-80ff915af72e",
+        "sourceHandle": "output",
+        "target": "019eeaf5-91db-73ba-9530-ce0bde27e530",
+        "targetHandle": "input",
+        "id": "xy-edge__019eeaf5-755c-77d8-b11d-80ff915af72eoutput-019eeaf5-91db-73ba-9530-ce0bde27e530input"
+      },
+      {
+        "source": "019eeaf5-91db-73ba-9530-ce0bde27e530",
+        "sourceHandle": "output",
+        "target": "019cdab5-ac00-7490-9b51-704cbd4c1110",
+        "targetHandle": "loop_continue",
+        "id": "xy-edge__019eeaf5-91db-73ba-9530-ce0bde27e530output-019cdab5-ac00-7490-9b51-704cbd4c1110loop_continue"
+      }
+    ]
+  }
+}
