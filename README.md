@@ -1,6 +1,6 @@
 # Kaloscope Workflows
 
-Kaloscope 官方工作流模板仓库。
+Kaloscope 工作流模板仓库。
 
 ## 使用说明
 
