@@ -1,0 +1,435 @@
+{
+  "name": "DM5",
+  "icon": "data:image/webp;base64,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",
+  "description": "\u300c\u52a8\u6f2b\u5c4b\u300d\u5728\u7ebf\u6f2b\u753b\u9605\u8bfb",
+  "category": "indexer",
+  "revision": 1782147533,
+  "definition": {
+    "nodes": [
+      {
+        "id": "019ec142-5dd9-74a5-94b9-7e42b66a4bae",
+        "type": "node",
+        "position": {
+          "x": -163,
+          "y": 250
+        },
+        "data": {
+          "$schema": "search_start",
+          "config": "only_preview: true\n\ndisplay:\n  page_size: 70\n  view_modes:\n    - grid\n  cover_ratio: 3/4\n\nkeyword:\n  global: false\n  required: false\n"
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "019ec142-6be5-7255-81fb-fb7bab3460fc",
+        "type": "node",
+        "position": {
+          "x": 511,
+          "y": 30
+        },
+        "data": {
+          "$schema": "http",
+          "url": "https://www.dm5.com/manhua-list-pay0/",
+          "headers": [
+            {
+              "key": "Referer",
+              "value": "https://www.dm5.com/"
+            },
+            {
+              "key": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            }
+          ],
+          "formatter": "{\n  \"response\": {{ response.text|tojson }}\n}"
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "019ec142-964c-7239-8bf5-b16801f2f875",
+        "type": "node",
+        "position": {
+          "x": 1167,
+          "y": 210
+        },
+        "data": {
+          "$schema": "search_end",
+          "response": "{\n  \"items\": [\n{% for i in response|xpath_all('//ul[contains(@class,\"mh-list\")]/li/div[contains(@class,\"mh-item\")]') %}\n    {\n      \"id\": {{ i|xpath('.//h2[@class=\"title\"]/a/@href')|tojson }},\n      \"title\": {{ i|xpath('.//h2[@class=\"title\"]/a/text()')|trim|tojson }},\n      \"cover\": {{ i|xpath('./p[@class=\"mh-cover\"]/@style')|regex('.*url\\((.*?)\\)')|tojson }},\n      \"rating\": {{ (i|xpath('.//p[@class=\"zl\"]/span[2]/@class')|regex('.*star-(\\d)')|int * 2)|tojson }},\n      \"size\": {{ (i|xpath('.//p[@class=\"chapter\"]/a/text()'))|trim|tojson }}\n    },\n{% endfor %}\n  ]\n}"
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "019ec17a-8a07-740c-93cf-a579bd587919",
+        "type": "node",
+        "position": {
+          "x": -633,
+          "y": 1260
+        },
+        "data": {
+          "$schema": "details_start",
+          "config": "specific:\n  media_type: image\n"
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "019ec17d-fff9-724e-850c-7b239f3592a3",
+        "type": "node",
+        "position": {
+          "x": 511,
+          "y": 1000
+        },
+        "data": {
+          "$schema": "http",
+          "url": "https://www.dm5.com{{id}}",
+          "headers": [
+            {
+              "key": "Referer",
+              "value": "https://www.dm5.com{{id}}"
+            },
+            {
+              "key": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            }
+          ],
+          "formatter": "{\n  \"chapters\": {{ response.text|tojson }}\n}"
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "019ec185-794b-711e-a5fd-bfd9c2b6d3de",
+        "type": "node",
+        "position": {
+          "x": 1157,
+          "y": 1250
+        },
+        "data": {
+          "$schema": "variables",
+          "variables": "{\n  \"chapters\": [\n{% for c in chapters|xpath_all('//div[@id=\"chapterlistload\"]/ul/li/a')|reverse %}\n    {\n      \"id\": {{ c|xpath('./@href')|tojson }},\n      \"title\": {{ (c|xpath_first('./text()')|trim + ' ' + c|xpath_first('./span/text()')|trim)|tojson }}\n    },\n{% endfor %}\n  ]\n}"
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "019ec18c-e3a5-72dc-899d-90b5f83c2798",
+        "type": "node",
+        "position": {
+          "x": 1710,
+          "y": 1330
+        },
+        "data": {
+          "$schema": "condition",
+          "expression": "{{ chapter_id }}"
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false
+      },
+      {
+        "id": "019ec18d-16ae-7453-aea8-3cce59c4c222",
+        "type": "node",
+        "position": {
+          "x": 2327,
+          "y": 1650
+        },
+        "data": {
+          "$schema": "details_end",
+          "response": "{\n  \"id\": {{ id|tojson }},\n  \"chapters\": {{ chapters|tojson }}\n}"
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "019ec18d-f7fd-7205-a4a9-4ffb677713a0",
+        "type": "node",
+        "position": {
+          "x": 5387,
+          "y": 1020
+        },
+        "data": {
+          "$schema": "details_end",
+          "response": "{\n  \"id\": {{ chapter_id|tojson }},\n  \"title\": {{ response|regex('DM5_CTITLE\\s*=\\s*\"(.*?)\";')|tojson }},\n  \"images\": {{ images|tojson }},\n  \"image_count\": {{ response|regex('DM5_IMAGE_COUNT\\s*=\\s*(.*?);')|tojson }},\n  \"chapters\": {{ chapters|tojson }}\n}"
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "019ec18e-5693-76c9-b83d-d046785b0d62",
+        "type": "node",
+        "position": {
+          "x": 2921,
+          "y": 770
+        },
+        "data": {
+          "$schema": "http",
+          "url": "https://www.dm5.com{{chapter_id}}",
+          "headers": [
+            {
+              "key": "Referer",
+              "value": "https://www.dm5.com{{id}}"
+            },
+            {
+              "key": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            }
+          ],
+          "formatter": "{\n  \"response\": {{ response.text|tojson }}\n}"
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "019ec1a6-187b-71cc-b130-046130ce7e65",
+        "type": "node",
+        "position": {
+          "x": 3537,
+          "y": 1040
+        },
+        "data": {
+          "$schema": "variables",
+          "variables": "{\n  \"q\": {\n    \"mid\": {{ response|regex('DM5_MID\\s*=\\s*(.*?);')|tojson }},\n    \"cid\": {{ response|regex('DM5_CID\\s*=\\s*(.*?);')|tojson }},\n    \"page\": {{ (page or 1)|tojson }},\n    \"dt\": {{ response|regex('DM5_VIEWSIGN_DT\\s*=\\s*\"(.*?)\";')|tojson }},\n    \"sign\": {{ response|regex('DM5_VIEWSIGN\\s*=\\s*\"(.*?)\";')|tojson }}\n  }\n}"
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "019ec1ab-68e2-726b-97c2-28d9d47283fa",
+        "type": "node",
+        "position": {
+          "x": 4131,
+          "y": 780
+        },
+        "data": {
+          "$schema": "http",
+          "url": "https://www.dm5.com{{chapter_id}}chapterfun.ashx?cid={{q.cid}}&page={{q.page}}&key=&language=1&gtk=6&_cid={{q.cid}}&_mid={{q.mid}}&_dt={{q.dt}}&_sign={{q.sign}}",
+          "headers": [
+            {
+              "key": "Referer",
+              "value": "https://www.dm5.com{{chapter_id}}"
+            },
+            {
+              "key": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            }
+          ],
+          "formatter": "{\n  \"js\": {{ response.text|tojson }}\n}"
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "019ec1bd-cd30-7368-b236-2e3054ed32a3",
+        "type": "node",
+        "position": {
+          "x": 4789,
+          "y": 1020
+        },
+        "data": {
+          "$schema": "script",
+          "script": {
+            "language": "javascript",
+            "code": "function execute(nodeId, nodeData, context) {\n    let images = eval(context.js);\n    let referer = encodeURIComponent(`https://www.dm5.com${context.chapter_id}`);\n    context.images = images.map(i => i + `&proxy=true&referer=${referer}`);\n}\n"
+          }
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "019ec1d1-b452-7489-8e02-2aa9849f05e8",
+        "type": "node",
+        "position": {
+          "x": -103,
+          "y": 1280
+        },
+        "data": {
+          "$schema": "variables",
+          "variables": "{\n  \"id\": {{ (id if id.endswith('/') else id + '/')|tojson }}\n}"
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "019ec39e-4506-7257-aca5-316e4901c823",
+        "type": "node",
+        "position": {
+          "x": 2337,
+          "y": 1050
+        },
+        "data": {
+          "$schema": "variables",
+          "variables": "{% if page and page > 1 %}\n{\n  \"chapter_id\": {{ (chapter_id.rstrip('/') + '-p' + page|string + '/' )|tojson }}\n}\n{% else %}\n{}\n{% endif %}"
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      }
+    ],
+    "edges": [
+      {
+        "source": "019ec142-6be5-7255-81fb-fb7bab3460fc",
+        "sourceHandle": "output",
+        "target": "019ec142-964c-7239-8bf5-b16801f2f875",
+        "targetHandle": "input",
+        "id": "xy-edge__019ec142-6be5-7255-81fb-fb7bab3460fcoutput-019ec142-964c-7239-8bf5-b16801f2f875input"
+      },
+      {
+        "source": "019ec17d-fff9-724e-850c-7b239f3592a3",
+        "sourceHandle": "output",
+        "target": "019ec185-794b-711e-a5fd-bfd9c2b6d3de",
+        "targetHandle": "input",
+        "id": "xy-edge__019ec17d-fff9-724e-850c-7b239f3592a3output-019ec185-794b-711e-a5fd-bfd9c2b6d3deinput"
+      },
+      {
+        "source": "019ec185-794b-711e-a5fd-bfd9c2b6d3de",
+        "sourceHandle": "output",
+        "target": "019ec18c-e3a5-72dc-899d-90b5f83c2798",
+        "targetHandle": "input",
+        "id": "xy-edge__019ec185-794b-711e-a5fd-bfd9c2b6d3deoutput-019ec18c-e3a5-72dc-899d-90b5f83c2798input"
+      },
+      {
+        "source": "019ec18c-e3a5-72dc-899d-90b5f83c2798",
+        "sourceHandle": "is_false",
+        "target": "019ec18d-16ae-7453-aea8-3cce59c4c222",
+        "targetHandle": "input",
+        "id": "xy-edge__019ec18c-e3a5-72dc-899d-90b5f83c2798is_false-019ec18d-16ae-7453-aea8-3cce59c4c222input"
+      },
+      {
+        "source": "019ec18e-5693-76c9-b83d-d046785b0d62",
+        "sourceHandle": "output",
+        "target": "019ec1a6-187b-71cc-b130-046130ce7e65",
+        "targetHandle": "input",
+        "id": "xy-edge__019ec18e-5693-76c9-b83d-d046785b0d62output-019ec1a6-187b-71cc-b130-046130ce7e65input"
+      },
+      {
+        "source": "019ec1a6-187b-71cc-b130-046130ce7e65",
+        "sourceHandle": "output",
+        "target": "019ec1ab-68e2-726b-97c2-28d9d47283fa",
+        "targetHandle": "input",
+        "id": "xy-edge__019ec1a6-187b-71cc-b130-046130ce7e65output-019ec1ab-68e2-726b-97c2-28d9d47283fainput"
+      },
+      {
+        "source": "019ec1ab-68e2-726b-97c2-28d9d47283fa",
+        "sourceHandle": "output",
+        "target": "019ec1bd-cd30-7368-b236-2e3054ed32a3",
+        "targetHandle": "input",
+        "id": "xy-edge__019ec1ab-68e2-726b-97c2-28d9d47283faoutput-019ec1bd-cd30-7368-b236-2e3054ed32a3input"
+      },
+      {
+        "source": "019ec1bd-cd30-7368-b236-2e3054ed32a3",
+        "sourceHandle": "output",
+        "target": "019ec18d-f7fd-7205-a4a9-4ffb677713a0",
+        "targetHandle": "input",
+        "id": "xy-edge__019ec1bd-cd30-7368-b236-2e3054ed32a3output-019ec18d-f7fd-7205-a4a9-4ffb677713a0input"
+      },
+      {
+        "source": "019ec17a-8a07-740c-93cf-a579bd587919",
+        "sourceHandle": "output",
+        "target": "019ec1d1-b452-7489-8e02-2aa9849f05e8",
+        "targetHandle": "input",
+        "id": "xy-edge__019ec17a-8a07-740c-93cf-a579bd587919output-019ec1d1-b452-7489-8e02-2aa9849f05e8input"
+      },
+      {
+        "source": "019ec1d1-b452-7489-8e02-2aa9849f05e8",
+        "sourceHandle": "output",
+        "target": "019ec17d-fff9-724e-850c-7b239f3592a3",
+        "targetHandle": "input",
+        "id": "xy-edge__019ec1d1-b452-7489-8e02-2aa9849f05e8output-019ec17d-fff9-724e-850c-7b239f3592a3input"
+      },
+      {
+        "source": "019ec18c-e3a5-72dc-899d-90b5f83c2798",
+        "sourceHandle": "is_true",
+        "target": "019ec39e-4506-7257-aca5-316e4901c823",
+        "targetHandle": "input",
+        "id": "xy-edge__019ec18c-e3a5-72dc-899d-90b5f83c2798is_true-019ec39e-4506-7257-aca5-316e4901c823input"
+      },
+      {
+        "source": "019ec39e-4506-7257-aca5-316e4901c823",
+        "sourceHandle": "output",
+        "target": "019ec18e-5693-76c9-b83d-d046785b0d62",
+        "targetHandle": "input",
+        "id": "xy-edge__019ec39e-4506-7257-aca5-316e4901c823output-019ec18e-5693-76c9-b83d-d046785b0d62input"
+      },
+      {
+        "source": "019ec142-5dd9-74a5-94b9-7e42b66a4bae",
+        "sourceHandle": "output",
+        "target": "019ec142-6be5-7255-81fb-fb7bab3460fc",
+        "targetHandle": "input",
+        "id": "xy-edge__019ec142-5dd9-74a5-94b9-7e42b66a4baeoutput-019ec142-6be5-7255-81fb-fb7bab3460fcinput"
+      }
+    ]
+  }
+}
