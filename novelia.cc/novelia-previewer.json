@@ -1,0 +1,287 @@
+{
+  "name": "\u8f7b\u5c0f\u8bf4\u673a\u7ffb\u673a\u5668\u4eba",
+  "icon": "data:image/webp;base64,UklGRvgHAABXRUJQVlA4WAoAAAAwAAAAXwAAXwAASUNDUMgBAAAAAAHIAAAAAAQwAABtbnRyUkdCIFhZWiAH4AABAAEAAAAAAABhY3NwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA9tYAAQAAAADTLQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlkZXNjAAAA8AAAACRyWFlaAAABFAAAABRnWFlaAAABKAAAABRiWFlaAAABPAAAABR3dHB0AAABUAAAABRyVFJDAAABZAAAAChnVFJDAAABZAAAAChiVFJDAAABZAAAAChjcHJ0AAABjAAAADxtbHVjAAAAAAAAAAEAAAAMZW5VUwAAAAgAAAAcAHMAUgBHAEJYWVogAAAAAAAAb6IAADj1AAADkFhZWiAAAAAAAABimQAAt4UAABjaWFlaIAAAAAAAACSgAAAPhAAAts9YWVogAAAAAAAA9tYAAQAAAADTLXBhcmEAAAAAAAQAAAACZmYAAPKnAAANWQAAE9AAAApbAAAAAAAAAABtbHVjAAAAAAAAAAEAAAAMZW5VUwAAACAAAAAcAEcAbwBvAGcAbABlACAASQBuAGMALgAgADIAMAAxADZBTFBIpAMAAA2ghG3bGcl6viSVtjEzx7Zt27Zt28bWtm3bto22+7pUSv5vUVVTf5I63kTEBPA/Xnfmlj+9EgfZsvWFoTABztybrJ8ev3IkBnMfVd/0+gtdJnYLnzkFy813b3Spg5RVN++85LvYZdoBb/9Xfo5sqSWAumCE2Pe9vWUNLLTkM/mIarbKAdPPpOKXe36ZeaF2q9cHIlpgOYCfviSB3320hwPLLfiIRuLuaYDgVpJo7lhlCag64PlfIllhGYB3f0sEvY/tXwOLbHBzPoK6/QEmbiWZ+ti8ywuy48+fqTVZrRnQt4KEMPzSNrUwx5pPpa3VbxEAE0+7SQmeXXgx8Df78ldrS88N8PEQif39+QM8WGj9W0JL/oEA2RtJ8AMz1wFn9x8/sLRpNaBPe0kav3OfJmjf/ZYpK227AfQ/QKLfMOsKbJx+Wy3I+lNA+Gpjssaf26IRWjZ9esJCy+YGGHnJSZZ5uXZNcDfu+9zC2h7Aqy6xTc3hFxMXEEEQGL5nPYGZu78EqBFVNCyS2gQg/GDJukBVTVigRRRyo6GFOS6chRSgBYqKgAwaAbY+ygAoIKKAmqDAPWt1I6I4KIAB1MCv541aSM3yidDrcEAcRMARQCjeUue5OIIrgDiAuDD9a84CKlHEXpQK7xqtcJVftNI5qhXun3/PmJiYtFZ7EaVD37eBG8ZC/7jzK9OxzhYNEUw889xU7eK7zivlzb47dwowQV9Z5vUrHOh6e44TOqz1XD4O41/+eOqKUo4/y3OAfFcItF3RAjjd+bI+uYHC7L2Th3mW0pf7AOaT20+at5w5L5zDAGPHjADe3C5Ws3dSfOqODRex9N6PFP/w272cMlJzegBhVwCgYmf8xxIMfbe2pdcoaV5eubmMkipEmWY2Bzvt6EQpRv16OxHXuJOlOrErHYOlGgMS2LbYO1qsYzFLrP3ZRDFnXZME75B3Py3SsG9ga+Xl75ousvpSJHKhk+96J4S6A0NsVx03dkcG3HW312TIiicPvJueZ+Ms9juOX/LpvpY1WkjsrO1X8UMirVl7u7YcifZdonZ9/tuu6Vxkfo0kKnPd6xqRrHtYdaKC74eIWDsW9RKFazQicUL+/ZTKJVoQdIUF3pypCpLvCQrczoKRY8YAM9f5c1oJI1PjWuk5t9sBWtyCsCsP4M3ybXiLt2lEMpK2kusLDPGsPmR9iUin1UqMpcbn/9NSSURt5HtzWjHEn8NG7zm9UjF0jpSNfG+e/6UCVlA4IF4CAACwEgCdASpgAGAAPmEijkWkIiEar1YAQAYEtABjtPD/gPxJ7uEB/jfxPpZ3+G6VviYdLPzAfqr+tfu4/27/Aaon6AH6q+lj7Hn7Z+lVqzvSD8AKX+4KNe8+7nFt+nR3cTQnM7uPO4pzblpUZ148bAsSL5Bdb6d3t16guJnWTD4y6Pvg0MjUeKUeBUwhugGc0uCi89WzqVCsQOB3EfbggAD+/W5NZvsgCCqoGGIJ9Qtr2RJQtIEkm3Rmsb5Yu4pgeSGvunKgo7cya6HeiSh823pYzkf6wZ9ktXVc+Uzoz+nes6c53xTwikLdOC5HAxPdEiDtdH9DIA5tFb6+FkNAJt4B67o7jQ7cDkeGbx3eodMXFnaTzhPLOXnlv33Rn82AnDsEIThmuuSk+3YfIIv9ozYJ52J1PHr0NqBx0+Nw27vCXcMAAHVNRqtxEbtGwOf9dPW2dyg4bZXhmuCQ3wtsh0MKLCx0QCINt//KdPm6XbysCx7Ba2TSYqT5bYf1gmlVYMiOKNK/Wb+j8cbu06D4VjNLBPcViLJhzQCjWDJFp9f8NAz3DLcntlg7/xtEaNErBW9vdKBeceNMg/6TCL2sCbvUyctUg8BF1CMIyyhveNluP8npjCgH8xVBVjolUmUdCVn7We1Qx6ZR5SHZarHiK7DxLAhAKZA0ntIaXzvst7eyDIOGDt3KXgUL8GswFr3BHs3EL5td6zS10y20nau7dv/+oO//PQ//9OlDjgTruwdei9R9P8sQ56Lkx3HnORX5oVGl+mZ03p0HR76h7n/vavW5QWg3/mfoghm+c8CagAA=",
+  "description": "\u300c\u8f7b\u5c0f\u8bf4\u673a\u7ffb\u673a\u5668\u4eba\u300d\u7f51\u7edc\u5c0f\u8bf4",
+  "category": "indexer",
+  "revision": 1782299293,
+  "definition": {
+    "nodes": [
+      {
+        "id": "019eb1ed-c646-72fe-a8d3-ded591963242",
+        "type": "node",
+        "position": {
+          "x": 1101,
+          "y": 800
+        },
+        "data": {
+          "$schema": "http",
+          "url": "https://n.novelia.cc/api/novel?page={{page_num - 1}}&pageSize={{page_size}}&query={{keyword}}&provider={{provider|join(',')|default('kakuyomu,syosetu,novelup,hameln,pixiv,alphapolis',true)}}&type={{type|default(0)}}&level=1&translate={{translate|default(0)}}&sort={{sort|default(0)}}",
+          "formatter": "{\n  \"response\": {{ response.text }}\n}",
+          "headers": []
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "019eb1ee-50cb-7007-b968-f138f2b8106d",
+        "type": "node",
+        "position": {
+          "x": 1767,
+          "y": 930
+        },
+        "data": {
+          "$schema": "search_end",
+          "response": "{\n  \"totalPages\": {{ response|jsonpath('$.pageNumber') }},\n  \"items\": [\n{% for i in response|jsonpath_all('$.items[*]') %}\n    {\n      \"id\": {{ (i|jsonpath('$.providerId') + '/' + i|jsonpath('$.novelId'))|tojson }},\n      \"title\": {{ (i|jsonpath('$.titleZh') or i|jsonpath('$.titleJp'))|tojson }},\n      \"size\": {{ i|jsonpath('$.total')|tojson }},\n      \"misc\": {{ (i|jsonpath_all('$.attentions[*]') + i|jsonpath_all('$.keywords[*]'))|join(' / ')|tojson }},\n      \"category\": {{ i|jsonpath('$.providerId')|tojson }},\n      \"uploaded_at\": {{ (i|jsonpath('$.type') + ' \u30fb ' + i|jsonpath('$.updateAt')|strftime)|tojson }}\n    },\n{% endfor %}\n  ]\n}"
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "019ebad3-342c-769e-b1b1-ee680abd8618",
+        "type": "node",
+        "position": {
+          "x": 387,
+          "y": 2040
+        },
+        "data": {
+          "$schema": "details_start",
+          "config": "specific:\n  media_type: text\n"
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "019ebaf2-877b-7428-bb58-35789daf6246",
+        "type": "node",
+        "position": {
+          "x": 1101,
+          "y": 1780
+        },
+        "data": {
+          "$schema": "http",
+          "url": "https://n.novelia.cc/api/novel/{{id}}",
+          "headers": [
+            {
+              "key": "X-Hishel-Ttl",
+              "value": "3600"
+            },
+            {
+              "key": "X-Hishel-Refresh-Ttl-On-Access",
+              "value": "true"
+            }
+          ],
+          "formatter": "{\n  \"novel\": {{ response.text }}\n}"
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "019ec0db-e937-756c-9601-7f36a47af374",
+        "type": "node",
+        "position": {
+          "x": 2580,
+          "y": 2120
+        },
+        "data": {
+          "$schema": "condition",
+          "expression": "{{ chapter_id }}"
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "019ec0dc-48a7-7699-9124-e07bd8fbc469",
+        "type": "node",
+        "position": {
+          "x": 3447,
+          "y": 2460
+        },
+        "data": {
+          "$schema": "details_end",
+          "response": "{\n  \"id\": {{ id|tojson }},\n  \"chapters\": {{ chapters|tojson }}\n}"
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "019ec0ea-857a-727b-bc16-bbd6150751bd",
+        "type": "node",
+        "position": {
+          "x": 4097,
+          "y": 1690
+        },
+        "data": {
+          "$schema": "details_end",
+          "response": "{\n  \"id\": {{ chapter_id|tojson }},\n  \"title\": {{ (response|jsonpath('$.titleZh') or response|jsonpath('$.titleJp'))|tojson }},\n  \"text\": {{ (response|jsonpath('$.sakuraParagraphs') or response|jsonpath('$.gptParagraphs') or response|jsonpath('$.youdaoParagraphs'))|tojson }},\n  \"chapters\": {{ chapters|tojson }}\n}"
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "019ec0eb-0eac-77af-8464-39a91d9d9636",
+        "type": "node",
+        "position": {
+          "x": 3451,
+          "y": 1450
+        },
+        "data": {
+          "$schema": "http",
+          "url": "https://n.novelia.cc/api/novel/{{id}}/chapter/{{chapter_id}}",
+          "headers": [
+            {
+              "key": "X-Hishel-Ttl",
+              "value": "3600"
+            },
+            {
+              "key": "X-Hishel-Refresh-Ttl-On-Access",
+              "value": "true"
+            }
+          ],
+          "formatter": "{\n  \"response\": {{ response.text }}\n}"
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "019ef550-05df-77b7-83bd-0a7a9e11ad25",
+        "type": "node",
+        "position": {
+          "x": 397,
+          "y": 890
+        },
+        "data": {
+          "$schema": "search_start",
+          "config": "only_preview: true\n\ndisplay:\n  page_size: 20\n  view_modes:\n    - table\n\nkeyword:\n  global: true\n  required: false\n\nfilters:\n  provider:\n    type: checkbox\n    label: \u6765\u6e90\n    options:\n      kakuyomu: Kakuyomu\n      syosetu: \u6210\u4e3a\u5c0f\u8bf4\u5bb6\u5427\n      novelup: Novelup\n      hameln: Hameln\n      pixiv: Pixiv\n      alphapolis: Alphapolis\n  type:\n    type: select\n    label: \u7c7b\u578b\n    options:\n      1: \u8fde\u8f7d\u4e2d\n      2: \u5df2\u5b8c\u7ed3\n      3: \u77ed\u7bc7\n  translate:\n    type: select\n    label: \u7ffb\u8bd1\n    options:\n      1: GPT\n      2: Sakura\n  sort:\n    type: radio\n    label: \u6392\u5e8f\n    options:\n      0: \u66f4\u65b0\n      1: \u70b9\u51fb\n      2: \u76f8\u5173\n"
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "019ef585-9440-7058-8609-ccc9a12066ed",
+        "type": "node",
+        "position": {
+          "x": 1898.5,
+          "y": 1900
+        },
+        "data": {
+          "$schema": "script",
+          "script": {
+            "language": "python",
+            "code": "import json\n\n\ndef execute(node_id, node_data, context):\n    novel = context[\"novel\"]\n    volume = \"\"\n    chapters = []\n\n    for item in novel.get(\"toc\", []):\n        chapter_id = item.get(\"chapterId\")\n        if chapter_id:\n            chapters.append({\n                \"volume\": volume,\n                \"id\": chapter_id,\n                \"title\": (item.get(\"titleZh\") or item.get(\"titleJp\") or \"\").strip(),\n            })\n        else:\n            volume = (item.get(\"titleZh\") or item.get(\"titleJp\") or \"\").strip()\n\n    context[\"chapters\"] = chapters\n"
+          }
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      }
+    ],
+    "edges": [
+      {
+        "source": "019ec0db-e937-756c-9601-7f36a47af374",
+        "sourceHandle": "is_false",
+        "target": "019ec0dc-48a7-7699-9124-e07bd8fbc469",
+        "targetHandle": "input",
+        "id": "xy-edge__019ec0db-e937-756c-9601-7f36a47af374is_false-019ec0dc-48a7-7699-9124-e07bd8fbc469input"
+      },
+      {
+        "source": "019ec0db-e937-756c-9601-7f36a47af374",
+        "sourceHandle": "is_true",
+        "target": "019ec0eb-0eac-77af-8464-39a91d9d9636",
+        "targetHandle": "input",
+        "id": "xy-edge__019ec0db-e937-756c-9601-7f36a47af374is_true-019ec0eb-0eac-77af-8464-39a91d9d9636input"
+      },
+      {
+        "source": "019ec0eb-0eac-77af-8464-39a91d9d9636",
+        "sourceHandle": "output",
+        "target": "019ec0ea-857a-727b-bc16-bbd6150751bd",
+        "targetHandle": "input",
+        "id": "xy-edge__019ec0eb-0eac-77af-8464-39a91d9d9636output-019ec0ea-857a-727b-bc16-bbd6150751bdinput"
+      },
+      {
+        "source": "019eb1ed-c646-72fe-a8d3-ded591963242",
+        "sourceHandle": "output",
+        "target": "019eb1ee-50cb-7007-b968-f138f2b8106d",
+        "targetHandle": "input",
+        "id": "xy-edge__019eb1ed-c646-72fe-a8d3-ded591963242output-019eb1ee-50cb-7007-b968-f138f2b8106dinput"
+      },
+      {
+        "source": "019ef550-05df-77b7-83bd-0a7a9e11ad25",
+        "sourceHandle": "output",
+        "target": "019eb1ed-c646-72fe-a8d3-ded591963242",
+        "targetHandle": "input",
+        "id": "xy-edge__019ef550-05df-77b7-83bd-0a7a9e11ad25output-019eb1ed-c646-72fe-a8d3-ded591963242input",
+        "selected": false
+      },
+      {
+        "source": "019ebad3-342c-769e-b1b1-ee680abd8618",
+        "sourceHandle": "output",
+        "target": "019ebaf2-877b-7428-bb58-35789daf6246",
+        "targetHandle": "input",
+        "id": "xy-edge__019ebad3-342c-769e-b1b1-ee680abd8618output-019ebaf2-877b-7428-bb58-35789daf6246input"
+      },
+      {
+        "source": "019ebaf2-877b-7428-bb58-35789daf6246",
+        "sourceHandle": "output",
+        "target": "019ef585-9440-7058-8609-ccc9a12066ed",
+        "targetHandle": "input",
+        "id": "xy-edge__019ebaf2-877b-7428-bb58-35789daf6246output-019ef585-9440-7058-8609-ccc9a12066edinput"
+      },
+      {
+        "source": "019ef585-9440-7058-8609-ccc9a12066ed",
+        "sourceHandle": "output",
+        "target": "019ec0db-e937-756c-9601-7f36a47af374",
+        "targetHandle": "input",
+        "id": "xy-edge__019ef585-9440-7058-8609-ccc9a12066edoutput-019ec0db-e937-756c-9601-7f36a47af374input"
+      }
+    ]
+  }
+}
