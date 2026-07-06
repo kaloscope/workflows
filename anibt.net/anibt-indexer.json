@@ -1,0 +1,165 @@
+{
+  "name": "Anibt",
+  "icon": "data:image/webp;base64,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",
+  "description": "\u300cAnibt\u300d\u8d44\u6e90\u641c\u7d22",
+  "category": "indexer",
+  "revision": 1783352947,
+  "definition": {
+    "nodes": [
+      {
+        "id": "019f0cf4-6b8a-7000-a101-000000000001",
+        "type": "node",
+        "position": {
+          "x": -913,
+          "y": -460
+        },
+        "data": {
+          "$schema": "search_start",
+          "config": "display:\n  page_size: 30\n  view_modes:\n    - table\n    - grid\n  cover_ratio: 2/3\n\nkeyword:\n  global: true\n  required: false\n\nfilters:\n  kind:\n    type: select\n    label: \u8d44\u6e90\u7c7b\u578b\n    options:\n      anime: \u756a\u5267\n      manga: \u6f2b\u753b\n      music: \u97f3\u4e50\n      raw: RAW\n      stage: \u821e\u53f0\u5267\n"
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "019f0cf4-6b8a-7000-a101-000000000002",
+        "type": "node",
+        "position": {
+          "x": -321.5,
+          "y": -480
+        },
+        "data": {
+          "$schema": "script",
+          "script": {
+            "language": "python",
+            "code": "from urllib.parse import urlencode\n\nVALID_KINDS = {\"anime\", \"manga\", \"music\", \"raw\", \"stage\"}\nIGNORED = {None, \"\", \"all\", \"\u5168\u90e8\"}\n\n\ndef clean(value):\n    if value in IGNORED:\n        return \"\"\n    value = str(value).strip()\n    return \"\" if value in IGNORED else value\n\n\ndef positive_int(value, default):\n    try:\n        num = int(value)\n        return num if num > 0 else default\n    except (TypeError, ValueError):\n        return default\n\n\ndef execute(node_id, node_data, context):\n    kind = clean(context.get(\"kind\")) or \"anime\"\n    if kind not in VALID_KINDS:\n        kind = \"anime\"\n\n    params = {}\n    keyword = clean(context.get(\"keyword\"))\n    if keyword:\n        params[\"q\"] = keyword\n    if kind != \"anime\":\n        params[\"kind\"] = kind\n\n    page_num = positive_int(context.get(\"page_num\"), 1)\n    if page_num > 1:\n        params[\"page\"] = page_num\n\n    query = urlencode(params)\n    context[\"anibt_kind\"] = kind\n    context[\"anibt_path\"] = \"/magnets\" + ((\"?\" + query) if query else \"\")"
+          }
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "019f0cf4-6b8a-7000-a101-000000000003",
+        "type": "node",
+        "position": {
+          "x": 391,
+          "y": -630
+        },
+        "data": {
+          "$schema": "http",
+          "method": "GET",
+          "url": "https://anibt.net{{ anibt_path }}",
+          "headers": [
+            {
+              "key": "Referer",
+              "value": "https://anibt.net/magnets"
+            },
+            {
+              "key": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            },
+            {
+              "key": "X-Hishel-Ttl",
+              "value": "600"
+            },
+            {
+              "key": "X-Hishel-Refresh-Ttl-On-Access",
+              "value": "true"
+            }
+          ],
+          "body": "",
+          "divider_7": null,
+          "formatter": "{\n  \"response\": {{ response.text|tojson }}\n}"
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "019f0cf4-6b8a-7000-a101-000000000004",
+        "type": "node",
+        "position": {
+          "x": 1199,
+          "y": -480
+        },
+        "data": {
+          "$schema": "script",
+          "script": {
+            "language": "python",
+            "code": "import html\nimport json\nimport re\n\nKIND_LABELS = {\n    \"anime\": \"\u756a\u5267\",\n    \"manga\": \"\u6f2b\u753b\",\n    \"music\": \"\u97f3\u4e50\",\n    \"raw\": \"RAW\",\n    \"stage\": \"\u821e\u53f0\u5267\",\n}\nNAME_CHARS = \"abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789_$-\"\n\n\ndef text_of(markup):\n    text = re.sub(r\"<[^>]+>\", \"\", markup or \"\")\n    return re.sub(r\"\\s+\", \" \", html.unescape(text)).strip()\n\n\ndef skip_ref(text, pos):\n    while pos < len(text) and text[pos].isspace():\n        pos += 1\n    if not text.startswith(\"$R[\", pos):\n        return pos\n    end = text.find(\"]\", pos)\n    if end < 0:\n        return pos\n    cur = end + 1\n    while cur < len(text) and text[cur].isspace():\n        cur += 1\n    if cur >= len(text) or text[cur] != \"=\":\n        return pos\n    cur += 1\n    while cur < len(text) and text[cur].isspace():\n        cur += 1\n    return cur\n\n\ndef value_start(text, key, pos=0):\n    marker = key + \":\"\n    while True:\n        idx = text.find(marker, pos)\n        if idx < 0:\n            return -1\n        if idx == 0 or text[idx - 1] not in NAME_CHARS:\n            cur = idx + len(marker)\n            while cur < len(text) and text[cur].isspace():\n                cur += 1\n            return skip_ref(text, cur)\n        pos = idx + len(marker)\n\n\ndef balanced(text, start):\n    pairs = {\"{\": \"}\", \"[\": \"]\"}\n    close = pairs.get(text[start:start + 1])\n    if not close:\n        return \"\", start\n    depth = 0\n    in_string = False\n    escaped = False\n    for idx in range(start, len(text)):\n        ch = text[idx]\n        if in_string:\n            if escaped:\n                escaped = False\n            elif ch == \"\\\\\":\n                escaped = True\n            elif ch == '\"':\n                in_string = False\n        elif ch == '\"':\n            in_string = True\n        elif ch == text[start]:\n            depth += 1\n        elif ch == close:\n            depth -= 1\n            if depth == 0:\n                return text[start:idx + 1], idx + 1\n    return \"\", start\n\n\ndef json_string(text, start):\n    escaped = False\n    for idx in range(start + 1, len(text)):\n        ch = text[idx]\n        if escaped:\n            escaped = False\n        elif ch == \"\\\\\":\n            escaped = True\n        elif ch == '\"':\n            return json.loads(text[start:idx + 1]), idx + 1\n    return \"\", start\n\n\ndef field(text, key, default=\"\"):\n    start = value_start(text or \"\", key)\n    if start < 0 or start >= len(text):\n        return default\n    ch = text[start]\n    if ch == '\"':\n        return json_string(text, start)[0]\n    if ch in \"[{\":\n        return balanced(text, start)[0]\n\n    end = start\n    while end < len(text) and text[end] not in \",}]\\n\":\n        end += 1\n    raw = text[start:end].strip()\n    if raw in (\"\", \"null\", \"void 0\", \"undefined\"):\n        return default\n    try:\n        return int(raw)\n    except ValueError:\n        return raw\n\n\ndef string_list(text, key):\n    raw = field(text, key, \"[]\")\n    return [json.loads('\"' + m.group(1) + '\"') for m in re.finditer(r'\"((?:\\\\.|[^\"\\\\])*)\"', raw)]\n\n\ndef top_objects(array_raw):\n    items = []\n    pos = 0\n    while True:\n        start = (array_raw or \"\").find(\"{\", pos)\n        if start < 0:\n            return items\n        raw, pos = balanced(array_raw, start)\n        if not raw:\n            return items\n        items.append(raw)\n\n\ndef release_cards(page_html):\n    page_html = page_html or \"\"\n    cards = {}\n    patterns = [\n        (r'data-testid=\"release-card\"\\s+data-release-id=\"([^\"]+)\"', '<div class=\"group relative'),\n        (r'href=\"/other-release/([^\"]+)\"', '<article class=\"group relative'),\n    ]\n    for pattern, start_marker in patterns:\n        matches = list(re.finditer(pattern, page_html))\n        for idx, match in enumerate(matches):\n            start = page_html.rfind(start_marker, 0, match.start())\n            if start < 0:\n                start = match.start()\n            end = len(page_html)\n            if idx + 1 < len(matches):\n                next_start = page_html.rfind(start_marker, 0, matches[idx + 1].start())\n                end = next_start if next_start > start else matches[idx + 1].start()\n            cards.setdefault(match.group(1), page_html[start:end])\n    return cards\n\n\ndef card_size(card):\n    match = re.search(r\">\\s*(\\d+(?:\\.\\d+)?\\s*(?:B|KB|MB|GB|TB))\\s*<\", card or \"\")\n    return match.group(1) if match else \"\"\n\n\ndef card_time(card):\n    match = re.search(r\"<time[^>]*>(.*?)</time>\", card or \"\", re.S)\n    return text_of(match.group(1)) if match else \"\"\n\n\ndef card_badges(card):\n    values = []\n    seen = set()\n    for match in re.finditer(r'data-slot=\"badge\"[^>]*>(.*?)</span>', card or \"\", re.S):\n        value = text_of(match.group(1))\n        if value and value not in seen:\n            values.append(value)\n            seen.add(value)\n    return \" \u00b7 \".join(values)\n\n\ndef card_uploader(card):\n    match = re.search(r'<span class=\"truncate\">(.*?)</span>', card or \"\", re.S)\n    return text_of(match.group(1)) if match else \"\"\n\n\ndef card_cover(card):\n    match = re.search(r'<source[^>]+srcSet=\"([^\"]+)\"', card or \"\")\n    if not match:\n        return \"\"\n    first = html.unescape(match.group(1)).split(\",\", 1)[0].strip()\n    return first.split(\" \", 1)[0]\n\n\ndef data_cover(item):\n    cover = field(item, \"animeCoverImage\")\n    webp = field(item, \"animeCoverImageWebp\")\n    return field(cover, \"large\") or field(cover, \"extraLarge\") or field(webp, \"url\")\n\n\ndef snapshot(page_html, kind):\n    key = \"otherSnapshot\" if kind in {\"manga\", \"music\", \"raw\", \"stage\"} else \"snapshot\"\n    return field(page_html, key)\n\n\ndef execute(node_id, node_data, context):\n    page_html = (context.get(\"response\") or \"\").replace(\"\\x00\", \"\\\\0\")\n    kind = context.get(\"anibt_kind\") or \"anime\"\n    if kind not in KIND_LABELS:\n        kind = \"anime\"\n\n    snap = snapshot(page_html, kind)\n    cards = release_cards(page_html)\n    items = []\n    for item in top_objects(field(snap, \"page\", \"[]\")):\n        release = field(item, \"release\")\n        title = field(release, \"title\")\n        if not title:\n            continue\n\n        release_id = str(field(release, \"id\") or field(release, \"_id\"))\n        card = cards.get(release_id, \"\")\n        release_kind = field(release, \"category\") or kind\n        magnet = field(release, \"magnetLink\")\n\n        items.append({\n            \"id\": release_id,\n            \"title\": title,\n            \"link\": magnet or field(item, \"torrentUrl\"),\n            \"cover\": card_cover(card) or data_cover(item),\n            \"size\": card_size(card),\n            \"misc\": card_badges(card),\n            \"category\": KIND_LABELS.get(release_kind, str(release_kind)),\n            \"uploader\": card_uploader(card),\n            \"uploaded_at\": card_time(card),\n        })\n\n    context[\"search_result\"] = {\n        \"total\": field(snap, \"totalCount\", None),\n        \"totalPages\": field(snap, \"totalPages\", None),\n        \"page\": field(snap, \"pageNumber\", 1),\n        \"items\": items,\n    }\n"
+          }
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "019f0cf4-6b8a-7000-a101-000000000005",
+        "type": "node",
+        "position": {
+          "x": 1897,
+          "y": -360
+        },
+        "data": {
+          "$schema": "search_end",
+          "response": "{{ search_result|tojson }}",
+          "force_end": false
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      }
+    ],
+    "edges": [
+      {
+        "source": "019f0cf4-6b8a-7000-a101-000000000001",
+        "sourceHandle": "output",
+        "target": "019f0cf4-6b8a-7000-a101-000000000002",
+        "targetHandle": "input",
+        "id": "xy-edge__019f0cf4-6b8a-7000-a101-000000000001output-019f0cf4-6b8a-7000-a101-000000000002input"
+      },
+      {
+        "source": "019f0cf4-6b8a-7000-a101-000000000002",
+        "sourceHandle": "output",
+        "target": "019f0cf4-6b8a-7000-a101-000000000003",
+        "targetHandle": "input",
+        "id": "xy-edge__019f0cf4-6b8a-7000-a101-000000000002output-019f0cf4-6b8a-7000-a101-000000000003input"
+      },
+      {
+        "source": "019f0cf4-6b8a-7000-a101-000000000003",
+        "sourceHandle": "output",
+        "target": "019f0cf4-6b8a-7000-a101-000000000004",
+        "targetHandle": "input",
+        "id": "xy-edge__019f0cf4-6b8a-7000-a101-000000000003output-019f0cf4-6b8a-7000-a101-000000000004input"
+      },
+      {
+        "source": "019f0cf4-6b8a-7000-a101-000000000004",
+        "sourceHandle": "output",
+        "target": "019f0cf4-6b8a-7000-a101-000000000005",
+        "targetHandle": "input",
+        "id": "xy-edge__019f0cf4-6b8a-7000-a101-000000000004output-019f0cf4-6b8a-7000-a101-000000000005input"
+      }
+    ]
+  }
+}

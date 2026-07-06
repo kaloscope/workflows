@@ -1,0 +1,455 @@
+{
+  "name": "\u6b21\u5143\u57ce\u52a8\u753b",
+  "icon": "data:image/webp;base64,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",
+  "description": "\u300c\u6b21\u5143\u57ce\u52a8\u753b\u300d\u756a\u5267",
+  "category": "indexer",
+  "revision": 1783350229,
+  "definition": {
+    "nodes": [
+      {
+        "id": "019da4d2-74cf-7674-85a1-17f4aad9dd1c",
+        "type": "node",
+        "position": {
+          "x": -720,
+          "y": -2360
+        },
+        "data": {
+          "$schema": "search_start",
+          "config": "only_preview: true\n\ndisplay:\n  page_size: 48\n  view_modes:\n    - grid\n  cover_ratio: 3/4\n\nkeyword:\n  global: true\n  required: false\n\nfilters:\n  channel:\n    type: radio\n    label: \u9891\u9053\n    options:\n      \"20\": TV\u756a\u7ec4\n      \"21\": \u5267\u573a\u756a\u7ec4\n  class:\n    type: radio\n    label: \u7c7b\u578b\n    options:\n      \"\": \u5168\u90e8\n      \u5206\u7c7b\u8d44\u6e90\u4e0d\u4ee3\u8868\u5168\u90e8\u8d44\u6e90: \u5206\u7c7b\u8d44\u6e90\u4e0d\u4ee3\u8868\u5168\u90e8\u8d44\u6e90\n      \u539f\u521b: \u539f\u521b\n      \u6f2b\u753b\u6539: \u6f2b\u753b\u6539\n      \u5c0f\u8bf4\u6539: \u5c0f\u8bf4\u6539\n      \u6e38\u620f\u6539: \u6e38\u620f\u6539\n      \u5f02\u4e16\u754c: \u5f02\u4e16\u754c\n      \u7279\u6444: \u7279\u6444\n      \u70ed\u8840: \u70ed\u8840\n      \u7a7f\u8d8a: \u7a7f\u8d8a\n      \u5947\u5e7b: \u5947\u5e7b\n      \u6218\u6597: \u6218\u6597\n      \u641e\u7b11: \u641e\u7b11\n      \u65e5\u5e38: \u65e5\u5e38\n      \u79d1\u5e7b: \u79d1\u5e7b\n      \u6cbb\u6108: \u6cbb\u6108\n      \u6821\u56ed: \u6821\u56ed\n      \u6ce1\u9762: \u6ce1\u9762\n      \u604b\u7231: \u604b\u7231\n      \u540e\u5bab: \u540e\u5bab\n      \u5c11\u5973: \u5c11\u5973\n      \u767e\u5408: \u767e\u5408\n      \u9b54\u6cd5: \u9b54\u6cd5\n      \u5192\u9669: \u5192\u9669\n      \u5386\u53f2: \u5386\u53f2\n      \u67b6\u7a7a: \u67b6\u7a7a\n      \u673a\u6218: \u673a\u6218\n      \u8fd0\u52a8: \u8fd0\u52a8\n      \u52b1\u5fd7: \u52b1\u5fd7\n      \u97f3\u4e50: \u97f3\u4e50\n      \u63a8\u7406: \u63a8\u7406\n      \u793e\u56e2: \u793e\u56e2\n      \u667a\u6597: \u667a\u6597\n      \u50ac\u6cea: \u50ac\u6cea\n      \u7f8e\u98df: \u7f8e\u98df\n      \u5076\u50cf: \u5076\u50cf\n      \u4e59\u5973: \u4e59\u5973\n      \u804c\u573a: \u804c\u573a\n  year:\n    type: radio\n    label: \u5e74\u4efd\n    options:\n      \"\": \u5168\u90e8\n      \"2026\": \"2026\"\n      \"2025\": \"2025\"\n      \"2024\": \"2024\"\n      \"2023\": \"2023\"\n      \"2022\": \"2022\"\n      \"2021\": \"2021\"\n      \"2020\": \"2020\"\n      \"2019\": \"2019\"\n      \"2018\": \"2018\"\n      \"2017\": \"2017\"\n      \"2016\": \"2016\"\n      \"2015\": \"2015\"\n      \"2014\": \"2014\"\n      \"2013\": \"2013\"\n      \"2012\": \"2012\"\n      \"2011\": \"2011\"\n      \"2010\": \"2010\"\n      \"2009\": \"2009\"\n      \"2008\": \"2008\"\n      \"2007\": \"2007\"\n      \"2006\": \"2006\"\n      \"2005\": \"2005\"\n      \"2004\": \"2004\"\n      \"2003\": \"2003\"\n      \"2002\": \"2002\"\n      \"2001\": \"2001\"\n      \"2000\": \"2000\"\n      \"1999\": \"1999\"\n      \"1998\": \"1998\"\n      \"1997\": \"1997\"\n      \"1996\": \"1996\"\n      \"1995\": \"1995\"\n      \"1994\": \"1994\"\n      \"1993\": \"1993\"\n      \"1992\": \"1992\"\n      \"1991\": \"1991\"\n      \"1990\": \"1990\"\n      \"1989\": \"1989\"\n      \"1988\": \"1988\"\n      \"1987\": \"1987\"\n      \"1986\": \"1986\"\n      \"1985\": \"1985\"\n      \"1984\": \"1984\"\n      \"1983\": \"1983\"\n      \"1982\": \"1982\"\n      \"1981\": \"1981\"\n      \"1980\": \"1980\"\n  letter:\n    type: radio\n    label: \u5b57\u6bcd\n    options:\n      \"\": \u5168\u90e8\n      \"A\": \"A\"\n      \"B\": \"B\"\n      \"C\": \"C\"\n      \"D\": \"D\"\n      \"E\": \"E\"\n      \"F\": \"F\"\n      \"G\": \"G\"\n      \"H\": \"H\"\n      \"I\": \"I\"\n      \"J\": \"J\"\n      \"K\": \"K\"\n      \"L\": \"L\"\n      \"M\": \"M\"\n      \"N\": \"N\"\n      \"O\": \"O\"\n      \"P\": \"P\"\n      \"Q\": \"Q\"\n      \"R\": \"R\"\n      \"S\": \"S\"\n      \"T\": \"T\"\n      \"U\": \"U\"\n      \"V\": \"V\"\n      \"W\": \"W\"\n      \"X\": \"X\"\n      \"Y\": \"Y\"\n      \"Z\": \"Z\"\n      \"0-9\": \"0-9\"\n  by:\n    type: radio\n    label: \u6392\u5e8f\n    options:\n      time: \u6309\u6700\u65b0\n      hits: \u6309\u6700\u70ed\n      score: \u6309\u8bc4\u5206\n"
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "019f09d7-2d6d-73a3-a1b1-5957bfad0001",
+        "type": "node",
+        "position": {
+          "x": -72,
+          "y": -2380
+        },
+        "data": {
+          "$schema": "script",
+          "script": {
+            "language": "python",
+            "code": "from urllib.parse import quote\n\n\nIGNORED_VALUES = {None, \"\", \"all\", \"\u5168\u90e8\"}\nVALID_CHANNELS = {\"20\", \"21\"}\nVALID_SORTS = {\"time\", \"hits\", \"score\"}\n\n\ndef clean(value):\n    if value in IGNORED_VALUES:\n        return \"\"\n    value = str(value).strip()\n    if value in IGNORED_VALUES:\n        return \"\"\n    return value\n\n\ndef int_or_default(value, default):\n    try:\n        return int(value)\n    except (TypeError, ValueError):\n        return default\n\n\ndef add_segment(segments, key, value, *, safe=\"\"):\n    value = clean(value)\n    if value:\n        segments.extend([key, quote(value, safe=safe)])\n\n\ndef execute(node_id, node_data, context):\n    page_num = max(int_or_default(context.get(\"page_num\") or 1, 1), 1)\n\n    keyword = clean(context.get(\"keyword\"))\n    if keyword:\n        context[\"list_path\"] = \"/search.html?wd=\" + quote(keyword)\n        return\n\n    channel = clean(context.get(\"channel\")) or \"20\"\n    if channel not in VALID_CHANNELS:\n        channel = \"20\"\n\n    segments = []\n    add_segment(segments, \"class\", context.get(\"class\"))\n    add_segment(segments, \"year\", context.get(\"year\"))\n    add_segment(segments, \"letter\", context.get(\"letter\"), safe=\"-\")\n\n    sort_by = clean(context.get(\"by\"))\n    if sort_by in VALID_SORTS:\n        segments.extend([\"by\", sort_by])\n\n    if page_num > 1:\n        segments.extend([\"page\", str(page_num)])\n\n    path = f\"/show/{channel}\"\n    if segments:\n        path += \"/\" + \"/\".join(segments)\n    context[\"list_path\"] = path + \".html\"\n"
+          }
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "01945ffc-4094-7793-8aab-8ef0817605ee",
+        "type": "node",
+        "position": {
+          "x": 661,
+          "y": -2540
+        },
+        "data": {
+          "$schema": "http",
+          "method": "GET",
+          "url": "https://www.cycani.org{{list_path}}",
+          "headers": [
+            {
+              "key": "Referer",
+              "value": "https://www.cycani.org/"
+            },
+            {
+              "key": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+            },
+            {
+              "key": "X-Hishel-Ttl",
+              "value": "900"
+            },
+            {
+              "key": "X-Hishel-Refresh-Ttl-On-Access",
+              "value": "true"
+            }
+          ],
+          "body": "",
+          "divider_7": null,
+          "formatter": "{\n  \"response\": {{ response.text|tojson }}\n}"
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "019da4e2-acce-7365-aea1-2bba4b9dc3c6",
+        "type": "node",
+        "position": {
+          "x": 1307,
+          "y": -2390
+        },
+        "data": {
+          "$schema": "search_end",
+          "response": "{% set item_nodes = response|xpath_all('//div[contains(concat(\" \", normalize-space(@class), \" \"), \" public-list-box \")]') %}\n{% set page_tip = response|xpath('//div[contains(@class,\"page-tip\")]/text()')|default('', true)|trim %}\n{% set page_small = response|xpath('//div[contains(@class,\"page-small\")]//div[contains(@class,\"rg10\")]/text()')|default('', true)|trim %}\n{% set total_raw = page_tip|regex('\u5171(\\d+)\u6761') %}\n{% set pages_raw = page_tip|regex('\u5f53\u524d\\d+/(\\d+)\u9875') %}\n{% set small_pages_raw = page_small|regex('/\\s*(\\d+)\u9875') %}\n{% set total_value = (total_raw|int) if total_raw else (item_nodes|length) %}\n{% set total_pages_value = (pages_raw|int) if pages_raw else ((small_pages_raw|int) if small_pages_raw else 1) %}\n{% set category_value = '\u5267\u573a\u756a\u7ec4' if (channel|default('20', true)) == '21' else 'TV\u756a\u7ec4' %}\n{\n  \"total\": {{ total_value|tojson }},\n  \"totalPages\": {{ total_pages_value|tojson }},\n  \"items\": [\n{% for i in item_nodes %}\n{% set href = i|xpath('.//a[contains(@class,\"public-list-exp\")]/@href') %}\n{% set title = i|xpath('.//a[contains(@class,\"public-list-exp\")]/@title') %}\n{% if href and title %}\n    {\n      \"id\": {{ href|tojson }},\n      \"title\": {{ title|tojson }},\n      \"cover\": {{ i|xpath('.//img[contains(@class,\"gen-movie-img\")]/@data-src')|tojson }},\n      \"rating\": {{ i|xpath('.//span[contains(@class,\"public-list-prb\")]//i/text()')|float|tojson }},\n      \"category\": {{ category_value|tojson }},\n      \"misc\": {{ i|xpath('.//div[contains(@class,\"public-list-subtitle\")]/text()')|trim|tojson }}\n    },\n{% endif %}\n{% endfor %}\n  ]\n}",
+          "force_end": false
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "019f09d7-2d6d-73a3-a1b1-5957bfad0002",
+        "type": "node",
+        "position": {
+          "x": -723,
+          "y": -980
+        },
+        "data": {
+          "$schema": "details_start",
+          "config": "specific:\n  media_type: video\n  video_type: mp4\n"
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "019f09d7-2d6d-73a3-a1b1-5957bfad0003",
+        "type": "node",
+        "position": {
+          "x": -99,
+          "y": -1280
+        },
+        "data": {
+          "$schema": "http",
+          "method": "GET",
+          "url": "https://www.cycani.org{{id}}",
+          "headers": [
+            {
+              "key": "Referer",
+              "value": "https://www.cycani.org/show/20.html"
+            },
+            {
+              "key": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+            },
+            {
+              "key": "X-Hishel-Ttl",
+              "value": "900"
+            },
+            {
+              "key": "X-Hishel-Refresh-Ttl-On-Access",
+              "value": "true"
+            }
+          ],
+          "body": "",
+          "divider_7": null,
+          "formatter": "{\n  \"detail\": {{ response.text|tojson }}\n}"
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "019f09d7-2d6d-73a3-a1b1-5957bfad0004",
+        "type": "node",
+        "position": {
+          "x": 497,
+          "y": -1020
+        },
+        "data": {
+          "$schema": "variables",
+          "variables": "{\n  \"detail_title\": {{ detail|xpath('//h3[contains(@class,\"slide-info-title\")]/text()')|trim|tojson }},\n  \"detail_cover\": {{ detail|xpath('//div[contains(@class,\"detail-pic\")]//img/@data-src')|tojson }},\n  \"detail_status\": {{ detail|xpath('//span[contains(@class,\"slide-info-remarks\")][1]/text()')|trim|tojson }},\n  \"detail_category\": {{ detail|xpath('string(//div[contains(@class,\"slide-info\")][contains(@class,\"partition\")][strong[contains(text(),\"\u7c7b\u578b\")]])')|trim|replace('\u7c7b\u578b :', '')|trim|tojson }},\n  \"detail_uploaded_at\": {{ detail|xpath('//div[contains(@class,\"info-parameter\")]//li[em[contains(text(),\"\u66f4\u65b0\")]]/text()')|trim|replace('\u66f4\u65b0\uff1a', '')|tojson }},\n  \"chapters\": [\n{% for c in detail|xpath_all('//ul[contains(@class,\"anthology-list-play\")]/li/a') %}\n    {\n      \"id\": {{ c|xpath('./@href')|tojson }},\n      \"title\": {{ c|xpath('string(.)')|trim|tojson }}\n    },\n{% endfor %}\n  ]\n}"
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "019f09d7-2d6d-73a3-a1b1-5957bfad0005",
+        "type": "node",
+        "position": {
+          "x": 960,
+          "y": -890
+        },
+        "data": {
+          "$schema": "condition",
+          "expression": "{{ chapter_id }}"
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "019f09d7-2d6d-73a3-a1b1-5957bfad0006",
+        "type": "node",
+        "position": {
+          "x": 1717,
+          "y": -540
+        },
+        "data": {
+          "$schema": "details_end",
+          "response": "{\n  \"id\": {{ id|tojson }},\n  \"title\": {{ detail_title|tojson }},\n  \"cover\": {{ detail_cover|tojson }},\n  \"category\": {{ detail_category|tojson }},\n  \"misc\": {{ detail_status|tojson }},\n  \"uploaded_at\": {{ detail_uploaded_at|tojson }},\n  \"media_type\": \"video\",\n  \"video_type\": \"mp4\",\n  \"chapters\": {{ chapters|tojson }},\n  \"danmakus\": []\n}",
+          "force_end": false
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "019f09d7-2d6d-73a3-a1b1-5957bfad0007",
+        "type": "node",
+        "position": {
+          "x": 1731,
+          "y": -1710
+        },
+        "data": {
+          "$schema": "http",
+          "method": "GET",
+          "url": "https://www.cycani.org{{chapter_id}}",
+          "headers": [
+            {
+              "key": "Referer",
+              "value": "https://www.cycani.org{{id}}"
+            },
+            {
+              "key": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+            },
+            {
+              "key": "X-Hishel-Ttl",
+              "value": "300"
+            }
+          ],
+          "body": "",
+          "divider_7": null,
+          "formatter": "{\n  \"watch\": {{ response.text|tojson }},\n  \"player_data\": {{ response.text|regex('var player_aaaa=(\\{.*?\\})</script>')|tojson }},\n  \"chapter_title\": {{ response.text|xpath('//li[contains(@class,\"ecnav-dt\")]//span/text()')|trim|tojson }}\n}"
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "019f09d7-2d6d-73a3-a1b1-5957bfad0008",
+        "type": "node",
+        "position": {
+          "x": 2499,
+          "y": -1530
+        },
+        "data": {
+          "$schema": "script",
+          "script": {
+            "language": "python",
+            "code": "import base64\nimport json\nfrom urllib.parse import quote, unquote\n\n\ndef execute(node_id, node_data, context):\n    data = json.loads(context.get(\"player_data\") or \"{}\")\n    raw_url = data.get(\"url\") or \"\"\n    encrypt = str(data.get(\"encrypt\") or \"0\")\n\n    if encrypt == \"2\" and raw_url:\n        raw_url = base64.b64decode(raw_url).decode()\n    token = unquote(raw_url) if raw_url else \"\"\n\n    context[\"player_token\"] = token\n    context[\"player_url\"] = \"https://player.cycanime.com/?url=\" + quote(token, safe=\"\")\n"
+          }
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "019f09d7-2d6d-73a3-a1b1-5957bfad0009",
+        "type": "node",
+        "position": {
+          "x": 3281,
+          "y": -1710
+        },
+        "data": {
+          "$schema": "http",
+          "method": "GET",
+          "url": "{{player_url}}",
+          "headers": [
+            {
+              "key": "Referer",
+              "value": "https://www.cycani.org{{chapter_id}}"
+            },
+            {
+              "key": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+            },
+            {
+              "key": "X-Hishel-Ttl",
+              "value": "300"
+            }
+          ],
+          "body": "",
+          "divider_7": null,
+          "formatter": "{\n  \"player_page\": {{ response.text|tojson }},\n  \"cipher_url\": {{ response.text|regex('\"url\"\\s*:\\s*\"([^\"]+)\"')|tojson }},\n  \"viewport_id\": {{ response.text|regex('<meta[^>]+name=\"viewport\"[^>]+id=\"([^\"]+)\"')|tojson }},\n  \"charset_id\": {{ response.text|regex('<meta[^>]+charset=\"UTF-8\"[^>]+id=\"([^\"]+)\"')|tojson }}\n}"
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "019f09d7-2d6d-73a3-a1b1-5957bfad0010",
+        "type": "node",
+        "position": {
+          "x": 4027,
+          "y": -1580
+        },
+        "data": {
+          "$schema": "script",
+          "script": {
+            "language": "python",
+            "code": "import base64\nimport hashlib\nfrom urllib.parse import quote\n\nPLAYER_SALT = \"YLwJVbXw77pk2eOrAnFdBo2c3mWkLtodMni2wk81GCnP94ZltW\"\n\n\ndef gf_mul(a, b):\n    p = 0\n    for _ in range(8):\n        if b & 1:\n            p ^= a\n        hi = a & 0x80\n        a = (a << 1) & 0xFF\n        if hi:\n            a ^= 0x1B\n        b >>= 1\n    return p\n\n\ndef gf_pow(a, n):\n    r = 1\n    while n:\n        if n & 1:\n            r = gf_mul(r, a)\n        a = gf_mul(a, a)\n        n >>= 1\n    return r\n\n\ndef rotl8(x, n):\n    return ((x << n) | (x >> (8 - n))) & 0xFF\n\n\ndef make_sboxes():\n    sbox = []\n    for x in range(256):\n        inv = 0 if x == 0 else gf_pow(x, 254)\n        y = inv ^ rotl8(inv, 1) ^ rotl8(inv, 2) ^ rotl8(inv, 3) ^ rotl8(inv, 4) ^ 0x63\n        sbox.append(y & 0xFF)\n    inv_sbox = [0] * 256\n    for i, v in enumerate(sbox):\n        inv_sbox[v] = i\n    return sbox, inv_sbox\n\n\nSBOX, INV_SBOX = make_sboxes()\n\n\ndef expand_key(key):\n    expanded = list(key)\n    rcon = 1\n    while len(expanded) < 176:\n        temp = expanded[-4:]\n        if len(expanded) % 16 == 0:\n            temp = temp[1:] + temp[:1]\n            temp = [SBOX[b] for b in temp]\n            temp[0] ^= rcon\n            rcon = gf_mul(rcon, 2)\n        for b in temp:\n            expanded.append(expanded[-16] ^ b)\n    return [expanded[i:i + 16] for i in range(0, 176, 16)]\n\n\ndef add_round_key(state, key):\n    for i in range(16):\n        state[i] ^= key[i]\n\n\ndef inv_sub_bytes(state):\n    for i, b in enumerate(state):\n        state[i] = INV_SBOX[b]\n\n\ndef inv_shift_rows(state):\n    old = state[:]\n    for r in range(4):\n        for c in range(4):\n            state[r + 4 * c] = old[r + 4 * ((c - r) % 4)]\n\n\ndef inv_mix_columns(state):\n    for c in range(4):\n        i = 4 * c\n        a0, a1, a2, a3 = state[i:i + 4]\n        state[i] = gf_mul(a0, 14) ^ gf_mul(a1, 11) ^ gf_mul(a2, 13) ^ gf_mul(a3, 9)\n        state[i + 1] = gf_mul(a0, 9) ^ gf_mul(a1, 14) ^ gf_mul(a2, 11) ^ gf_mul(a3, 13)\n        state[i + 2] = gf_mul(a0, 13) ^ gf_mul(a1, 9) ^ gf_mul(a2, 14) ^ gf_mul(a3, 11)\n        state[i + 3] = gf_mul(a0, 11) ^ gf_mul(a1, 13) ^ gf_mul(a2, 9) ^ gf_mul(a3, 14)\n\n\ndef decrypt_block(block, round_keys):\n    state = list(block)\n    add_round_key(state, round_keys[10])\n    for round_index in range(9, 0, -1):\n        inv_shift_rows(state)\n        inv_sub_bytes(state)\n        add_round_key(state, round_keys[round_index])\n        inv_mix_columns(state)\n    inv_shift_rows(state)\n    inv_sub_bytes(state)\n    add_round_key(state, round_keys[0])\n    return bytes(state)\n\n\ndef aes_cbc_decrypt(ciphertext, key, iv):\n    round_keys = expand_key(key)\n    prev = iv\n    out = bytearray()\n    for i in range(0, len(ciphertext), 16):\n        block = ciphertext[i:i + 16]\n        plain = decrypt_block(block, round_keys)\n        out.extend(a ^ b for a, b in zip(plain, prev))\n        prev = block\n    pad = out[-1]\n    if 0 < pad <= 16 and out[-pad:] == bytes([pad]) * pad:\n        del out[-pad:]\n    return bytes(out)\n\n\ndef player_seed(viewport_id, charset_id):\n    viewport = (viewport_id or \"\").replace(\"now_\", \"\")\n    charset = (charset_id or \"\").replace(\"now_\", \"\")\n    pairs = []\n    for order, char in zip(charset, viewport):\n        if order.isdigit():\n            pairs.append((int(order), char))\n    return \"\".join(char for _, char in sorted(pairs))\n\n\n\ndef proxied_media_url(url):\n    if url.startswith((\"http://\", \"https://\")):\n        return \"/_api/media/proxy?url=\" + quote(url, safe=\"\")\n    return url\n\ndef video_type(url):\n    lower = (url or \"\").split(\"?\", 1)[0].lower()\n    if \".m3u8\" in lower:\n        return \"hls\"\n    if \".flv\" in lower:\n        return \"flv\"\n    return \"mp4\"\n\n\ndef execute(node_id, node_data, context):\n    cipher_url = context.get(\"cipher_url\") or \"\"\n    seed = player_seed(context.get(\"viewport_id\"), context.get(\"charset_id\"))\n    secret = hashlib.md5((seed + PLAYER_SALT).encode()).hexdigest()\n    key = secret[16:].encode()\n    iv = secret[:16].encode()\n    media_url = aes_cbc_decrypt(base64.b64decode(cipher_url), key, iv).decode()\n\n    context[\"source_video_url\"] = media_url\n    context[\"video_url\"] = proxied_media_url(media_url)\n    context[\"video_type\"] = video_type(media_url)\n    context[\"danmakus\"] = []\n"
+          }
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "019f09d7-2d6d-73a3-a1b1-5957bfad0011",
+        "type": "node",
+        "position": {
+          "x": 4697,
+          "y": -1550
+        },
+        "data": {
+          "$schema": "details_end",
+          "response": "{\n  \"id\": {{ chapter_id|tojson }},\n  \"title\": {{ (chapter_title or detail_title)|tojson }},\n  \"cover\": {{ detail_cover|tojson }},\n  \"category\": {{ detail_category|tojson }},\n  \"uploaded_at\": {{ detail_uploaded_at|tojson }},\n  \"media_type\": \"video\",\n  \"url\": {{ video_url|tojson }},\n  \"video_type\": {{ video_type|tojson }},\n  \"chapters\": {{ chapters|tojson }},\n  \"definitions\": [\n    {\n      \"url\": {{ video_url|tojson }},\n      \"definition\": {{ video_type|upper|tojson }}\n    }\n  ],\n  \"danmakus\": {{ danmakus|tojson }}\n}",
+          "force_end": false
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      }
+    ],
+    "edges": [
+      {
+        "source": "019da4d2-74cf-7674-85a1-17f4aad9dd1c",
+        "sourceHandle": "output",
+        "target": "019f09d7-2d6d-73a3-a1b1-5957bfad0001",
+        "targetHandle": "input",
+        "id": "xy-edge__019da4d2-74cf-7674-85a1-17f4aad9dd1coutput-019f09d7-2d6d-73a3-a1b1-5957bfad0001input"
+      },
+      {
+        "source": "019f09d7-2d6d-73a3-a1b1-5957bfad0001",
+        "sourceHandle": "output",
+        "target": "01945ffc-4094-7793-8aab-8ef0817605ee",
+        "targetHandle": "input",
+        "id": "xy-edge__019f09d7-2d6d-73a3-a1b1-5957bfad0001output-01945ffc-4094-7793-8aab-8ef0817605eeinput"
+      },
+      {
+        "source": "01945ffc-4094-7793-8aab-8ef0817605ee",
+        "sourceHandle": "output",
+        "target": "019da4e2-acce-7365-aea1-2bba4b9dc3c6",
+        "targetHandle": "input",
+        "id": "xy-edge__01945ffc-4094-7793-8aab-8ef0817605eeoutput-019da4e2-acce-7365-aea1-2bba4b9dc3c6input"
+      },
+      {
+        "source": "019f09d7-2d6d-73a3-a1b1-5957bfad0002",
+        "sourceHandle": "output",
+        "target": "019f09d7-2d6d-73a3-a1b1-5957bfad0003",
+        "targetHandle": "input",
+        "id": "xy-edge__019f09d7-2d6d-73a3-a1b1-5957bfad0002output-019f09d7-2d6d-73a3-a1b1-5957bfad0003input"
+      },
+      {
+        "source": "019f09d7-2d6d-73a3-a1b1-5957bfad0003",
+        "sourceHandle": "output",
+        "target": "019f09d7-2d6d-73a3-a1b1-5957bfad0004",
+        "targetHandle": "input",
+        "id": "xy-edge__019f09d7-2d6d-73a3-a1b1-5957bfad0003output-019f09d7-2d6d-73a3-a1b1-5957bfad0004input"
+      },
+      {
+        "source": "019f09d7-2d6d-73a3-a1b1-5957bfad0004",
+        "sourceHandle": "output",
+        "target": "019f09d7-2d6d-73a3-a1b1-5957bfad0005",
+        "targetHandle": "input",
+        "id": "xy-edge__019f09d7-2d6d-73a3-a1b1-5957bfad0004output-019f09d7-2d6d-73a3-a1b1-5957bfad0005input"
+      },
+      {
+        "source": "019f09d7-2d6d-73a3-a1b1-5957bfad0005",
+        "sourceHandle": "is_false",
+        "target": "019f09d7-2d6d-73a3-a1b1-5957bfad0006",
+        "targetHandle": "input",
+        "id": "xy-edge__019f09d7-2d6d-73a3-a1b1-5957bfad0005is_false-019f09d7-2d6d-73a3-a1b1-5957bfad0006input"
+      },
+      {
+        "source": "019f09d7-2d6d-73a3-a1b1-5957bfad0005",
+        "sourceHandle": "is_true",
+        "target": "019f09d7-2d6d-73a3-a1b1-5957bfad0007",
+        "targetHandle": "input",
+        "id": "xy-edge__019f09d7-2d6d-73a3-a1b1-5957bfad0005is_true-019f09d7-2d6d-73a3-a1b1-5957bfad0007input"
+      },
+      {
+        "source": "019f09d7-2d6d-73a3-a1b1-5957bfad0007",
+        "sourceHandle": "output",
+        "target": "019f09d7-2d6d-73a3-a1b1-5957bfad0008",
+        "targetHandle": "input",
+        "id": "xy-edge__019f09d7-2d6d-73a3-a1b1-5957bfad0007output-019f09d7-2d6d-73a3-a1b1-5957bfad0008input"
+      },
+      {
+        "source": "019f09d7-2d6d-73a3-a1b1-5957bfad0008",
+        "sourceHandle": "output",
+        "target": "019f09d7-2d6d-73a3-a1b1-5957bfad0009",
+        "targetHandle": "input",
+        "id": "xy-edge__019f09d7-2d6d-73a3-a1b1-5957bfad0008output-019f09d7-2d6d-73a3-a1b1-5957bfad0009input"
+      },
+      {
+        "source": "019f09d7-2d6d-73a3-a1b1-5957bfad0009",
+        "sourceHandle": "output",
+        "target": "019f09d7-2d6d-73a3-a1b1-5957bfad0010",
+        "targetHandle": "input",
+        "id": "xy-edge__019f09d7-2d6d-73a3-a1b1-5957bfad0009output-019f09d7-2d6d-73a3-a1b1-5957bfad0010input"
+      },
+      {
+        "source": "019f09d7-2d6d-73a3-a1b1-5957bfad0010",
+        "sourceHandle": "output",
+        "target": "019f09d7-2d6d-73a3-a1b1-5957bfad0011",
+        "targetHandle": "input",
+        "id": "xy-edge__019f09d7-2d6d-73a3-a1b1-5957bfad0010output-019f09d7-2d6d-73a3-a1b1-5957bfad0011input"
+      }
+    ]
+  }
+}

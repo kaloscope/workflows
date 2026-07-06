@@ -1,0 +1,721 @@
+{
+  "name": "TvTFun",
+  "icon": "data:image/webp;base64,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",
+  "description": "\u300cTvTFun\u300d\u756a\u5267",
+  "category": "indexer",
+  "revision": 1783349227,
+  "definition": {
+    "nodes": [
+      {
+        "id": "019f0c25-8c78-7000-a001-000000000001",
+        "type": "node",
+        "position": {
+          "x": -843,
+          "y": -2340
+        },
+        "data": {
+          "$schema": "search_start",
+          "config": "only_preview: true\n\ndisplay:\n  page_size: 24\n  view_modes:\n    - grid\n  cover_ratio: 3/4\n\nkeyword:\n  global: true\n  required: false\n\nfilters:\n  tag:\n    type: radio\n    label: \u6807\u7b7e\n    options:\n      \"\": \u5168\u90e8\n      \"\u641e\u7b11\": \"\u641e\u7b11\"\n      \"\u8fd0\u52a8\": \"\u8fd0\u52a8\"\n      \"\u52b1\u5fd7\": \"\u52b1\u5fd7\"\n      \"\u70ed\u8840\": \"\u70ed\u8840\"\n      \"\u6218\u6597\": \"\u6218\u6597\"\n      \"\u7ade\u6280\": \"\u7ade\u6280\"\n      \"\u6821\u56ed\": \"\u6821\u56ed\"\n      \"\u9752\u6625\": \"\u9752\u6625\"\n      \"\u7231\u60c5\": \"\u7231\u60c5\"\n      \"\u604b\u7231\": \"\u604b\u7231\"\n      \"\u5192\u9669\": \"\u5192\u9669\"\n      \"\u540e\u5bab\": \"\u540e\u5bab\"\n      \"\u767e\u5408\": \"\u767e\u5408\"\n      \"\u6cbb\u6108\": \"\u6cbb\u6108\"\n      \"\u841d\u8389\": \"\u841d\u8389\"\n      \"\u9b54\u6cd5\": \"\u9b54\u6cd5\"\n      \"\u60ac\u7591\": \"\u60ac\u7591\"\n      \"\u63a8\u7406\": \"\u63a8\u7406\"\n      \"\u5947\u5e7b\": \"\u5947\u5e7b\"\n      \"\u79d1\u5e7b\": \"\u79d1\u5e7b\"\n      \"\u6e38\u620f\": \"\u6e38\u620f\"\n      \"\u795e\u9b54\": \"\u795e\u9b54\"\n      \"\u6050\u6016\": \"\u6050\u6016\"\n      \"\u8840\u8165\": \"\u8840\u8165\"\n      \"\u673a\u6218\": \"\u673a\u6218\"\n      \"\u6218\u4e89\": \"\u6218\u4e89\"\n      \"\u72af\u7f6a\": \"\u72af\u7f6a\"\n      \"\u5386\u53f2\": \"\u5386\u53f2\"\n      \"\u793e\u4f1a\": \"\u793e\u4f1a\"\n      \"\u804c\u573a\": \"\u804c\u573a\"\n      \"\u5267\u60c5\": \"\u5267\u60c5\"\n      \"\u4f2a\u5a18\": \"\u4f2a\u5a18\"\n      \"\u803d\u7f8e\": \"\u803d\u7f8e\"\n      \"\u7ae5\u5e74\": \"\u7ae5\u5e74\"\n      \"\u6559\u80b2\": \"\u6559\u80b2\"\n      \"\u4eb2\u5b50\": \"\u4eb2\u5b50\"\n      \"\u771f\u4eba\": \"\u771f\u4eba\"\n      \"\u6b4c\u821e\": \"\u6b4c\u821e\"\n      \"\u8089\u756a\": \"\u8089\u756a\"\n      \"\u7f8e\u5c11\u5973\": \"\u7f8e\u5c11\u5973\"\n      \"\u8f7b\u5c0f\u8bf4\": \"\u8f7b\u5c0f\u8bf4\"\n      \"\u5438\u8840\u9b3c\": \"\u5438\u8840\u9b3c\"\n      \"\u5973\u6027\u5411\": \"\u5973\u6027\u5411\"\n      \"\u6ce1\u9762\u756a\": \"\u6ce1\u9762\u756a\"\n      \"\u6b22\u4e50\u5411\": \"\u6b22\u4e50\u5411\"\n  year:\n    type: radio\n    label: \u5e74\u4efd\n    options:\n      \"\": \u5168\u90e8\n      \"2026\": \"2026\"\n      \"2025\": \"2025\"\n      \"2024\": \"2024\"\n      \"2023\": \"2023\"\n      \"2022\": \"2022\"\n      \"2021\": \"2021\"\n      \"2020\": \"2020\"\n      \"2019\": \"2019\"\n      \"2018\": \"2018\"\n      \"2017\": \"2017\"\n      \"2016\": \"2016\"\n      \"2015\": \"2015\"\n      \"2014\": \"2014\"\n      \"2013\": \"2013\"\n      \"2012\": \"2012\"\n      \"2011\": \"2011\"\n      \"2010\": \"2010\"\n      \"2009\": \"2009\"\n      \"2008\": \"2008\"\n      \"2007\": \"2007\"\n      \"2006\": \"2006\"\n      \"2005\": \"2005\"\n      \"2004\": \"2004\"\n      \"2003\": \"2003\"\n      \"2002\": \"2002\"\n      \"2001\": \"2001\"\n      \"2000\": \"2000\"\n  area:\n    type: radio\n    label: \u5730\u533a\n    options:\n      \"\": \u5168\u90e8\n      \"\u65e5\u672c\": \"\u65e5\u672c\"\n  order:\n    type: radio\n    label: \u6392\u5e8f\n    options:\n      updatedAt: \u6700\u8fd1\u66f4\u65b0\n      createdAt: \u6700\u65b0\u4e0a\u67b6\n      hits: \u6700\u591a\u64ad\u653e\n      score: \u6700\u9ad8\u8bc4\u5206\n"
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "019f0c25-8c78-7000-a001-000000000002",
+        "type": "node",
+        "position": {
+          "x": -208.5,
+          "y": -2360
+        },
+        "data": {
+          "$schema": "script",
+          "script": {
+            "language": "python",
+            "code": "from urllib.parse import urlencode\n\nIGNORED_VALUES = {None, \"\", \"all\", \"\u5168\u90e8\"}\nVALID_ORDERS = {\"updatedAt\", \"createdAt\", \"hits\", \"score\"}\n\n\ndef clean(value):\n    if value in IGNORED_VALUES:\n        return \"\"\n    value = str(value).strip()\n    if value in IGNORED_VALUES:\n        return \"\"\n    return value\n\n\ndef int_or_default(value, default):\n    try:\n        num = int(value)\n        return num if num > 0 else default\n    except (TypeError, ValueError):\n        return default\n\n\ndef execute(node_id, node_data, context):\n    params = {}\n    page_num = int_or_default(context.get(\"page_num\"), 1)\n    if page_num > 1:\n        params[\"page\"] = page_num\n\n    tag = clean(context.get(\"tag\"))\n    year = clean(context.get(\"year\"))\n    area = clean(context.get(\"area\"))\n    order = clean(context.get(\"order\")) or \"updatedAt\"\n    keyword = clean(context.get(\"keyword\"))\n\n    if tag:\n        params[\"tag\"] = tag\n    if year:\n        params[\"year\"] = year\n    if area:\n        params[\"area\"] = area\n    if order in VALID_ORDERS:\n        params[\"order\"] = order\n    if keyword:\n        params[\"q\"] = keyword\n\n    query = urlencode(params)\n    context[\"list_path\"] = \"/videos\" + ((\"?\" + query) if query else \"\")"
+          }
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "019f0c25-8c78-7000-a001-000000000003",
+        "type": "node",
+        "position": {
+          "x": 481,
+          "y": -2510
+        },
+        "data": {
+          "$schema": "http",
+          "method": "GET",
+          "url": "https://www.tvtfun.net{{ list_path }}",
+          "headers": [
+            {
+              "key": "Referer",
+              "value": "https://www.tvtfun.net/videos"
+            },
+            {
+              "key": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+            },
+            {
+              "key": "X-Hishel-Ttl",
+              "value": "900"
+            },
+            {
+              "key": "X-Hishel-Refresh-Ttl-On-Access",
+              "value": "true"
+            }
+          ],
+          "body": "",
+          "divider_7": null,
+          "formatter": "{\n  \"list_html\": {{ response.text|tojson }}\n}"
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "019f0c25-8c78-7000-a001-000000000004",
+        "type": "node",
+        "position": {
+          "x": 1274.5,
+          "y": -2360
+        },
+        "data": {
+          "$schema": "script",
+          "script": {
+            "language": "python",
+            "code": "import html\nimport json\nimport re\nfrom urllib.parse import parse_qs, quote, urlsplit\n\n\ndef decode_next_data(page_html):\n    if not page_html:\n        return \"\"\n    chunks = []\n    pattern = re.compile(r'self\\.__next_f\\.push\\(\\[1,\"((?:\\\\.|[^\"\\\\])*)\"\\]\\)</script>', re.S)\n    for match in pattern.finditer(page_html):\n        raw = match.group(1)\n        try:\n            chunks.append(json.loads('\"' + raw + '\"'))\n        except Exception:\n            continue\n    return \"\".join(chunks)\n\n\ndef find_value_start(text, key, expected=None, pos=0):\n    marker = '\"' + key + '\"'\n    while True:\n        idx = text.find(marker, pos)\n        if idx < 0:\n            return -1\n        cur = idx + len(marker)\n        while cur < len(text) and text[cur].isspace():\n            cur += 1\n        if cur < len(text) and text[cur] == ':':\n            cur += 1\n            while cur < len(text) and text[cur].isspace():\n                cur += 1\n            if expected is None or (cur < len(text) and text[cur] == expected):\n                return cur\n        pos = idx + len(marker)\n\n\ndef extract_json_range(text, start):\n    if start < 0 or start >= len(text):\n        return None, start\n    pairs = {\"{\": \"}\", \"[\": \"]\"}\n    open_ch = text[start]\n    close_ch = pairs.get(open_ch)\n    if not close_ch:\n        return None, start\n    depth = 0\n    in_string = False\n    escaped = False\n    for idx in range(start, len(text)):\n        ch = text[idx]\n        if in_string:\n            if escaped:\n                escaped = False\n            elif ch == \"\\\\\":\n                escaped = True\n            elif ch == '\"':\n                in_string = False\n        else:\n            if ch == '\"':\n                in_string = True\n            elif ch == open_ch:\n                depth += 1\n            elif ch == close_ch:\n                depth -= 1\n                if depth == 0:\n                    return text[start:idx + 1], idx + 1\n    return None, start\n\n\ndef extract_json_value(text, key, expected, pos=0, fallback=None):\n    start = find_value_start(text, key, expected, pos)\n    raw, end = extract_json_range(text, start)\n    if raw is None:\n        return fallback, pos\n    try:\n        return json.loads(raw), end\n    except Exception:\n        return fallback, end\n\n\ndef extract_scalar(text, key, pos=0):\n    start = find_value_start(text, key, None, pos)\n    if start < 0:\n        return None\n    if text[start] in \"[{\":\n        return None\n    if text[start] == '\"':\n        escaped = False\n        for idx in range(start + 1, len(text)):\n            ch = text[idx]\n            if escaped:\n                escaped = False\n            elif ch == \"\\\\\":\n                escaped = True\n            elif ch == '\"':\n                try:\n                    value = json.loads(text[start:idx + 1])\n                except Exception:\n                    value = text[start + 1:idx]\n                return None if value == \"$undefined\" else value\n        return None\n    end = start\n    while end < len(text) and text[end] not in \",}]\\n\":\n        end += 1\n    raw = text[start:end].strip()\n    if not raw or raw == \"$undefined\":\n        return None\n    try:\n        return json.loads(raw)\n    except Exception:\n        return raw\n\n\ndef strip_tags(value):\n    text = re.sub(r\"<[^>]+>\", \"\", value or \"\")\n    text = html.unescape(text)\n    return re.sub(r\"\\s+\", \" \", text).strip()\n\n\ndef short_date(value):\n    if not value:\n        return \"\"\n    return str(value).split(\"T\", 1)[0]\n\n\ndef split_tags(value):\n    if not value:\n        return []\n    parts = re.split(r\"[,\uff0c\\s]+\", str(value))\n    return [part.strip() for part in parts if part.strip()]\n\n\ndef normalize_score(value):\n    try:\n        score = float(value)\n    except (TypeError, ValueError):\n        return None\n    return score if score > 0 else None\n\n\ndef chapter_label(source_name, episode_name):\n    source_name = str(source_name or \"\").strip()\n    episode_name = str(episode_name or \"\").strip() or \"\u64ad\u653e\"\n    return (source_name + \" \" + episode_name).strip()\n\n\ndef execute(node_id, node_data, context):\n    data = decode_next_data(context.get(\"list_html\") or \"\")\n    videos, videos_end = extract_json_value(data, \"videos\", \"[\", 0, [])\n    tags, _ = extract_json_value(data, \"tags\", \"[\", videos_end, [])\n    years, _ = extract_json_value(data, \"years\", \"[\", videos_end, [])\n    areas, _ = extract_json_value(data, \"areas\", \"[\", videos_end, [])\n\n    items = []\n    for video in videos if isinstance(videos, list) else []:\n        if not isinstance(video, dict):\n            continue\n        slug = video.get(\"slug\") or video.get(\"sourceId\") or video.get(\"id\")\n        if not slug:\n            continue\n        title = video.get(\"name\") or video.get(\"nameOriginal\") or video.get(\"sub\") or str(slug)\n        tags_for_item = split_tags(video.get(\"tag\"))\n        category = str(video.get(\"year\") or \"\")\n        if tags_for_item:\n            category = \", \".join(tags_for_item[:2])\n        misc = video.get(\"remarks\") or \"\"\n        if not misc and video.get(\"episodeCount\"):\n            misc = \"\u66f4\u65b0\u81f3\u7b2c%s\u96c6\" % video.get(\"episodeCount\")\n        items.append({\n            \"id\": \"/video/%s\" % slug,\n            \"title\": title,\n            \"cover\": video.get(\"pic\") or video.get(\"picThumb\") or \"\",\n            \"rating\": normalize_score(video.get(\"score\")),\n            \"misc\": misc,\n            \"category\": category,\n            \"uploader\": video.get(\"sourceName\") or video.get(\"studio\") or \"TvTFun\",\n            \"uploaded_at\": short_date(video.get(\"updatedAt\") or video.get(\"publishedAt\") or video.get(\"createdAt\")),\n            \"media_type\": \"video\",\n        })\n\n    total = extract_scalar(data, \"total\", videos_end)\n    page = extract_scalar(data, \"page\", videos_end) or 1\n    page_size = extract_scalar(data, \"pageSize\", videos_end) or 24\n    try:\n        total_pages = (int(total) + int(page_size) - 1) // int(page_size) if total is not None else None\n    except Exception:\n        total_pages = None\n\n    context[\"available_tags\"] = tags if isinstance(tags, list) else []\n    context[\"available_years\"] = years if isinstance(years, list) else []\n    context[\"available_areas\"] = areas if isinstance(areas, list) else []\n    context[\"search_result\"] = {\n        \"total\": total,\n        \"totalPages\": total_pages,\n        \"page\": page,\n        \"items\": items,\n    }"
+          }
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "019f0c25-8c78-7000-a001-000000000005",
+        "type": "node",
+        "position": {
+          "x": 1977,
+          "y": -2230
+        },
+        "data": {
+          "$schema": "search_end",
+          "response": "{{ search_result|tojson }}",
+          "force_end": false
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "019f0c25-8c78-7000-a001-000000000006",
+        "type": "node",
+        "position": {
+          "x": -843,
+          "y": -980
+        },
+        "data": {
+          "$schema": "details_start",
+          "config": "specific:\n  media_type: video\n  video_type: mp4\n"
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "019f0c25-8c78-7000-a001-000000000007",
+        "type": "node",
+        "position": {
+          "x": -260,
+          "y": -1280
+        },
+        "data": {
+          "$schema": "http",
+          "method": "GET",
+          "url": "https://www.tvtfun.net{{ id }}",
+          "headers": [
+            {
+              "key": "Referer",
+              "value": "https://www.tvtfun.net/videos"
+            },
+            {
+              "key": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+            },
+            {
+              "key": "X-Hishel-Ttl",
+              "value": "900"
+            },
+            {
+              "key": "X-Hishel-Refresh-Ttl-On-Access",
+              "value": "true"
+            }
+          ],
+          "body": "",
+          "divider_7": null,
+          "formatter": "{\n  \"detail_html\": {{ response.text|tojson }}\n}"
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "019f0c25-8c78-7000-a001-000000000008",
+        "type": "node",
+        "position": {
+          "x": 504.5,
+          "y": -1130
+        },
+        "data": {
+          "$schema": "script",
+          "script": {
+            "language": "python",
+            "code": "import html\nimport json\nimport re\nfrom urllib.parse import parse_qs, quote, urlsplit\n\n\ndef decode_next_data(page_html):\n    if not page_html:\n        return \"\"\n    chunks = []\n    pattern = re.compile(r'self\\.__next_f\\.push\\(\\[1,\"((?:\\\\.|[^\"\\\\])*)\"\\]\\)</script>', re.S)\n    for match in pattern.finditer(page_html):\n        raw = match.group(1)\n        try:\n            chunks.append(json.loads('\"' + raw + '\"'))\n        except Exception:\n            continue\n    return \"\".join(chunks)\n\n\ndef find_value_start(text, key, expected=None, pos=0):\n    marker = '\"' + key + '\"'\n    while True:\n        idx = text.find(marker, pos)\n        if idx < 0:\n            return -1\n        cur = idx + len(marker)\n        while cur < len(text) and text[cur].isspace():\n            cur += 1\n        if cur < len(text) and text[cur] == ':':\n            cur += 1\n            while cur < len(text) and text[cur].isspace():\n                cur += 1\n            if expected is None or (cur < len(text) and text[cur] == expected):\n                return cur\n        pos = idx + len(marker)\n\n\ndef extract_json_range(text, start):\n    if start < 0 or start >= len(text):\n        return None, start\n    pairs = {\"{\": \"}\", \"[\": \"]\"}\n    open_ch = text[start]\n    close_ch = pairs.get(open_ch)\n    if not close_ch:\n        return None, start\n    depth = 0\n    in_string = False\n    escaped = False\n    for idx in range(start, len(text)):\n        ch = text[idx]\n        if in_string:\n            if escaped:\n                escaped = False\n            elif ch == \"\\\\\":\n                escaped = True\n            elif ch == '\"':\n                in_string = False\n        else:\n            if ch == '\"':\n                in_string = True\n            elif ch == open_ch:\n                depth += 1\n            elif ch == close_ch:\n                depth -= 1\n                if depth == 0:\n                    return text[start:idx + 1], idx + 1\n    return None, start\n\n\ndef extract_json_value(text, key, expected, pos=0, fallback=None):\n    start = find_value_start(text, key, expected, pos)\n    raw, end = extract_json_range(text, start)\n    if raw is None:\n        return fallback, pos\n    try:\n        return json.loads(raw), end\n    except Exception:\n        return fallback, end\n\n\ndef extract_scalar(text, key, pos=0):\n    start = find_value_start(text, key, None, pos)\n    if start < 0:\n        return None\n    if text[start] in \"[{\":\n        return None\n    if text[start] == '\"':\n        escaped = False\n        for idx in range(start + 1, len(text)):\n            ch = text[idx]\n            if escaped:\n                escaped = False\n            elif ch == \"\\\\\":\n                escaped = True\n            elif ch == '\"':\n                try:\n                    value = json.loads(text[start:idx + 1])\n                except Exception:\n                    value = text[start + 1:idx]\n                return None if value == \"$undefined\" else value\n        return None\n    end = start\n    while end < len(text) and text[end] not in \",}]\\n\":\n        end += 1\n    raw = text[start:end].strip()\n    if not raw or raw == \"$undefined\":\n        return None\n    try:\n        return json.loads(raw)\n    except Exception:\n        return raw\n\n\ndef strip_tags(value):\n    text = re.sub(r\"<[^>]+>\", \"\", value or \"\")\n    text = html.unescape(text)\n    return re.sub(r\"\\s+\", \" \", text).strip()\n\n\ndef short_date(value):\n    if not value:\n        return \"\"\n    return str(value).split(\"T\", 1)[0]\n\n\ndef split_tags(value):\n    if not value:\n        return []\n    parts = re.split(r\"[,\uff0c\\s]+\", str(value))\n    return [part.strip() for part in parts if part.strip()]\n\n\ndef normalize_score(value):\n    try:\n        score = float(value)\n    except (TypeError, ValueError):\n        return None\n    return score if score > 0 else None\n\n\ndef chapter_label(source_name, episode_name):\n    source_name = str(source_name or \"\").strip()\n    episode_name = str(episode_name or \"\").strip() or \"\u64ad\u653e\"\n    return (source_name + \" \" + episode_name).strip()\n\n\ndef execute(node_id, node_data, context):\n    data = decode_next_data(context.get(\"detail_html\") or \"\")\n    video, _ = extract_json_value(data, \"video\", \"{\", 0, {})\n    if not isinstance(video, dict):\n        video = {}\n\n    slug = video.get(\"slug\") or str(context.get(\"id\") or \"\").strip(\"/\").split(\"/\")[-1]\n    tags = split_tags(video.get(\"tag\"))\n    chapters = []\n    sources = video.get(\"playSources\") or []\n    for source_index, source in enumerate(sources if isinstance(sources, list) else []):\n        if not isinstance(source, dict):\n            continue\n        source_name = source.get(\"name\") or \"\u7ebf\u8def%s\" % (source_index + 1)\n        episodes = source.get(\"episodes\") or []\n        for episode_index, episode in enumerate(episodes if isinstance(episodes, list) else []):\n            if not isinstance(episode, dict):\n                continue\n            chapters.append({\n                \"id\": \"/video/%s/play?source=%s&episode=%s\" % (slug, source_index, episode_index),\n                \"title\": chapter_label(source_name, episode.get(\"name\")),\n            })\n\n    context[\"detail_video_id\"] = video.get(\"id\") or \"\"\n    context[\"detail_slug\"] = slug\n    context[\"detail_title\"] = video.get(\"name\") or video.get(\"nameOriginal\") or video.get(\"sub\") or \"TvTFun\"\n    context[\"detail_cover\"] = video.get(\"pic\") or video.get(\"picThumb\") or \"\"\n    context[\"detail_category\"] = \", \".join(tags[:3]) if tags else str(video.get(\"year\") or \"\")\n    context[\"detail_misc\"] = video.get(\"remarks\") or \"\"\n    context[\"detail_uploader\"] = video.get(\"sourceName\") or video.get(\"studio\") or \"TvTFun\"\n    context[\"detail_uploaded_at\"] = short_date(video.get(\"updatedAt\") or video.get(\"publishedAt\") or video.get(\"createdAt\"))\n    context[\"detail_description\"] = strip_tags(video.get(\"content\") or video.get(\"blurb\") or \"\")\n    context[\"detail_chapters\"] = chapters\n    context[\"has_chapter_id\"] = bool(context.get(\"chapter_id\"))"
+          }
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "019f0c25-8c78-7000-a001-000000000009",
+        "type": "node",
+        "position": {
+          "x": 1100,
+          "y": -900
+        },
+        "data": {
+          "$schema": "condition",
+          "expression": "{{ has_chapter_id }}"
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "019f0c25-8c78-7000-a001-000000000010",
+        "type": "node",
+        "position": {
+          "x": 1927,
+          "y": -420
+        },
+        "data": {
+          "$schema": "details_end",
+          "response": "{\n  \"id\": {{ id|tojson }},\n  \"title\": {{ detail_title|tojson }},\n  \"cover\": {{ detail_cover|tojson }},\n  \"category\": {{ detail_category|tojson }},\n  \"misc\": {{ detail_misc|tojson }},\n  \"uploader\": {{ detail_uploader|tojson }},\n  \"uploaded_at\": {{ detail_uploaded_at|tojson }},\n  \"description\": {{ detail_description|tojson }},\n  \"media_type\": \"video\",\n  \"video_type\": \"mp4\",\n  \"chapters\": {{ detail_chapters|tojson }},\n  \"danmakus\": []\n}",
+          "force_end": false
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "019f0c25-8c78-7000-a001-000000000011",
+        "type": "node",
+        "position": {
+          "x": 1911,
+          "y": -1620
+        },
+        "data": {
+          "$schema": "http",
+          "method": "GET",
+          "url": "https://www.tvtfun.net{{ chapter_id }}",
+          "headers": [
+            {
+              "key": "Referer",
+              "value": "https://www.tvtfun.net{{ id }}"
+            },
+            {
+              "key": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+            },
+            {
+              "key": "X-Hishel-Ttl",
+              "value": "300"
+            }
+          ],
+          "body": "",
+          "divider_7": null,
+          "formatter": "{\n  \"play_html\": {{ response.text|tojson }}\n}"
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "019f0c25-8c78-7000-a001-000000000012",
+        "type": "node",
+        "position": {
+          "x": 2704.5,
+          "y": -1490
+        },
+        "data": {
+          "$schema": "script",
+          "script": {
+            "language": "python",
+            "code": "import html\nimport json\nimport re\nfrom urllib.parse import parse_qs, quote, urlsplit\n\n\ndef decode_next_data(page_html):\n    if not page_html:\n        return \"\"\n    chunks = []\n    pattern = re.compile(r'self\\.__next_f\\.push\\(\\[1,\"((?:\\\\.|[^\"\\\\])*)\"\\]\\)</script>', re.S)\n    for match in pattern.finditer(page_html):\n        raw = match.group(1)\n        try:\n            chunks.append(json.loads('\"' + raw + '\"'))\n        except Exception:\n            continue\n    return \"\".join(chunks)\n\n\ndef find_value_start(text, key, expected=None, pos=0):\n    marker = '\"' + key + '\"'\n    while True:\n        idx = text.find(marker, pos)\n        if idx < 0:\n            return -1\n        cur = idx + len(marker)\n        while cur < len(text) and text[cur].isspace():\n            cur += 1\n        if cur < len(text) and text[cur] == ':':\n            cur += 1\n            while cur < len(text) and text[cur].isspace():\n                cur += 1\n            if expected is None or (cur < len(text) and text[cur] == expected):\n                return cur\n        pos = idx + len(marker)\n\n\ndef extract_json_range(text, start):\n    if start < 0 or start >= len(text):\n        return None, start\n    pairs = {\"{\": \"}\", \"[\": \"]\"}\n    open_ch = text[start]\n    close_ch = pairs.get(open_ch)\n    if not close_ch:\n        return None, start\n    depth = 0\n    in_string = False\n    escaped = False\n    for idx in range(start, len(text)):\n        ch = text[idx]\n        if in_string:\n            if escaped:\n                escaped = False\n            elif ch == \"\\\\\":\n                escaped = True\n            elif ch == '\"':\n                in_string = False\n        else:\n            if ch == '\"':\n                in_string = True\n            elif ch == open_ch:\n                depth += 1\n            elif ch == close_ch:\n                depth -= 1\n                if depth == 0:\n                    return text[start:idx + 1], idx + 1\n    return None, start\n\n\ndef extract_json_value(text, key, expected, pos=0, fallback=None):\n    start = find_value_start(text, key, expected, pos)\n    raw, end = extract_json_range(text, start)\n    if raw is None:\n        return fallback, pos\n    try:\n        return json.loads(raw), end\n    except Exception:\n        return fallback, end\n\n\ndef extract_scalar(text, key, pos=0):\n    start = find_value_start(text, key, None, pos)\n    if start < 0:\n        return None\n    if text[start] in \"[{\":\n        return None\n    if text[start] == '\"':\n        escaped = False\n        for idx in range(start + 1, len(text)):\n            ch = text[idx]\n            if escaped:\n                escaped = False\n            elif ch == \"\\\\\":\n                escaped = True\n            elif ch == '\"':\n                try:\n                    value = json.loads(text[start:idx + 1])\n                except Exception:\n                    value = text[start + 1:idx]\n                return None if value == \"$undefined\" else value\n        return None\n    end = start\n    while end < len(text) and text[end] not in \",}]\\n\":\n        end += 1\n    raw = text[start:end].strip()\n    if not raw or raw == \"$undefined\":\n        return None\n    try:\n        return json.loads(raw)\n    except Exception:\n        return raw\n\n\ndef strip_tags(value):\n    text = re.sub(r\"<[^>]+>\", \"\", value or \"\")\n    text = html.unescape(text)\n    return re.sub(r\"\\s+\", \" \", text).strip()\n\n\ndef short_date(value):\n    if not value:\n        return \"\"\n    return str(value).split(\"T\", 1)[0]\n\n\ndef split_tags(value):\n    if not value:\n        return []\n    parts = re.split(r\"[,\uff0c\\s]+\", str(value))\n    return [part.strip() for part in parts if part.strip()]\n\n\ndef normalize_score(value):\n    try:\n        score = float(value)\n    except (TypeError, ValueError):\n        return None\n    return score if score > 0 else None\n\n\ndef chapter_label(source_name, episode_name):\n    source_name = str(source_name or \"\").strip()\n    episode_name = str(episode_name or \"\").strip() or \"\u64ad\u653e\"\n    return (source_name + \" \" + episode_name).strip()\n\n\ndef int_or_default(value, default):\n    try:\n        return int(value)\n    except (TypeError, ValueError):\n        return default\n\n\ndef pick(items, index):\n    if not isinstance(items, list) or not items:\n        return {}\n    index = max(0, min(index, len(items) - 1))\n    item = items[index]\n    return item if isinstance(item, dict) else {}\n\n\ndef execute(node_id, node_data, context):\n    data = decode_next_data(context.get(\"play_html\") or \"\")\n    video, _ = extract_json_value(data, \"video\", \"{\", 0, {})\n    if not isinstance(video, dict):\n        video = {}\n\n    chapter_id = str(context.get(\"chapter_id\") or \"\")\n    query = parse_qs(urlsplit(chapter_id).query)\n    source_index = int_or_default((query.get(\"source\") or [0])[0], 0)\n    episode_index = int_or_default((query.get(\"episode\") or [0])[0], 0)\n\n    sources = video.get(\"playSources\") or []\n    source = pick(sources, source_index)\n    episodes = source.get(\"episodes\") or []\n    episode = pick(episodes, episode_index)\n\n    video_id = video.get(\"id\") or context.get(\"detail_video_id\") or \"\"\n    episode_id = episode.get(\"id\") or \"\"\n    fallback_episode_id = \"\"\n    for fallback_source_index, fallback_source in enumerate(sources if isinstance(sources, list) else []):\n        if fallback_source_index == source_index or not isinstance(fallback_source, dict):\n            continue\n        fallback_episodes = fallback_source.get(\"episodes\") or []\n        fallback_episode = pick(fallback_episodes, episode_index)\n        fallback_episode_id = fallback_episode.get(\"id\") or \"\"\n        if fallback_episode_id:\n            break\n    if not fallback_episode_id:\n        fallback_episode_id = episode_id\n\n    context[\"video_id\"] = video_id\n    context[\"episode_id\"] = episode_id\n    context[\"fallback_episode_id\"] = fallback_episode_id\n    context[\"from_code\"] = source.get(\"fromCode\") or \"\"\n    context[\"chapter_title\"] = chapter_label(source.get(\"name\"), episode.get(\"name\")) or context.get(\"detail_title\") or \"\"\n    context[\"resolve_url\"] = \"https://www.tvtfun.net/api/videos/resolve-play-url?episodeId=\" + quote(episode_id)\n    context[\"fallback_resolve_url\"] = \"https://www.tvtfun.net/api/videos/resolve-play-url?episodeId=\" + quote(fallback_episode_id)\n    context[\"danmaku_url\"] = \"https://www.tvtfun.net/api/danmaku?videoId=\" + quote(video_id) + \"&episodeId=\" + quote(episode_id)\n"
+          }
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "019f0c25-8c78-7000-a001-000000000013",
+        "type": "node",
+        "position": {
+          "x": 3531,
+          "y": -1620
+        },
+        "data": {
+          "$schema": "http",
+          "method": "GET",
+          "url": "{{ resolve_url }}",
+          "headers": [
+            {
+              "key": "Referer",
+              "value": "https://www.tvtfun.net{{ chapter_id }}"
+            },
+            {
+              "key": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+            },
+            {
+              "key": "X-Hishel-Ttl",
+              "value": "300"
+            }
+          ],
+          "body": "",
+          "divider_7": null,
+          "formatter": "{\n  \"resolve_json\": {{ response.text|tojson }}\n}"
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "019f0c25-8c78-7000-a001-000000000014",
+        "type": "node",
+        "position": {
+          "x": 8141,
+          "y": -1620
+        },
+        "data": {
+          "$schema": "http",
+          "method": "GET",
+          "url": "{{ danmaku_url }}",
+          "headers": [
+            {
+              "key": "Referer",
+              "value": "https://www.tvtfun.net{{ chapter_id }}"
+            },
+            {
+              "key": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+            },
+            {
+              "key": "X-Hishel-Ttl",
+              "value": "300"
+            }
+          ],
+          "body": "",
+          "divider_7": null,
+          "formatter": "{\n  \"danmaku_json\": {{ response.text|tojson }}\n}"
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "019f0c25-8c78-7000-a001-000000000015",
+        "type": "node",
+        "position": {
+          "x": 8913,
+          "y": -1490
+        },
+        "data": {
+          "$schema": "script",
+          "script": {
+            "language": "python",
+            "code": "import json\nimport re\nfrom urllib.parse import quote, urljoin\n\n\ndef normalize_video_type(value, url):\n    value = str(value or \"\").lower()\n    url = str(url or \"\").lower().split(\"?\", 1)[0]\n    if value in {\"hls\", \"m3u8\"} or url.endswith(\".m3u8\"):\n        return \"hls\"\n    if value in {\"dash\", \"mpd\"} or url.endswith(\".mpd\"):\n        return \"dash\"\n    if value == \"flv\" or url.endswith(\".flv\"):\n        return \"flv\"\n    return \"mp4\"\n\n\ndef normalize_color(value):\n    if value is None or value == \"\":\n        return \"#ffffff\"\n    if isinstance(value, int):\n        return \"#%06x\" % (value & 0xFFFFFF)\n    text = str(value).strip()\n    if text.startswith(\"#\"):\n        return text\n    try:\n        return \"#%06x\" % (int(text) & 0xFFFFFF)\n    except ValueError:\n        return text or \"#ffffff\"\n\n\ndef normalize_mode(value):\n    if isinstance(value, str):\n        value = value.lower().strip()\n        if value in {\"scroll\", \"top\", \"bottom\"}:\n            return value\n        try:\n            value = int(value)\n        except ValueError:\n            return \"scroll\"\n    if value in {4, \"4\"}:\n        return \"bottom\"\n    if value in {5, \"5\"}:\n        return \"top\"\n    return \"scroll\"\n\n\ndef normalize_start(value):\n    try:\n        return max(0, int(float(value) * 1000))\n    except (TypeError, ValueError):\n        return 0\n\n\ndef extract_share_media_url(share_url, share_html):\n    if not share_html:\n        return \"\"\n    match = re.search(r'(?:const|let|var)\\s+url\\s*=\\s*\"([^\"]+)\"', share_html, re.S)\n    if not match:\n        match = re.search(r\"(?:const|let|var)\\s+url\\s*=\\s*'([^']+)'\", share_html, re.S)\n    if not match:\n        return \"\"\n    value = match.group(1).replace(\"\\\\/\", \"/\").strip()\n    if not value:\n        return \"\"\n    return urljoin(share_url or \"https://www.tvtfun.net/\", value)\n\n\ndef candidate(source_url, source_type, share_html):\n    media_url = extract_share_media_url(source_url, share_html)\n    url = media_url or source_url\n    video_type = normalize_video_type(source_type, url)\n    unresolved_share = bool(source_url) and \"/share/\" in source_url and not media_url\n    return url, video_type, bool(media_url), unresolved_share\n\n\ndef playback_url(url, video_type):\n    if not url.startswith((\"http://\", \"https://\")):\n        return url\n    if video_type == \"hls\":\n        return url\n    if \"/share/\" in url:\n        return url\n    return \"/_api/media/proxy?url=\" + quote(url, safe=\"\")\n\n\ndef execute(node_id, node_data, context):\n    primary_url, primary_type, primary_resolved, primary_unresolved = candidate(\n        context.get(\"resolved_source_url\") or \"\",\n        context.get(\"resolved_source_type\") or \"\",\n        context.get(\"share_html\") or \"\",\n    )\n    fallback_url, fallback_type, fallback_resolved, _ = candidate(\n        context.get(\"fallback_source_url\") or \"\",\n        context.get(\"fallback_source_type\") or \"\",\n        context.get(\"fallback_share_html\") or \"\",\n    )\n\n    if primary_unresolved and (fallback_resolved or fallback_type == \"hls\"):\n        url, video_type = fallback_url, fallback_type\n    else:\n        url, video_type = primary_url, primary_type\n\n    url = playback_url(url, video_type)\n    definitions = []\n    if url:\n        definitions.append({\"url\": url, \"definition\": \"\u9ed8\u8ba4\"})\n\n    try:\n        danmaku_payload = json.loads(context.get(\"danmaku_json\") or \"{}\")\n    except Exception:\n        danmaku_payload = {}\n    raw_comments = danmaku_payload.get(\"data\") if isinstance(danmaku_payload, dict) else []\n    if not isinstance(raw_comments, list):\n        raw_comments = []\n\n    danmakus = []\n    for index, item in enumerate(raw_comments):\n        if isinstance(item, dict):\n            text = item.get(\"text\") or item.get(\"content\") or item.get(\"comment\") or \"\"\n            start = item.get(\"start\", item.get(\"time\", 0))\n            mode = item.get(\"mode\")\n            color = item.get(\"color\")\n        elif isinstance(item, list) and len(item) >= 4:\n            start, mode, color, text = item[0], item[1], item[2], item[3]\n        else:\n            continue\n        if not text:\n            continue\n        danmakus.append({\n            \"id\": \"%s-%s\" % (context.get(\"episode_id\") or \"danmaku\", index),\n            \"text\": str(text),\n            \"mode\": normalize_mode(mode),\n            \"color\": normalize_color(color),\n            \"start\": normalize_start(start),\n            \"duration\": 5000,\n        })\n\n    context[\"play_url\"] = url\n    context[\"play_video_type\"] = video_type\n    context[\"play_definitions\"] = definitions\n    context[\"play_danmakus\"] = danmakus\n"
+          }
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "019f0c25-8c78-7000-a001-000000000016",
+        "type": "node",
+        "position": {
+          "x": 9607,
+          "y": -1450
+        },
+        "data": {
+          "$schema": "details_end",
+          "response": "{\n  \"id\": {{ chapter_id|tojson }},\n  \"title\": {{ (chapter_title or detail_title)|tojson }},\n  \"cover\": {{ detail_cover|tojson }},\n  \"category\": {{ detail_category|tojson }},\n  \"misc\": {{ detail_misc|tojson }},\n  \"uploader\": {{ detail_uploader|tojson }},\n  \"uploaded_at\": {{ detail_uploaded_at|tojson }},\n  \"description\": {{ detail_description|tojson }},\n  \"media_type\": \"video\",\n  \"video_type\": {{ play_video_type|tojson }},\n  \"url\": {{ play_url|tojson }},\n  \"definitions\": {{ play_definitions|tojson }},\n  \"chapters\": {{ detail_chapters|tojson }},\n  \"danmakus\": {{ play_danmakus|tojson }}\n}",
+          "force_end": false
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "019f0c25-8c78-7000-a001-000000000017",
+        "type": "node",
+        "position": {
+          "x": 4275,
+          "y": -1480
+        },
+        "data": {
+          "$schema": "script",
+          "script": {
+            "language": "python",
+            "code": "import json\nfrom urllib.parse import urljoin\n\n\ndef execute(node_id, node_data, context):\n    try:\n        resolve_payload = json.loads(context.get(\"resolve_json\") or \"{}\")\n    except Exception:\n        resolve_payload = {}\n    data = resolve_payload.get(\"data\") if isinstance(resolve_payload, dict) else {}\n    if not isinstance(data, dict):\n        data = {}\n\n    source_url = data.get(\"url\") or \"\"\n    if source_url.startswith(\"/\"):\n        source_url = urljoin(\"https://www.tvtfun.net/\", source_url)\n\n    context[\"resolved_source_url\"] = source_url\n    context[\"resolved_source_type\"] = data.get(\"type\") or \"\"\n    context[\"share_url\"] = source_url or \"https://www.tvtfun.net/\"\n"
+          }
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "019f0c25-8c78-7000-a001-000000000018",
+        "type": "node",
+        "position": {
+          "x": 5041,
+          "y": -1620
+        },
+        "data": {
+          "$schema": "http",
+          "method": "GET",
+          "url": "{{ share_url }}",
+          "headers": [
+            {
+              "key": "Referer",
+              "value": "https://www.tvtfun.net{{ chapter_id }}"
+            },
+            {
+              "key": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+            },
+            {
+              "key": "X-Hishel-Ttl",
+              "value": "300"
+            }
+          ],
+          "body": "",
+          "divider_7": null,
+          "formatter": "{\n  \"share_html\": {{ response.text|tojson }},\n  \"share_status\": {{ response.status_code|tojson }}\n}"
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "019f0c25-8c78-7000-a001-000000000019",
+        "type": "node",
+        "position": {
+          "x": 5781,
+          "y": -1620
+        },
+        "data": {
+          "$schema": "http",
+          "method": "GET",
+          "url": "{{ fallback_resolve_url }}",
+          "headers": [
+            {
+              "key": "Referer",
+              "value": "https://www.tvtfun.net{{ chapter_id }}"
+            },
+            {
+              "key": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+            },
+            {
+              "key": "X-Hishel-Ttl",
+              "value": "300"
+            }
+          ],
+          "body": "",
+          "divider_7": null,
+          "formatter": "{\n  \"fallback_resolve_json\": {{ response.text|tojson }}\n}"
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "019f0c25-8c78-7000-a001-000000000020",
+        "type": "node",
+        "position": {
+          "x": 6545,
+          "y": -1480
+        },
+        "data": {
+          "$schema": "script",
+          "script": {
+            "language": "python",
+            "code": "import json\nfrom urllib.parse import urljoin\n\n\ndef execute(node_id, node_data, context):\n    try:\n        resolve_payload = json.loads(context.get(\"fallback_resolve_json\") or \"{}\")\n    except Exception:\n        resolve_payload = {}\n    data = resolve_payload.get(\"data\") if isinstance(resolve_payload, dict) else {}\n    if not isinstance(data, dict):\n        data = {}\n\n    source_url = data.get(\"url\") or \"\"\n    if source_url.startswith(\"/\"):\n        source_url = urljoin(\"https://www.tvtfun.net/\", source_url)\n\n    context[\"fallback_source_url\"] = source_url\n    context[\"fallback_source_type\"] = data.get(\"type\") or \"\"\n    context[\"fallback_share_url\"] = source_url or \"https://www.tvtfun.net/\"\n"
+          }
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "019f0c25-8c78-7000-a001-000000000021",
+        "type": "node",
+        "position": {
+          "x": 7341,
+          "y": -1620
+        },
+        "data": {
+          "$schema": "http",
+          "method": "GET",
+          "url": "{{ fallback_share_url }}",
+          "headers": [
+            {
+              "key": "Referer",
+              "value": "https://www.tvtfun.net{{ chapter_id }}"
+            },
+            {
+              "key": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+            },
+            {
+              "key": "X-Hishel-Ttl",
+              "value": "300"
+            }
+          ],
+          "body": "",
+          "divider_7": null,
+          "formatter": "{\n  \"fallback_share_html\": {{ response.text|tojson }},\n  \"fallback_share_status\": {{ response.status_code|tojson }}\n}"
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      }
+    ],
+    "edges": [
+      {
+        "source": "019f0c25-8c78-7000-a001-000000000001",
+        "sourceHandle": "output",
+        "target": "019f0c25-8c78-7000-a001-000000000002",
+        "targetHandle": "input",
+        "id": "xy-edge__019f0c25-8c78-7000-a001-000000000001output-019f0c25-8c78-7000-a001-000000000002input"
+      },
+      {
+        "source": "019f0c25-8c78-7000-a001-000000000002",
+        "sourceHandle": "output",
+        "target": "019f0c25-8c78-7000-a001-000000000003",
+        "targetHandle": "input",
+        "id": "xy-edge__019f0c25-8c78-7000-a001-000000000002output-019f0c25-8c78-7000-a001-000000000003input"
+      },
+      {
+        "source": "019f0c25-8c78-7000-a001-000000000003",
+        "sourceHandle": "output",
+        "target": "019f0c25-8c78-7000-a001-000000000004",
+        "targetHandle": "input",
+        "id": "xy-edge__019f0c25-8c78-7000-a001-000000000003output-019f0c25-8c78-7000-a001-000000000004input"
+      },
+      {
+        "source": "019f0c25-8c78-7000-a001-000000000004",
+        "sourceHandle": "output",
+        "target": "019f0c25-8c78-7000-a001-000000000005",
+        "targetHandle": "input",
+        "id": "xy-edge__019f0c25-8c78-7000-a001-000000000004output-019f0c25-8c78-7000-a001-000000000005input"
+      },
+      {
+        "source": "019f0c25-8c78-7000-a001-000000000006",
+        "sourceHandle": "output",
+        "target": "019f0c25-8c78-7000-a001-000000000007",
+        "targetHandle": "input",
+        "id": "xy-edge__019f0c25-8c78-7000-a001-000000000006output-019f0c25-8c78-7000-a001-000000000007input"
+      },
+      {
+        "source": "019f0c25-8c78-7000-a001-000000000007",
+        "sourceHandle": "output",
+        "target": "019f0c25-8c78-7000-a001-000000000008",
+        "targetHandle": "input",
+        "id": "xy-edge__019f0c25-8c78-7000-a001-000000000007output-019f0c25-8c78-7000-a001-000000000008input"
+      },
+      {
+        "source": "019f0c25-8c78-7000-a001-000000000008",
+        "sourceHandle": "output",
+        "target": "019f0c25-8c78-7000-a001-000000000009",
+        "targetHandle": "input",
+        "id": "xy-edge__019f0c25-8c78-7000-a001-000000000008output-019f0c25-8c78-7000-a001-000000000009input"
+      },
+      {
+        "source": "019f0c25-8c78-7000-a001-000000000009",
+        "sourceHandle": "is_false",
+        "target": "019f0c25-8c78-7000-a001-000000000010",
+        "targetHandle": "input",
+        "id": "xy-edge__019f0c25-8c78-7000-a001-000000000009is_false-019f0c25-8c78-7000-a001-000000000010input"
+      },
+      {
+        "source": "019f0c25-8c78-7000-a001-000000000009",
+        "sourceHandle": "is_true",
+        "target": "019f0c25-8c78-7000-a001-000000000011",
+        "targetHandle": "input",
+        "id": "xy-edge__019f0c25-8c78-7000-a001-000000000009is_true-019f0c25-8c78-7000-a001-000000000011input"
+      },
+      {
+        "source": "019f0c25-8c78-7000-a001-000000000011",
+        "sourceHandle": "output",
+        "target": "019f0c25-8c78-7000-a001-000000000012",
+        "targetHandle": "input",
+        "id": "xy-edge__019f0c25-8c78-7000-a001-000000000011output-019f0c25-8c78-7000-a001-000000000012input"
+      },
+      {
+        "source": "019f0c25-8c78-7000-a001-000000000012",
+        "sourceHandle": "output",
+        "target": "019f0c25-8c78-7000-a001-000000000013",
+        "targetHandle": "input",
+        "id": "xy-edge__019f0c25-8c78-7000-a001-000000000012output-019f0c25-8c78-7000-a001-000000000013input"
+      },
+      {
+        "source": "019f0c25-8c78-7000-a001-000000000014",
+        "sourceHandle": "output",
+        "target": "019f0c25-8c78-7000-a001-000000000015",
+        "targetHandle": "input",
+        "id": "xy-edge__019f0c25-8c78-7000-a001-000000000014output-019f0c25-8c78-7000-a001-000000000015input"
+      },
+      {
+        "source": "019f0c25-8c78-7000-a001-000000000015",
+        "sourceHandle": "output",
+        "target": "019f0c25-8c78-7000-a001-000000000016",
+        "targetHandle": "input",
+        "id": "xy-edge__019f0c25-8c78-7000-a001-000000000015output-019f0c25-8c78-7000-a001-000000000016input"
+      },
+      {
+        "source": "019f0c25-8c78-7000-a001-000000000013",
+        "sourceHandle": "output",
+        "target": "019f0c25-8c78-7000-a001-000000000017",
+        "targetHandle": "input",
+        "id": "xy-edge__019f0c25-8c78-7000-a001-000000000013output-019f0c25-8c78-7000-a001-000000000017input"
+      },
+      {
+        "source": "019f0c25-8c78-7000-a001-000000000017",
+        "sourceHandle": "output",
+        "target": "019f0c25-8c78-7000-a001-000000000018",
+        "targetHandle": "input",
+        "id": "xy-edge__019f0c25-8c78-7000-a001-000000000017output-019f0c25-8c78-7000-a001-000000000018input"
+      },
+      {
+        "source": "019f0c25-8c78-7000-a001-000000000018",
+        "sourceHandle": "output",
+        "target": "019f0c25-8c78-7000-a001-000000000019",
+        "targetHandle": "input",
+        "id": "xy-edge__019f0c25-8c78-7000-a001-000000000018output-019f0c25-8c78-7000-a001-000000000019input"
+      },
+      {
+        "source": "019f0c25-8c78-7000-a001-000000000019",
+        "sourceHandle": "output",
+        "target": "019f0c25-8c78-7000-a001-000000000020",
+        "targetHandle": "input",
+        "id": "xy-edge__019f0c25-8c78-7000-a001-000000000019output-019f0c25-8c78-7000-a001-000000000020input"
+      },
+      {
+        "source": "019f0c25-8c78-7000-a001-000000000020",
+        "sourceHandle": "output",
+        "target": "019f0c25-8c78-7000-a001-000000000021",
+        "targetHandle": "input",
+        "id": "xy-edge__019f0c25-8c78-7000-a001-000000000020output-019f0c25-8c78-7000-a001-000000000021input"
+      },
+      {
+        "source": "019f0c25-8c78-7000-a001-000000000021",
+        "sourceHandle": "output",
+        "target": "019f0c25-8c78-7000-a001-000000000014",
+        "targetHandle": "input",
+        "id": "xy-edge__019f0c25-8c78-7000-a001-000000000021output-019f0c25-8c78-7000-a001-000000000014input"
+      }
+    ]
+  }
+}

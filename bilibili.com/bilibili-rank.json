@@ -1,0 +1,589 @@
+{
+  "name": "\u54d4\u54e9\u54d4\u54e9",
+  "icon": "data:image/webp;base64,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",
+  "description": "\u300c\u54d4\u54e9\u54d4\u54e9\u300d\u6392\u884c\u699c",
+  "category": "indexer",
+  "revision": 1783348674,
+  "definition": {
+    "nodes": [
+      {
+        "id": "bili-search-start",
+        "type": "node",
+        "position": {
+          "x": -943,
+          "y": -530
+        },
+        "data": {
+          "$schema": "search_start",
+          "config": "only_preview: true\n\ndisplay:\n  page_size: 101\n  view_modes:\n    - grid\n  cover_ratio: 4/3\n\nkeyword:\n  global: false\n  required: false\n\nfilters:\n  rid:\n    type: select\n    label: \u5206\u533a\n    options:\n      1005: \u52a8\u753b\n      1008: \u6e38\u620f\n      1007: \u9b3c\u755c\n      1003: \u97f3\u4e50\n      1004: \u821e\u8e48\n      1001: \u5f71\u89c6\n      1002: \u5a31\u4e50\n      1010: \u77e5\u8bc6\n      1012: \u79d1\u6280\u6570\u7801\n      1020: \u7f8e\u98df\n      1013: \u6c7d\u8f66\n      1014: \u65f6\u5c1a\u7f8e\u5986\n      1018: \u4f53\u80b2\u8fd0\u52a8\n      1024: \u52a8\u7269\n"
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "bili-sign-rank",
+        "type": "node",
+        "position": {
+          "x": 1380,
+          "y": -550
+        },
+        "data": {
+          "$schema": "script",
+          "script": {
+            "language": "python",
+            "code": "def execute(node_id, node_data, context):\n    import hashlib\n    import time\n    from urllib.parse import quote, urlencode\n\n    mixin_key_enc_tab = [\n        46, 47, 18, 2, 53, 8, 23, 32, 15, 50, 10, 31, 58, 3, 45, 35,\n        27, 43, 5, 49, 33, 9, 42, 19, 29, 28, 14, 39, 12, 38, 41, 13,\n        37, 48, 7, 16, 24, 55, 40, 61, 26, 17, 0, 1, 60, 51, 30, 4,\n        22, 25, 54, 21, 56, 59, 6, 63, 57, 62, 11, 36, 20, 34, 44, 52,\n    ]\n    rank_slugs = {\n        1005: 'douga',\n        1008: 'game',\n        1007: 'kichiku',\n        1003: 'music',\n        1004: 'dance',\n        1001: 'cinephile',\n        1002: 'ent',\n        1010: 'knowledge',\n        1012: 'tech',\n        1020: 'food',\n        1013: 'car',\n        1014: 'fashion',\n        1018: 'sports',\n        1024: 'animal',\n    }\n\n    def key_from_url(value):\n        if not value:\n            return ''\n        return value.rsplit('/', 1)[-1].split('.', 1)[0]\n\n    def sign(params, img_key, sub_key):\n        raw_key = img_key + sub_key\n        mixin_key = ''.join(raw_key[index] for index in mixin_key_enc_tab)[:32]\n        wts = int(time.time())\n        signed_params = {**params, 'wts': wts}\n\n        def clean(value):\n            return ''.join(char for char in str(value) if char not in \"!'()*\")\n\n        query = '&'.join(\n            f'{quote(str(key), safe=\"\")}={quote(clean(value), safe=\"\")}'\n            for key, value in sorted(signed_params.items())\n            if value is not None\n        )\n        signed_params['w_rid'] = hashlib.md5((query + mixin_key).encode()).hexdigest()\n        return signed_params\n\n    def add_cookie(cookies, key, value):\n        if value:\n            cookies.append(f'{key}={value}')\n\n    try:\n        rid = int(context.get('rid') or 0)\n    except (TypeError, ValueError):\n        rid = 0\n\n    ticket = context.get('biliTicket') or {}\n    nav = ticket.get('nav') or {}\n    wbi_img = context.get('biliWbiImg') or {}\n    img_key = key_from_url(nav.get('img') or wbi_img.get('img_url')) or 'c458435a75b1419ca98ab6d88b4c60d4'\n    sub_key = key_from_url(nav.get('sub') or wbi_img.get('sub_url')) or '446140f6859f439e9dd83f7ef858d1cd'\n    params = sign({'rid': rid, 'type': 'all'}, img_key, sub_key)\n    slug = rank_slugs.get(rid)\n\n    finger = context.get('biliFinger') or {}\n    cookies = []\n    add_cookie(cookies, 'buvid3', finger.get('b_3'))\n    add_cookie(cookies, 'buvid4', finger.get('b_4'))\n    if finger.get('b_3'):\n        add_cookie(cookies, 'b_nut', int(time.time()))\n    add_cookie(cookies, 'bili_ticket', ticket.get('ticket'))\n    if ticket.get('created_at') and ticket.get('ttl'):\n        add_cookie(cookies, 'bili_ticket_expires', int(ticket.get('created_at')) + int(ticket.get('ttl')))\n\n    context['rank_query'] = urlencode(params)\n    context['rank_referer'] = (\n        f'https://www.bilibili.com/v/popular/rank/{slug}'\n        if slug else 'https://www.bilibili.com/v/popular/rank'\n    )\n    context['bili_cookie'] = '; '.join(cookies)\n"
+          }
+        },
+        "origin": [
+          0,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "bili-rank",
+        "type": "node",
+        "position": {
+          "x": 2300,
+          "y": -980
+        },
+        "data": {
+          "$schema": "http",
+          "method": "GET",
+          "url": "https://api.bilibili.com/x/web-interface/ranking/v2?{{rank_query}}",
+          "headers": [
+            {
+              "key": "Accept",
+              "value": "application/json, text/plain, */*"
+            },
+            {
+              "key": "Referer",
+              "value": "{{rank_referer}}"
+            },
+            {
+              "key": "Origin",
+              "value": "https://www.bilibili.com"
+            },
+            {
+              "key": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+            },
+            {
+              "key": "Accept-Language",
+              "value": "zh-CN,zh;q=0.9"
+            },
+            {
+              "key": "Sec-Fetch-Site",
+              "value": "same-site"
+            },
+            {
+              "key": "Sec-Fetch-Mode",
+              "value": "cors"
+            },
+            {
+              "key": "Sec-Fetch-Dest",
+              "value": "empty"
+            },
+            {
+              "key": "sec-ch-ua",
+              "value": "\"Google Chrome\";v=\"147\", \"Chromium\";v=\"147\", \"Not A(Brand\";v=\"24\""
+            },
+            {
+              "key": "sec-ch-ua-mobile",
+              "value": "?0"
+            },
+            {
+              "key": "sec-ch-ua-platform",
+              "value": "\"macOS\""
+            },
+            {
+              "key": "Cookie",
+              "value": "{{bili_cookie}}"
+            }
+          ],
+          "body": "",
+          "formatter": "{\n  \"ranking\": {{ response.text }}\n}"
+        },
+        "origin": [
+          0,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "bili-search-end",
+        "type": "node",
+        "position": {
+          "x": 3207,
+          "y": -570
+        },
+        "data": {
+          "$schema": "search_end",
+          "response": "{\n  \"items\": [\n{% for i in ranking|jsonpath_all('$.data.list[*]') %}\n{% set views = i|jsonpath('$.stat.view')|int %}\n{% set category = (i|jsonpath('$.pid_name_v2')) or (i|jsonpath('$.tname')) or '' %}\n    {\n      \"id\": {{ i|jsonpath('$.bvid')|tojson }},\n      \"title\": {{ i|jsonpath('$.title')|tojson }},\n      \"cover\": {{ ((i|jsonpath('$.pic')|replace('http://', 'https://')) + '?proxy=true&referer=https%3A%2F%2Fwww.bilibili.com%2F')|tojson }},\n      \"ranking\": {{ loop.index }},\n      \"misc\": {{ i|jsonpath('$.duration')|duration('seconds')|tojson }},\n{% if views >= 100000000 %}\n      \"size\": {{ ('%.1f\u4ebf' % (views / 100000000))|replace('.0', '')|tojson }},\n{% elif views >= 10000 %}\n      \"size\": {{ ('%.1f\u4e07' % (views / 10000))|replace('.0', '')|tojson }},\n{% else %}\n      \"size\": {{ (views|string)|tojson }},\n{% endif %}\n      \"category\": {{ category|tojson }},\n      \"uploader\": {{ i|jsonpath('$.owner.name')|tojson }},\n{% if not mobile|default(false) %}\n      \"uploaded_at\": {{ i|jsonpath('$.pubdate')|strftime('%Y-%m-%d', 8)|tojson }},\n{% endif %}\n      \"link\": {{ ('https://www.bilibili.com/video/' + (i|jsonpath('$.bvid')))|tojson }}\n    },\n{% endfor %}\n  ]\n}\n",
+          "force_end": true
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "bili-details-start",
+        "type": "node",
+        "position": {
+          "x": -943,
+          "y": 730
+        },
+        "data": {
+          "$schema": "details_start",
+          "config": "specific:\n  media_type: video\n  video_type: dash\n"
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "bili-video-info",
+        "type": "node",
+        "position": {
+          "x": -580,
+          "y": 470
+        },
+        "data": {
+          "$schema": "http",
+          "method": "GET",
+          "url": "https://api.bilibili.com/x/web-interface/view?bvid={{id}}",
+          "headers": [
+            {
+              "key": "Referer",
+              "value": "https://www.bilibili.com/video/{{id}}/"
+            },
+            {
+              "key": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+            }
+          ],
+          "body": "",
+          "formatter": "{\n  \"videoInfo\": {{ response.text|jsonpath(\"$.data\")|tojson }}\n}"
+        },
+        "origin": [
+          0,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "bili-select-chapter",
+        "type": "node",
+        "position": {
+          "x": 110,
+          "y": 600
+        },
+        "data": {
+          "$schema": "script",
+          "script": {
+            "language": "python",
+            "code": "def execute(node_id, node_data, context):\n    video_info = context.get('videoInfo') or {}\n    pages = video_info.get('pages') or []\n    requested = str(context.get('chapter_id') or '')\n\n    chapter = None\n    for page in pages:\n        if requested and str(page.get('cid')) == requested:\n            chapter = page\n            break\n    if chapter is None and pages:\n        chapter = pages[0]\n    if chapter is None:\n        chapter = {'cid': video_info.get('cid'), 'page': 1, 'part': video_info.get('title')}\n\n    context['bvid'] = video_info.get('bvid') or context.get('id')\n    context['aid'] = video_info.get('aid')\n    context['cid'] = chapter.get('cid') or video_info.get('cid')\n    context['chapter'] = chapter"
+          }
+        },
+        "origin": [
+          0,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "bili-dash-playurl",
+        "type": "node",
+        "position": {
+          "x": 1690,
+          "y": 1300
+        },
+        "data": {
+          "$schema": "http",
+          "method": "GET",
+          "url": "https://api.bilibili.com/x/player/playurl?bvid={{bvid}}&cid={{cid}}&qn=80&fnver=0&fnval=4048&fourk=1",
+          "headers": [
+            {
+              "key": "Referer",
+              "value": "https://www.bilibili.com/video/{{bvid}}/"
+            },
+            {
+              "key": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+            }
+          ],
+          "body": "",
+          "formatter": "{\n  \"dashPlayurl\": {{ response.text|jsonpath(\"$.data\")|tojson }}\n}"
+        },
+        "origin": [
+          0,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "bili-mp4-playurl",
+        "type": "node",
+        "position": {
+          "x": 1690,
+          "y": 350
+        },
+        "data": {
+          "$schema": "http",
+          "method": "GET",
+          "url": "https://api.bilibili.com/x/player/playurl?bvid={{bvid}}&cid={{cid}}&qn=64&fnver=0&fnval=0&fourk=0",
+          "headers": [
+            {
+              "key": "Referer",
+              "value": "https://www.bilibili.com/video/{{bvid}}/"
+            },
+            {
+              "key": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+            }
+          ],
+          "body": "",
+          "formatter": "{\n  \"mp4Playurl\": {{ response.text|jsonpath(\"$.data\")|tojson }}\n}"
+        },
+        "origin": [
+          0,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "bili-danmaku",
+        "type": "node",
+        "position": {
+          "x": 2570,
+          "y": 350
+        },
+        "data": {
+          "$schema": "http",
+          "method": "GET",
+          "url": "https://api.bilibili.com/x/v1/dm/list.so?oid={{cid}}",
+          "headers": [
+            {
+              "key": "Referer",
+              "value": "https://www.bilibili.com/video/{{bvid}}/"
+            },
+            {
+              "key": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+            }
+          ],
+          "body": "",
+          "formatter": "{\n  \"danmakuXml\": {{ response.text|tojson }}\n}"
+        },
+        "origin": [
+          0,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "bili-build-details",
+        "type": "node",
+        "position": {
+          "x": 3350,
+          "y": 460
+        },
+        "data": {
+          "$schema": "script",
+          "script": {
+            "language": "python",
+            "code": "def execute(node_id, node_data, context):\n    import html\n    import math\n    from datetime import datetime, timezone, timedelta\n    from urllib.parse import quote\n    import xml.etree.ElementTree as ET\n\n    PLAYBACK_UA = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36'\n\n    QUALITY_LABELS = {\n        6: '240P \u6781\u901f',\n        16: '360P \u6d41\u7545',\n        32: '480P \u6e05\u6670',\n        64: '720P \u9ad8\u6e05',\n        80: '1080P \u9ad8\u6e05',\n        112: '1080P+ \u9ad8\u7801\u7387',\n        116: '1080P60',\n        120: '4K \u8d85\u6e05',\n        125: 'HDR \u771f\u5f69',\n        126: '\u675c\u6bd4\u89c6\u754c',\n        127: '8K \u8d85\u9ad8\u6e05',\n        129: 'HDR Vivid',\n    }\n\n    def first_url(item):\n        if not isinstance(item, dict):\n            return ''\n        return item.get('baseUrl') or item.get('base_url') or item.get('url') or ''\n\n    def proxy_url(url, referer):\n        return (\n            '/_api/media/proxy?url='\n            + quote(url, safe='')\n            + '&referer='\n            + quote(referer, safe='')\n            + '&ua='\n            + quote(PLAYBACK_UA, safe='')\n        )\n\n    def xml_url(url):\n        return html.escape(url, quote=True)\n\n    def seconds_to_iso8601(seconds):\n        seconds = max(0, int(math.ceil(float(seconds or 0))))\n        hours, rem = divmod(seconds, 3600)\n        minutes, secs = divmod(rem, 60)\n        value = 'PT'\n        if hours:\n            value += f'{hours}H'\n        if minutes:\n            value += f'{minutes}M'\n        return value + f'{secs}S'\n\n    def quality_label(video):\n        qn = video.get('id')\n        try:\n            qn = int(qn)\n        except (TypeError, ValueError):\n            qn = None\n        label = QUALITY_LABELS.get(qn)\n        if not label:\n            label = f\"{video.get('height') or ''}P\".strip() or str(video.get('id') or 'DASH')\n        codecs = str(video.get('codecs') or '').lower()\n        if codecs.startswith(('hev', 'hvc')):\n            label += ' HEVC'\n        elif codecs.startswith('av01'):\n            label += ' AV1'\n        return label\n\n    def segment_base_xml(item):\n        segment = item.get('segment_base') or item.get('SegmentBase') or {}\n        index_range = segment.get('index_range') or segment.get('indexRange')\n        init_range = segment.get('initialization') or segment.get('Initialization')\n        attrs = f' indexRange=\"{html.escape(str(index_range), quote=True)}\"' if index_range else ''\n        init = ''\n        if init_range:\n            init = f'<Initialization range=\"{html.escape(str(init_range), quote=True)}\" />'\n        return f'<SegmentBase{attrs}>{init}</SegmentBase>'\n\n    def build_mpd(video, audio, duration, referer):\n        video_url = first_url(video)\n        if not video_url:\n            return None\n        audio_url = first_url(audio)\n        duration_attr = seconds_to_iso8601(duration)\n        video_rep = f'''\n      <AdaptationSet id=\"1\" contentType=\"video\" mimeType=\"video/mp4\" segmentAlignment=\"true\" startWithSAP=\"1\">\n        <Representation id=\"v{html.escape(str(video.get('id') or '0'), quote=True)}\" bandwidth=\"{int(video.get('bandwidth') or 0)}\" codecs=\"{html.escape(str(video.get('codecs') or 'avc1.640028'), quote=True)}\" width=\"{int(video.get('width') or 0)}\" height=\"{int(video.get('height') or 0)}\" frameRate=\"{html.escape(str(video.get('frame_rate') or video.get('frameRate') or '25'), quote=True)}\">\n          <BaseURL>{xml_url(proxy_url(video_url, referer))}</BaseURL>\n          {segment_base_xml(video)}\n        </Representation>\n      </AdaptationSet>'''\n        audio_rep = ''\n        if audio_url:\n            audio_rep = f'''\n      <AdaptationSet id=\"2\" contentType=\"audio\" mimeType=\"audio/mp4\" segmentAlignment=\"true\" startWithSAP=\"1\">\n        <Representation id=\"a{html.escape(str(audio.get('id') or '0'), quote=True)}\" bandwidth=\"{int(audio.get('bandwidth') or 0)}\" codecs=\"{html.escape(str(audio.get('codecs') or 'mp4a.40.2'), quote=True)}\" audioSamplingRate=\"{int(audio.get('audioSamplingRate') or audio.get('audio_sampling_rate') or 44100)}\">\n          <AudioChannelConfiguration schemeIdUri=\"urn:mpeg:dash:23003:3:audio_channel_configuration:2011\" value=\"2\" />\n          <BaseURL>{xml_url(proxy_url(audio_url, referer))}</BaseURL>\n          {segment_base_xml(audio)}\n        </Representation>\n      </AdaptationSet>'''\n        return f'''<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<MPD xmlns=\"urn:mpeg:dash:schema:mpd:2011\" type=\"static\" mediaPresentationDuration=\"{duration_attr}\" minBufferTime=\"PT1.5S\" profiles=\"urn:mpeg:dash:profile:isoff-on-demand:2011\">\n  <Period id=\"0\" duration=\"{duration_attr}\">\n{video_rep}\n{audio_rep}\n  </Period>\n</MPD>'''\n\n    def parse_danmaku(xml_text):\n        if not xml_text:\n            return []\n        comments = []\n        try:\n            root = ET.fromstring(xml_text)\n        except ET.ParseError:\n            return comments\n        for elem in root.findall('d'):\n            text = (elem.text or '').strip()\n            if not text:\n                continue\n            parts = (elem.attrib.get('p') or '').split(',')\n            try:\n                start = float(parts[0]) * 1000\n            except (IndexError, ValueError):\n                start = 0\n            try:\n                mode_code = int(float(parts[1]))\n            except (IndexError, ValueError):\n                mode_code = 1\n            try:\n                color = int(float(parts[3]))\n            except (IndexError, ValueError):\n                color = 16777215\n            comments.append({\n                'id': parts[7] if len(parts) > 7 else None,\n                'text': text,\n                'mode': 'top' if mode_code == 5 else 'bottom' if mode_code == 4 else 'scroll',\n                'color': f'#{color:06X}',\n                'start': int(start),\n            })\n        return comments\n\n    def format_time(ts):\n        try:\n            dt = datetime.fromtimestamp(float(ts), timezone(timedelta(hours=8)))\n            return dt.strftime('%Y-%m-%d')\n        except (TypeError, ValueError, OSError):\n            return ''\n\n    video_info = context.get('videoInfo') or {}\n    dash_playurl = context.get('dashPlayurl') or {}\n    mp4_playurl = context.get('mp4Playurl') or {}\n    chapter = context.get('chapter') or {}\n    bvid = context.get('bvid') or video_info.get('bvid') or context.get('id')\n    cid = context.get('cid') or chapter.get('cid') or video_info.get('cid')\n    referer = f'https://www.bilibili.com/video/{bvid}/'\n\n    duration = (dash_playurl.get('timelength') or mp4_playurl.get('timelength') or 0) / 1000\n    if not duration:\n        duration = video_info.get('duration') or 0\n\n    dash = dash_playurl.get('dash') or {}\n    videos = [v for v in (dash.get('video') or []) if first_url(v)]\n    videos.sort(key=lambda v: (int(v.get('height') or 0), int(v.get('bandwidth') or 0)), reverse=True)\n    audios = [a for a in (dash.get('audio') or []) if first_url(a)]\n    audios.sort(key=lambda a: int(a.get('bandwidth') or 0), reverse=True)\n    audio = audios[0] if audios else {}\n\n    definitions = []\n    for video in videos:\n        manifest = build_mpd(video, audio, duration, referer)\n        if manifest:\n            definitions.append({'url': manifest, 'definition': quality_label(video)})\n\n    mp4_url = ''\n    durls = mp4_playurl.get('durl') or []\n    if durls:\n        mp4_url = first_url(durls[0])\n        if mp4_url:\n            mp4_url = proxy_url(mp4_url, referer)\n\n    if definitions:\n        primary_url = definitions[0]['url']\n        video_type = 'dash'\n    else:\n        primary_url = mp4_url\n        video_type = 'mp4'\n\n    chapters = []\n    for page in video_info.get('pages') or []:\n        page_cid = page.get('cid')\n        chapters.append({\n            'id': str(page_cid) if page_cid is not None else None,\n            'title': page.get('part') or f\"P{page.get('page') or len(chapters) + 1}\",\n        })\n\n    context['details'] = {\n        'id': bvid,\n        'title': video_info.get('title') or '',\n        'uploader': (video_info.get('owner') or {}).get('name') or '',\n        'uploaded_at': format_time(video_info.get('pubdate')),\n        'media_type': 'video',\n        'video_type': video_type,\n        'url': primary_url,\n        'definitions': definitions,\n        'chapters': chapters,\n        'danmakus': parse_danmaku(context.get('danmakuXml') or ''),\n    }"
+          }
+        },
+        "origin": [
+          0,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "bili-details-end",
+        "type": "node",
+        "position": {
+          "x": 4487,
+          "y": 580
+        },
+        "data": {
+          "$schema": "details_end",
+          "response": "{{ details|tojson }}",
+          "force_end": true
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "bili-finger-spi",
+        "type": "node",
+        "data": {
+          "$schema": "http",
+          "method": "GET",
+          "url": "https://api.bilibili.com/x/frontend/finger/spi",
+          "headers": [
+            {
+              "key": "Referer",
+              "value": "https://www.bilibili.com/"
+            },
+            {
+              "key": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+            },
+            {
+              "key": "Accept-Language",
+              "value": "zh-CN,zh;q=0.9"
+            }
+          ],
+          "body": "",
+          "formatter": "{\n  \"biliFinger\": {{ response.text|jsonpath(\"$.data\")|tojson }}\n}"
+        },
+        "position": {
+          "x": -570,
+          "y": -680
+        },
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "bili-sign-ticket",
+        "type": "node",
+        "data": {
+          "$schema": "script",
+          "script": {
+            "language": "python",
+            "code": "def execute(node_id, node_data, context):\n    import hashlib\n    import hmac\n    import time\n    from urllib.parse import urlencode\n\n    ts = int(time.time())\n    hexsign = hmac.new(\n        b'XgwSnGZ1p',\n        f'ts{ts}'.encode(),\n        hashlib.sha256,\n    ).hexdigest()\n    context['ticket_query'] = urlencode({\n        'key_id': 'ec02',\n        'hexsign': hexsign,\n        'context[ts]': ts,\n        'csrf': '',\n    })\n"
+          }
+        },
+        "position": {
+          "x": 100,
+          "y": -520
+        },
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "bili-ticket",
+        "type": "node",
+        "data": {
+          "$schema": "http",
+          "method": "POST",
+          "url": "https://api.bilibili.com/bapis/bilibili.api.ticket.v1.Ticket/GenWebTicket?{{ticket_query}}",
+          "headers": [
+            {
+              "key": "Referer",
+              "value": "https://www.bilibili.com/"
+            },
+            {
+              "key": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+            },
+            {
+              "key": "Accept-Language",
+              "value": "zh-CN,zh;q=0.9"
+            }
+          ],
+          "body": "",
+          "formatter": "{\n  \"biliTicket\": {{ response.text|jsonpath(\"$.data\")|tojson }}\n}"
+        },
+        "position": {
+          "x": 700,
+          "y": -680
+        },
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "bili-ios-playback",
+        "type": "node",
+        "data": {
+          "$schema": "condition",
+          "expression": "{{ not (dash_supported|default(false)) }}"
+        },
+        "position": {
+          "x": 1080,
+          "y": 800
+        },
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      }
+    ],
+    "edges": [
+      {
+        "source": "bili-details-start",
+        "sourceHandle": "output",
+        "target": "bili-video-info",
+        "targetHandle": "input",
+        "id": "xy-edge__bili-details-startoutput-bili-video-infoinput",
+        "type": "edge",
+        "animated": true
+      },
+      {
+        "source": "bili-video-info",
+        "sourceHandle": "output",
+        "target": "bili-select-chapter",
+        "targetHandle": "input",
+        "id": "xy-edge__bili-video-infooutput-bili-select-chapterinput",
+        "type": "edge",
+        "animated": true
+      },
+      {
+        "source": "bili-danmaku",
+        "sourceHandle": "output",
+        "target": "bili-build-details",
+        "targetHandle": "input",
+        "id": "xy-edge__bili-danmakuoutput-bili-build-detailsinput",
+        "type": "edge",
+        "animated": true
+      },
+      {
+        "source": "bili-build-details",
+        "sourceHandle": "output",
+        "target": "bili-details-end",
+        "targetHandle": "input",
+        "id": "xy-edge__bili-build-detailsoutput-bili-details-endinput",
+        "type": "edge",
+        "animated": true
+      },
+      {
+        "source": "bili-sign-rank",
+        "sourceHandle": "output",
+        "target": "bili-rank",
+        "targetHandle": "input",
+        "id": "xy-edge__bili-sign-rankoutput-bili-rankinput",
+        "type": "edge",
+        "animated": true
+      },
+      {
+        "source": "bili-rank",
+        "sourceHandle": "output",
+        "target": "bili-search-end",
+        "targetHandle": "input",
+        "id": "xy-edge__bili-rankoutput-bili-search-endinput",
+        "type": "edge",
+        "animated": true
+      },
+      {
+        "source": "bili-select-chapter",
+        "sourceHandle": "output",
+        "target": "bili-ios-playback",
+        "targetHandle": "input",
+        "id": "xy-edge__bili-select-chapteroutput-bili-ios-playbackinput",
+        "type": "edge",
+        "animated": true
+      },
+      {
+        "source": "bili-ios-playback",
+        "sourceHandle": "is_true",
+        "target": "bili-mp4-playurl",
+        "targetHandle": "input",
+        "id": "xy-edge__bili-ios-playbackis_true-bili-mp4-playurlinput",
+        "type": "edge",
+        "animated": true
+      },
+      {
+        "source": "bili-ios-playback",
+        "sourceHandle": "is_false",
+        "target": "bili-dash-playurl",
+        "targetHandle": "input",
+        "id": "xy-edge__bili-ios-playbackis_false-bili-dash-playurlinput",
+        "type": "edge",
+        "animated": true
+      },
+      {
+        "source": "bili-dash-playurl",
+        "sourceHandle": "output",
+        "target": "bili-danmaku",
+        "targetHandle": "input",
+        "id": "xy-edge__bili-dash-playurloutput-bili-danmakuinput",
+        "type": "edge",
+        "animated": true
+      },
+      {
+        "source": "bili-mp4-playurl",
+        "sourceHandle": "output",
+        "target": "bili-danmaku",
+        "targetHandle": "input",
+        "id": "xy-edge__bili-mp4-playurloutput-bili-danmakuinput",
+        "type": "edge",
+        "animated": true
+      },
+      {
+        "source": "bili-search-start",
+        "sourceHandle": "output",
+        "target": "bili-finger-spi",
+        "targetHandle": "input",
+        "id": "xy-edge__bili-search-startoutput-bili-finger-spiinput",
+        "type": "edge",
+        "animated": true
+      },
+      {
+        "source": "bili-finger-spi",
+        "sourceHandle": "output",
+        "target": "bili-sign-ticket",
+        "targetHandle": "input",
+        "id": "xy-edge__bili-finger-spioutput-bili-sign-ticketinput",
+        "type": "edge",
+        "animated": true
+      },
+      {
+        "source": "bili-sign-ticket",
+        "sourceHandle": "output",
+        "target": "bili-ticket",
+        "targetHandle": "input",
+        "id": "xy-edge__bili-sign-ticketoutput-bili-ticketinput",
+        "type": "edge",
+        "animated": true
+      },
+      {
+        "source": "bili-ticket",
+        "sourceHandle": "output",
+        "target": "bili-sign-rank",
+        "targetHandle": "input",
+        "id": "xy-edge__bili-ticketoutput-bili-sign-rankinput",
+        "type": "edge",
+        "animated": true
+      }
+    ]
+  }
+}
