@@ -1,0 +1,1693 @@
+{
+  "name": "TvTFun",
+  "icon": "data:image/webp;base64,UklGRkQMAABXRUJQVlA4WAoAAAAwAAAAXwAAXwAASUNDUMgBAAAAAAHIAAAAAAQwAABtbnRyUkdCIFhZWiAH4AABAAEAAAAAAABhY3NwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA9tYAAQAAAADTLQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlkZXNjAAAA8AAAACRyWFlaAAABFAAAABRnWFlaAAABKAAAABRiWFlaAAABPAAAABR3dHB0AAABUAAAABRyVFJDAAABZAAAAChnVFJDAAABZAAAAChiVFJDAAABZAAAAChjcHJ0AAABjAAAADxtbHVjAAAAAAAAAAEAAAAMZW5VUwAAAAgAAAAcAHMAUgBHAEJYWVogAAAAAAAAb6IAADj1AAADkFhZWiAAAAAAAABimQAAt4UAABjaWFlaIAAAAAAAACSgAAAPhAAAts9YWVogAAAAAAAA9tYAAQAAAADTLXBhcmEAAAAAAAQAAAACZmYAAPKnAAANWQAAE9AAAApbAAAAAAAAAABtbHVjAAAAAAAAAAEAAAAMZW5VUwAAACAAAAAcAEcAbwBvAGcAbABlACAASQBuAGMALgAgADIAMAAxADZBTFBIsAMAAAGghm3b2Uh7k3rHnrVt27Zt27Zt27Zt2/buWO3U7RTv87F5kzz/9k9ETAD5871gbp5VQKViCgzyvrldgpFmzO+n+TBoAXBUw6bOb0isjEERPdhbMMl6H+BFXgyUmwGuRTDQrfOAo6cCA1IuBoydeEF8OwO4N6sIiv6b3d6ToYLy3KL0XkGCI1c/BfTNBS13gaEdjwTxPwRwXuMb38gBnsU6gmY1Pdjb+VboMcC1aIKncjPAzWhfdAsz4Hdlgmm5GDB25HyokwiWkSpUAra6vafD/i/6GsCBKIIqVz8FLF04tS40PHvpyls94JjVunXrppUiVDLjVbrg8NwFK7fsMCMOIObKlfdffqebMyhQSgEALHEXRhfPxMmD989RqlGPmetPXXv7U293gYhfVtX1lxwfXnPQulNv4tLMLi9I0JVyqLJCSnx0+21f3CBx/awcSulUPGMBGboe9QyTStgDL8iSGs90rVysgD8nXieQr9duNL28s3/OkDolswXxzBS7ZPS/1G2Kebm/XSCryOfy+09P6uogRnl+SoiKAkBX6tiUS5CQ6In1OCaN0/DwbvZj0taIB7zJzYIfYkPE2YOFamoGIrCChWapB5OrHIPAQ4DpAzWD4FOoXOUYhF9DZQthmOMVKmtZ5P+KynIWRX9Ki4q1mEV1vbREn8aihQWVSSw6AHaDUKFMFqK3AxXvUBZ7UDHWZXECE8O6SAbax5gc9ycMQ79gsoln8guTPWoWUXGY7GWSVY/JZgWL4hKjIi0kwrno2YDpXF5Y4AYnKvdzCsvzAaRNxUpvJaxSmsREtw3kBTVwYFcxCbusr5EZICzkNDL9OEH++3Cx9hYWeAgXY1siuNA7XJJrChvhweVnKUH+9wFTr2GaTlA1iogn5lArHRE8D5BMvnFuRa9SwRwRHHDxv6hXbm9KEsaq2U6vJ+Xzrd273wOVlbE7KxLYY9KQmnkj/QOmukHG7pQ5Ycz+V9E2CeRr/368joqIXe8DlYs3+croMpmI6GW/UZCn4/ni2hFKIjpX6AGI6bh+7/GHn0l6g9nudLlcDmP825jk1NSUmPdn59cKIpIM3OoS5Xa+kCw5C1Vr3LzziInz5s0b1aFc7lJ16tWrVyx7AJFqIwOI+bIcT/5XoVKr1QqOSL+j5b+o256e5vHNqz9emCCYc/H5+8/uXzu+d9mwVr1TfbG+29EqjGDIaUOjskSFBwdoeZL3idtLKXWbv1xa2CZ/AEfQ5bOXq9WmQ/3qxYIV5M9OVlA4IJ4GAABQIACdASpgAGAAPm0ulEekIiIhKBHNCIANiWIA0xv2UgOspDzw1wD1d/mTeReYn+J/2z9u/Z09Rv+d30D0AOlwrwf8r0l4ifUjg3/r/NXvllaIAPyj+h/7zjY7ajj7ZkP+F9ELQ19Qewf+uP/M7EHoqt4++BLtBvd643BOhk18ehj+bVJ24Ud59nUrW1p0aX2WpVQ/rg8b0wG/4HvTQtKbGI6JKhW9IF4ijiA22cRL5Z0zACG6uObuPEQNlGY0SzgDXdB7ZCp9y8abY+a0abh8/uLAZHPqM+wtGqKjCcLPM7cYAHCneGqFkxUVY7xHbsNjuJ7HSpAWtYQD/Prd/KMZGzFJXGyOGhDsn4AA/v4G0eOPNF1sPRu/Y+Hs1PeWsbFWq95Kx05N/V5CB2hgNhy2CsUeBQZNttJ8k8sP/7LrpzNQSqAPDW4v81V9/B2/JzT+mweia+gf6PkqwK4KnE+GML7J/7RxmlgE6d1T7Vk1tvjt9dL3c8ZFHSPf82LYGNl1BJwwIYb+01fhwTuNmV0TfKwRzNR/URvrNWm9yx63aHer54+3nj/o6OljeXqoYQ0Dbxs5Plzzt/HmLUk94xmaM6UGVnZbQHh3XvmuKaEPBSDGEpBBvJsyWoqoaiFX1hKwCQy8f1FXggiXXdRpYyt4gW3m8yTz9iRz6MXfLSzsEzbdPpRJk+fziGUA6cyrY+vs4TW3x/ijvOkayoVhrBhdJGbyqRwnAVFMXZWjU8sgWiKGH140K99ma2WfxzZ9iN2f+vVU1bA+pUPBxmRtuN0X/7tzXkixyM6UWq+717qW1EJO746K1Hh/voE90DVT7uL4hcmAu9N26vytxXfX9mmvt/ODDsRCXuZaL7wg3TFKhLHijbHNmkyRUjJzalEbit01c0tEPo7zWeKDS64VqZZ8jC43DvQj4C3559tiGr0Jk0qHYKrkXV7Q+/9+R8kYZf16fWCi66Lk7tZqriEYZtOen/dDoZ15g/Hi3BY+uJfgd13hE611CfF/8CevTYv45NYmokJY0UIA7t2HBN8Uo7Ua1NZIw3gR4p7XB0YhEDFeBgF2AhDp+jUGNY6uOJNqBK91UWS87pmfVJhY41FryKCabze2k1YG7M9QmrJ99/ogp/7N37vZYWizMgrt9/qQo0ONxI9WTXFa/W3/VZdNjaYbJxblaT/nQU1T/XaWQaf8rqmfNaU7F2ylGNpZMFCn4eHG3RRwKKM3DeoeP/8TRpvZdI/6kqv26rRRn0PigU4b4TSBZavsQlWKZi8vSO3cN8AjReynHuX5KeJQopV0wnteuz3lEBzecf8sAezdpbb09/gX2Vyr1sBO8wTp+teTRiAeTWcKGmcFV2+Pye/jbiaL+8eZ9tJdhAVpkm9Qc5BXzv9W0ILFXmxmUADvB2MH1pnZfzVgAhnSa2XWXdj1s0vF7ow7CXjZtzqQeEHdA1d/jert6tS5L1U5M4LU4OXvqB+QvlTjsUcmVTECUxipPBUL0Q/93nkO3NqTWkSqR/eObAfiNcHXnjsN85RxhG7/nD8nmrJK6IxonnNfRP9Vr40l8bF23vOL0YBLjDGbvCShn0ZbjQx/s5owv6/+48e7dyk4/Wxq+RKbQdEfdjXMPqM1hGo8KPpDDcGVd4AySje8uLzOtQHUabwTfOiCja2Ms4N5HLC6TGnSI6K5ho9ZISVNkm28K2no3vWrwnrp1rWIEXp/DS5S5YJGQFTJAFMX8T1LzZXG8YqIc4KvXfoV0rX2y5CgRCLRA5AHwQLkymkkWjA1dfVe5+TrUKgjnW+uQ/1SPkneOJQrnrBy6xIZrAZi/4BnivGCR5n+LTZ3d4+ia5ElVO3SgddW20i/vFZ607cQwvoqoxHk0ENUfKGETAPqAZAnn2pQ8SMQ920ugmD0Iju9kfRR6tod1kAFou8BjkHsiMk/5naY3mohXkh42MPOUdv5B4pLrnY4ss6YVfcZ/YAirKItIC6+cTgdW1rlNm4lJwtgjfLJzdbQcQial6vxJoE7oJ45rUaLnguXaB7DqF9LKqsAxtf3p1va/28Q4tZMx9s9QSrS6mghh0QQgsU4MMtcH3UGYLW1df+C0Xj/i6JB2AzxWkdyrN7iy7LaH/Sfrh1h/80ThBVcNUwX9XT5rCx1CPqHtckD5AUosPaxkee0tcP6igNuC91e1f2Z+HtzbUm1Gu+fraLzRfj97MxUUuFjtx8VQkjPYZNBfESPX2TFHKpJ4uLHWrFniBkBp1pJjTdbyjjyTf/aCgAAAA==",
+  "description": "\u300cTvTFun\u300d\u756a\u5267",
+  "category": "indexer",
+  "revision": 1789997620,
+  "definition": {
+    "nodes": [
+      {
+        "id": "019f0c25-8c78-7000-a001-000000000001",
+        "type": "node",
+        "position": {
+          "x": -843,
+          "y": -2340
+        },
+        "data": {
+          "$schema": "search_start",
+          "config": "only_preview: true\n\ndisplay:\n  page_size: 24\n  view_modes:\n    - grid\n  cover_ratio: 3/4\n\nkeyword:\n  global: true\n  required: false\n\nfilters:\n  tag:\n    type: radio\n    label: \u6807\u7b7e\n    options:\n      \"\": \u5168\u90e8\n      \"\u641e\u7b11\": \"\u641e\u7b11\"\n      \"\u8fd0\u52a8\": \"\u8fd0\u52a8\"\n      \"\u52b1\u5fd7\": \"\u52b1\u5fd7\"\n      \"\u70ed\u8840\": \"\u70ed\u8840\"\n      \"\u6218\u6597\": \"\u6218\u6597\"\n      \"\u7ade\u6280\": \"\u7ade\u6280\"\n      \"\u6821\u56ed\": \"\u6821\u56ed\"\n      \"\u9752\u6625\": \"\u9752\u6625\"\n      \"\u7231\u60c5\": \"\u7231\u60c5\"\n      \"\u604b\u7231\": \"\u604b\u7231\"\n      \"\u5192\u9669\": \"\u5192\u9669\"\n      \"\u540e\u5bab\": \"\u540e\u5bab\"\n      \"\u767e\u5408\": \"\u767e\u5408\"\n      \"\u6cbb\u6108\": \"\u6cbb\u6108\"\n      \"\u841d\u8389\": \"\u841d\u8389\"\n      \"\u9b54\u6cd5\": \"\u9b54\u6cd5\"\n      \"\u60ac\u7591\": \"\u60ac\u7591\"\n      \"\u63a8\u7406\": \"\u63a8\u7406\"\n      \"\u5947\u5e7b\": \"\u5947\u5e7b\"\n      \"\u79d1\u5e7b\": \"\u79d1\u5e7b\"\n      \"\u6e38\u620f\": \"\u6e38\u620f\"\n      \"\u795e\u9b54\": \"\u795e\u9b54\"\n      \"\u6050\u6016\": \"\u6050\u6016\"\n      \"\u8840\u8165\": \"\u8840\u8165\"\n      \"\u673a\u6218\": \"\u673a\u6218\"\n      \"\u6218\u4e89\": \"\u6218\u4e89\"\n      \"\u72af\u7f6a\": \"\u72af\u7f6a\"\n      \"\u5386\u53f2\": \"\u5386\u53f2\"\n      \"\u793e\u4f1a\": \"\u793e\u4f1a\"\n      \"\u804c\u573a\": \"\u804c\u573a\"\n      \"\u5267\u60c5\": \"\u5267\u60c5\"\n      \"\u4f2a\u5a18\": \"\u4f2a\u5a18\"\n      \"\u803d\u7f8e\": \"\u803d\u7f8e\"\n      \"\u7ae5\u5e74\": \"\u7ae5\u5e74\"\n      \"\u6559\u80b2\": \"\u6559\u80b2\"\n      \"\u4eb2\u5b50\": \"\u4eb2\u5b50\"\n      \"\u771f\u4eba\": \"\u771f\u4eba\"\n      \"\u6b4c\u821e\": \"\u6b4c\u821e\"\n      \"\u8089\u756a\": \"\u8089\u756a\"\n      \"\u7f8e\u5c11\u5973\": \"\u7f8e\u5c11\u5973\"\n      \"\u8f7b\u5c0f\u8bf4\": \"\u8f7b\u5c0f\u8bf4\"\n      \"\u5438\u8840\u9b3c\": \"\u5438\u8840\u9b3c\"\n      \"\u5973\u6027\u5411\": \"\u5973\u6027\u5411\"\n      \"\u6ce1\u9762\u756a\": \"\u6ce1\u9762\u756a\"\n      \"\u6b22\u4e50\u5411\": \"\u6b22\u4e50\u5411\"\n  year:\n    type: radio\n    label: \u5e74\u4efd\n    options:\n      \"\": \u5168\u90e8\n      \"2026\": \"2026\"\n      \"2025\": \"2025\"\n      \"2024\": \"2024\"\n      \"2023\": \"2023\"\n      \"2022\": \"2022\"\n      \"2021\": \"2021\"\n      \"2020\": \"2020\"\n      \"2019\": \"2019\"\n      \"2018\": \"2018\"\n      \"2017\": \"2017\"\n      \"2016\": \"2016\"\n      \"2015\": \"2015\"\n      \"2014\": \"2014\"\n      \"2013\": \"2013\"\n      \"2012\": \"2012\"\n      \"2011\": \"2011\"\n      \"2010\": \"2010\"\n      \"2009\": \"2009\"\n      \"2008\": \"2008\"\n      \"2007\": \"2007\"\n      \"2006\": \"2006\"\n      \"2005\": \"2005\"\n      \"2004\": \"2004\"\n      \"2003\": \"2003\"\n      \"2002\": \"2002\"\n      \"2001\": \"2001\"\n      \"2000\": \"2000\"\n  area:\n    type: radio\n    label: \u5730\u533a\n    options:\n      \"\": \u5168\u90e8\n      \"\u65e5\u672c\": \"\u65e5\u672c\"\n  order:\n    type: radio\n    label: \u6392\u5e8f\n    options:\n      updatedAt: \u6700\u8fd1\u66f4\u65b0\n      createdAt: \u6700\u65b0\u4e0a\u67b6\n      hits: \u6700\u591a\u64ad\u653e\n      score: \u6700\u9ad8\u8bc4\u5206\n"
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "019f0c25-8c78-7000-a001-000000000002",
+        "type": "node",
+        "position": {
+          "x": -208.5,
+          "y": -2360
+        },
+        "data": {
+          "$schema": "script",
+          "script": {
+            "language": "python",
+            "code": "from urllib.parse import urlencode\n\nIGNORED_VALUES = {None, \"\", \"all\", \"\u5168\u90e8\"}\nVALID_ORDERS = {\"updatedAt\", \"createdAt\", \"hits\", \"score\"}\n\n\ndef clean(value):\n    if value in IGNORED_VALUES:\n        return \"\"\n    value = str(value).strip()\n    if value in IGNORED_VALUES:\n        return \"\"\n    return value\n\n\ndef int_or_default(value, default):\n    try:\n        num = int(value)\n        return num if num > 0 else default\n    except (TypeError, ValueError):\n        return default\n\n\ndef execute(node_id, node_data, context):\n    params = {}\n    page_num = int_or_default(context.get(\"page_num\"), 1)\n    if page_num > 1:\n        params[\"page\"] = page_num\n\n    tag = clean(context.get(\"tag\"))\n    year = clean(context.get(\"year\"))\n    area = clean(context.get(\"area\"))\n    order = clean(context.get(\"order\")) or \"updatedAt\"\n    keyword = clean(context.get(\"keyword\"))\n\n    if tag:\n        params[\"tag\"] = tag\n    if year:\n        params[\"year\"] = year\n    if area:\n        params[\"area\"] = area\n    if order in VALID_ORDERS:\n        params[\"order\"] = order\n    if keyword:\n        params[\"q\"] = keyword\n\n    query = urlencode(params)\n    context[\"list_path\"] = \"/videos\" + ((\"?\" + query) if query else \"\")"
+          }
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "019f0c25-8c78-7000-a001-000000000003",
+        "type": "node",
+        "position": {
+          "x": 481,
+          "y": -2510
+        },
+        "data": {
+          "$schema": "http",
+          "method": "GET",
+          "url": "https://www.tvtfun.net{{ list_path }}",
+          "headers": [
+            {
+              "key": "Referer",
+              "value": "https://www.tvtfun.net/videos"
+            },
+            {
+              "key": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+            },
+            {
+              "key": "X-Hishel-Ttl",
+              "value": "900"
+            },
+            {
+              "key": "X-Hishel-Refresh-Ttl-On-Access",
+              "value": "true"
+            }
+          ],
+          "body": "",
+          "divider_7": null,
+          "formatter": "{\n  \"list_html\": {{ response.text|tojson }}\n}"
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "019f0c25-8c78-7000-a001-000000000004",
+        "type": "node",
+        "position": {
+          "x": 1274.5,
+          "y": -2360
+        },
+        "data": {
+          "$schema": "script",
+          "script": {
+            "language": "python",
+            "code": "import html\nimport json\nimport re\nfrom urllib.parse import parse_qs, quote, urlsplit\n\n\ndef decode_next_data(page_html):\n    if not page_html:\n        return \"\"\n    chunks = []\n    pattern = re.compile(r'self\\.__next_f\\.push\\(\\[1,\"((?:\\\\.|[^\"\\\\])*)\"\\]\\)</script>', re.S)\n    for match in pattern.finditer(page_html):\n        raw = match.group(1)\n        try:\n            chunks.append(json.loads('\"' + raw + '\"'))\n        except Exception:\n            continue\n    return \"\".join(chunks)\n\n\ndef find_value_start(text, key, expected=None, pos=0):\n    marker = '\"' + key + '\"'\n    while True:\n        idx = text.find(marker, pos)\n        if idx < 0:\n            return -1\n        cur = idx + len(marker)\n        while cur < len(text) and text[cur].isspace():\n            cur += 1\n        if cur < len(text) and text[cur] == ':':\n            cur += 1\n            while cur < len(text) and text[cur].isspace():\n                cur += 1\n            if expected is None or (cur < len(text) and text[cur] == expected):\n                return cur\n        pos = idx + len(marker)\n\n\ndef extract_json_range(text, start):\n    if start < 0 or start >= len(text):\n        return None, start\n    pairs = {\"{\": \"}\", \"[\": \"]\"}\n    open_ch = text[start]\n    close_ch = pairs.get(open_ch)\n    if not close_ch:\n        return None, start\n    depth = 0\n    in_string = False\n    escaped = False\n    for idx in range(start, len(text)):\n        ch = text[idx]\n        if in_string:\n            if escaped:\n                escaped = False\n            elif ch == \"\\\\\":\n                escaped = True\n            elif ch == '\"':\n                in_string = False\n        else:\n            if ch == '\"':\n                in_string = True\n            elif ch == open_ch:\n                depth += 1\n            elif ch == close_ch:\n                depth -= 1\n                if depth == 0:\n                    return text[start:idx + 1], idx + 1\n    return None, start\n\n\ndef extract_json_value(text, key, expected, pos=0, fallback=None):\n    start = find_value_start(text, key, expected, pos)\n    raw, end = extract_json_range(text, start)\n    if raw is None:\n        return fallback, pos\n    try:\n        return json.loads(raw), end\n    except Exception:\n        return fallback, end\n\n\ndef extract_scalar(text, key, pos=0):\n    start = find_value_start(text, key, None, pos)\n    if start < 0:\n        return None\n    if text[start] in \"[{\":\n        return None\n    if text[start] == '\"':\n        escaped = False\n        for idx in range(start + 1, len(text)):\n            ch = text[idx]\n            if escaped:\n                escaped = False\n            elif ch == \"\\\\\":\n                escaped = True\n            elif ch == '\"':\n                try:\n                    value = json.loads(text[start:idx + 1])\n                except Exception:\n                    value = text[start + 1:idx]\n                return None if value == \"$undefined\" else value\n        return None\n    end = start\n    while end < len(text) and text[end] not in \",}]\\n\":\n        end += 1\n    raw = text[start:end].strip()\n    if not raw or raw == \"$undefined\":\n        return None\n    try:\n        return json.loads(raw)\n    except Exception:\n        return raw\n\n\ndef strip_tags(value):\n    text = re.sub(r\"<[^>]+>\", \"\", value or \"\")\n    text = html.unescape(text)\n    return re.sub(r\"\\s+\", \" \", text).strip()\n\n\ndef short_date(value):\n    if not value:\n        return \"\"\n    return str(value).split(\"T\", 1)[0]\n\n\ndef split_tags(value):\n    if not value:\n        return []\n    parts = re.split(r\"[,\uff0c\\s]+\", str(value))\n    return [part.strip() for part in parts if part.strip()]\n\n\ndef normalize_score(value):\n    try:\n        score = float(value)\n    except (TypeError, ValueError):\n        return None\n    return score if score > 0 else None\n\n\ndef chapter_label(source_name, episode_name):\n    source_name = str(source_name or \"\").strip()\n    episode_name = str(episode_name or \"\").strip() or \"\u64ad\u653e\"\n    return (source_name + \" \" + episode_name).strip()\n\n\ndef execute(node_id, node_data, context):\n    data = decode_next_data(context.get(\"list_html\") or \"\")\n    videos, videos_end = extract_json_value(data, \"videos\", \"[\", 0, [])\n    tags, _ = extract_json_value(data, \"tags\", \"[\", videos_end, [])\n    years, _ = extract_json_value(data, \"years\", \"[\", videos_end, [])\n    areas, _ = extract_json_value(data, \"areas\", \"[\", videos_end, [])\n\n    items = []\n    for video in videos if isinstance(videos, list) else []:\n        if not isinstance(video, dict):\n            continue\n        slug = video.get(\"slug\") or video.get(\"sourceId\") or video.get(\"id\")\n        if not slug:\n            continue\n        title = video.get(\"name\") or video.get(\"nameOriginal\") or video.get(\"sub\") or str(slug)\n        tags_for_item = split_tags(video.get(\"tag\"))\n        category = str(video.get(\"year\") or \"\")\n        if tags_for_item:\n            category = \", \".join(tags_for_item[:2])\n        misc = video.get(\"remarks\") or \"\"\n        if not misc and video.get(\"episodeCount\"):\n            misc = \"\u66f4\u65b0\u81f3\u7b2c%s\u96c6\" % video.get(\"episodeCount\")\n        items.append({\n            \"id\": \"/video/%s\" % slug,\n            \"title\": title,\n            \"cover\": video.get(\"pic\") or video.get(\"picThumb\") or \"\",\n            \"rating\": normalize_score(video.get(\"score\")),\n            \"misc\": misc,\n            \"category\": category,\n            \"uploader\": video.get(\"sourceName\") or video.get(\"studio\") or \"TvTFun\",\n            \"uploaded_at\": short_date(video.get(\"updatedAt\") or video.get(\"publishedAt\") or video.get(\"createdAt\")),\n            \"media_type\": \"video\",\n        })\n\n    total = extract_scalar(data, \"total\", videos_end)\n    page = extract_scalar(data, \"page\", videos_end) or 1\n    page_size = extract_scalar(data, \"pageSize\", videos_end) or 24\n    try:\n        total_pages = (int(total) + int(page_size) - 1) // int(page_size) if total is not None else None\n    except Exception:\n        total_pages = None\n\n    context[\"available_tags\"] = tags if isinstance(tags, list) else []\n    context[\"available_years\"] = years if isinstance(years, list) else []\n    context[\"available_areas\"] = areas if isinstance(areas, list) else []\n    context[\"search_result\"] = {\n        \"total\": total,\n        \"totalPages\": total_pages,\n        \"page\": page,\n        \"items\": items,\n    }"
+          }
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "019f0c25-8c78-7000-a001-000000000005",
+        "type": "node",
+        "position": {
+          "x": 1977,
+          "y": -2230
+        },
+        "data": {
+          "$schema": "search_end",
+          "response": "{{ search_result|tojson }}",
+          "force_end": false
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "019f0c25-8c78-7000-a001-000000000006",
+        "type": "node",
+        "position": {
+          "x": -843,
+          "y": -980
+        },
+        "data": {
+          "$schema": "details_start",
+          "config": "specific:\n  media_type: video\n  video_type: mp4\n"
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "019f0c25-8c78-7000-a001-000000000007",
+        "type": "node",
+        "position": {
+          "x": -260,
+          "y": -1280
+        },
+        "data": {
+          "$schema": "http",
+          "method": "GET",
+          "url": "https://www.tvtfun.net{{ id }}",
+          "headers": [
+            {
+              "key": "Referer",
+              "value": "https://www.tvtfun.net/videos"
+            },
+            {
+              "key": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+            },
+            {
+              "key": "X-Hishel-Ttl",
+              "value": "900"
+            },
+            {
+              "key": "X-Hishel-Refresh-Ttl-On-Access",
+              "value": "true"
+            }
+          ],
+          "body": "",
+          "divider_7": null,
+          "formatter": "{\n  \"detail_html\": {{ response.text|tojson }}\n}",
+          "timeout": 12
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "019f0c25-8c78-7000-a001-000000000008",
+        "type": "node",
+        "position": {
+          "x": 504.5,
+          "y": -1130
+        },
+        "data": {
+          "$schema": "script",
+          "script": {
+            "language": "python",
+            "code": "import html\nimport json\nimport re\nimport time\nfrom urllib.parse import parse_qs, quote, urlsplit\n\n\ndef decode_next_data(page_html):\n    if not page_html:\n        return \"\"\n    chunks = []\n    pattern = re.compile(\n        r'self\\.__next_f\\.push\\(\\[1,\"((?:\\\\.|[^\"\\\\])*)\"\\]\\)</script>', re.S\n    )\n    for match in pattern.finditer(page_html):\n        raw = match.group(1)\n        try:\n            chunks.append(json.loads('\"' + raw + '\"'))\n        except Exception:\n            continue\n    return \"\".join(chunks)\n\n\ndef find_value_start(text, key, expected=None, pos=0):\n    marker = '\"' + key + '\"'\n    while True:\n        idx = text.find(marker, pos)\n        if idx < 0:\n            return -1\n        cur = idx + len(marker)\n        while cur < len(text) and text[cur].isspace():\n            cur += 1\n        if cur < len(text) and text[cur] == \":\":\n            cur += 1\n            while cur < len(text) and text[cur].isspace():\n                cur += 1\n            if expected is None or (cur < len(text) and text[cur] == expected):\n                return cur\n        pos = idx + len(marker)\n\n\ndef extract_json_range(text, start):\n    if start < 0 or start >= len(text):\n        return None, start\n    pairs = {\"{\": \"}\", \"[\": \"]\"}\n    open_ch = text[start]\n    close_ch = pairs.get(open_ch)\n    if not close_ch:\n        return None, start\n    depth = 0\n    in_string = False\n    escaped = False\n    for idx in range(start, len(text)):\n        ch = text[idx]\n        if in_string:\n            if escaped:\n                escaped = False\n            elif ch == \"\\\\\":\n                escaped = True\n            elif ch == '\"':\n                in_string = False\n        else:\n            if ch == '\"':\n                in_string = True\n            elif ch == open_ch:\n                depth += 1\n            elif ch == close_ch:\n                depth -= 1\n                if depth == 0:\n                    return text[start : idx + 1], idx + 1\n    return None, start\n\n\ndef extract_json_value(text, key, expected, pos=0, fallback=None):\n    start = find_value_start(text, key, expected, pos)\n    raw, end = extract_json_range(text, start)\n    if raw is None:\n        return fallback, pos\n    try:\n        return json.loads(raw), end\n    except Exception:\n        return fallback, end\n\n\ndef extract_scalar(text, key, pos=0):\n    start = find_value_start(text, key, None, pos)\n    if start < 0:\n        return None\n    if text[start] in \"[{\":\n        return None\n    if text[start] == '\"':\n        escaped = False\n        for idx in range(start + 1, len(text)):\n            ch = text[idx]\n            if escaped:\n                escaped = False\n            elif ch == \"\\\\\":\n                escaped = True\n            elif ch == '\"':\n                try:\n                    value = json.loads(text[start : idx + 1])\n                except Exception:\n                    value = text[start + 1 : idx]\n                return None if value == \"$undefined\" else value\n        return None\n    end = start\n    while end < len(text) and text[end] not in \",}]\\n\":\n        end += 1\n    raw = text[start:end].strip()\n    if not raw or raw == \"$undefined\":\n        return None\n    try:\n        return json.loads(raw)\n    except Exception:\n        return raw\n\n\ndef strip_tags(value):\n    text = re.sub(r\"<[^>]+>\", \"\", value or \"\")\n    text = html.unescape(text)\n    return re.sub(r\"\\s+\", \" \", text).strip()\n\n\ndef short_date(value):\n    if not value:\n        return \"\"\n    return str(value).split(\"T\", 1)[0]\n\n\ndef split_tags(value):\n    if not value:\n        return []\n    parts = re.split(r\"[,\uff0c\\s]+\", str(value))\n    return [part.strip() for part in parts if part.strip()]\n\n\ndef normalize_score(value):\n    try:\n        score = float(value)\n    except (TypeError, ValueError):\n        return None\n    return score if score > 0 else None\n\n\ndef chapter_label(source_name, episode_name):\n    source_name = str(source_name or \"\").strip()\n    episode_name = str(episode_name or \"\").strip() or \"\u64ad\u653e\"\n    return (source_name + \" \" + episode_name).strip()\n\n\ndef bangumi_episode_id(episode):\n    \"\"\"Normalize a dependable Bangumi episode identifier.\n\n    Args:\n        episode: The provider episode record.\n\n    Returns:\n        A positive decimal identifier, or an empty string when unavailable.\n    \"\"\"\n    value = episode.get(\"bgmEpisodeId\")\n    if isinstance(value, bool) or not isinstance(value, (int, str)):\n        return \"\"\n    value = str(value).strip()\n    if not re.fullmatch(r\"[0-9]+\", value):\n        return \"\"\n    try:\n        number = int(value)\n    except ValueError:\n        return \"\"\n    return str(number) if number > 0 else \"\"\n\n\ndef episode_name(episode):\n    \"\"\"Normalize episode-name whitespace without guessing episode numbers.\n\n    Args:\n        episode: The provider episode record.\n\n    Returns:\n        The exact normalized name, or an empty string for missing generic names.\n    \"\"\"\n    value = episode.get(\"name\")\n    if not isinstance(value, str):\n        return \"\"\n    value = re.sub(r\"\\s+\", \" \", value).strip()\n    return \"\" if value in {\"\", \"$undefined\", \"\u64ad\u653e\"} else value\n\n\ndef source_identity(source, index):\n    \"\"\"Identify a source independently of its display name.\n\n    Args:\n        source: The provider source record.\n        index: The source position used when stable identifiers are absent.\n\n    Returns:\n        The source code, provider identifier, or an index-based identifier.\n    \"\"\"\n    for field in (\"fromCode\", \"id\"):\n        value = source.get(field)\n        if isinstance(value, (int, str)) and not isinstance(value, bool):\n            value = str(value).strip()\n            if value not in {\"\", \"$undefined\"}:\n                return value\n    return f\"index:{index}\"\n\n\ndef playback_candidate(slug, source, source_index, episode, episode_index):\n    \"\"\"Describe one resolvable source without requesting its media.\n\n    Args:\n        slug: The current video's provider slug.\n        source: The selected source record.\n        source_index: The exact source position in the provider response.\n        episode: The selected episode record.\n        episode_index: The exact episode position within the selected source.\n\n    Returns:\n        The internal candidate fields, or an empty mapping without a resolver ID.\n    \"\"\"\n    episode_id = episode.get(\"id\")\n    if isinstance(episode_id, bool) or not isinstance(episode_id, (int, str)):\n        return {}\n    episode_id = str(episode_id).strip()\n    if episode_id in {\"\", \"$undefined\"}:\n        return {}\n    chapter_id = f\"/video/{slug}/play?source={source_index}&episode={episode_index}\"\n    source_name = source.get(\"name\") or f\"\u7ebf\u8def{source_index + 1}\"\n    return {\n        \"chapter_id\": chapter_id,\n        \"title\": chapter_label(source_name, episode.get(\"name\")),\n        \"episode_id\": episode_id,\n        \"source_id\": source_identity(source, source_index),\n        \"resolve_url\": (\n            \"https://www.tvtfun.net/api/videos/resolve-play-url?episodeId=\"\n            + quote(episode_id, safe=\"\")\n        ),\n        \"referer\": \"https://www.tvtfun.net\" + chapter_id,\n    }\n\n\ndef build_preflight_candidates(video, slug, chapter_id):\n    \"\"\"Select the requested episode and at most one dependable alternate source.\n\n    Args:\n        video: The parsed video record from the existing details response.\n        slug: The current video's provider slug.\n        chapter_id: The explicitly requested chapter URL or relative path.\n\n    Returns:\n        The ordered candidate list and original episode's danmaku URL. Invalid\n        selections produce an empty list and URL. Ambiguous episode identities\n        retain only the requested source instead of guessing another episode.\n    \"\"\"\n    if not isinstance(chapter_id, str) or not chapter_id:\n        return [], \"\"\n    try:\n        parsed = urlsplit(chapter_id)\n        query = parse_qs(parsed.query, keep_blank_values=True)\n    except ValueError:\n        return [], \"\"\n    if parsed.path != f\"/video/{slug}/play\":\n        return [], \"\"\n    indices = []\n    for field in (\"source\", \"episode\"):\n        values = query.get(field, [])\n        if len(values) != 1 or not re.fullmatch(r\"[0-9]+\", values[0]):\n            return [], \"\"\n        try:\n            indices.append(int(values[0]))\n        except ValueError:\n            return [], \"\"\n    source_index, episode_index = indices\n    sources = video.get(\"playSources\")\n    if not isinstance(sources, list) or source_index >= len(sources):\n        return [], \"\"\n    source = sources[source_index]\n    if not isinstance(source, dict):\n        return [], \"\"\n    episodes = source.get(\"episodes\")\n    if not isinstance(episodes, list) or episode_index >= len(episodes):\n        return [], \"\"\n    episode = episodes[episode_index]\n    if not isinstance(episode, dict):\n        return [], \"\"\n    current = playback_candidate(slug, source, source_index, episode, episode_index)\n    if not current:\n        return [], \"\"\n    candidates = [current]\n    video_id = str(video.get(\"id\") or \"\")\n    danmaku_url = (\n        \"https://www.tvtfun.net/api/danmaku?videoId=\"\n        + quote(video_id, safe=\"\")\n        + \"&episodeId=\"\n        + quote(current[\"episode_id\"], safe=\"\")\n    )\n    bgm_id = bangumi_episode_id(episode)\n    name = episode_name(episode)\n    identity = bgm_id or name\n    if not identity:\n        return candidates, danmaku_url\n    identifier = bangumi_episode_id if bgm_id else episode_name\n    matches = [\n        item\n        for item in episodes\n        if isinstance(item, dict) and identifier(item) == identity\n    ]\n    if len(matches) != 1:\n        return candidates, danmaku_url\n    for other_index, other_source in enumerate(sources):\n        if other_index == source_index or not isinstance(other_source, dict):\n            continue\n        if source_identity(other_source, other_index) == current[\"source_id\"]:\n            continue\n        other_episodes = other_source.get(\"episodes\")\n        if not isinstance(other_episodes, list):\n            continue\n        matches = [\n            (index, item)\n            for index, item in enumerate(other_episodes)\n            if isinstance(item, dict) and identifier(item) == identity\n        ]\n        if len(matches) != 1:\n            continue\n        other_episode_index, other_episode = matches[0]\n        if not bgm_id and bangumi_episode_id(other_episode):\n            continue\n        candidate = playback_candidate(\n            slug, other_source, other_index, other_episode, other_episode_index\n        )\n        if candidate and candidate[\"episode_id\"] != current[\"episode_id\"]:\n            candidates.append(candidate)\n            break\n    return candidates, danmaku_url\n\n\ndef execute(node_id, node_data, context):\n    \"\"\"Populate public details and internal preflight candidates from one response.\n\n    Args:\n        node_id: The identifier of the executing script node.\n        node_data: The saved script-node configuration.\n        context: The workflow context receiving unchanged public details and\n            internal candidates for the explicitly selected episode. Playback\n            setup and probing share a deadline established before the session\n            request, leaving room within the frontend request timeout.\n    \"\"\"\n    context[\"preflight_deadline\"] = time.monotonic() + 36\n    data = decode_next_data(context.get(\"detail_html\") or \"\")\n    video, _ = extract_json_value(data, \"video\", \"{\", 0, {})\n    if not isinstance(video, dict):\n        video = {}\n\n    slug = video.get(\"slug\") or str(context.get(\"id\") or \"\").strip(\"/\").split(\"/\")[-1]\n    tags = split_tags(video.get(\"tag\"))\n    chapters = []\n    sources = video.get(\"playSources\") or []\n    for source_index, source in enumerate(sources if isinstance(sources, list) else []):\n        if not isinstance(source, dict):\n            continue\n        source_name = source.get(\"name\") or \"\u7ebf\u8def%s\" % (source_index + 1)\n        episodes = source.get(\"episodes\") or []\n        for episode_index, episode in enumerate(\n            episodes if isinstance(episodes, list) else []\n        ):\n            if not isinstance(episode, dict):\n                continue\n            chapters.append(\n                {\n                    \"id\": \"/video/%s/play?source=%s&episode=%s\"\n                    % (slug, source_index, episode_index),\n                    \"title\": chapter_label(source_name, episode.get(\"name\")),\n                }\n            )\n\n    context[\"detail_video_id\"] = video.get(\"id\") or \"\"\n    context[\"detail_slug\"] = slug\n    context[\"detail_title\"] = (\n        video.get(\"name\") or video.get(\"nameOriginal\") or video.get(\"sub\") or \"TvTFun\"\n    )\n    context[\"detail_cover\"] = video.get(\"pic\") or video.get(\"picThumb\") or \"\"\n    context[\"detail_category\"] = (\n        \", \".join(tags[:3]) if tags else str(video.get(\"year\") or \"\")\n    )\n    context[\"detail_misc\"] = video.get(\"remarks\") or \"\"\n    context[\"detail_uploader\"] = (\n        video.get(\"sourceName\") or video.get(\"studio\") or \"TvTFun\"\n    )\n    context[\"detail_uploaded_at\"] = short_date(\n        video.get(\"updatedAt\") or video.get(\"publishedAt\") or video.get(\"createdAt\")\n    )\n    context[\"detail_description\"] = strip_tags(\n        video.get(\"content\") or video.get(\"blurb\") or \"\"\n    )\n    context[\"detail_chapters\"] = chapters\n    context[\"has_chapter_id\"] = bool(context.get(\"chapter_id\"))\n    candidates, danmaku_url = build_preflight_candidates(\n        video, slug, context.get(\"chapter_id\")\n    )\n    context[\"preflight_candidates\"] = candidates\n    context[\"preflight_danmaku_url\"] = danmaku_url\n"
+          }
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "019f0c25-8c78-7000-a001-000000000009",
+        "type": "node",
+        "position": {
+          "x": 1300,
+          "y": 1300
+        },
+        "data": {
+          "$schema": "condition",
+          "expression": "{{ has_chapter_id }}"
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "019f0c25-8c78-7000-a001-000000000010",
+        "type": "node",
+        "position": {
+          "x": 1927,
+          "y": -420
+        },
+        "data": {
+          "$schema": "details_end",
+          "response": "{\n  \"id\": {{ id|tojson }},\n  \"title\": {{ detail_title|tojson }},\n  \"cover\": {{ detail_cover|tojson }},\n  \"category\": {{ detail_category|tojson }},\n  \"misc\": {{ detail_misc|tojson }},\n  \"uploader\": {{ detail_uploader|tojson }},\n  \"uploaded_at\": {{ detail_uploaded_at|tojson }},\n  \"description\": {{ detail_description|tojson }},\n  \"media_type\": \"video\",\n  \"video_type\": \"mp4\",\n  \"chapters\": {{ detail_chapters|tojson }},\n  \"danmakus\": []\n}",
+          "force_end": false
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "019f0c25-8c78-7000-a001-000000000101",
+        "type": "node",
+        "position": {
+          "x": 0,
+          "y": -400
+        },
+        "data": {
+          "$schema": "http",
+          "client": "httpx",
+          "timeout": 8,
+          "method": "HEAD",
+          "url": "https://www.tvtfun.net{{ chapter_id }}",
+          "headers": [
+            {
+              "key": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+            },
+            {
+              "key": "Accept-Encoding",
+              "value": "identity"
+            },
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, no-store"
+            },
+            {
+              "key": "Referer",
+              "value": "https://www.tvtfun.net{{ id }}"
+            }
+          ],
+          "body": "",
+          "formatter": "{\"play_session\": {\"status\": {{ response.status_code }}, \"url\": {{ (response.url|string)|tojson }}, \"headers\": {\"content-type\": {{ response.headers.get(\"content-type\", \"\")|tojson }}, \"content-length\": {{ response.headers.get(\"content-length\", \"\")|tojson }}, \"content-range\": {{ response.headers.get(\"content-range\", \"\")|tojson }}, \"accept-ranges\": {{ response.headers.get(\"accept-ranges\", \"\")|tojson }}, \"content-encoding\": {{ response.headers.get(\"content-encoding\", \"\")|tojson }}, \"access-control-allow-origin\": {{ response.headers.get(\"access-control-allow-origin\", \"\")|tojson }}}, \"body_length\": {{ response.content|length }}}}"
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false
+      },
+      {
+        "id": "019f0c25-8c78-7000-a001-000000000102",
+        "type": "node",
+        "position": {
+          "x": 0,
+          "y": 500
+        },
+        "data": {
+          "$schema": "script",
+          "script": {
+            "language": "python",
+            "code": "\"\"\"Validate bounded TvTfun media probes without performing external operations.\"\"\"\nimport hashlib\nimport json\nimport re\nfrom urllib.parse import unquote, urljoin, urlsplit, urlunsplit\nMP4_LIMIT = 4096\nSEGMENT_LIMIT = 8 * 1024 * 1024\n\"\"\"Advance one TvTFun probe using the existing HTTP and loop nodes.\"\"\"\nimport json\nimport time\nfrom urllib.parse import quote\n\n\n\ndef execute(node_id, node_data, context):\n    \"\"\"Process one isolated TvTFun preflight stage.\n\n    Args:\n        node_id: The executing node identifier.\n        node_data: The node configuration.\n        context: The request context receiving stage-specific results once.\n    \"\"\"\n    context.setdefault(\"preflight_deadline\", time.monotonic() + 36)\n"
+          }
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false
+      },
+      {
+        "id": "019f0c25-8c78-7000-a001-000000000103",
+        "type": "node",
+        "position": {
+          "x": 0,
+          "y": 2800
+        },
+        "data": {
+          "$schema": "merge",
+          "maximum": 1,
+          "timeout": 0
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false
+      },
+      {
+        "id": "019f0c25-8c78-7000-a001-000000000104",
+        "type": "node",
+        "position": {
+          "x": -3100,
+          "y": 1300
+        },
+        "data": {
+          "$schema": "condition",
+          "expression": "{{ preflight_winner is not defined and (preflight_candidates|length > 0) }}"
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false
+      },
+      {
+        "id": "019f0c25-8c78-7000-a001-000000000105",
+        "type": "node",
+        "position": {
+          "x": -2200,
+          "y": 1300
+        },
+        "data": {
+          "$schema": "http",
+          "client": "httpx",
+          "timeout": 20,
+          "method": "GET",
+          "url": "{{ preflight_candidates[0].resolve_url }}",
+          "headers": [
+            {
+              "key": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+            },
+            {
+              "key": "Accept-Encoding",
+              "value": "identity"
+            },
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, no-store"
+            },
+            {
+              "key": "Referer",
+              "value": "{{ preflight_candidates[0].referer }}"
+            }
+          ],
+          "body": "",
+          "formatter": "{\"resolve_a\": {\"status\": {{ response.status_code }}, \"url\": {{ (response.url|string)|tojson }}, \"headers\": {\"content-type\": {{ response.headers.get(\"content-type\", \"\")|tojson }}, \"content-length\": {{ response.headers.get(\"content-length\", \"\")|tojson }}, \"content-range\": {{ response.headers.get(\"content-range\", \"\")|tojson }}, \"accept-ranges\": {{ response.headers.get(\"accept-ranges\", \"\")|tojson }}, \"content-encoding\": {{ response.headers.get(\"content-encoding\", \"\")|tojson }}, \"access-control-allow-origin\": {{ response.headers.get(\"access-control-allow-origin\", \"\")|tojson }}}, \"body_length\": {{ response.content|length }}, \"text\": {{ (response.text if response.content|length <= 262144 else \"\")|tojson }}}}"
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false
+      },
+      {
+        "id": "019f0c25-8c78-7000-a001-000000000106",
+        "type": "node",
+        "position": {
+          "x": -1300,
+          "y": 1300
+        },
+        "data": {
+          "$schema": "script",
+          "script": {
+            "language": "python",
+            "code": "\"\"\"Validate bounded TvTfun media probes without performing external operations.\"\"\"\nimport hashlib\nimport json\nimport re\nfrom urllib.parse import unquote, urljoin, urlsplit, urlunsplit\nMP4_LIMIT = 4096\nSEGMENT_LIMIT = 8 * 1024 * 1024\n\"\"\"Advance one TvTFun probe using the existing HTTP and loop nodes.\"\"\"\nimport json\nimport time\nfrom urllib.parse import quote\n\ndef _url(value, base=\"\"):\n    \"\"\"Normalize an HTTP media URL while preserving its query.\n\n    Args:\n        value: The absolute or relative URI to resolve.\n        base: The HTTP URL used to resolve a relative URI.\n\n    Returns:\n        A URL without a fragment, or an empty string for invalid input.\n    \"\"\"\n    if not isinstance(value, str) or not value:\n        return \"\"\n    if any(ord(char) <= 32 or ord(char) == 127 for char in value) or \"\\\\\" in value:\n        return \"\"\n    try:\n        parts = urlsplit(urljoin(base, value))\n        if (\n            parts.scheme not in {\"http\", \"https\"}\n            or not parts.hostname\n            or parts.username is not None\n            or parts.password is not None\n            or \"%\" in parts.hostname\n        ):\n            return \"\"\n        if parts.port is not None and not 0 < parts.port <= 65535:\n            return \"\"\n        return urlunsplit(parts._replace(fragment=\"\"))\n    except ValueError:\n        return \"\"\n\ndef is_error_media(value):\n    \"\"\"Recognize the provider's confirmed error-video object.\n\n    Args:\n        value: A media URL, including possible query or fragment suffixes.\n\n    Returns:\n        Whether the URL points to the verified three-second error placeholder.\n    \"\"\"\n    url = _url(value)\n    if not url:\n        return False\n    parts = urlsplit(url)\n    return (\n        parts.hostname.rstrip(\".\").lower() == \"kjjsaas-sh.oss-cn-shanghai.aliyuncs.com\"\n        and unquote(parts.path)\n        == \"/u/3401405881/20240818-936952-fc31b16575e80a7562cdb1f81a39c6b0.mp4\"\n    )\n\ndef playback_headers(data):\n    \"\"\"Keep supported resolver headers without propagating credentials.\n\n    Args:\n        data: The resolver's optional media header mapping.\n\n    Returns:\n        Valid `Referer` and `User-Agent` overrides supported by the media proxy.\n    \"\"\"\n    if not isinstance(data, dict):\n        return {}\n    headers = {}\n    for key, value in data.items():\n        if not isinstance(key, str) or not isinstance(value, str):\n            continue\n        value = value.strip()\n        if not value or any(ord(char) < 32 or ord(char) > 126 for char in value):\n            continue\n        if key.lower() == \"referer\":\n            referer = _url(value)\n            if referer:\n                headers[\"Referer\"] = referer\n        elif key.lower() == \"user-agent\":\n            headers[\"User-Agent\"] = value\n    return headers\n\ndef parse_resolver(data):\n    \"\"\"Classify a resolver payload as a direct media URL or a share page.\n\n    Args:\n        data: The decoded resolver `data` object containing `url`, `type`,\n            and optional upstream request headers.\n\n    Returns:\n        A dictionary with `url` and `type`, or an empty dictionary if unsupported.\n        The type is `mp4`, `hls`, or `share`. Share results retain the resolver's\n        original type as `media_type` for parsing extensionless media URLs.\n        Supported media request headers are retained. Known error placeholders\n        and malformed payloads produce an empty dictionary.\n    \"\"\"\n    if not isinstance(data, dict):\n        return {}\n    url = _url(data.get(\"url\"))\n    if not url or is_error_media(url):\n        return {}\n    headers = playback_headers(data.get(\"headers\"))\n    extra = {\"headers\": headers} if headers else {}\n    path = urlsplit(url).path.lower()\n    media_type = str(data.get(\"type\") or \"\").lower().strip()\n    if \"/share/\" in path:\n        return {\"url\": url, \"type\": \"share\", \"media_type\": media_type, **extra}\n    if media_type in {\n        \"hls\",\n        \"m3u8\",\n        \"application/x-mpegurl\",\n        \"application/vnd.apple.mpegurl\",\n    }:\n        return {\"url\": url, \"type\": \"hls\", **extra}\n    if media_type in {\"mp4\", \"video/mp4\"}:\n        return {\"url\": url, \"type\": \"mp4\", **extra}\n    if path.endswith(\".m3u8\"):\n        return {\"url\": url, \"type\": \"hls\", **extra}\n    if path.endswith(\".mp4\"):\n        return {\"url\": url, \"type\": \"mp4\", **extra}\n    return {}\n\ndef prepare_media(media):\n    \"\"\"Choose the first probe step for a normalized resolver result.\n\n    Args:\n        media: The validated resolver or share-page result.\n\n    Returns:\n        A branch-local probe descriptor, empty for unsupported media.\n    \"\"\"\n    kind = media.get(\"type\")\n    if kind not in {\"share\", \"hls\", \"mp4\"}:\n        return {\"stage\": \"failed\"}\n    return {\n        \"stage\": {\"share\": \"share\", \"hls\": \"manifest\", \"mp4\": \"mp4\"}[kind],\n        \"url\": media[\"url\"],\n        \"media\": media,\n    }\n\ndef execute(node_id, node_data, context):\n    \"\"\"Process one isolated TvTFun preflight stage.\n\n    Args:\n        node_id: The executing node identifier.\n        node_data: The node configuration.\n        context: The request context receiving stage-specific results once.\n    \"\"\"\n    if context.get(\"preflight_winner\") or time.monotonic() >= context.get(\"preflight_deadline\", 0):\n        return\n    response = context['resolve_a']\n    try:\n        payload = json.loads(response.get(\"text\") or \"{}\") if response[\"status\"] == 200 else {}\n    except (TypeError, ValueError):\n        payload = {}\n    media = parse_resolver(payload.get(\"data\", {}) if isinstance(payload, dict) else {})\n    context['probe_a'] = {\"0\": prepare_media(media)}\n"
+          }
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false
+      },
+      {
+        "id": "019f0c25-8c78-7000-a001-000000000107",
+        "type": "node",
+        "position": {
+          "x": -3100,
+          "y": 2250
+        },
+        "data": {
+          "$schema": "loop",
+          "expression": "{{ 5 if preflight_winner is not defined and probe_a is defined and (probe_a|dictsort|last|last).stage in [\"share\", \"manifest\", \"child\", \"key\", \"segment\"] else 0 }}",
+          "varname": "probe_step_a"
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false
+      },
+      {
+        "id": "019f0c25-8c78-7000-a001-000000000108",
+        "type": "node",
+        "position": {
+          "x": -2200,
+          "y": 2250
+        },
+        "data": {
+          "$schema": "http",
+          "client": "curl_cffi",
+          "timeout": 5,
+          "method": "HEAD",
+          "url": "{{ (probe_a|dictsort|last|last).url }}",
+          "headers": [
+            {
+              "key": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+            },
+            {
+              "key": "Accept-Encoding",
+              "value": "identity"
+            },
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, no-store"
+            }
+          ],
+          "body": "",
+          "formatter": "{\"probe_head_a\": { {{ (probe_a|dictsort|last|first)|tojson }}: {\"status\": {{ response.status_code }}, \"url\": {{ (response.url|string)|tojson }}, \"headers\": {\"content-type\": {{ response.headers.get(\"content-type\", \"\")|tojson }}, \"content-length\": {{ response.headers.get(\"content-length\", \"\")|tojson }}, \"content-range\": {{ response.headers.get(\"content-range\", \"\")|tojson }}, \"accept-ranges\": {{ response.headers.get(\"accept-ranges\", \"\")|tojson }}, \"content-encoding\": {{ response.headers.get(\"content-encoding\", \"\")|tojson }}, \"access-control-allow-origin\": {{ response.headers.get(\"access-control-allow-origin\", \"\")|tojson }}}}}}"
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false
+      },
+      {
+        "id": "019f0c25-8c78-7000-a001-000000000109",
+        "type": "node",
+        "position": {
+          "x": -1300,
+          "y": 2250
+        },
+        "data": {
+          "$schema": "script",
+          "script": {
+            "language": "python",
+            "code": "\"\"\"Validate bounded TvTfun media probes without performing external operations.\"\"\"\nimport hashlib\nimport json\nimport re\nfrom urllib.parse import unquote, urljoin, urlsplit, urlunsplit\nMP4_LIMIT = 4096\nSEGMENT_LIMIT = 8 * 1024 * 1024\n\"\"\"Advance one TvTFun probe using the existing HTTP and loop nodes.\"\"\"\nimport json\nimport time\nfrom urllib.parse import quote\n\ndef _url(value, base=\"\"):\n    \"\"\"Normalize an HTTP media URL while preserving its query.\n\n    Args:\n        value: The absolute or relative URI to resolve.\n        base: The HTTP URL used to resolve a relative URI.\n\n    Returns:\n        A URL without a fragment, or an empty string for invalid input.\n    \"\"\"\n    if not isinstance(value, str) or not value:\n        return \"\"\n    if any(ord(char) <= 32 or ord(char) == 127 for char in value) or \"\\\\\" in value:\n        return \"\"\n    try:\n        parts = urlsplit(urljoin(base, value))\n        if (\n            parts.scheme not in {\"http\", \"https\"}\n            or not parts.hostname\n            or parts.username is not None\n            or parts.password is not None\n            or \"%\" in parts.hostname\n        ):\n            return \"\"\n        if parts.port is not None and not 0 < parts.port <= 65535:\n            return \"\"\n        return urlunsplit(parts._replace(fragment=\"\"))\n    except ValueError:\n        return \"\"\n\ndef is_error_media(value):\n    \"\"\"Recognize the provider's confirmed error-video object.\n\n    Args:\n        value: A media URL, including possible query or fragment suffixes.\n\n    Returns:\n        Whether the URL points to the verified three-second error placeholder.\n    \"\"\"\n    url = _url(value)\n    if not url:\n        return False\n    parts = urlsplit(url)\n    return (\n        parts.hostname.rstrip(\".\").lower() == \"kjjsaas-sh.oss-cn-shanghai.aliyuncs.com\"\n        and unquote(parts.path)\n        == \"/u/3401405881/20240818-936952-fc31b16575e80a7562cdb1f81a39c6b0.mp4\"\n    )\n\ndef _headers(data):\n    \"\"\"Read normalized response headers and reject encoded or textual media.\n\n    Args:\n        data: A probe dictionary containing selected response `headers`.\n\n    Returns:\n        Normalized headers, or `None` for unusable media headers.\n    \"\"\"\n    headers = data.get(\"headers\", {})\n    if not isinstance(headers, dict):\n        return None\n    headers = {str(key).lower(): str(value).strip() for key, value in headers.items()}\n    encoding = headers.get(\"content-encoding\", headers.get(\"encoding\", \"\")).lower()\n    media_type = headers.get(\"content-type\", \"\").split(\";\", 1)[0].lower()\n    if encoding not in {\"\", \"identity\"} or media_type.startswith(\"text/\"):\n        return None\n    if media_type in {\"application/json\", \"application/xml\", \"application/xhtml+xml\"}:\n        return None\n    return headers\n\ndef _range(value):\n    \"\"\"Parse an exact byte content range with a known total size.\n\n    Args:\n        value: A response `Content-Range` value.\n\n    Returns:\n        The start, end, and total integers, or an empty tuple if invalid.\n    \"\"\"\n    match = re.fullmatch(r\"bytes (\\d+)-(\\d+)/(\\d+)\", value, re.IGNORECASE)\n    if not match:\n        return ()\n    start, end, total = (int(part) for part in match.groups())\n    return (start, end, total) if 0 <= start <= end < total else ()\n\ndef validate_head(data):\n    \"\"\"Validate a media HEAD response before allowing a bounded body request.\n\n    Args:\n        data: The response `status`, selected `headers`, and `kind` of `mp4` or\n            `segment`. MP4 HEAD requests use `Range: bytes=0-1048575`.\n\n    Returns:\n        The positive resource `size` and, for MP4, inclusive `range_end`, or an\n        empty dictionary if range support, length, or the size limit is invalid.\n    \"\"\"\n    headers = _headers(data)\n    if headers is None or is_error_media(data.get(\"url\")):\n        return {}\n    length = headers.get(\"content-length\", \"\")\n    size = int(length) if length.isdigit() else 0\n    kind = data.get(\"kind\")\n    status = data.get(\"status\")\n    if kind == \"segment\":\n        return {\"size\": size} if status == 200 and 0 < size <= SEGMENT_LIMIT else {}\n    if kind != \"mp4\":\n        return {}\n    if status == 206:\n        content_range = _range(headers.get(\"content-range\", \"\"))\n        if not content_range:\n            return {}\n        start, end, size = content_range\n        if start != 0 or end != min(size, MP4_LIMIT) - 1:\n            return {}\n        if length and (not length.isdigit() or int(length) != end + 1):\n            return {}\n    elif status != 200 or headers.get(\"accept-ranges\", \"\").lower() != \"bytes\":\n        return {}\n    return {\"size\": size, \"range_end\": min(size, MP4_LIMIT) - 1} if size >= 16 else {}\n\ndef check_probe_head(probe, response):\n    \"\"\"Validate the size of the next resource before downloading its body.\n\n    Args:\n        probe: The branch descriptor identifying the current resource.\n        response: The bounded summary of the HEAD response.\n\n    Returns:\n        Validated size metadata, or an empty mapping for an unusable response.\n    \"\"\"\n    stage = probe[\"stage\"]\n    if stage == \"segment\":\n        return validate_head({**response, \"kind\": \"segment\"})\n    headers = response.get(\"headers\", {})\n    try:\n        size = int(headers.get(\"content-length\", \"\"))\n    except (TypeError, ValueError):\n        return {}\n    valid_size = size == 16 if stage == \"key\" else 0 < size <= 262144\n    if (\n        response.get(\"status\") == 200\n        and valid_size\n        and headers.get(\"content-encoding\", \"\").lower() in (\"\", \"identity\")\n    ):\n        return {\"size\": size}\n    return {}\n\ndef execute(node_id, node_data, context):\n    \"\"\"Process one isolated TvTFun preflight stage.\n\n    Args:\n        node_id: The executing node identifier.\n        node_data: The node configuration.\n        context: The request context receiving stage-specific results once.\n    \"\"\"\n    step = max(context['probe_a'])\n    checked = {}\n    if not context.get(\"preflight_winner\") and time.monotonic() < context[\"preflight_deadline\"]:\n        checked = check_probe_head(context['probe_a'][step], context['probe_head_a'][step])\n    context['probe_head_a_checked'] = {step: checked}\n"
+          }
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false
+      },
+      {
+        "id": "019f0c25-8c78-7000-a001-000000000110",
+        "type": "node",
+        "position": {
+          "x": -3100,
+          "y": 3200
+        },
+        "data": {
+          "$schema": "condition",
+          "expression": "{{ preflight_winner is not defined and (probe_head_a_checked[probe_a|dictsort|last|first]) }}"
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false
+      },
+      {
+        "id": "019f0c25-8c78-7000-a001-000000000111",
+        "type": "node",
+        "position": {
+          "x": -2200,
+          "y": 3200
+        },
+        "data": {
+          "$schema": "http",
+          "client": "curl_cffi",
+          "timeout": 8,
+          "method": "GET",
+          "url": "{{ (probe_a|dictsort|last|last).url }}",
+          "headers": [
+            {
+              "key": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+            },
+            {
+              "key": "Accept-Encoding",
+              "value": "identity"
+            },
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, no-store"
+            }
+          ],
+          "body": "",
+          "formatter": "{\"probe_body_a\": { {{ (probe_a|dictsort|last|first)|tojson }}: {\"status\": {{ response.status_code }}, \"url\": {{ (response.url|string)|tojson }}, \"headers\": {\"content-type\": {{ response.headers.get(\"content-type\", \"\")|tojson }}, \"content-length\": {{ response.headers.get(\"content-length\", \"\")|tojson }}, \"content-range\": {{ response.headers.get(\"content-range\", \"\")|tojson }}, \"accept-ranges\": {{ response.headers.get(\"accept-ranges\", \"\")|tojson }}, \"content-encoding\": {{ response.headers.get(\"content-encoding\", \"\")|tojson }}, \"access-control-allow-origin\": {{ response.headers.get(\"access-control-allow-origin\", \"\")|tojson }}}, \"body_length\": {{ response.content|length }}, \"header_hex\": {{ response.content[:512].hex()|tojson }}, \"text\": {{ (response.text if (probe_a|dictsort|last|last).stage in [\"share\", \"manifest\", \"child\"] and response.content|length <= 262144 else \"\")|tojson }}}}}"
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false
+      },
+      {
+        "id": "019f0c25-8c78-7000-a001-000000000112",
+        "type": "node",
+        "position": {
+          "x": -1300,
+          "y": 3200
+        },
+        "data": {
+          "$schema": "script",
+          "script": {
+            "language": "python",
+            "code": "\"\"\"Validate bounded TvTfun media probes without performing external operations.\"\"\"\nimport hashlib\nimport json\nimport re\nfrom urllib.parse import unquote, urljoin, urlsplit, urlunsplit\nMP4_LIMIT = 4096\nSEGMENT_LIMIT = 8 * 1024 * 1024\n\"\"\"Advance one TvTFun probe using the existing HTTP and loop nodes.\"\"\"\nimport json\nimport time\nfrom urllib.parse import quote\n\ndef _url(value, base=\"\"):\n    \"\"\"Normalize an HTTP media URL while preserving its query.\n\n    Args:\n        value: The absolute or relative URI to resolve.\n        base: The HTTP URL used to resolve a relative URI.\n\n    Returns:\n        A URL without a fragment, or an empty string for invalid input.\n    \"\"\"\n    if not isinstance(value, str) or not value:\n        return \"\"\n    if any(ord(char) <= 32 or ord(char) == 127 for char in value) or \"\\\\\" in value:\n        return \"\"\n    try:\n        parts = urlsplit(urljoin(base, value))\n        if (\n            parts.scheme not in {\"http\", \"https\"}\n            or not parts.hostname\n            or parts.username is not None\n            or parts.password is not None\n            or \"%\" in parts.hostname\n        ):\n            return \"\"\n        if parts.port is not None and not 0 < parts.port <= 65535:\n            return \"\"\n        return urlunsplit(parts._replace(fragment=\"\"))\n    except ValueError:\n        return \"\"\n\ndef is_error_media(value):\n    \"\"\"Recognize the provider's confirmed error-video object.\n\n    Args:\n        value: A media URL, including possible query or fragment suffixes.\n\n    Returns:\n        Whether the URL points to the verified three-second error placeholder.\n    \"\"\"\n    url = _url(value)\n    if not url:\n        return False\n    parts = urlsplit(url)\n    return (\n        parts.hostname.rstrip(\".\").lower() == \"kjjsaas-sh.oss-cn-shanghai.aliyuncs.com\"\n        and unquote(parts.path)\n        == \"/u/3401405881/20240818-936952-fc31b16575e80a7562cdb1f81a39c6b0.mp4\"\n    )\n\ndef playback_headers(data):\n    \"\"\"Keep supported resolver headers without propagating credentials.\n\n    Args:\n        data: The resolver's optional media header mapping.\n\n    Returns:\n        Valid `Referer` and `User-Agent` overrides supported by the media proxy.\n    \"\"\"\n    if not isinstance(data, dict):\n        return {}\n    headers = {}\n    for key, value in data.items():\n        if not isinstance(key, str) or not isinstance(value, str):\n            continue\n        value = value.strip()\n        if not value or any(ord(char) < 32 or ord(char) > 126 for char in value):\n            continue\n        if key.lower() == \"referer\":\n            referer = _url(value)\n            if referer:\n                headers[\"Referer\"] = referer\n        elif key.lower() == \"user-agent\":\n            headers[\"User-Agent\"] = value\n    return headers\n\ndef cors_allowed(headers):\n    \"\"\"Check public cross-origin access for directly returned HLS resources.\n\n    Args:\n        headers: Response headers from the actual media GET request.\n\n    Returns:\n        Whether every browser origin may read the resource without credentials.\n    \"\"\"\n    return isinstance(headers, dict) and any(\n        str(key).lower() == \"access-control-allow-origin\" and str(value).strip() == \"*\"\n        for key, value in headers.items()\n    )\n\ndef parse_resolver(data):\n    \"\"\"Classify a resolver payload as a direct media URL or a share page.\n\n    Args:\n        data: The decoded resolver `data` object containing `url`, `type`,\n            and optional upstream request headers.\n\n    Returns:\n        A dictionary with `url` and `type`, or an empty dictionary if unsupported.\n        The type is `mp4`, `hls`, or `share`. Share results retain the resolver's\n        original type as `media_type` for parsing extensionless media URLs.\n        Supported media request headers are retained. Known error placeholders\n        and malformed payloads produce an empty dictionary.\n    \"\"\"\n    if not isinstance(data, dict):\n        return {}\n    url = _url(data.get(\"url\"))\n    if not url or is_error_media(url):\n        return {}\n    headers = playback_headers(data.get(\"headers\"))\n    extra = {\"headers\": headers} if headers else {}\n    path = urlsplit(url).path.lower()\n    media_type = str(data.get(\"type\") or \"\").lower().strip()\n    if \"/share/\" in path:\n        return {\"url\": url, \"type\": \"share\", \"media_type\": media_type, **extra}\n    if media_type in {\n        \"hls\",\n        \"m3u8\",\n        \"application/x-mpegurl\",\n        \"application/vnd.apple.mpegurl\",\n    }:\n        return {\"url\": url, \"type\": \"hls\", **extra}\n    if media_type in {\"mp4\", \"video/mp4\"}:\n        return {\"url\": url, \"type\": \"mp4\", **extra}\n    if path.endswith(\".m3u8\"):\n        return {\"url\": url, \"type\": \"hls\", **extra}\n    if path.endswith(\".mp4\"):\n        return {\"url\": url, \"type\": \"mp4\", **extra}\n    return {}\n\ndef parse_share(data):\n    \"\"\"Extract a literal media URL from a share page without evaluating scripts.\n\n    Args:\n        data: The share page `url`, its `html`, and an optional media `type` hint.\n\n    Returns:\n        A direct resolver-style media dictionary, or an empty dictionary when the\n        assignment is missing, invalid, unsupported, points to another share,\n        or resolves to the confirmed error placeholder.\n    \"\"\"\n    html = data.get(\"html\")\n    base = _url(data.get(\"url\"))\n    if not base or not isinstance(html, str):\n        return {}\n    match = re.search(\n        r\"\\b(?:const|let|var)\\s+url\\s*=\\s*(['\\\"])((?:\\\\.|(?!\\1)[^\\\\\\r\\n])*)\\1\",\n        html,\n    )\n    if not match:\n        return {}\n    raw = match[2]\n    try:\n        value = (\n            json.loads('\"' + raw + '\"')\n            if match[1] == '\"'\n            else json.loads('\"' + raw.replace(\"\\\\'\", \"'\").replace('\"', '\\\\\"') + '\"')\n        )\n    except (ValueError, TypeError):\n        return {}\n    result = parse_resolver(\n        {\n            \"url\": _url(value, base),\n            \"type\": data.get(\"type\"),\n            \"headers\": data.get(\"headers\"),\n        }\n    )\n    return result if result.get(\"type\") in {\"hls\", \"mp4\"} else {}\n\ndef _attributes(value):\n    \"\"\"Parse an HLS attribute list without splitting commas inside quotes.\n\n    Args:\n        value: The text following an HLS tag's colon.\n\n    Returns:\n        The attribute dictionary, or an empty dictionary for malformed input.\n    \"\"\"\n    result = {}\n    offset = 0\n    pattern = r'([A-Z0-9-]+)=(\"[^\"\\r\\n]*\"|[^,\\s]+)(?:,|$)'\n    for match in re.finditer(pattern, value):\n        if match.start() != offset or match[1] in result:\n            return {}\n        result[match[1]] = match[2].strip('\"')\n        offset = match.end()\n    return result if offset == len(value) else {}\n\ndef parse_hls(data):\n    \"\"\"Select one compatible variant or the first complete TS media segment.\n\n    Args:\n        data: The playlist `url`, decoded `text`, and `depth` of zero or one.\n\n    Returns:\n        A master dictionary containing `kind`, selected `url`, and `depth`, or a\n        media dictionary containing `kind`, first segment `url`, `encrypted`,\n        and optional `key_url`. Invalid, nested, fragmented-MP4, byte-range, and\n        unsupported encrypted playlists return an empty dictionary. Master\n        variants declaring `AUDIO` or `VIDEO` groups are excluded because the\n        selected child URL cannot preserve the master-level group definitions.\n    \"\"\"\n    base = _url(data.get(\"url\"))\n    text = data.get(\"text\")\n    depth = data.get(\"depth\", 0)\n    if not base or not isinstance(text, str) or depth not in {0, 1}:\n        return {}\n    lines = [\n        line.strip() for line in text.lstrip(\"\\ufeff\").splitlines() if line.strip()\n    ]\n    if not lines or lines[0] != \"#EXTM3U\":\n        return {}\n    unsupported = (\n        \"#EXT-X-MAP:\",\n        \"#EXT-X-BYTERANGE:\",\n        \"#EXT-X-PART:\",\n        \"#EXT-X-PRELOAD-HINT:\",\n        \"#EXT-X-SESSION-KEY:\",\n    )\n    if any(line.startswith(unsupported) for line in lines):\n        return {}\n    master = any(line.startswith(\"#EXT-X-STREAM-INF:\") for line in lines)\n    if master:\n        if depth != 0 or any(line.startswith(\"#EXTINF:\") for line in lines):\n            return {}\n        variants = []\n        pending = None\n        for line in lines[1:]:\n            if line.startswith(\"#EXT-X-STREAM-INF:\"):\n                if pending is not None:\n                    return {}\n                pending = _attributes(line.split(\":\", 1)[1])\n            elif not line.startswith(\"#\"):\n                if pending is None:\n                    return {}\n                url = _url(line, base)\n                bandwidth = pending.get(\"BANDWIDTH\", \"\")\n                codecs = pending.get(\"CODECS\", \"\").lower().split(\",\")\n                compatible = all(\n                    codec.strip().startswith((\"avc1\", \"avc3\", \"mp4a\"))\n                    for codec in codecs\n                ) and any(\n                    codec.strip().startswith((\"avc1\", \"avc3\")) for codec in codecs\n                )\n                if (\n                    url\n                    and bandwidth.isdigit()\n                    and int(bandwidth) > 0\n                    and (compatible or \"CODECS\" not in pending)\n                    and \"AUDIO\" not in pending\n                    and \"VIDEO\" not in pending\n                ):\n                    variants.append((0 if compatible else 1, int(bandwidth), url))\n                pending = None\n        if pending is not None or not variants:\n            return {}\n        return {\"kind\": \"master\", \"url\": min(variants)[2], \"depth\": 1}\n    first = {}\n    key_url = \"\"\n    pending = False\n    for line in lines[1:]:\n        if line.startswith(\"#EXT-X-KEY:\"):\n            attrs = _attributes(line.split(\":\", 1)[1])\n            method = attrs.get(\"METHOD\")\n            if method == \"NONE\" and set(attrs) == {\"METHOD\"}:\n                key_url = \"\"\n            elif (\n                method == \"AES-128\"\n                and attrs.get(\"KEYFORMAT\", \"identity\") == \"identity\"\n                and attrs.get(\"KEYFORMATVERSIONS\", \"1\") == \"1\"\n                and (\n                    \"IV\" not in attrs\n                    or re.fullmatch(r\"0x[0-9a-fA-F]{1,32}\", attrs[\"IV\"])\n                )\n            ):\n                key_url = _url(attrs.get(\"URI\"), base)\n                if not key_url:\n                    return {}\n            else:\n                return {}\n        elif line.startswith(\"#EXTINF:\"):\n            duration = re.match(r\"#EXTINF:([0-9]+(?:\\.[0-9]+)?),\", line)\n            if pending or not duration or float(duration[1]) <= 0:\n                return {}\n            pending = True\n        elif not line.startswith(\"#\"):\n            url = _url(line, base)\n            if not pending or not url:\n                return {}\n            if not first:\n                first = {\"kind\": \"media\", \"url\": url, \"encrypted\": bool(key_url)}\n                if key_url:\n                    first[\"key_url\"] = key_url\n            pending = False\n    return first if not pending else {}\n\ndef _headers(data):\n    \"\"\"Read normalized response headers and reject encoded or textual media.\n\n    Args:\n        data: A probe dictionary containing selected response `headers`.\n\n    Returns:\n        Normalized headers, or `None` for unusable media headers.\n    \"\"\"\n    headers = data.get(\"headers\", {})\n    if not isinstance(headers, dict):\n        return None\n    headers = {str(key).lower(): str(value).strip() for key, value in headers.items()}\n    encoding = headers.get(\"content-encoding\", headers.get(\"encoding\", \"\")).lower()\n    media_type = headers.get(\"content-type\", \"\").split(\";\", 1)[0].lower()\n    if encoding not in {\"\", \"identity\"} or media_type.startswith(\"text/\"):\n        return None\n    if media_type in {\"application/json\", \"application/xml\", \"application/xhtml+xml\"}:\n        return None\n    return headers\n\ndef _prefix(data):\n    \"\"\"Decode at most the first 512 response bytes from their hexadecimal form.\n\n    Args:\n        data: The probe dictionary containing `header_hex`.\n\n    Returns:\n        The bounded byte prefix, or empty bytes for missing or malformed input.\n    \"\"\"\n    value = data.get(\"header_hex\")\n    if not isinstance(value, str):\n        return b\"\"\n    try:\n        return bytes.fromhex(value[:1024])\n    except ValueError:\n        return b\"\"\n\ndef _complete(data, headers, expected):\n    \"\"\"Check the actual and declared response body lengths.\n\n    Args:\n        data: The probe dictionary containing the actual `body_length`.\n        headers: The normalized response headers.\n        expected: The exact expected number of body bytes.\n\n    Returns:\n        Whether the actual body and optional declared length match exactly.\n    \"\"\"\n    length = headers.get(\"content-length\", \"\")\n    return data.get(\"body_length\") == expected and (\n        not length or (length.isdigit() and int(length) == expected)\n    )\n\ndef validate_segment(data):\n    \"\"\"Validate a complete bounded TS segment or AES-128 encrypted segment.\n\n    Args:\n        data: The GET `status`, selected `headers`, prior HEAD `size`, actual\n            `body_length`, initial `header_hex`, and optional `encrypted` flag.\n\n    Returns:\n        Whether the segment is complete and passes TS sync checks or encrypted\n        block-size checks. Encrypted input also requires a separately valid key;\n        its transport-stream contents cannot be verified without decryption.\n    \"\"\"\n    headers = _headers(data)\n    size = data.get(\"size\")\n    if (\n        headers is None\n        or data.get(\"status\") != 200\n        or not isinstance(size, int)\n        or not 0 < size <= SEGMENT_LIMIT\n        or not _complete(data, headers, size)\n    ):\n        return False\n    prefix = _prefix(data)\n    if not prefix or prefix.lstrip().lower().startswith(\n        (b\"<!doctype\", b\"<html\", b\"<?xml\", b\"<head\", b\"<body\", b\"#extm3u\")\n    ):\n        return False\n    if data.get(\"encrypted\") is True:\n        return size % 16 == 0\n    if size % 188 != 0:\n        return False\n    offsets = range(0, min(size, 3 * 188), 188)\n    return all(offset < len(prefix) and prefix[offset] == 0x47 for offset in offsets)\n\ndef validate_key(data):\n    \"\"\"Validate a complete AES-128 key response.\n\n    Args:\n        data: The response `status`, actual `body_length`, and optional `headers`.\n\n    Returns:\n        Whether the successful response contains exactly sixteen key bytes.\n    \"\"\"\n    headers = _headers(data)\n    return (\n        headers is not None\n        and data.get(\"status\") == 200\n        and _complete(data, headers, 16)\n    )\n\ndef prepare_media(media):\n    \"\"\"Choose the first probe step for a normalized resolver result.\n\n    Args:\n        media: The validated resolver or share-page result.\n\n    Returns:\n        A branch-local probe descriptor, empty for unsupported media.\n    \"\"\"\n    kind = media.get(\"type\")\n    if kind not in {\"share\", \"hls\", \"mp4\"}:\n        return {\"stage\": \"failed\"}\n    return {\n        \"stage\": {\"share\": \"share\", \"hls\": \"manifest\", \"mp4\": \"mp4\"}[kind],\n        \"url\": media[\"url\"],\n        \"media\": media,\n    }\n\ndef next_hls_resource(probe, response, depth):\n    \"\"\"Parse a playlist and select its next bounded probe resource.\n\n    Args:\n        probe: The current branch-local descriptor.\n        response: The playlist GET response summary.\n        depth: Whether this is the initial or child playlist.\n\n    Returns:\n        An updated descriptor for a child, key or segment, or a failed stage.\n    \"\"\"\n    if response.get(\"status\") != 200 or not cors_allowed(response.get(\"headers\")):\n        return {**probe, \"stage\": \"failed\"}\n    playlist = parse_hls(\n        {\"url\": response[\"url\"], \"text\": response.get(\"text\", \"\"), \"depth\": depth}\n    )\n    if playlist.get(\"kind\") == \"master\" and depth == 0:\n        return {**probe, \"stage\": \"child\", \"url\": playlist[\"url\"]}\n    if playlist.get(\"kind\") != \"media\":\n        return {**probe, \"stage\": \"failed\"}\n    return {\n        **probe,\n        \"stage\": \"key\" if playlist.get(\"key_url\") else \"segment\",\n        \"url\": playlist.get(\"key_url\") or playlist[\"url\"],\n        \"hls\": playlist,\n        \"playback\": response[\"url\"],\n    }\n\ndef advance_probe(probe, response, head):\n    \"\"\"Advance a bounded share or HLS probe after one complete HTTP response.\n\n    Args:\n        probe: The branch descriptor for the resource just read.\n        response: The bounded GET response summary.\n        head: Size metadata from the matching HEAD response.\n\n    Returns:\n        The next branch descriptor, marked `ready` only after a valid segment.\n    \"\"\"\n    stage = probe[\"stage\"]\n    if stage == \"share\":\n        media = probe[\"media\"]\n        value = (\n            parse_share(\n                {\n                    \"url\": response.get(\"url\", media[\"url\"]),\n                    \"html\": response.get(\"text\", \"\"),\n                    \"type\": media.get(\"media_type\", \"\"),\n                    \"headers\": media.get(\"headers\"),\n                }\n            )\n            if response.get(\"status\") == 200\n            else {}\n        )\n        return prepare_media(value)\n    if stage in {\"manifest\", \"child\"}:\n        return next_hls_resource(probe, response, int(stage == \"child\"))\n    if stage == \"key\":\n        if not validate_key(response) or not cors_allowed(response.get(\"headers\")):\n            return {**probe, \"stage\": \"failed\"}\n        return {\n            **probe,\n            \"stage\": \"segment\",\n            \"url\": probe[\"hls\"][\"url\"],\n            \"key_checked\": True,\n        }\n    if stage == \"segment\":\n        encrypted = bool(probe[\"hls\"].get(\"key_url\"))\n        valid = (\n            validate_segment({**response, **head, \"encrypted\": encrypted})\n            and cors_allowed(response.get(\"headers\"))\n            and (not encrypted or probe.get(\"key_checked\", False))\n        )\n        return {**probe, \"stage\": \"ready\" if valid else \"failed\"}\n    return {**probe, \"stage\": \"failed\"}\n\ndef execute(node_id, node_data, context):\n    \"\"\"Process one isolated TvTFun preflight stage.\n\n    Args:\n        node_id: The executing node identifier.\n        node_data: The node configuration.\n        context: The request context receiving stage-specific results once.\n    \"\"\"\n    step = max(context['probe_a'])\n    probe = {\"stage\": \"failed\"}\n    if not context.get(\"preflight_winner\") and time.monotonic() < context[\"preflight_deadline\"]:\n        probe = advance_probe(context['probe_a'][step], context['probe_body_a'][step], context['probe_head_a_checked'][step])\n    context['probe_a'] = {str(int(step) + 1): probe}\n    if probe[\"stage\"] == \"ready\":\n        context['qualified_a'] = {**context[\"preflight_candidates\"][0], \"url\": probe[\"playback\"], \"video_type\": \"hls\", \"media_headers\": probe[\"media\"].get(\"headers\", {}), \"completed\": time.monotonic_ns()}\n"
+          }
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false
+      },
+      {
+        "id": "019f0c25-8c78-7000-a001-000000000113",
+        "type": "node",
+        "position": {
+          "x": -3100,
+          "y": 4150
+        },
+        "data": {
+          "$schema": "condition",
+          "expression": "{{ preflight_winner is not defined and (probe_a is defined and (probe_a|dictsort|last|last).stage == \"mp4\") }}"
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false
+      },
+      {
+        "id": "019f0c25-8c78-7000-a001-000000000114",
+        "type": "node",
+        "position": {
+          "x": -2200,
+          "y": 4150
+        },
+        "data": {
+          "$schema": "merge",
+          "maximum": 1,
+          "timeout": 0
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false
+      },
+      {
+        "id": "019f0c25-8c78-7000-a001-000000000115",
+        "type": "node",
+        "position": {
+          "x": -1300,
+          "y": 4150
+        },
+        "data": {
+          "$schema": "http",
+          "client": "httpx",
+          "timeout": 5,
+          "method": "HEAD",
+          "url": "{{ (probe_a|dictsort|last|last).media.url }}",
+          "headers": [
+            {
+              "key": "User-Agent",
+              "value": "{{ ((probe_a|dictsort|last|last).media).get('headers', {}).get('User-Agent') or 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36' }}"
+            },
+            {
+              "key": "Accept-Encoding",
+              "value": "identity"
+            },
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, no-store"
+            },
+            {
+              "key": "Referer",
+              "value": "{{ ((probe_a|dictsort|last|last).media).get('headers', {}).get('Referer') or preflight_candidates[0].referer }}"
+            },
+            {
+              "key": "Range",
+              "value": "bytes=0-4095"
+            }
+          ],
+          "body": "",
+          "formatter": "{\"mp4_head_a\": {\"status\": {{ response.status_code }}, \"url\": {{ (response.url|string)|tojson }}, \"headers\": {\"content-type\": {{ response.headers.get(\"content-type\", \"\")|tojson }}, \"content-length\": {{ response.headers.get(\"content-length\", \"\")|tojson }}, \"content-range\": {{ response.headers.get(\"content-range\", \"\")|tojson }}, \"accept-ranges\": {{ response.headers.get(\"accept-ranges\", \"\")|tojson }}, \"content-encoding\": {{ response.headers.get(\"content-encoding\", \"\")|tojson }}, \"access-control-allow-origin\": {{ response.headers.get(\"access-control-allow-origin\", \"\")|tojson }}}}}"
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false
+      },
+      {
+        "id": "019f0c25-8c78-7000-a001-000000000116",
+        "type": "node",
+        "position": {
+          "x": -3100,
+          "y": 5100
+        },
+        "data": {
+          "$schema": "script",
+          "script": {
+            "language": "python",
+            "code": "\"\"\"Validate bounded TvTfun media probes without performing external operations.\"\"\"\nimport hashlib\nimport json\nimport re\nfrom urllib.parse import unquote, urljoin, urlsplit, urlunsplit\nMP4_LIMIT = 4096\nSEGMENT_LIMIT = 8 * 1024 * 1024\n\"\"\"Advance one TvTFun probe using the existing HTTP and loop nodes.\"\"\"\nimport json\nimport time\nfrom urllib.parse import quote\n\ndef _url(value, base=\"\"):\n    \"\"\"Normalize an HTTP media URL while preserving its query.\n\n    Args:\n        value: The absolute or relative URI to resolve.\n        base: The HTTP URL used to resolve a relative URI.\n\n    Returns:\n        A URL without a fragment, or an empty string for invalid input.\n    \"\"\"\n    if not isinstance(value, str) or not value:\n        return \"\"\n    if any(ord(char) <= 32 or ord(char) == 127 for char in value) or \"\\\\\" in value:\n        return \"\"\n    try:\n        parts = urlsplit(urljoin(base, value))\n        if (\n            parts.scheme not in {\"http\", \"https\"}\n            or not parts.hostname\n            or parts.username is not None\n            or parts.password is not None\n            or \"%\" in parts.hostname\n        ):\n            return \"\"\n        if parts.port is not None and not 0 < parts.port <= 65535:\n            return \"\"\n        return urlunsplit(parts._replace(fragment=\"\"))\n    except ValueError:\n        return \"\"\n\ndef is_error_media(value):\n    \"\"\"Recognize the provider's confirmed error-video object.\n\n    Args:\n        value: A media URL, including possible query or fragment suffixes.\n\n    Returns:\n        Whether the URL points to the verified three-second error placeholder.\n    \"\"\"\n    url = _url(value)\n    if not url:\n        return False\n    parts = urlsplit(url)\n    return (\n        parts.hostname.rstrip(\".\").lower() == \"kjjsaas-sh.oss-cn-shanghai.aliyuncs.com\"\n        and unquote(parts.path)\n        == \"/u/3401405881/20240818-936952-fc31b16575e80a7562cdb1f81a39c6b0.mp4\"\n    )\n\ndef _headers(data):\n    \"\"\"Read normalized response headers and reject encoded or textual media.\n\n    Args:\n        data: A probe dictionary containing selected response `headers`.\n\n    Returns:\n        Normalized headers, or `None` for unusable media headers.\n    \"\"\"\n    headers = data.get(\"headers\", {})\n    if not isinstance(headers, dict):\n        return None\n    headers = {str(key).lower(): str(value).strip() for key, value in headers.items()}\n    encoding = headers.get(\"content-encoding\", headers.get(\"encoding\", \"\")).lower()\n    media_type = headers.get(\"content-type\", \"\").split(\";\", 1)[0].lower()\n    if encoding not in {\"\", \"identity\"} or media_type.startswith(\"text/\"):\n        return None\n    if media_type in {\"application/json\", \"application/xml\", \"application/xhtml+xml\"}:\n        return None\n    return headers\n\ndef _range(value):\n    \"\"\"Parse an exact byte content range with a known total size.\n\n    Args:\n        value: A response `Content-Range` value.\n\n    Returns:\n        The start, end, and total integers, or an empty tuple if invalid.\n    \"\"\"\n    match = re.fullmatch(r\"bytes (\\d+)-(\\d+)/(\\d+)\", value, re.IGNORECASE)\n    if not match:\n        return ()\n    start, end, total = (int(part) for part in match.groups())\n    return (start, end, total) if 0 <= start <= end < total else ()\n\ndef validate_head(data):\n    \"\"\"Validate a media HEAD response before allowing a bounded body request.\n\n    Args:\n        data: The response `status`, selected `headers`, and `kind` of `mp4` or\n            `segment`. MP4 HEAD requests use `Range: bytes=0-1048575`.\n\n    Returns:\n        The positive resource `size` and, for MP4, inclusive `range_end`, or an\n        empty dictionary if range support, length, or the size limit is invalid.\n    \"\"\"\n    headers = _headers(data)\n    if headers is None or is_error_media(data.get(\"url\")):\n        return {}\n    length = headers.get(\"content-length\", \"\")\n    size = int(length) if length.isdigit() else 0\n    kind = data.get(\"kind\")\n    status = data.get(\"status\")\n    if kind == \"segment\":\n        return {\"size\": size} if status == 200 and 0 < size <= SEGMENT_LIMIT else {}\n    if kind != \"mp4\":\n        return {}\n    if status == 206:\n        content_range = _range(headers.get(\"content-range\", \"\"))\n        if not content_range:\n            return {}\n        start, end, size = content_range\n        if start != 0 or end != min(size, MP4_LIMIT) - 1:\n            return {}\n        if length and (not length.isdigit() or int(length) != end + 1):\n            return {}\n    elif status != 200 or headers.get(\"accept-ranges\", \"\").lower() != \"bytes\":\n        return {}\n    return {\"size\": size, \"range_end\": min(size, MP4_LIMIT) - 1} if size >= 16 else {}\n\ndef execute(node_id, node_data, context):\n    \"\"\"Process one isolated TvTFun preflight stage.\n\n    Args:\n        node_id: The executing node identifier.\n        node_data: The node configuration.\n        context: The request context receiving stage-specific results once.\n    \"\"\"\n    if context.get(\"preflight_winner\") or time.monotonic() >= context.get(\"preflight_deadline\", 0):\n        return\n    context['mp4_head_a_checked'] = validate_head({**context['mp4_head_a'], \"kind\": 'mp4'})\n"
+          }
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false
+      },
+      {
+        "id": "019f0c25-8c78-7000-a001-000000000117",
+        "type": "node",
+        "position": {
+          "x": -2200,
+          "y": 5100
+        },
+        "data": {
+          "$schema": "condition",
+          "expression": "{{ preflight_winner is not defined and (mp4_head_a_checked is defined and mp4_head_a_checked) }}"
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false
+      },
+      {
+        "id": "019f0c25-8c78-7000-a001-000000000118",
+        "type": "node",
+        "position": {
+          "x": -1300,
+          "y": 5100
+        },
+        "data": {
+          "$schema": "http",
+          "client": "httpx",
+          "timeout": 8,
+          "method": "GET",
+          "url": "{{ (probe_a|dictsort|last|last).media.url }}",
+          "headers": [
+            {
+              "key": "User-Agent",
+              "value": "{{ ((probe_a|dictsort|last|last).media).get('headers', {}).get('User-Agent') or 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36' }}"
+            },
+            {
+              "key": "Accept-Encoding",
+              "value": "identity"
+            },
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, no-store"
+            },
+            {
+              "key": "Referer",
+              "value": "{{ ((probe_a|dictsort|last|last).media).get('headers', {}).get('Referer') or preflight_candidates[0].referer }}"
+            },
+            {
+              "key": "Range",
+              "value": "bytes=0-{{ mp4_head_a_checked.range_end }}"
+            }
+          ],
+          "body": "",
+          "formatter": "{\"mp4_body_a\": {\"status\": {{ response.status_code }}, \"url\": {{ (response.url|string)|tojson }}, \"headers\": {\"content-type\": {{ response.headers.get(\"content-type\", \"\")|tojson }}, \"content-length\": {{ response.headers.get(\"content-length\", \"\")|tojson }}, \"content-range\": {{ response.headers.get(\"content-range\", \"\")|tojson }}, \"accept-ranges\": {{ response.headers.get(\"accept-ranges\", \"\")|tojson }}, \"content-encoding\": {{ response.headers.get(\"content-encoding\", \"\")|tojson }}, \"access-control-allow-origin\": {{ response.headers.get(\"access-control-allow-origin\", \"\")|tojson }}}, \"body_length\": {{ response.content|length }}, \"header_hex\": {{ response.content[:512].hex()|tojson }}}}"
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false
+      },
+      {
+        "id": "019f0c25-8c78-7000-a001-000000000119",
+        "type": "node",
+        "position": {
+          "x": -3100,
+          "y": 6050
+        },
+        "data": {
+          "$schema": "script",
+          "script": {
+            "language": "python",
+            "code": "\"\"\"Validate bounded TvTfun media probes without performing external operations.\"\"\"\nimport hashlib\nimport json\nimport re\nfrom urllib.parse import unquote, urljoin, urlsplit, urlunsplit\nMP4_LIMIT = 4096\nSEGMENT_LIMIT = 8 * 1024 * 1024\n\"\"\"Advance one TvTFun probe using the existing HTTP and loop nodes.\"\"\"\nimport json\nimport time\nfrom urllib.parse import quote\n\ndef _url(value, base=\"\"):\n    \"\"\"Normalize an HTTP media URL while preserving its query.\n\n    Args:\n        value: The absolute or relative URI to resolve.\n        base: The HTTP URL used to resolve a relative URI.\n\n    Returns:\n        A URL without a fragment, or an empty string for invalid input.\n    \"\"\"\n    if not isinstance(value, str) or not value:\n        return \"\"\n    if any(ord(char) <= 32 or ord(char) == 127 for char in value) or \"\\\\\" in value:\n        return \"\"\n    try:\n        parts = urlsplit(urljoin(base, value))\n        if (\n            parts.scheme not in {\"http\", \"https\"}\n            or not parts.hostname\n            or parts.username is not None\n            or parts.password is not None\n            or \"%\" in parts.hostname\n        ):\n            return \"\"\n        if parts.port is not None and not 0 < parts.port <= 65535:\n            return \"\"\n        return urlunsplit(parts._replace(fragment=\"\"))\n    except ValueError:\n        return \"\"\n\ndef is_error_media(value):\n    \"\"\"Recognize the provider's confirmed error-video object.\n\n    Args:\n        value: A media URL, including possible query or fragment suffixes.\n\n    Returns:\n        Whether the URL points to the verified three-second error placeholder.\n    \"\"\"\n    url = _url(value)\n    if not url:\n        return False\n    parts = urlsplit(url)\n    return (\n        parts.hostname.rstrip(\".\").lower() == \"kjjsaas-sh.oss-cn-shanghai.aliyuncs.com\"\n        and unquote(parts.path)\n        == \"/u/3401405881/20240818-936952-fc31b16575e80a7562cdb1f81a39c6b0.mp4\"\n    )\n\ndef _headers(data):\n    \"\"\"Read normalized response headers and reject encoded or textual media.\n\n    Args:\n        data: A probe dictionary containing selected response `headers`.\n\n    Returns:\n        Normalized headers, or `None` for unusable media headers.\n    \"\"\"\n    headers = data.get(\"headers\", {})\n    if not isinstance(headers, dict):\n        return None\n    headers = {str(key).lower(): str(value).strip() for key, value in headers.items()}\n    encoding = headers.get(\"content-encoding\", headers.get(\"encoding\", \"\")).lower()\n    media_type = headers.get(\"content-type\", \"\").split(\";\", 1)[0].lower()\n    if encoding not in {\"\", \"identity\"} or media_type.startswith(\"text/\"):\n        return None\n    if media_type in {\"application/json\", \"application/xml\", \"application/xhtml+xml\"}:\n        return None\n    return headers\n\ndef _range(value):\n    \"\"\"Parse an exact byte content range with a known total size.\n\n    Args:\n        value: A response `Content-Range` value.\n\n    Returns:\n        The start, end, and total integers, or an empty tuple if invalid.\n    \"\"\"\n    match = re.fullmatch(r\"bytes (\\d+)-(\\d+)/(\\d+)\", value, re.IGNORECASE)\n    if not match:\n        return ()\n    start, end, total = (int(part) for part in match.groups())\n    return (start, end, total) if 0 <= start <= end < total else ()\n\ndef _prefix(data):\n    \"\"\"Decode at most the first 512 response bytes from their hexadecimal form.\n\n    Args:\n        data: The probe dictionary containing `header_hex`.\n\n    Returns:\n        The bounded byte prefix, or empty bytes for missing or malformed input.\n    \"\"\"\n    value = data.get(\"header_hex\")\n    if not isinstance(value, str):\n        return b\"\"\n    try:\n        return bytes.fromhex(value[:1024])\n    except ValueError:\n        return b\"\"\n\ndef _complete(data, headers, expected):\n    \"\"\"Check the actual and declared response body lengths.\n\n    Args:\n        data: The probe dictionary containing the actual `body_length`.\n        headers: The normalized response headers.\n        expected: The exact expected number of body bytes.\n\n    Returns:\n        Whether the actual body and optional declared length match exactly.\n    \"\"\"\n    length = headers.get(\"content-length\", \"\")\n    return data.get(\"body_length\") == expected and (\n        not length or (length.isdigit() and int(length) == expected)\n    )\n\ndef validate_mp4(data):\n    \"\"\"Validate a complete bounded MP4 range and its initial file-type box.\n\n    Args:\n        data: The GET `status`, selected `headers`, prior HEAD `size` and\n            `range_end`, actual `body_length`, and initial `header_hex`.\n\n    Returns:\n        Whether a matching `206` response contains the entire requested range\n        and a structurally valid initial `ftyp` box. Known error placeholders\n        are excluded by URL and prefix fingerprint. This does not prove decoding.\n    \"\"\"\n    headers = _headers(data)\n    size, end = data.get(\"size\"), data.get(\"range_end\")\n    if (\n        headers is None\n        or data.get(\"status\") != 206\n        or not isinstance(size, int)\n        or not isinstance(end, int)\n        or size < 16\n        or end != min(size, MP4_LIMIT) - 1\n        or _range(headers.get(\"content-range\", \"\")) != (0, end, size)\n        or not _complete(data, headers, end + 1)\n    ):\n        return False\n    prefix = _prefix(data)\n    if is_error_media(data.get(\"url\")) or (\n        size == 784109\n        and len(prefix) == 512\n        and hashlib.sha256(prefix).hexdigest()\n        == \"acdc2f08bd06d4957eb5aa20bf2a8b18262db207c512e8accb7eac418a72c421\"\n    ):\n        return False\n    if len(prefix) < 16 or prefix[4:8] != b\"ftyp\":\n        return False\n    box_size = int.from_bytes(prefix[:4], \"big\")\n    return (\n        16 <= box_size <= end + 1\n        and box_size % 4 == 0\n        and all(32 <= byte <= 126 for byte in prefix[8:12])\n    )\n\ndef execute(node_id, node_data, context):\n    \"\"\"Process one isolated TvTFun preflight stage.\n\n    Args:\n        node_id: The executing node identifier.\n        node_data: The node configuration.\n        context: The request context receiving stage-specific results once.\n    \"\"\"\n    if context.get(\"preflight_winner\") or time.monotonic() >= context.get(\"preflight_deadline\", 0):\n        return\n    media = context['probe_a'][max(context['probe_a'])][\"media\"]\n    if validate_mp4({**context['mp4_body_a'], **context['mp4_head_a_checked']}):\n        context['qualified_a'] = {**context[\"preflight_candidates\"][0], \"url\": media[\"url\"], \"video_type\": \"mp4\", \"media_headers\": media.get(\"headers\", {}), \"completed\": time.monotonic_ns()}\n"
+          }
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false
+      },
+      {
+        "id": "019f0c25-8c78-7000-a001-000000000120",
+        "type": "node",
+        "position": {
+          "x": -2200,
+          "y": 6050
+        },
+        "data": {
+          "$schema": "condition",
+          "expression": "{{ preflight_winner is not defined and (qualified_a is defined) }}"
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false
+      },
+      {
+        "id": "019f0c25-8c78-7000-a001-000000000121",
+        "type": "node",
+        "position": {
+          "x": 2200,
+          "y": 1300
+        },
+        "data": {
+          "$schema": "condition",
+          "expression": "{{ preflight_winner is not defined and (preflight_candidates|length > 1) }}"
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false
+      },
+      {
+        "id": "019f0c25-8c78-7000-a001-000000000122",
+        "type": "node",
+        "position": {
+          "x": 3100,
+          "y": 1300
+        },
+        "data": {
+          "$schema": "http",
+          "client": "httpx",
+          "timeout": 20,
+          "method": "GET",
+          "url": "{{ preflight_candidates[1].resolve_url }}",
+          "headers": [
+            {
+              "key": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+            },
+            {
+              "key": "Accept-Encoding",
+              "value": "identity"
+            },
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, no-store"
+            },
+            {
+              "key": "Referer",
+              "value": "{{ preflight_candidates[1].referer }}"
+            }
+          ],
+          "body": "",
+          "formatter": "{\"resolve_b\": {\"status\": {{ response.status_code }}, \"url\": {{ (response.url|string)|tojson }}, \"headers\": {\"content-type\": {{ response.headers.get(\"content-type\", \"\")|tojson }}, \"content-length\": {{ response.headers.get(\"content-length\", \"\")|tojson }}, \"content-range\": {{ response.headers.get(\"content-range\", \"\")|tojson }}, \"accept-ranges\": {{ response.headers.get(\"accept-ranges\", \"\")|tojson }}, \"content-encoding\": {{ response.headers.get(\"content-encoding\", \"\")|tojson }}, \"access-control-allow-origin\": {{ response.headers.get(\"access-control-allow-origin\", \"\")|tojson }}}, \"body_length\": {{ response.content|length }}, \"text\": {{ (response.text if response.content|length <= 262144 else \"\")|tojson }}}}"
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false
+      },
+      {
+        "id": "019f0c25-8c78-7000-a001-000000000123",
+        "type": "node",
+        "position": {
+          "x": 1300,
+          "y": 2250
+        },
+        "data": {
+          "$schema": "script",
+          "script": {
+            "language": "python",
+            "code": "\"\"\"Validate bounded TvTfun media probes without performing external operations.\"\"\"\nimport hashlib\nimport json\nimport re\nfrom urllib.parse import unquote, urljoin, urlsplit, urlunsplit\nMP4_LIMIT = 4096\nSEGMENT_LIMIT = 8 * 1024 * 1024\n\"\"\"Advance one TvTFun probe using the existing HTTP and loop nodes.\"\"\"\nimport json\nimport time\nfrom urllib.parse import quote\n\ndef _url(value, base=\"\"):\n    \"\"\"Normalize an HTTP media URL while preserving its query.\n\n    Args:\n        value: The absolute or relative URI to resolve.\n        base: The HTTP URL used to resolve a relative URI.\n\n    Returns:\n        A URL without a fragment, or an empty string for invalid input.\n    \"\"\"\n    if not isinstance(value, str) or not value:\n        return \"\"\n    if any(ord(char) <= 32 or ord(char) == 127 for char in value) or \"\\\\\" in value:\n        return \"\"\n    try:\n        parts = urlsplit(urljoin(base, value))\n        if (\n            parts.scheme not in {\"http\", \"https\"}\n            or not parts.hostname\n            or parts.username is not None\n            or parts.password is not None\n            or \"%\" in parts.hostname\n        ):\n            return \"\"\n        if parts.port is not None and not 0 < parts.port <= 65535:\n            return \"\"\n        return urlunsplit(parts._replace(fragment=\"\"))\n    except ValueError:\n        return \"\"\n\ndef is_error_media(value):\n    \"\"\"Recognize the provider's confirmed error-video object.\n\n    Args:\n        value: A media URL, including possible query or fragment suffixes.\n\n    Returns:\n        Whether the URL points to the verified three-second error placeholder.\n    \"\"\"\n    url = _url(value)\n    if not url:\n        return False\n    parts = urlsplit(url)\n    return (\n        parts.hostname.rstrip(\".\").lower() == \"kjjsaas-sh.oss-cn-shanghai.aliyuncs.com\"\n        and unquote(parts.path)\n        == \"/u/3401405881/20240818-936952-fc31b16575e80a7562cdb1f81a39c6b0.mp4\"\n    )\n\ndef playback_headers(data):\n    \"\"\"Keep supported resolver headers without propagating credentials.\n\n    Args:\n        data: The resolver's optional media header mapping.\n\n    Returns:\n        Valid `Referer` and `User-Agent` overrides supported by the media proxy.\n    \"\"\"\n    if not isinstance(data, dict):\n        return {}\n    headers = {}\n    for key, value in data.items():\n        if not isinstance(key, str) or not isinstance(value, str):\n            continue\n        value = value.strip()\n        if not value or any(ord(char) < 32 or ord(char) > 126 for char in value):\n            continue\n        if key.lower() == \"referer\":\n            referer = _url(value)\n            if referer:\n                headers[\"Referer\"] = referer\n        elif key.lower() == \"user-agent\":\n            headers[\"User-Agent\"] = value\n    return headers\n\ndef parse_resolver(data):\n    \"\"\"Classify a resolver payload as a direct media URL or a share page.\n\n    Args:\n        data: The decoded resolver `data` object containing `url`, `type`,\n            and optional upstream request headers.\n\n    Returns:\n        A dictionary with `url` and `type`, or an empty dictionary if unsupported.\n        The type is `mp4`, `hls`, or `share`. Share results retain the resolver's\n        original type as `media_type` for parsing extensionless media URLs.\n        Supported media request headers are retained. Known error placeholders\n        and malformed payloads produce an empty dictionary.\n    \"\"\"\n    if not isinstance(data, dict):\n        return {}\n    url = _url(data.get(\"url\"))\n    if not url or is_error_media(url):\n        return {}\n    headers = playback_headers(data.get(\"headers\"))\n    extra = {\"headers\": headers} if headers else {}\n    path = urlsplit(url).path.lower()\n    media_type = str(data.get(\"type\") or \"\").lower().strip()\n    if \"/share/\" in path:\n        return {\"url\": url, \"type\": \"share\", \"media_type\": media_type, **extra}\n    if media_type in {\n        \"hls\",\n        \"m3u8\",\n        \"application/x-mpegurl\",\n        \"application/vnd.apple.mpegurl\",\n    }:\n        return {\"url\": url, \"type\": \"hls\", **extra}\n    if media_type in {\"mp4\", \"video/mp4\"}:\n        return {\"url\": url, \"type\": \"mp4\", **extra}\n    if path.endswith(\".m3u8\"):\n        return {\"url\": url, \"type\": \"hls\", **extra}\n    if path.endswith(\".mp4\"):\n        return {\"url\": url, \"type\": \"mp4\", **extra}\n    return {}\n\ndef prepare_media(media):\n    \"\"\"Choose the first probe step for a normalized resolver result.\n\n    Args:\n        media: The validated resolver or share-page result.\n\n    Returns:\n        A branch-local probe descriptor, empty for unsupported media.\n    \"\"\"\n    kind = media.get(\"type\")\n    if kind not in {\"share\", \"hls\", \"mp4\"}:\n        return {\"stage\": \"failed\"}\n    return {\n        \"stage\": {\"share\": \"share\", \"hls\": \"manifest\", \"mp4\": \"mp4\"}[kind],\n        \"url\": media[\"url\"],\n        \"media\": media,\n    }\n\ndef execute(node_id, node_data, context):\n    \"\"\"Process one isolated TvTFun preflight stage.\n\n    Args:\n        node_id: The executing node identifier.\n        node_data: The node configuration.\n        context: The request context receiving stage-specific results once.\n    \"\"\"\n    if context.get(\"preflight_winner\") or time.monotonic() >= context.get(\"preflight_deadline\", 0):\n        return\n    response = context['resolve_b']\n    try:\n        payload = json.loads(response.get(\"text\") or \"{}\") if response[\"status\"] == 200 else {}\n    except (TypeError, ValueError):\n        payload = {}\n    media = parse_resolver(payload.get(\"data\", {}) if isinstance(payload, dict) else {})\n    context['probe_b'] = {\"0\": prepare_media(media)}\n"
+          }
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false
+      },
+      {
+        "id": "019f0c25-8c78-7000-a001-000000000124",
+        "type": "node",
+        "position": {
+          "x": 2200,
+          "y": 2250
+        },
+        "data": {
+          "$schema": "loop",
+          "expression": "{{ 5 if preflight_winner is not defined and probe_b is defined and (probe_b|dictsort|last|last).stage in [\"share\", \"manifest\", \"child\", \"key\", \"segment\"] else 0 }}",
+          "varname": "probe_step_b"
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false
+      },
+      {
+        "id": "019f0c25-8c78-7000-a001-000000000125",
+        "type": "node",
+        "position": {
+          "x": 3100,
+          "y": 2250
+        },
+        "data": {
+          "$schema": "http",
+          "client": "curl_cffi",
+          "timeout": 5,
+          "method": "HEAD",
+          "url": "{{ (probe_b|dictsort|last|last).url }}",
+          "headers": [
+            {
+              "key": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+            },
+            {
+              "key": "Accept-Encoding",
+              "value": "identity"
+            },
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, no-store"
+            }
+          ],
+          "body": "",
+          "formatter": "{\"probe_head_b\": { {{ (probe_b|dictsort|last|first)|tojson }}: {\"status\": {{ response.status_code }}, \"url\": {{ (response.url|string)|tojson }}, \"headers\": {\"content-type\": {{ response.headers.get(\"content-type\", \"\")|tojson }}, \"content-length\": {{ response.headers.get(\"content-length\", \"\")|tojson }}, \"content-range\": {{ response.headers.get(\"content-range\", \"\")|tojson }}, \"accept-ranges\": {{ response.headers.get(\"accept-ranges\", \"\")|tojson }}, \"content-encoding\": {{ response.headers.get(\"content-encoding\", \"\")|tojson }}, \"access-control-allow-origin\": {{ response.headers.get(\"access-control-allow-origin\", \"\")|tojson }}}}}}"
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false
+      },
+      {
+        "id": "019f0c25-8c78-7000-a001-000000000126",
+        "type": "node",
+        "position": {
+          "x": 1300,
+          "y": 3200
+        },
+        "data": {
+          "$schema": "script",
+          "script": {
+            "language": "python",
+            "code": "\"\"\"Validate bounded TvTfun media probes without performing external operations.\"\"\"\nimport hashlib\nimport json\nimport re\nfrom urllib.parse import unquote, urljoin, urlsplit, urlunsplit\nMP4_LIMIT = 4096\nSEGMENT_LIMIT = 8 * 1024 * 1024\n\"\"\"Advance one TvTFun probe using the existing HTTP and loop nodes.\"\"\"\nimport json\nimport time\nfrom urllib.parse import quote\n\ndef _url(value, base=\"\"):\n    \"\"\"Normalize an HTTP media URL while preserving its query.\n\n    Args:\n        value: The absolute or relative URI to resolve.\n        base: The HTTP URL used to resolve a relative URI.\n\n    Returns:\n        A URL without a fragment, or an empty string for invalid input.\n    \"\"\"\n    if not isinstance(value, str) or not value:\n        return \"\"\n    if any(ord(char) <= 32 or ord(char) == 127 for char in value) or \"\\\\\" in value:\n        return \"\"\n    try:\n        parts = urlsplit(urljoin(base, value))\n        if (\n            parts.scheme not in {\"http\", \"https\"}\n            or not parts.hostname\n            or parts.username is not None\n            or parts.password is not None\n            or \"%\" in parts.hostname\n        ):\n            return \"\"\n        if parts.port is not None and not 0 < parts.port <= 65535:\n            return \"\"\n        return urlunsplit(parts._replace(fragment=\"\"))\n    except ValueError:\n        return \"\"\n\ndef is_error_media(value):\n    \"\"\"Recognize the provider's confirmed error-video object.\n\n    Args:\n        value: A media URL, including possible query or fragment suffixes.\n\n    Returns:\n        Whether the URL points to the verified three-second error placeholder.\n    \"\"\"\n    url = _url(value)\n    if not url:\n        return False\n    parts = urlsplit(url)\n    return (\n        parts.hostname.rstrip(\".\").lower() == \"kjjsaas-sh.oss-cn-shanghai.aliyuncs.com\"\n        and unquote(parts.path)\n        == \"/u/3401405881/20240818-936952-fc31b16575e80a7562cdb1f81a39c6b0.mp4\"\n    )\n\ndef _headers(data):\n    \"\"\"Read normalized response headers and reject encoded or textual media.\n\n    Args:\n        data: A probe dictionary containing selected response `headers`.\n\n    Returns:\n        Normalized headers, or `None` for unusable media headers.\n    \"\"\"\n    headers = data.get(\"headers\", {})\n    if not isinstance(headers, dict):\n        return None\n    headers = {str(key).lower(): str(value).strip() for key, value in headers.items()}\n    encoding = headers.get(\"content-encoding\", headers.get(\"encoding\", \"\")).lower()\n    media_type = headers.get(\"content-type\", \"\").split(\";\", 1)[0].lower()\n    if encoding not in {\"\", \"identity\"} or media_type.startswith(\"text/\"):\n        return None\n    if media_type in {\"application/json\", \"application/xml\", \"application/xhtml+xml\"}:\n        return None\n    return headers\n\ndef _range(value):\n    \"\"\"Parse an exact byte content range with a known total size.\n\n    Args:\n        value: A response `Content-Range` value.\n\n    Returns:\n        The start, end, and total integers, or an empty tuple if invalid.\n    \"\"\"\n    match = re.fullmatch(r\"bytes (\\d+)-(\\d+)/(\\d+)\", value, re.IGNORECASE)\n    if not match:\n        return ()\n    start, end, total = (int(part) for part in match.groups())\n    return (start, end, total) if 0 <= start <= end < total else ()\n\ndef validate_head(data):\n    \"\"\"Validate a media HEAD response before allowing a bounded body request.\n\n    Args:\n        data: The response `status`, selected `headers`, and `kind` of `mp4` or\n            `segment`. MP4 HEAD requests use `Range: bytes=0-1048575`.\n\n    Returns:\n        The positive resource `size` and, for MP4, inclusive `range_end`, or an\n        empty dictionary if range support, length, or the size limit is invalid.\n    \"\"\"\n    headers = _headers(data)\n    if headers is None or is_error_media(data.get(\"url\")):\n        return {}\n    length = headers.get(\"content-length\", \"\")\n    size = int(length) if length.isdigit() else 0\n    kind = data.get(\"kind\")\n    status = data.get(\"status\")\n    if kind == \"segment\":\n        return {\"size\": size} if status == 200 and 0 < size <= SEGMENT_LIMIT else {}\n    if kind != \"mp4\":\n        return {}\n    if status == 206:\n        content_range = _range(headers.get(\"content-range\", \"\"))\n        if not content_range:\n            return {}\n        start, end, size = content_range\n        if start != 0 or end != min(size, MP4_LIMIT) - 1:\n            return {}\n        if length and (not length.isdigit() or int(length) != end + 1):\n            return {}\n    elif status != 200 or headers.get(\"accept-ranges\", \"\").lower() != \"bytes\":\n        return {}\n    return {\"size\": size, \"range_end\": min(size, MP4_LIMIT) - 1} if size >= 16 else {}\n\ndef check_probe_head(probe, response):\n    \"\"\"Validate the size of the next resource before downloading its body.\n\n    Args:\n        probe: The branch descriptor identifying the current resource.\n        response: The bounded summary of the HEAD response.\n\n    Returns:\n        Validated size metadata, or an empty mapping for an unusable response.\n    \"\"\"\n    stage = probe[\"stage\"]\n    if stage == \"segment\":\n        return validate_head({**response, \"kind\": \"segment\"})\n    headers = response.get(\"headers\", {})\n    try:\n        size = int(headers.get(\"content-length\", \"\"))\n    except (TypeError, ValueError):\n        return {}\n    valid_size = size == 16 if stage == \"key\" else 0 < size <= 262144\n    if (\n        response.get(\"status\") == 200\n        and valid_size\n        and headers.get(\"content-encoding\", \"\").lower() in (\"\", \"identity\")\n    ):\n        return {\"size\": size}\n    return {}\n\ndef execute(node_id, node_data, context):\n    \"\"\"Process one isolated TvTFun preflight stage.\n\n    Args:\n        node_id: The executing node identifier.\n        node_data: The node configuration.\n        context: The request context receiving stage-specific results once.\n    \"\"\"\n    step = max(context['probe_b'])\n    checked = {}\n    if not context.get(\"preflight_winner\") and time.monotonic() < context[\"preflight_deadline\"]:\n        checked = check_probe_head(context['probe_b'][step], context['probe_head_b'][step])\n    context['probe_head_b_checked'] = {step: checked}\n"
+          }
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false
+      },
+      {
+        "id": "019f0c25-8c78-7000-a001-000000000127",
+        "type": "node",
+        "position": {
+          "x": 2200,
+          "y": 3200
+        },
+        "data": {
+          "$schema": "condition",
+          "expression": "{{ preflight_winner is not defined and (probe_head_b_checked[probe_b|dictsort|last|first]) }}"
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false
+      },
+      {
+        "id": "019f0c25-8c78-7000-a001-000000000128",
+        "type": "node",
+        "position": {
+          "x": 3100,
+          "y": 3200
+        },
+        "data": {
+          "$schema": "http",
+          "client": "curl_cffi",
+          "timeout": 8,
+          "method": "GET",
+          "url": "{{ (probe_b|dictsort|last|last).url }}",
+          "headers": [
+            {
+              "key": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+            },
+            {
+              "key": "Accept-Encoding",
+              "value": "identity"
+            },
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, no-store"
+            }
+          ],
+          "body": "",
+          "formatter": "{\"probe_body_b\": { {{ (probe_b|dictsort|last|first)|tojson }}: {\"status\": {{ response.status_code }}, \"url\": {{ (response.url|string)|tojson }}, \"headers\": {\"content-type\": {{ response.headers.get(\"content-type\", \"\")|tojson }}, \"content-length\": {{ response.headers.get(\"content-length\", \"\")|tojson }}, \"content-range\": {{ response.headers.get(\"content-range\", \"\")|tojson }}, \"accept-ranges\": {{ response.headers.get(\"accept-ranges\", \"\")|tojson }}, \"content-encoding\": {{ response.headers.get(\"content-encoding\", \"\")|tojson }}, \"access-control-allow-origin\": {{ response.headers.get(\"access-control-allow-origin\", \"\")|tojson }}}, \"body_length\": {{ response.content|length }}, \"header_hex\": {{ response.content[:512].hex()|tojson }}, \"text\": {{ (response.text if (probe_b|dictsort|last|last).stage in [\"share\", \"manifest\", \"child\"] and response.content|length <= 262144 else \"\")|tojson }}}}}"
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false
+      },
+      {
+        "id": "019f0c25-8c78-7000-a001-000000000129",
+        "type": "node",
+        "position": {
+          "x": 1300,
+          "y": 4150
+        },
+        "data": {
+          "$schema": "script",
+          "script": {
+            "language": "python",
+            "code": "\"\"\"Validate bounded TvTfun media probes without performing external operations.\"\"\"\nimport hashlib\nimport json\nimport re\nfrom urllib.parse import unquote, urljoin, urlsplit, urlunsplit\nMP4_LIMIT = 4096\nSEGMENT_LIMIT = 8 * 1024 * 1024\n\"\"\"Advance one TvTFun probe using the existing HTTP and loop nodes.\"\"\"\nimport json\nimport time\nfrom urllib.parse import quote\n\ndef _url(value, base=\"\"):\n    \"\"\"Normalize an HTTP media URL while preserving its query.\n\n    Args:\n        value: The absolute or relative URI to resolve.\n        base: The HTTP URL used to resolve a relative URI.\n\n    Returns:\n        A URL without a fragment, or an empty string for invalid input.\n    \"\"\"\n    if not isinstance(value, str) or not value:\n        return \"\"\n    if any(ord(char) <= 32 or ord(char) == 127 for char in value) or \"\\\\\" in value:\n        return \"\"\n    try:\n        parts = urlsplit(urljoin(base, value))\n        if (\n            parts.scheme not in {\"http\", \"https\"}\n            or not parts.hostname\n            or parts.username is not None\n            or parts.password is not None\n            or \"%\" in parts.hostname\n        ):\n            return \"\"\n        if parts.port is not None and not 0 < parts.port <= 65535:\n            return \"\"\n        return urlunsplit(parts._replace(fragment=\"\"))\n    except ValueError:\n        return \"\"\n\ndef is_error_media(value):\n    \"\"\"Recognize the provider's confirmed error-video object.\n\n    Args:\n        value: A media URL, including possible query or fragment suffixes.\n\n    Returns:\n        Whether the URL points to the verified three-second error placeholder.\n    \"\"\"\n    url = _url(value)\n    if not url:\n        return False\n    parts = urlsplit(url)\n    return (\n        parts.hostname.rstrip(\".\").lower() == \"kjjsaas-sh.oss-cn-shanghai.aliyuncs.com\"\n        and unquote(parts.path)\n        == \"/u/3401405881/20240818-936952-fc31b16575e80a7562cdb1f81a39c6b0.mp4\"\n    )\n\ndef playback_headers(data):\n    \"\"\"Keep supported resolver headers without propagating credentials.\n\n    Args:\n        data: The resolver's optional media header mapping.\n\n    Returns:\n        Valid `Referer` and `User-Agent` overrides supported by the media proxy.\n    \"\"\"\n    if not isinstance(data, dict):\n        return {}\n    headers = {}\n    for key, value in data.items():\n        if not isinstance(key, str) or not isinstance(value, str):\n            continue\n        value = value.strip()\n        if not value or any(ord(char) < 32 or ord(char) > 126 for char in value):\n            continue\n        if key.lower() == \"referer\":\n            referer = _url(value)\n            if referer:\n                headers[\"Referer\"] = referer\n        elif key.lower() == \"user-agent\":\n            headers[\"User-Agent\"] = value\n    return headers\n\ndef cors_allowed(headers):\n    \"\"\"Check public cross-origin access for directly returned HLS resources.\n\n    Args:\n        headers: Response headers from the actual media GET request.\n\n    Returns:\n        Whether every browser origin may read the resource without credentials.\n    \"\"\"\n    return isinstance(headers, dict) and any(\n        str(key).lower() == \"access-control-allow-origin\" and str(value).strip() == \"*\"\n        for key, value in headers.items()\n    )\n\ndef parse_resolver(data):\n    \"\"\"Classify a resolver payload as a direct media URL or a share page.\n\n    Args:\n        data: The decoded resolver `data` object containing `url`, `type`,\n            and optional upstream request headers.\n\n    Returns:\n        A dictionary with `url` and `type`, or an empty dictionary if unsupported.\n        The type is `mp4`, `hls`, or `share`. Share results retain the resolver's\n        original type as `media_type` for parsing extensionless media URLs.\n        Supported media request headers are retained. Known error placeholders\n        and malformed payloads produce an empty dictionary.\n    \"\"\"\n    if not isinstance(data, dict):\n        return {}\n    url = _url(data.get(\"url\"))\n    if not url or is_error_media(url):\n        return {}\n    headers = playback_headers(data.get(\"headers\"))\n    extra = {\"headers\": headers} if headers else {}\n    path = urlsplit(url).path.lower()\n    media_type = str(data.get(\"type\") or \"\").lower().strip()\n    if \"/share/\" in path:\n        return {\"url\": url, \"type\": \"share\", \"media_type\": media_type, **extra}\n    if media_type in {\n        \"hls\",\n        \"m3u8\",\n        \"application/x-mpegurl\",\n        \"application/vnd.apple.mpegurl\",\n    }:\n        return {\"url\": url, \"type\": \"hls\", **extra}\n    if media_type in {\"mp4\", \"video/mp4\"}:\n        return {\"url\": url, \"type\": \"mp4\", **extra}\n    if path.endswith(\".m3u8\"):\n        return {\"url\": url, \"type\": \"hls\", **extra}\n    if path.endswith(\".mp4\"):\n        return {\"url\": url, \"type\": \"mp4\", **extra}\n    return {}\n\ndef parse_share(data):\n    \"\"\"Extract a literal media URL from a share page without evaluating scripts.\n\n    Args:\n        data: The share page `url`, its `html`, and an optional media `type` hint.\n\n    Returns:\n        A direct resolver-style media dictionary, or an empty dictionary when the\n        assignment is missing, invalid, unsupported, points to another share,\n        or resolves to the confirmed error placeholder.\n    \"\"\"\n    html = data.get(\"html\")\n    base = _url(data.get(\"url\"))\n    if not base or not isinstance(html, str):\n        return {}\n    match = re.search(\n        r\"\\b(?:const|let|var)\\s+url\\s*=\\s*(['\\\"])((?:\\\\.|(?!\\1)[^\\\\\\r\\n])*)\\1\",\n        html,\n    )\n    if not match:\n        return {}\n    raw = match[2]\n    try:\n        value = (\n            json.loads('\"' + raw + '\"')\n            if match[1] == '\"'\n            else json.loads('\"' + raw.replace(\"\\\\'\", \"'\").replace('\"', '\\\\\"') + '\"')\n        )\n    except (ValueError, TypeError):\n        return {}\n    result = parse_resolver(\n        {\n            \"url\": _url(value, base),\n            \"type\": data.get(\"type\"),\n            \"headers\": data.get(\"headers\"),\n        }\n    )\n    return result if result.get(\"type\") in {\"hls\", \"mp4\"} else {}\n\ndef _attributes(value):\n    \"\"\"Parse an HLS attribute list without splitting commas inside quotes.\n\n    Args:\n        value: The text following an HLS tag's colon.\n\n    Returns:\n        The attribute dictionary, or an empty dictionary for malformed input.\n    \"\"\"\n    result = {}\n    offset = 0\n    pattern = r'([A-Z0-9-]+)=(\"[^\"\\r\\n]*\"|[^,\\s]+)(?:,|$)'\n    for match in re.finditer(pattern, value):\n        if match.start() != offset or match[1] in result:\n            return {}\n        result[match[1]] = match[2].strip('\"')\n        offset = match.end()\n    return result if offset == len(value) else {}\n\ndef parse_hls(data):\n    \"\"\"Select one compatible variant or the first complete TS media segment.\n\n    Args:\n        data: The playlist `url`, decoded `text`, and `depth` of zero or one.\n\n    Returns:\n        A master dictionary containing `kind`, selected `url`, and `depth`, or a\n        media dictionary containing `kind`, first segment `url`, `encrypted`,\n        and optional `key_url`. Invalid, nested, fragmented-MP4, byte-range, and\n        unsupported encrypted playlists return an empty dictionary. Master\n        variants declaring `AUDIO` or `VIDEO` groups are excluded because the\n        selected child URL cannot preserve the master-level group definitions.\n    \"\"\"\n    base = _url(data.get(\"url\"))\n    text = data.get(\"text\")\n    depth = data.get(\"depth\", 0)\n    if not base or not isinstance(text, str) or depth not in {0, 1}:\n        return {}\n    lines = [\n        line.strip() for line in text.lstrip(\"\\ufeff\").splitlines() if line.strip()\n    ]\n    if not lines or lines[0] != \"#EXTM3U\":\n        return {}\n    unsupported = (\n        \"#EXT-X-MAP:\",\n        \"#EXT-X-BYTERANGE:\",\n        \"#EXT-X-PART:\",\n        \"#EXT-X-PRELOAD-HINT:\",\n        \"#EXT-X-SESSION-KEY:\",\n    )\n    if any(line.startswith(unsupported) for line in lines):\n        return {}\n    master = any(line.startswith(\"#EXT-X-STREAM-INF:\") for line in lines)\n    if master:\n        if depth != 0 or any(line.startswith(\"#EXTINF:\") for line in lines):\n            return {}\n        variants = []\n        pending = None\n        for line in lines[1:]:\n            if line.startswith(\"#EXT-X-STREAM-INF:\"):\n                if pending is not None:\n                    return {}\n                pending = _attributes(line.split(\":\", 1)[1])\n            elif not line.startswith(\"#\"):\n                if pending is None:\n                    return {}\n                url = _url(line, base)\n                bandwidth = pending.get(\"BANDWIDTH\", \"\")\n                codecs = pending.get(\"CODECS\", \"\").lower().split(\",\")\n                compatible = all(\n                    codec.strip().startswith((\"avc1\", \"avc3\", \"mp4a\"))\n                    for codec in codecs\n                ) and any(\n                    codec.strip().startswith((\"avc1\", \"avc3\")) for codec in codecs\n                )\n                if (\n                    url\n                    and bandwidth.isdigit()\n                    and int(bandwidth) > 0\n                    and (compatible or \"CODECS\" not in pending)\n                    and \"AUDIO\" not in pending\n                    and \"VIDEO\" not in pending\n                ):\n                    variants.append((0 if compatible else 1, int(bandwidth), url))\n                pending = None\n        if pending is not None or not variants:\n            return {}\n        return {\"kind\": \"master\", \"url\": min(variants)[2], \"depth\": 1}\n    first = {}\n    key_url = \"\"\n    pending = False\n    for line in lines[1:]:\n        if line.startswith(\"#EXT-X-KEY:\"):\n            attrs = _attributes(line.split(\":\", 1)[1])\n            method = attrs.get(\"METHOD\")\n            if method == \"NONE\" and set(attrs) == {\"METHOD\"}:\n                key_url = \"\"\n            elif (\n                method == \"AES-128\"\n                and attrs.get(\"KEYFORMAT\", \"identity\") == \"identity\"\n                and attrs.get(\"KEYFORMATVERSIONS\", \"1\") == \"1\"\n                and (\n                    \"IV\" not in attrs\n                    or re.fullmatch(r\"0x[0-9a-fA-F]{1,32}\", attrs[\"IV\"])\n                )\n            ):\n                key_url = _url(attrs.get(\"URI\"), base)\n                if not key_url:\n                    return {}\n            else:\n                return {}\n        elif line.startswith(\"#EXTINF:\"):\n            duration = re.match(r\"#EXTINF:([0-9]+(?:\\.[0-9]+)?),\", line)\n            if pending or not duration or float(duration[1]) <= 0:\n                return {}\n            pending = True\n        elif not line.startswith(\"#\"):\n            url = _url(line, base)\n            if not pending or not url:\n                return {}\n            if not first:\n                first = {\"kind\": \"media\", \"url\": url, \"encrypted\": bool(key_url)}\n                if key_url:\n                    first[\"key_url\"] = key_url\n            pending = False\n    return first if not pending else {}\n\ndef _headers(data):\n    \"\"\"Read normalized response headers and reject encoded or textual media.\n\n    Args:\n        data: A probe dictionary containing selected response `headers`.\n\n    Returns:\n        Normalized headers, or `None` for unusable media headers.\n    \"\"\"\n    headers = data.get(\"headers\", {})\n    if not isinstance(headers, dict):\n        return None\n    headers = {str(key).lower(): str(value).strip() for key, value in headers.items()}\n    encoding = headers.get(\"content-encoding\", headers.get(\"encoding\", \"\")).lower()\n    media_type = headers.get(\"content-type\", \"\").split(\";\", 1)[0].lower()\n    if encoding not in {\"\", \"identity\"} or media_type.startswith(\"text/\"):\n        return None\n    if media_type in {\"application/json\", \"application/xml\", \"application/xhtml+xml\"}:\n        return None\n    return headers\n\ndef _prefix(data):\n    \"\"\"Decode at most the first 512 response bytes from their hexadecimal form.\n\n    Args:\n        data: The probe dictionary containing `header_hex`.\n\n    Returns:\n        The bounded byte prefix, or empty bytes for missing or malformed input.\n    \"\"\"\n    value = data.get(\"header_hex\")\n    if not isinstance(value, str):\n        return b\"\"\n    try:\n        return bytes.fromhex(value[:1024])\n    except ValueError:\n        return b\"\"\n\ndef _complete(data, headers, expected):\n    \"\"\"Check the actual and declared response body lengths.\n\n    Args:\n        data: The probe dictionary containing the actual `body_length`.\n        headers: The normalized response headers.\n        expected: The exact expected number of body bytes.\n\n    Returns:\n        Whether the actual body and optional declared length match exactly.\n    \"\"\"\n    length = headers.get(\"content-length\", \"\")\n    return data.get(\"body_length\") == expected and (\n        not length or (length.isdigit() and int(length) == expected)\n    )\n\ndef validate_segment(data):\n    \"\"\"Validate a complete bounded TS segment or AES-128 encrypted segment.\n\n    Args:\n        data: The GET `status`, selected `headers`, prior HEAD `size`, actual\n            `body_length`, initial `header_hex`, and optional `encrypted` flag.\n\n    Returns:\n        Whether the segment is complete and passes TS sync checks or encrypted\n        block-size checks. Encrypted input also requires a separately valid key;\n        its transport-stream contents cannot be verified without decryption.\n    \"\"\"\n    headers = _headers(data)\n    size = data.get(\"size\")\n    if (\n        headers is None\n        or data.get(\"status\") != 200\n        or not isinstance(size, int)\n        or not 0 < size <= SEGMENT_LIMIT\n        or not _complete(data, headers, size)\n    ):\n        return False\n    prefix = _prefix(data)\n    if not prefix or prefix.lstrip().lower().startswith(\n        (b\"<!doctype\", b\"<html\", b\"<?xml\", b\"<head\", b\"<body\", b\"#extm3u\")\n    ):\n        return False\n    if data.get(\"encrypted\") is True:\n        return size % 16 == 0\n    if size % 188 != 0:\n        return False\n    offsets = range(0, min(size, 3 * 188), 188)\n    return all(offset < len(prefix) and prefix[offset] == 0x47 for offset in offsets)\n\ndef validate_key(data):\n    \"\"\"Validate a complete AES-128 key response.\n\n    Args:\n        data: The response `status`, actual `body_length`, and optional `headers`.\n\n    Returns:\n        Whether the successful response contains exactly sixteen key bytes.\n    \"\"\"\n    headers = _headers(data)\n    return (\n        headers is not None\n        and data.get(\"status\") == 200\n        and _complete(data, headers, 16)\n    )\n\ndef prepare_media(media):\n    \"\"\"Choose the first probe step for a normalized resolver result.\n\n    Args:\n        media: The validated resolver or share-page result.\n\n    Returns:\n        A branch-local probe descriptor, empty for unsupported media.\n    \"\"\"\n    kind = media.get(\"type\")\n    if kind not in {\"share\", \"hls\", \"mp4\"}:\n        return {\"stage\": \"failed\"}\n    return {\n        \"stage\": {\"share\": \"share\", \"hls\": \"manifest\", \"mp4\": \"mp4\"}[kind],\n        \"url\": media[\"url\"],\n        \"media\": media,\n    }\n\ndef next_hls_resource(probe, response, depth):\n    \"\"\"Parse a playlist and select its next bounded probe resource.\n\n    Args:\n        probe: The current branch-local descriptor.\n        response: The playlist GET response summary.\n        depth: Whether this is the initial or child playlist.\n\n    Returns:\n        An updated descriptor for a child, key or segment, or a failed stage.\n    \"\"\"\n    if response.get(\"status\") != 200 or not cors_allowed(response.get(\"headers\")):\n        return {**probe, \"stage\": \"failed\"}\n    playlist = parse_hls(\n        {\"url\": response[\"url\"], \"text\": response.get(\"text\", \"\"), \"depth\": depth}\n    )\n    if playlist.get(\"kind\") == \"master\" and depth == 0:\n        return {**probe, \"stage\": \"child\", \"url\": playlist[\"url\"]}\n    if playlist.get(\"kind\") != \"media\":\n        return {**probe, \"stage\": \"failed\"}\n    return {\n        **probe,\n        \"stage\": \"key\" if playlist.get(\"key_url\") else \"segment\",\n        \"url\": playlist.get(\"key_url\") or playlist[\"url\"],\n        \"hls\": playlist,\n        \"playback\": response[\"url\"],\n    }\n\ndef advance_probe(probe, response, head):\n    \"\"\"Advance a bounded share or HLS probe after one complete HTTP response.\n\n    Args:\n        probe: The branch descriptor for the resource just read.\n        response: The bounded GET response summary.\n        head: Size metadata from the matching HEAD response.\n\n    Returns:\n        The next branch descriptor, marked `ready` only after a valid segment.\n    \"\"\"\n    stage = probe[\"stage\"]\n    if stage == \"share\":\n        media = probe[\"media\"]\n        value = (\n            parse_share(\n                {\n                    \"url\": response.get(\"url\", media[\"url\"]),\n                    \"html\": response.get(\"text\", \"\"),\n                    \"type\": media.get(\"media_type\", \"\"),\n                    \"headers\": media.get(\"headers\"),\n                }\n            )\n            if response.get(\"status\") == 200\n            else {}\n        )\n        return prepare_media(value)\n    if stage in {\"manifest\", \"child\"}:\n        return next_hls_resource(probe, response, int(stage == \"child\"))\n    if stage == \"key\":\n        if not validate_key(response) or not cors_allowed(response.get(\"headers\")):\n            return {**probe, \"stage\": \"failed\"}\n        return {\n            **probe,\n            \"stage\": \"segment\",\n            \"url\": probe[\"hls\"][\"url\"],\n            \"key_checked\": True,\n        }\n    if stage == \"segment\":\n        encrypted = bool(probe[\"hls\"].get(\"key_url\"))\n        valid = (\n            validate_segment({**response, **head, \"encrypted\": encrypted})\n            and cors_allowed(response.get(\"headers\"))\n            and (not encrypted or probe.get(\"key_checked\", False))\n        )\n        return {**probe, \"stage\": \"ready\" if valid else \"failed\"}\n    return {**probe, \"stage\": \"failed\"}\n\ndef execute(node_id, node_data, context):\n    \"\"\"Process one isolated TvTFun preflight stage.\n\n    Args:\n        node_id: The executing node identifier.\n        node_data: The node configuration.\n        context: The request context receiving stage-specific results once.\n    \"\"\"\n    step = max(context['probe_b'])\n    probe = {\"stage\": \"failed\"}\n    if not context.get(\"preflight_winner\") and time.monotonic() < context[\"preflight_deadline\"]:\n        probe = advance_probe(context['probe_b'][step], context['probe_body_b'][step], context['probe_head_b_checked'][step])\n    context['probe_b'] = {str(int(step) + 1): probe}\n    if probe[\"stage\"] == \"ready\":\n        context['qualified_b'] = {**context[\"preflight_candidates\"][1], \"url\": probe[\"playback\"], \"video_type\": \"hls\", \"media_headers\": probe[\"media\"].get(\"headers\", {}), \"completed\": time.monotonic_ns()}\n"
+          }
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false
+      },
+      {
+        "id": "019f0c25-8c78-7000-a001-000000000130",
+        "type": "node",
+        "position": {
+          "x": 2200,
+          "y": 4150
+        },
+        "data": {
+          "$schema": "condition",
+          "expression": "{{ preflight_winner is not defined and (probe_b is defined and (probe_b|dictsort|last|last).stage == \"mp4\") }}"
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false
+      },
+      {
+        "id": "019f0c25-8c78-7000-a001-000000000131",
+        "type": "node",
+        "position": {
+          "x": 3100,
+          "y": 4150
+        },
+        "data": {
+          "$schema": "merge",
+          "maximum": 1,
+          "timeout": 0
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false
+      },
+      {
+        "id": "019f0c25-8c78-7000-a001-000000000132",
+        "type": "node",
+        "position": {
+          "x": 1300,
+          "y": 5100
+        },
+        "data": {
+          "$schema": "http",
+          "client": "httpx",
+          "timeout": 5,
+          "method": "HEAD",
+          "url": "{{ (probe_b|dictsort|last|last).media.url }}",
+          "headers": [
+            {
+              "key": "User-Agent",
+              "value": "{{ ((probe_b|dictsort|last|last).media).get('headers', {}).get('User-Agent') or 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36' }}"
+            },
+            {
+              "key": "Accept-Encoding",
+              "value": "identity"
+            },
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, no-store"
+            },
+            {
+              "key": "Referer",
+              "value": "{{ ((probe_b|dictsort|last|last).media).get('headers', {}).get('Referer') or preflight_candidates[1].referer }}"
+            },
+            {
+              "key": "Range",
+              "value": "bytes=0-4095"
+            }
+          ],
+          "body": "",
+          "formatter": "{\"mp4_head_b\": {\"status\": {{ response.status_code }}, \"url\": {{ (response.url|string)|tojson }}, \"headers\": {\"content-type\": {{ response.headers.get(\"content-type\", \"\")|tojson }}, \"content-length\": {{ response.headers.get(\"content-length\", \"\")|tojson }}, \"content-range\": {{ response.headers.get(\"content-range\", \"\")|tojson }}, \"accept-ranges\": {{ response.headers.get(\"accept-ranges\", \"\")|tojson }}, \"content-encoding\": {{ response.headers.get(\"content-encoding\", \"\")|tojson }}, \"access-control-allow-origin\": {{ response.headers.get(\"access-control-allow-origin\", \"\")|tojson }}}}}"
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false
+      },
+      {
+        "id": "019f0c25-8c78-7000-a001-000000000133",
+        "type": "node",
+        "position": {
+          "x": 2200,
+          "y": 5100
+        },
+        "data": {
+          "$schema": "script",
+          "script": {
+            "language": "python",
+            "code": "\"\"\"Validate bounded TvTfun media probes without performing external operations.\"\"\"\nimport hashlib\nimport json\nimport re\nfrom urllib.parse import unquote, urljoin, urlsplit, urlunsplit\nMP4_LIMIT = 4096\nSEGMENT_LIMIT = 8 * 1024 * 1024\n\"\"\"Advance one TvTFun probe using the existing HTTP and loop nodes.\"\"\"\nimport json\nimport time\nfrom urllib.parse import quote\n\ndef _url(value, base=\"\"):\n    \"\"\"Normalize an HTTP media URL while preserving its query.\n\n    Args:\n        value: The absolute or relative URI to resolve.\n        base: The HTTP URL used to resolve a relative URI.\n\n    Returns:\n        A URL without a fragment, or an empty string for invalid input.\n    \"\"\"\n    if not isinstance(value, str) or not value:\n        return \"\"\n    if any(ord(char) <= 32 or ord(char) == 127 for char in value) or \"\\\\\" in value:\n        return \"\"\n    try:\n        parts = urlsplit(urljoin(base, value))\n        if (\n            parts.scheme not in {\"http\", \"https\"}\n            or not parts.hostname\n            or parts.username is not None\n            or parts.password is not None\n            or \"%\" in parts.hostname\n        ):\n            return \"\"\n        if parts.port is not None and not 0 < parts.port <= 65535:\n            return \"\"\n        return urlunsplit(parts._replace(fragment=\"\"))\n    except ValueError:\n        return \"\"\n\ndef is_error_media(value):\n    \"\"\"Recognize the provider's confirmed error-video object.\n\n    Args:\n        value: A media URL, including possible query or fragment suffixes.\n\n    Returns:\n        Whether the URL points to the verified three-second error placeholder.\n    \"\"\"\n    url = _url(value)\n    if not url:\n        return False\n    parts = urlsplit(url)\n    return (\n        parts.hostname.rstrip(\".\").lower() == \"kjjsaas-sh.oss-cn-shanghai.aliyuncs.com\"\n        and unquote(parts.path)\n        == \"/u/3401405881/20240818-936952-fc31b16575e80a7562cdb1f81a39c6b0.mp4\"\n    )\n\ndef _headers(data):\n    \"\"\"Read normalized response headers and reject encoded or textual media.\n\n    Args:\n        data: A probe dictionary containing selected response `headers`.\n\n    Returns:\n        Normalized headers, or `None` for unusable media headers.\n    \"\"\"\n    headers = data.get(\"headers\", {})\n    if not isinstance(headers, dict):\n        return None\n    headers = {str(key).lower(): str(value).strip() for key, value in headers.items()}\n    encoding = headers.get(\"content-encoding\", headers.get(\"encoding\", \"\")).lower()\n    media_type = headers.get(\"content-type\", \"\").split(\";\", 1)[0].lower()\n    if encoding not in {\"\", \"identity\"} or media_type.startswith(\"text/\"):\n        return None\n    if media_type in {\"application/json\", \"application/xml\", \"application/xhtml+xml\"}:\n        return None\n    return headers\n\ndef _range(value):\n    \"\"\"Parse an exact byte content range with a known total size.\n\n    Args:\n        value: A response `Content-Range` value.\n\n    Returns:\n        The start, end, and total integers, or an empty tuple if invalid.\n    \"\"\"\n    match = re.fullmatch(r\"bytes (\\d+)-(\\d+)/(\\d+)\", value, re.IGNORECASE)\n    if not match:\n        return ()\n    start, end, total = (int(part) for part in match.groups())\n    return (start, end, total) if 0 <= start <= end < total else ()\n\ndef validate_head(data):\n    \"\"\"Validate a media HEAD response before allowing a bounded body request.\n\n    Args:\n        data: The response `status`, selected `headers`, and `kind` of `mp4` or\n            `segment`. MP4 HEAD requests use `Range: bytes=0-1048575`.\n\n    Returns:\n        The positive resource `size` and, for MP4, inclusive `range_end`, or an\n        empty dictionary if range support, length, or the size limit is invalid.\n    \"\"\"\n    headers = _headers(data)\n    if headers is None or is_error_media(data.get(\"url\")):\n        return {}\n    length = headers.get(\"content-length\", \"\")\n    size = int(length) if length.isdigit() else 0\n    kind = data.get(\"kind\")\n    status = data.get(\"status\")\n    if kind == \"segment\":\n        return {\"size\": size} if status == 200 and 0 < size <= SEGMENT_LIMIT else {}\n    if kind != \"mp4\":\n        return {}\n    if status == 206:\n        content_range = _range(headers.get(\"content-range\", \"\"))\n        if not content_range:\n            return {}\n        start, end, size = content_range\n        if start != 0 or end != min(size, MP4_LIMIT) - 1:\n            return {}\n        if length and (not length.isdigit() or int(length) != end + 1):\n            return {}\n    elif status != 200 or headers.get(\"accept-ranges\", \"\").lower() != \"bytes\":\n        return {}\n    return {\"size\": size, \"range_end\": min(size, MP4_LIMIT) - 1} if size >= 16 else {}\n\ndef execute(node_id, node_data, context):\n    \"\"\"Process one isolated TvTFun preflight stage.\n\n    Args:\n        node_id: The executing node identifier.\n        node_data: The node configuration.\n        context: The request context receiving stage-specific results once.\n    \"\"\"\n    if context.get(\"preflight_winner\") or time.monotonic() >= context.get(\"preflight_deadline\", 0):\n        return\n    context['mp4_head_b_checked'] = validate_head({**context['mp4_head_b'], \"kind\": 'mp4'})\n"
+          }
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false
+      },
+      {
+        "id": "019f0c25-8c78-7000-a001-000000000134",
+        "type": "node",
+        "position": {
+          "x": 3100,
+          "y": 5100
+        },
+        "data": {
+          "$schema": "condition",
+          "expression": "{{ preflight_winner is not defined and (mp4_head_b_checked is defined and mp4_head_b_checked) }}"
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false
+      },
+      {
+        "id": "019f0c25-8c78-7000-a001-000000000135",
+        "type": "node",
+        "position": {
+          "x": 1300,
+          "y": 6050
+        },
+        "data": {
+          "$schema": "http",
+          "client": "httpx",
+          "timeout": 8,
+          "method": "GET",
+          "url": "{{ (probe_b|dictsort|last|last).media.url }}",
+          "headers": [
+            {
+              "key": "User-Agent",
+              "value": "{{ ((probe_b|dictsort|last|last).media).get('headers', {}).get('User-Agent') or 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36' }}"
+            },
+            {
+              "key": "Accept-Encoding",
+              "value": "identity"
+            },
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, no-store"
+            },
+            {
+              "key": "Referer",
+              "value": "{{ ((probe_b|dictsort|last|last).media).get('headers', {}).get('Referer') or preflight_candidates[1].referer }}"
+            },
+            {
+              "key": "Range",
+              "value": "bytes=0-{{ mp4_head_b_checked.range_end }}"
+            }
+          ],
+          "body": "",
+          "formatter": "{\"mp4_body_b\": {\"status\": {{ response.status_code }}, \"url\": {{ (response.url|string)|tojson }}, \"headers\": {\"content-type\": {{ response.headers.get(\"content-type\", \"\")|tojson }}, \"content-length\": {{ response.headers.get(\"content-length\", \"\")|tojson }}, \"content-range\": {{ response.headers.get(\"content-range\", \"\")|tojson }}, \"accept-ranges\": {{ response.headers.get(\"accept-ranges\", \"\")|tojson }}, \"content-encoding\": {{ response.headers.get(\"content-encoding\", \"\")|tojson }}, \"access-control-allow-origin\": {{ response.headers.get(\"access-control-allow-origin\", \"\")|tojson }}}, \"body_length\": {{ response.content|length }}, \"header_hex\": {{ response.content[:512].hex()|tojson }}}}"
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false
+      },
+      {
+        "id": "019f0c25-8c78-7000-a001-000000000136",
+        "type": "node",
+        "position": {
+          "x": 2200,
+          "y": 6050
+        },
+        "data": {
+          "$schema": "script",
+          "script": {
+            "language": "python",
+            "code": "\"\"\"Validate bounded TvTfun media probes without performing external operations.\"\"\"\nimport hashlib\nimport json\nimport re\nfrom urllib.parse import unquote, urljoin, urlsplit, urlunsplit\nMP4_LIMIT = 4096\nSEGMENT_LIMIT = 8 * 1024 * 1024\n\"\"\"Advance one TvTFun probe using the existing HTTP and loop nodes.\"\"\"\nimport json\nimport time\nfrom urllib.parse import quote\n\ndef _url(value, base=\"\"):\n    \"\"\"Normalize an HTTP media URL while preserving its query.\n\n    Args:\n        value: The absolute or relative URI to resolve.\n        base: The HTTP URL used to resolve a relative URI.\n\n    Returns:\n        A URL without a fragment, or an empty string for invalid input.\n    \"\"\"\n    if not isinstance(value, str) or not value:\n        return \"\"\n    if any(ord(char) <= 32 or ord(char) == 127 for char in value) or \"\\\\\" in value:\n        return \"\"\n    try:\n        parts = urlsplit(urljoin(base, value))\n        if (\n            parts.scheme not in {\"http\", \"https\"}\n            or not parts.hostname\n            or parts.username is not None\n            or parts.password is not None\n            or \"%\" in parts.hostname\n        ):\n            return \"\"\n        if parts.port is not None and not 0 < parts.port <= 65535:\n            return \"\"\n        return urlunsplit(parts._replace(fragment=\"\"))\n    except ValueError:\n        return \"\"\n\ndef is_error_media(value):\n    \"\"\"Recognize the provider's confirmed error-video object.\n\n    Args:\n        value: A media URL, including possible query or fragment suffixes.\n\n    Returns:\n        Whether the URL points to the verified three-second error placeholder.\n    \"\"\"\n    url = _url(value)\n    if not url:\n        return False\n    parts = urlsplit(url)\n    return (\n        parts.hostname.rstrip(\".\").lower() == \"kjjsaas-sh.oss-cn-shanghai.aliyuncs.com\"\n        and unquote(parts.path)\n        == \"/u/3401405881/20240818-936952-fc31b16575e80a7562cdb1f81a39c6b0.mp4\"\n    )\n\ndef _headers(data):\n    \"\"\"Read normalized response headers and reject encoded or textual media.\n\n    Args:\n        data: A probe dictionary containing selected response `headers`.\n\n    Returns:\n        Normalized headers, or `None` for unusable media headers.\n    \"\"\"\n    headers = data.get(\"headers\", {})\n    if not isinstance(headers, dict):\n        return None\n    headers = {str(key).lower(): str(value).strip() for key, value in headers.items()}\n    encoding = headers.get(\"content-encoding\", headers.get(\"encoding\", \"\")).lower()\n    media_type = headers.get(\"content-type\", \"\").split(\";\", 1)[0].lower()\n    if encoding not in {\"\", \"identity\"} or media_type.startswith(\"text/\"):\n        return None\n    if media_type in {\"application/json\", \"application/xml\", \"application/xhtml+xml\"}:\n        return None\n    return headers\n\ndef _range(value):\n    \"\"\"Parse an exact byte content range with a known total size.\n\n    Args:\n        value: A response `Content-Range` value.\n\n    Returns:\n        The start, end, and total integers, or an empty tuple if invalid.\n    \"\"\"\n    match = re.fullmatch(r\"bytes (\\d+)-(\\d+)/(\\d+)\", value, re.IGNORECASE)\n    if not match:\n        return ()\n    start, end, total = (int(part) for part in match.groups())\n    return (start, end, total) if 0 <= start <= end < total else ()\n\ndef _prefix(data):\n    \"\"\"Decode at most the first 512 response bytes from their hexadecimal form.\n\n    Args:\n        data: The probe dictionary containing `header_hex`.\n\n    Returns:\n        The bounded byte prefix, or empty bytes for missing or malformed input.\n    \"\"\"\n    value = data.get(\"header_hex\")\n    if not isinstance(value, str):\n        return b\"\"\n    try:\n        return bytes.fromhex(value[:1024])\n    except ValueError:\n        return b\"\"\n\ndef _complete(data, headers, expected):\n    \"\"\"Check the actual and declared response body lengths.\n\n    Args:\n        data: The probe dictionary containing the actual `body_length`.\n        headers: The normalized response headers.\n        expected: The exact expected number of body bytes.\n\n    Returns:\n        Whether the actual body and optional declared length match exactly.\n    \"\"\"\n    length = headers.get(\"content-length\", \"\")\n    return data.get(\"body_length\") == expected and (\n        not length or (length.isdigit() and int(length) == expected)\n    )\n\ndef validate_mp4(data):\n    \"\"\"Validate a complete bounded MP4 range and its initial file-type box.\n\n    Args:\n        data: The GET `status`, selected `headers`, prior HEAD `size` and\n            `range_end`, actual `body_length`, and initial `header_hex`.\n\n    Returns:\n        Whether a matching `206` response contains the entire requested range\n        and a structurally valid initial `ftyp` box. Known error placeholders\n        are excluded by URL and prefix fingerprint. This does not prove decoding.\n    \"\"\"\n    headers = _headers(data)\n    size, end = data.get(\"size\"), data.get(\"range_end\")\n    if (\n        headers is None\n        or data.get(\"status\") != 206\n        or not isinstance(size, int)\n        or not isinstance(end, int)\n        or size < 16\n        or end != min(size, MP4_LIMIT) - 1\n        or _range(headers.get(\"content-range\", \"\")) != (0, end, size)\n        or not _complete(data, headers, end + 1)\n    ):\n        return False\n    prefix = _prefix(data)\n    if is_error_media(data.get(\"url\")) or (\n        size == 784109\n        and len(prefix) == 512\n        and hashlib.sha256(prefix).hexdigest()\n        == \"acdc2f08bd06d4957eb5aa20bf2a8b18262db207c512e8accb7eac418a72c421\"\n    ):\n        return False\n    if len(prefix) < 16 or prefix[4:8] != b\"ftyp\":\n        return False\n    box_size = int.from_bytes(prefix[:4], \"big\")\n    return (\n        16 <= box_size <= end + 1\n        and box_size % 4 == 0\n        and all(32 <= byte <= 126 for byte in prefix[8:12])\n    )\n\ndef execute(node_id, node_data, context):\n    \"\"\"Process one isolated TvTFun preflight stage.\n\n    Args:\n        node_id: The executing node identifier.\n        node_data: The node configuration.\n        context: The request context receiving stage-specific results once.\n    \"\"\"\n    if context.get(\"preflight_winner\") or time.monotonic() >= context.get(\"preflight_deadline\", 0):\n        return\n    media = context['probe_b'][max(context['probe_b'])][\"media\"]\n    if validate_mp4({**context['mp4_body_b'], **context['mp4_head_b_checked']}):\n        context['qualified_b'] = {**context[\"preflight_candidates\"][1], \"url\": media[\"url\"], \"video_type\": \"mp4\", \"media_headers\": media.get(\"headers\", {}), \"completed\": time.monotonic_ns()}\n"
+          }
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false
+      },
+      {
+        "id": "019f0c25-8c78-7000-a001-000000000137",
+        "type": "node",
+        "position": {
+          "x": 3100,
+          "y": 6050
+        },
+        "data": {
+          "$schema": "condition",
+          "expression": "{{ preflight_winner is not defined and (qualified_b is defined) }}"
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false
+      },
+      {
+        "id": "019f0c25-8c78-7000-a001-000000000138",
+        "type": "node",
+        "position": {
+          "x": 0,
+          "y": 1400
+        },
+        "data": {
+          "$schema": "condition",
+          "expression": "{{ preflight_winner is not defined and (preflight_danmaku_url) }}"
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false
+      },
+      {
+        "id": "019f0c25-8c78-7000-a001-000000000139",
+        "type": "node",
+        "position": {
+          "x": 0,
+          "y": 1700
+        },
+        "data": {
+          "$schema": "http",
+          "client": "httpx",
+          "timeout": 2,
+          "method": "GET",
+          "url": "{{ preflight_danmaku_url }}",
+          "headers": [
+            {
+              "key": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+            },
+            {
+              "key": "Accept-Encoding",
+              "value": "identity"
+            },
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, no-store"
+            },
+            {
+              "key": "Referer",
+              "value": "https://www.tvtfun.net{{ chapter_id }}"
+            }
+          ],
+          "body": "",
+          "formatter": "{\"preflight_comments\": {\"status\": {{ response.status_code }}, \"url\": {{ (response.url|string)|tojson }}, \"headers\": {\"content-type\": {{ response.headers.get(\"content-type\", \"\")|tojson }}, \"content-length\": {{ response.headers.get(\"content-length\", \"\")|tojson }}, \"content-range\": {{ response.headers.get(\"content-range\", \"\")|tojson }}, \"accept-ranges\": {{ response.headers.get(\"accept-ranges\", \"\")|tojson }}, \"content-encoding\": {{ response.headers.get(\"content-encoding\", \"\")|tojson }}, \"access-control-allow-origin\": {{ response.headers.get(\"access-control-allow-origin\", \"\")|tojson }}}, \"body_length\": {{ response.content|length }}, \"text\": {{ (response.text if response.content|length <= 262144 else \"\")|tojson }}}}"
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false
+      },
+      {
+        "id": "019f0c25-8c78-7000-a001-000000000140",
+        "type": "node",
+        "position": {
+          "x": 0,
+          "y": 3200
+        },
+        "data": {
+          "$schema": "script",
+          "script": {
+            "language": "python",
+            "code": "def normalize_color(value):\n    if value is None or value == \"\":\n        return \"#ffffff\"\n    if isinstance(value, int):\n        return \"#%06x\" % (value & 0xFFFFFF)\n    text = str(value).strip()\n    if text.startswith(\"#\"):\n        return text\n    try:\n        return \"#%06x\" % (int(text) & 0xFFFFFF)\n    except ValueError:\n        return text or \"#ffffff\"\n\ndef normalize_mode(value):\n    if isinstance(value, str):\n        value = value.lower().strip()\n        if value in {\"scroll\", \"top\", \"bottom\"}:\n            return value\n        try:\n            value = int(value)\n        except ValueError:\n            return \"scroll\"\n    if value in {4, \"4\"}:\n        return \"bottom\"\n    if value in {5, \"5\"}:\n        return \"top\"\n    return \"scroll\"\n\ndef normalize_start(value):\n    try:\n        return max(0, int(float(value) * 1000))\n    except (TypeError, ValueError):\n        return 0\n\n\"\"\"Validate bounded TvTfun media probes without performing external operations.\"\"\"\nimport hashlib\nimport json\nimport re\nfrom urllib.parse import unquote, urljoin, urlsplit, urlunsplit\nMP4_LIMIT = 4096\nSEGMENT_LIMIT = 8 * 1024 * 1024\nimport json\nimport time\nfrom urllib.parse import quote\n\n\n\ndef execute(node_id, node_data, context):\n    \"\"\"Process one isolated TvTFun preflight stage.\n\n    Args:\n        node_id: The executing node identifier.\n        node_data: The node configuration.\n        context: The request context receiving stage-specific results once.\n    \"\"\"\n    results = [context[key] for key in (\"qualified_a\", \"qualified_b\") if context.get(key)]\n    context[\"preflight_winner\"] = min(results, key=lambda item: item[\"completed\"])\n    winner = context[\"preflight_winner\"]\n    url = winner[\"url\"]\n    if winner[\"video_type\"] == \"mp4\":\n        headers = winner.get(\"media_headers\", {})\n        referer = headers.get(\"Referer\") or winner[\"referer\"]\n        ua = headers.get(\"User-Agent\") or \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36\"\n        url = \"/_api/media/proxy?url=\" + quote(url, safe=\"\") + \"&referer=\" + quote(referer, safe=\"\") + \"&ua=\" + quote(ua, safe=\"\")\n    context[\"preflight_play_url\"] = url\n    comments = context.get(\"preflight_comments\", {})\n    try:\n        payload = json.loads(comments.get(\"text\") or \"{}\") if comments.get(\"status\") == 200 else {}\n    except (TypeError, ValueError):\n        payload = {}\n    items = payload.get(\"data\", []) if isinstance(payload, dict) else []\n    danmaku = []\n    for index, item in enumerate(items if isinstance(items, list) else []):\n        if isinstance(item, dict):\n            text = item.get(\"text\") or item.get(\"content\") or item.get(\"comment\") or \"\"\n            start = item.get(\"start\", item.get(\"time\", 0))\n            mode, color = item.get(\"mode\"), item.get(\"color\")\n        elif isinstance(item, list) and len(item) >= 4:\n            start, mode, color, text = item[:4]\n        else:\n            continue\n        if text:\n            danmaku.append({\"id\": \"%s-%s\" % (winner[\"episode_id\"], index), \"text\": str(text), \"mode\": normalize_mode(mode), \"color\": normalize_color(color), \"start\": normalize_start(start), \"duration\": 5000})\n    context[\"preflight_danmakus\"] = danmaku\n"
+          }
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false
+      },
+      {
+        "id": "019f0c25-8c78-7000-a001-000000000141",
+        "type": "node",
+        "position": {
+          "x": 0,
+          "y": 4000
+        },
+        "data": {
+          "$schema": "details_end",
+          "response": "{\n  \"id\": {{ preflight_winner.chapter_id|tojson }},\n  \"title\": {{ preflight_winner.title|tojson }},\n  \"cover\": {{ detail_cover|tojson }},\n  \"category\": {{ detail_category|tojson }},\n  \"misc\": {{ detail_misc|tojson }},\n  \"uploader\": {{ detail_uploader|tojson }},\n  \"uploaded_at\": {{ detail_uploaded_at|tojson }},\n  \"description\": {{ detail_description|tojson }},\n  \"media_type\": \"video\",\n  \"video_type\": {{ preflight_winner.video_type|tojson }},\n  \"url\": {{ preflight_play_url|tojson }},\n  \"definitions\": {{ [{\"url\": preflight_play_url, \"definition\": \"\u9ed8\u8ba4\"}]|tojson }},\n  \"chapters\": {{ detail_chapters|tojson }},\n  \"danmakus\": {{ preflight_danmakus|tojson }}\n}",
+          "force_end": true
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "measured": {},
+        "selected": false
+      }
+    ],
+    "edges": [
+      {
+        "source": "019f0c25-8c78-7000-a001-000000000001",
+        "sourceHandle": "output",
+        "target": "019f0c25-8c78-7000-a001-000000000002",
+        "targetHandle": "input",
+        "id": "xy-edge__019f0c25-8c78-7000-a001-000000000001output-019f0c25-8c78-7000-a001-000000000002input"
+      },
+      {
+        "source": "019f0c25-8c78-7000-a001-000000000002",
+        "sourceHandle": "output",
+        "target": "019f0c25-8c78-7000-a001-000000000003",
+        "targetHandle": "input",
+        "id": "xy-edge__019f0c25-8c78-7000-a001-000000000002output-019f0c25-8c78-7000-a001-000000000003input"
+      },
+      {
+        "source": "019f0c25-8c78-7000-a001-000000000003",
+        "sourceHandle": "output",
+        "target": "019f0c25-8c78-7000-a001-000000000004",
+        "targetHandle": "input",
+        "id": "xy-edge__019f0c25-8c78-7000-a001-000000000003output-019f0c25-8c78-7000-a001-000000000004input"
+      },
+      {
+        "source": "019f0c25-8c78-7000-a001-000000000004",
+        "sourceHandle": "output",
+        "target": "019f0c25-8c78-7000-a001-000000000005",
+        "targetHandle": "input",
+        "id": "xy-edge__019f0c25-8c78-7000-a001-000000000004output-019f0c25-8c78-7000-a001-000000000005input"
+      },
+      {
+        "source": "019f0c25-8c78-7000-a001-000000000006",
+        "sourceHandle": "output",
+        "target": "019f0c25-8c78-7000-a001-000000000007",
+        "targetHandle": "input",
+        "id": "xy-edge__019f0c25-8c78-7000-a001-000000000006output-019f0c25-8c78-7000-a001-000000000007input"
+      },
+      {
+        "source": "019f0c25-8c78-7000-a001-000000000007",
+        "sourceHandle": "output",
+        "target": "019f0c25-8c78-7000-a001-000000000008",
+        "targetHandle": "input",
+        "id": "xy-edge__019f0c25-8c78-7000-a001-000000000007output-019f0c25-8c78-7000-a001-000000000008input"
+      },
+      {
+        "source": "019f0c25-8c78-7000-a001-000000000008",
+        "sourceHandle": "output",
+        "target": "019f0c25-8c78-7000-a001-000000000009",
+        "targetHandle": "input",
+        "id": "xy-edge__019f0c25-8c78-7000-a001-000000000008output-019f0c25-8c78-7000-a001-000000000009input"
+      },
+      {
+        "source": "019f0c25-8c78-7000-a001-000000000009",
+        "sourceHandle": "is_false",
+        "target": "019f0c25-8c78-7000-a001-000000000010",
+        "targetHandle": "input",
+        "id": "xy-edge__019f0c25-8c78-7000-a001-000000000009is_false-019f0c25-8c78-7000-a001-000000000010input"
+      },
+      {
+        "id": "xy-edge__019f0c25-8c78-7000-a001-000000000009is_true-019f0c25-8c78-7000-a001-000000000101input",
+        "source": "019f0c25-8c78-7000-a001-000000000009",
+        "sourceHandle": "is_true",
+        "target": "019f0c25-8c78-7000-a001-000000000101",
+        "targetHandle": "input"
+      },
+      {
+        "id": "xy-edge__019f0c25-8c78-7000-a001-000000000101output-019f0c25-8c78-7000-a001-000000000102input",
+        "source": "019f0c25-8c78-7000-a001-000000000101",
+        "sourceHandle": "output",
+        "target": "019f0c25-8c78-7000-a001-000000000102",
+        "targetHandle": "input"
+      },
+      {
+        "id": "xy-edge__019f0c25-8c78-7000-a001-000000000102output-019f0c25-8c78-7000-a001-000000000104input",
+        "source": "019f0c25-8c78-7000-a001-000000000102",
+        "sourceHandle": "output",
+        "target": "019f0c25-8c78-7000-a001-000000000104",
+        "targetHandle": "input"
+      },
+      {
+        "id": "xy-edge__019f0c25-8c78-7000-a001-000000000104is_true-019f0c25-8c78-7000-a001-000000000105input",
+        "source": "019f0c25-8c78-7000-a001-000000000104",
+        "sourceHandle": "is_true",
+        "target": "019f0c25-8c78-7000-a001-000000000105",
+        "targetHandle": "input"
+      },
+      {
+        "id": "xy-edge__019f0c25-8c78-7000-a001-000000000105output-019f0c25-8c78-7000-a001-000000000106input",
+        "source": "019f0c25-8c78-7000-a001-000000000105",
+        "sourceHandle": "output",
+        "target": "019f0c25-8c78-7000-a001-000000000106",
+        "targetHandle": "input"
+      },
+      {
+        "id": "xy-edge__019f0c25-8c78-7000-a001-000000000106output-019f0c25-8c78-7000-a001-000000000107input",
+        "source": "019f0c25-8c78-7000-a001-000000000106",
+        "sourceHandle": "output",
+        "target": "019f0c25-8c78-7000-a001-000000000107",
+        "targetHandle": "input"
+      },
+      {
+        "id": "xy-edge__019f0c25-8c78-7000-a001-000000000107loop_start-019f0c25-8c78-7000-a001-000000000108input",
+        "source": "019f0c25-8c78-7000-a001-000000000107",
+        "sourceHandle": "loop_start",
+        "target": "019f0c25-8c78-7000-a001-000000000108",
+        "targetHandle": "input"
+      },
+      {
+        "id": "xy-edge__019f0c25-8c78-7000-a001-000000000108output-019f0c25-8c78-7000-a001-000000000109input",
+        "source": "019f0c25-8c78-7000-a001-000000000108",
+        "sourceHandle": "output",
+        "target": "019f0c25-8c78-7000-a001-000000000109",
+        "targetHandle": "input"
+      },
+      {
+        "id": "xy-edge__019f0c25-8c78-7000-a001-000000000109output-019f0c25-8c78-7000-a001-000000000110input",
+        "source": "019f0c25-8c78-7000-a001-000000000109",
+        "sourceHandle": "output",
+        "target": "019f0c25-8c78-7000-a001-000000000110",
+        "targetHandle": "input"
+      },
+      {
+        "id": "xy-edge__019f0c25-8c78-7000-a001-000000000110is_true-019f0c25-8c78-7000-a001-000000000111input",
+        "source": "019f0c25-8c78-7000-a001-000000000110",
+        "sourceHandle": "is_true",
+        "target": "019f0c25-8c78-7000-a001-000000000111",
+        "targetHandle": "input"
+      },
+      {
+        "id": "xy-edge__019f0c25-8c78-7000-a001-000000000111output-019f0c25-8c78-7000-a001-000000000112input",
+        "source": "019f0c25-8c78-7000-a001-000000000111",
+        "sourceHandle": "output",
+        "target": "019f0c25-8c78-7000-a001-000000000112",
+        "targetHandle": "input"
+      },
+      {
+        "id": "xy-edge__019f0c25-8c78-7000-a001-000000000112output-019f0c25-8c78-7000-a001-000000000107loop_continue",
+        "source": "019f0c25-8c78-7000-a001-000000000112",
+        "sourceHandle": "output",
+        "target": "019f0c25-8c78-7000-a001-000000000107",
+        "targetHandle": "loop_continue"
+      },
+      {
+        "id": "xy-edge__019f0c25-8c78-7000-a001-000000000107output-019f0c25-8c78-7000-a001-000000000113input",
+        "source": "019f0c25-8c78-7000-a001-000000000107",
+        "sourceHandle": "output",
+        "target": "019f0c25-8c78-7000-a001-000000000113",
+        "targetHandle": "input"
+      },
+      {
+        "id": "xy-edge__019f0c25-8c78-7000-a001-000000000113is_false-019f0c25-8c78-7000-a001-000000000114input",
+        "source": "019f0c25-8c78-7000-a001-000000000113",
+        "sourceHandle": "is_false",
+        "target": "019f0c25-8c78-7000-a001-000000000114",
+        "targetHandle": "input"
+      },
+      {
+        "id": "xy-edge__019f0c25-8c78-7000-a001-000000000113is_true-019f0c25-8c78-7000-a001-000000000115input",
+        "source": "019f0c25-8c78-7000-a001-000000000113",
+        "sourceHandle": "is_true",
+        "target": "019f0c25-8c78-7000-a001-000000000115",
+        "targetHandle": "input"
+      },
+      {
+        "id": "xy-edge__019f0c25-8c78-7000-a001-000000000116output-019f0c25-8c78-7000-a001-000000000117input",
+        "source": "019f0c25-8c78-7000-a001-000000000116",
+        "sourceHandle": "output",
+        "target": "019f0c25-8c78-7000-a001-000000000117",
+        "targetHandle": "input"
+      },
+      {
+        "id": "xy-edge__019f0c25-8c78-7000-a001-000000000115output-019f0c25-8c78-7000-a001-000000000116input",
+        "source": "019f0c25-8c78-7000-a001-000000000115",
+        "sourceHandle": "output",
+        "target": "019f0c25-8c78-7000-a001-000000000116",
+        "targetHandle": "input"
+      },
+      {
+        "id": "xy-edge__019f0c25-8c78-7000-a001-000000000117is_true-019f0c25-8c78-7000-a001-000000000118input",
+        "source": "019f0c25-8c78-7000-a001-000000000117",
+        "sourceHandle": "is_true",
+        "target": "019f0c25-8c78-7000-a001-000000000118",
+        "targetHandle": "input"
+      },
+      {
+        "id": "xy-edge__019f0c25-8c78-7000-a001-000000000118output-019f0c25-8c78-7000-a001-000000000119input",
+        "source": "019f0c25-8c78-7000-a001-000000000118",
+        "sourceHandle": "output",
+        "target": "019f0c25-8c78-7000-a001-000000000119",
+        "targetHandle": "input"
+      },
+      {
+        "id": "xy-edge__019f0c25-8c78-7000-a001-000000000119output-019f0c25-8c78-7000-a001-000000000114input",
+        "source": "019f0c25-8c78-7000-a001-000000000119",
+        "sourceHandle": "output",
+        "target": "019f0c25-8c78-7000-a001-000000000114",
+        "targetHandle": "input"
+      },
+      {
+        "id": "xy-edge__019f0c25-8c78-7000-a001-000000000114output-019f0c25-8c78-7000-a001-000000000120input",
+        "source": "019f0c25-8c78-7000-a001-000000000114",
+        "sourceHandle": "output",
+        "target": "019f0c25-8c78-7000-a001-000000000120",
+        "targetHandle": "input"
+      },
+      {
+        "id": "xy-edge__019f0c25-8c78-7000-a001-000000000120is_true-019f0c25-8c78-7000-a001-000000000103input",
+        "source": "019f0c25-8c78-7000-a001-000000000120",
+        "sourceHandle": "is_true",
+        "target": "019f0c25-8c78-7000-a001-000000000103",
+        "targetHandle": "input"
+      },
+      {
+        "id": "xy-edge__019f0c25-8c78-7000-a001-000000000102output-019f0c25-8c78-7000-a001-000000000121input",
+        "source": "019f0c25-8c78-7000-a001-000000000102",
+        "sourceHandle": "output",
+        "target": "019f0c25-8c78-7000-a001-000000000121",
+        "targetHandle": "input"
+      },
+      {
+        "id": "xy-edge__019f0c25-8c78-7000-a001-000000000121is_true-019f0c25-8c78-7000-a001-000000000122input",
+        "source": "019f0c25-8c78-7000-a001-000000000121",
+        "sourceHandle": "is_true",
+        "target": "019f0c25-8c78-7000-a001-000000000122",
+        "targetHandle": "input"
+      },
+      {
+        "id": "xy-edge__019f0c25-8c78-7000-a001-000000000122output-019f0c25-8c78-7000-a001-000000000123input",
+        "source": "019f0c25-8c78-7000-a001-000000000122",
+        "sourceHandle": "output",
+        "target": "019f0c25-8c78-7000-a001-000000000123",
+        "targetHandle": "input"
+      },
+      {
+        "id": "xy-edge__019f0c25-8c78-7000-a001-000000000123output-019f0c25-8c78-7000-a001-000000000124input",
+        "source": "019f0c25-8c78-7000-a001-000000000123",
+        "sourceHandle": "output",
+        "target": "019f0c25-8c78-7000-a001-000000000124",
+        "targetHandle": "input"
+      },
+      {
+        "id": "xy-edge__019f0c25-8c78-7000-a001-000000000124loop_start-019f0c25-8c78-7000-a001-000000000125input",
+        "source": "019f0c25-8c78-7000-a001-000000000124",
+        "sourceHandle": "loop_start",
+        "target": "019f0c25-8c78-7000-a001-000000000125",
+        "targetHandle": "input"
+      },
+      {
+        "id": "xy-edge__019f0c25-8c78-7000-a001-000000000125output-019f0c25-8c78-7000-a001-000000000126input",
+        "source": "019f0c25-8c78-7000-a001-000000000125",
+        "sourceHandle": "output",
+        "target": "019f0c25-8c78-7000-a001-000000000126",
+        "targetHandle": "input"
+      },
+      {
+        "id": "xy-edge__019f0c25-8c78-7000-a001-000000000126output-019f0c25-8c78-7000-a001-000000000127input",
+        "source": "019f0c25-8c78-7000-a001-000000000126",
+        "sourceHandle": "output",
+        "target": "019f0c25-8c78-7000-a001-000000000127",
+        "targetHandle": "input"
+      },
+      {
+        "id": "xy-edge__019f0c25-8c78-7000-a001-000000000127is_true-019f0c25-8c78-7000-a001-000000000128input",
+        "source": "019f0c25-8c78-7000-a001-000000000127",
+        "sourceHandle": "is_true",
+        "target": "019f0c25-8c78-7000-a001-000000000128",
+        "targetHandle": "input"
+      },
+      {
+        "id": "xy-edge__019f0c25-8c78-7000-a001-000000000128output-019f0c25-8c78-7000-a001-000000000129input",
+        "source": "019f0c25-8c78-7000-a001-000000000128",
+        "sourceHandle": "output",
+        "target": "019f0c25-8c78-7000-a001-000000000129",
+        "targetHandle": "input"
+      },
+      {
+        "id": "xy-edge__019f0c25-8c78-7000-a001-000000000129output-019f0c25-8c78-7000-a001-000000000124loop_continue",
+        "source": "019f0c25-8c78-7000-a001-000000000129",
+        "sourceHandle": "output",
+        "target": "019f0c25-8c78-7000-a001-000000000124",
+        "targetHandle": "loop_continue"
+      },
+      {
+        "id": "xy-edge__019f0c25-8c78-7000-a001-000000000124output-019f0c25-8c78-7000-a001-000000000130input",
+        "source": "019f0c25-8c78-7000-a001-000000000124",
+        "sourceHandle": "output",
+        "target": "019f0c25-8c78-7000-a001-000000000130",
+        "targetHandle": "input"
+      },
+      {
+        "id": "xy-edge__019f0c25-8c78-7000-a001-000000000130is_false-019f0c25-8c78-7000-a001-000000000131input",
+        "source": "019f0c25-8c78-7000-a001-000000000130",
+        "sourceHandle": "is_false",
+        "target": "019f0c25-8c78-7000-a001-000000000131",
+        "targetHandle": "input"
+      },
+      {
+        "id": "xy-edge__019f0c25-8c78-7000-a001-000000000130is_true-019f0c25-8c78-7000-a001-000000000132input",
+        "source": "019f0c25-8c78-7000-a001-000000000130",
+        "sourceHandle": "is_true",
+        "target": "019f0c25-8c78-7000-a001-000000000132",
+        "targetHandle": "input"
+      },
+      {
+        "id": "xy-edge__019f0c25-8c78-7000-a001-000000000133output-019f0c25-8c78-7000-a001-000000000134input",
+        "source": "019f0c25-8c78-7000-a001-000000000133",
+        "sourceHandle": "output",
+        "target": "019f0c25-8c78-7000-a001-000000000134",
+        "targetHandle": "input"
+      },
+      {
+        "id": "xy-edge__019f0c25-8c78-7000-a001-000000000132output-019f0c25-8c78-7000-a001-000000000133input",
+        "source": "019f0c25-8c78-7000-a001-000000000132",
+        "sourceHandle": "output",
+        "target": "019f0c25-8c78-7000-a001-000000000133",
+        "targetHandle": "input"
+      },
+      {
+        "id": "xy-edge__019f0c25-8c78-7000-a001-000000000134is_true-019f0c25-8c78-7000-a001-000000000135input",
+        "source": "019f0c25-8c78-7000-a001-000000000134",
+        "sourceHandle": "is_true",
+        "target": "019f0c25-8c78-7000-a001-000000000135",
+        "targetHandle": "input"
+      },
+      {
+        "id": "xy-edge__019f0c25-8c78-7000-a001-000000000135output-019f0c25-8c78-7000-a001-000000000136input",
+        "source": "019f0c25-8c78-7000-a001-000000000135",
+        "sourceHandle": "output",
+        "target": "019f0c25-8c78-7000-a001-000000000136",
+        "targetHandle": "input"
+      },
+      {
+        "id": "xy-edge__019f0c25-8c78-7000-a001-000000000136output-019f0c25-8c78-7000-a001-000000000131input",
+        "source": "019f0c25-8c78-7000-a001-000000000136",
+        "sourceHandle": "output",
+        "target": "019f0c25-8c78-7000-a001-000000000131",
+        "targetHandle": "input"
+      },
+      {
+        "id": "xy-edge__019f0c25-8c78-7000-a001-000000000131output-019f0c25-8c78-7000-a001-000000000137input",
+        "source": "019f0c25-8c78-7000-a001-000000000131",
+        "sourceHandle": "output",
+        "target": "019f0c25-8c78-7000-a001-000000000137",
+        "targetHandle": "input"
+      },
+      {
+        "id": "xy-edge__019f0c25-8c78-7000-a001-000000000137is_true-019f0c25-8c78-7000-a001-000000000103input",
+        "source": "019f0c25-8c78-7000-a001-000000000137",
+        "sourceHandle": "is_true",
+        "target": "019f0c25-8c78-7000-a001-000000000103",
+        "targetHandle": "input"
+      },
+      {
+        "id": "xy-edge__019f0c25-8c78-7000-a001-000000000102output-019f0c25-8c78-7000-a001-000000000138input",
+        "source": "019f0c25-8c78-7000-a001-000000000102",
+        "sourceHandle": "output",
+        "target": "019f0c25-8c78-7000-a001-000000000138",
+        "targetHandle": "input"
+      },
+      {
+        "id": "xy-edge__019f0c25-8c78-7000-a001-000000000138is_true-019f0c25-8c78-7000-a001-000000000139input",
+        "source": "019f0c25-8c78-7000-a001-000000000138",
+        "sourceHandle": "is_true",
+        "target": "019f0c25-8c78-7000-a001-000000000139",
+        "targetHandle": "input"
+      },
+      {
+        "id": "xy-edge__019f0c25-8c78-7000-a001-000000000103output-019f0c25-8c78-7000-a001-000000000140input",
+        "source": "019f0c25-8c78-7000-a001-000000000103",
+        "sourceHandle": "output",
+        "target": "019f0c25-8c78-7000-a001-000000000140",
+        "targetHandle": "input"
+      },
+      {
+        "id": "xy-edge__019f0c25-8c78-7000-a001-000000000140output-019f0c25-8c78-7000-a001-000000000141input",
+        "source": "019f0c25-8c78-7000-a001-000000000140",
+        "sourceHandle": "output",
+        "target": "019f0c25-8c78-7000-a001-000000000141",
+        "targetHandle": "input"
+      }
+    ]
+  }
+}

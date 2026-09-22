@@ -1,21 +1,21 @@
 {
-  "name": "Ma\u0304ngabz",
-  "icon": "data:image/webp;base64,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",
-  "description": "\u300cMa\u0304ngabz\u300d\u5728\u7dda\u6f2b\u756b\u95b1\u8b80",
+  "name": "DM5",
+  "icon": "data:image/webp;base64,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",
+  "description": "\u300c\u52a8\u6f2b\u5c4b\u300d\u5728\u7ebf\u6f2b\u753b\u9605\u8bfb",
   "category": "indexer",
-  "revision": 1781907557,
+  "revision": 1789979685,
   "definition": {
     "nodes": [
       {
         "id": "019ec142-5dd9-74a5-94b9-7e42b66a4bae",
         "type": "node",
         "position": {
-          "x": -633,
-          "y": 270
+          "x": -163,
+          "y": 250
         },
         "data": {
           "$schema": "search_start",
-          "config": "only_preview: true\n\ndisplay:\n  page_size: 12\n  view_modes:\n    - grid\n  cover_ratio: 3/4\n\nkeyword:\n  global: true\n  required: false\n"
+          "config": "only_preview: true\n\ndisplay:\n  page_size: 70\n  view_modes:\n    - grid\n  cover_ratio: 3/4\n\nkeyword:\n  global: false\n  required: false\n"
         },
         "origin": [
           0.5,
@@ -34,11 +34,11 @@
         },
         "data": {
           "$schema": "http",
-          "url": "https://www.mangabz.com{{path}}",
+          "url": "https://www.dm5.com/manhua-list-pay0{{'-p' + page_num|string if page_num > 1 else ''}}/",
           "headers": [
             {
               "key": "Referer",
-              "value": "https://www.mangabz.com/manga-list/"
+              "value": "https://www.dm5.com/manhua-list/"
             },
             {
               "key": "User-Agent",
@@ -59,31 +59,12 @@
         "id": "019ec142-964c-7239-8bf5-b16801f2f875",
         "type": "node",
         "position": {
-          "x": 1147,
+          "x": 1167,
           "y": 210
         },
         "data": {
           "$schema": "search_end",
-          "response": "{\n  \"items\": [\n{% for i in response|xpath_all('//ul[@class=\"mh-list\"]//div[@class=\"mh-item\"]') %}\n    {% set title = i|xpath('.//h2[@class=\"title\"]/a/text()')|trim %}\n    {\n      \"id\": {{ i|xpath('./a/@href')|tojson }},\n      \"title\": {{ title|tojson }},\n      \"cover\": {{ i|xpath('./a/img/@src')|query_param('proxy=true')|tojson }},\n      \"uploaded_at\": {{ i|xpath('.//p[@class=\"chapter\"]/span/text()')|trim|tojson }},\n      \"size\": {{ (i|xpath('.//p[@class=\"chapter\"]/a/text()')).replace(title, '')|trim|tojson }}\n    },\n{% endfor %}\n  ]\n}"
-        },
-        "origin": [
-          0.5,
-          0
-        ],
-        "measured": {},
-        "selected": false,
-        "dragging": false
-      },
-      {
-        "id": "019ec166-d260-761d-ac4b-98610eebebda",
-        "type": "node",
-        "position": {
-          "x": -93,
-          "y": 300
-        },
-        "data": {
-          "$schema": "variables",
-          "variables": "{% if keyword|trim %}\n{\n  \"path\": {{ ('/search?title=' + keyword + ('&page=' + page_num|string if page_num > 1 else ''))|tojson }}\n}\n{% else %}\n{\n  \"path\": \"/manga-list-0-0-2{{'-p' + page_num|string if page_num > 1 else ''}}/\"\n}\n{% endif %}"
+          "response": "{\n  \"items\": [\n{% for i in response|xpath_all('//ul[contains(@class,\"mh-list\")]/li/div[contains(@class,\"mh-item\")]') %}\n    {\n      \"id\": {{ i|xpath('.//h2[@class=\"title\"]/a/@href')|tojson }},\n      \"title\": {{ i|xpath('.//h2[@class=\"title\"]/a/text()')|trim|tojson }},\n      \"cover\": {{ i|xpath('./p[@class=\"mh-cover\"]/@style')|regex('.*url\\((.*?)\\)')|tojson }},\n      \"rating\": {{ (i|xpath('.//p[@class=\"zl\"]/span[2]/@class')|regex('.*star-(\\d)')|int * 2)|tojson }},\n      \"size\": {{ (i|xpath('.//p[@class=\"chapter\"]/a/text()'))|trim|tojson }}\n    },\n{% endfor %}\n  ]\n}"
         },
         "origin": [
           0.5,
@@ -121,11 +102,11 @@
         },
         "data": {
           "$schema": "http",
-          "url": "https://www.mangabz.com{{id}}",
+          "url": "https://www.dm5.com{{id}}",
           "headers": [
             {
               "key": "Referer",
-              "value": "https://www.mangabz.com{{id}}"
+              "value": "https://www.dm5.com{{id}}"
             },
             {
               "key": "User-Agent",
@@ -151,7 +132,7 @@
         },
         "data": {
           "$schema": "variables",
-          "variables": "{\n  \"chapters\": [\n{% for c in chapters|xpath_all('//div[@id=\"chapterlistload\"]/a')|reverse %}\n    {\n      \"id\": {{ c|xpath('./@href')|tojson }},\n      \"title\": {{ (c|xpath_first('./text()')|trim + ' ' + c|xpath_first('./span/text()')|trim)|tojson }}\n    },\n{% endfor %}\n  ]\n}"
+          "variables": "{\n  \"chapters\": [\n{% for c in chapters|xpath_all('//div[@id=\"chapterlistload\"]//ul/li/a')|reverse %}\n    {\n      \"id\": {{ c|xpath('./@href')|tojson }},\n      \"title\": {{ (c|xpath_first('./text()')|trim + ' ' + c|xpath_first('./span/text()')|trim)|tojson }}\n    },\n{% endfor %}\n  ]\n}"
         },
         "origin": [
           0.5,
@@ -207,7 +188,7 @@
         },
         "data": {
           "$schema": "details_end",
-          "response": "{\n  \"id\": {{ chapter_id|tojson }},\n  \"title\": {{ response|regex('MANGABZ_CTITLE\\s*=\\s*\"(.*?)\";')|tojson }},\n  \"images\": {{ images|tojson }},\n  \"image_count\": {{ response|regex('MANGABZ_IMAGE_COUNT\\s*=\\s*(.*?);')|tojson }},\n  \"chapters\": {{ chapters|tojson }}\n}"
+          "response": "{\n  \"id\": {{ chapter_id|tojson }},\n  \"title\": {{ response|regex('DM5_CTITLE\\s*=\\s*\"(.*?)\";')|tojson }},\n  \"images\": {{ images|tojson }},\n  \"image_count\": {{ response|regex('DM5_IMAGE_COUNT\\s*=\\s*(.*?);')|tojson }},\n  \"chapters\": {{ chapters|tojson }}\n}"
         },
         "origin": [
           0.5,
@@ -226,11 +207,11 @@
         },
         "data": {
           "$schema": "http",
-          "url": "https://www.mangabz.com{{chapter_id}}",
+          "url": "https://www.dm5.com{{chapter_id}}",
           "headers": [
             {
               "key": "Referer",
-              "value": "https://www.mangabz.com{{id}}"
+              "value": "https://www.dm5.com{{id}}"
             },
             {
               "key": "User-Agent",
@@ -256,7 +237,7 @@
         },
         "data": {
           "$schema": "variables",
-          "variables": "{\n  \"q\": {\n    \"mid\": {{ response|regex('MANGABZ_MID\\s*=\\s*(.*?);')|tojson }},\n    \"cid\": {{ response|regex('MANGABZ_CID\\s*=\\s*(.*?);')|tojson }},\n    \"page\": {{ (page or 1)|tojson }},\n    \"dt\": {{ response|regex('MANGABZ_VIEWSIGN_DT\\s*=\\s*\"(.*?)\";')|tojson }},\n    \"sign\": {{ response|regex('MANGABZ_VIEWSIGN\\s*=\\s*\"(.*?)\";')|tojson }}\n  }\n}"
+          "variables": "{\n  \"q\": {\n    \"mid\": {{ response|regex('DM5_MID\\s*=\\s*(.*?);')|tojson }},\n    \"cid\": {{ response|regex('DM5_CID\\s*=\\s*(.*?);')|tojson }},\n    \"page\": {{ (page or 1)|tojson }},\n    \"dt\": {{ response|regex('DM5_VIEWSIGN_DT\\s*=\\s*\"(.*?)\";')|tojson }},\n    \"sign\": {{ response|regex('DM5_VIEWSIGN\\s*=\\s*\"(.*?)\";')|tojson }}\n  }\n}"
         },
         "origin": [
           0.5,
@@ -275,11 +256,11 @@
         },
         "data": {
           "$schema": "http",
-          "url": "https://www.mangabz.com{{chapter_id}}chapterimage.ashx?cid={{q.cid}}&page={{q.page}}&key=&_cid={{q.cid}}&_mid={{q.mid}}&_dt={{q.dt}}&_sign={{q.sign}}",
+          "url": "https://www.dm5.com{{chapter_id}}chapterfun.ashx?cid={{q.cid}}&page={{q.page}}&key=&language=1&gtk=6&_cid={{q.cid}}&_mid={{q.mid}}&_dt={{q.dt}}&_sign={{q.sign}}",
           "headers": [
             {
               "key": "Referer",
-              "value": "https://www.mangabz.com{{chapter_id}}"
+              "value": "https://www.dm5.com{{chapter_id}}"
             },
             {
               "key": "User-Agent",
@@ -307,7 +288,7 @@
           "$schema": "script",
           "script": {
             "language": "javascript",
-            "code": "function execute(nodeId, nodeData, context) {\n    let images = eval(context.js);\n    context.images = images.map(i => i + '&proxy=true');\n}\n"
+            "code": "function execute(nodeId, nodeData, context) {\n    let images = eval(context.js);\n    let referer = encodeURIComponent(`https://www.dm5.com${context.chapter_id}`);\n    context.images = images.map(i => i + `&proxy=true&referer=${referer}`);\n}\n"
           }
         },
         "origin": [
@@ -364,20 +345,6 @@
         "target": "019ec142-964c-7239-8bf5-b16801f2f875",
         "targetHandle": "input",
         "id": "xy-edge__019ec142-6be5-7255-81fb-fb7bab3460fcoutput-019ec142-964c-7239-8bf5-b16801f2f875input"
-      },
-      {
-        "source": "019ec142-5dd9-74a5-94b9-7e42b66a4bae",
-        "sourceHandle": "output",
-        "target": "019ec166-d260-761d-ac4b-98610eebebda",
-        "targetHandle": "input",
-        "id": "xy-edge__019ec142-5dd9-74a5-94b9-7e42b66a4baeoutput-019ec166-d260-761d-ac4b-98610eebebdainput"
-      },
-      {
-        "source": "019ec166-d260-761d-ac4b-98610eebebda",
-        "sourceHandle": "output",
-        "target": "019ec142-6be5-7255-81fb-fb7bab3460fc",
-        "targetHandle": "input",
-        "id": "xy-edge__019ec166-d260-761d-ac4b-98610eebebdaoutput-019ec142-6be5-7255-81fb-fb7bab3460fcinput"
       },
       {
         "source": "019ec17d-fff9-724e-850c-7b239f3592a3",
@@ -455,6 +422,13 @@
         "target": "019ec18e-5693-76c9-b83d-d046785b0d62",
         "targetHandle": "input",
         "id": "xy-edge__019ec39e-4506-7257-aca5-316e4901c823output-019ec18e-5693-76c9-b83d-d046785b0d62input"
+      },
+      {
+        "source": "019ec142-5dd9-74a5-94b9-7e42b66a4bae",
+        "sourceHandle": "output",
+        "target": "019ec142-6be5-7255-81fb-fb7bab3460fc",
+        "targetHandle": "input",
+        "id": "xy-edge__019ec142-5dd9-74a5-94b9-7e42b66a4baeoutput-019ec142-6be5-7255-81fb-fb7bab3460fcinput"
       }
     ]
   }
